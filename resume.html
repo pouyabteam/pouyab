@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="رزومه اعضای هسته پژوهشی پویاب">
+<title>پویاب | رزومه</title>
+<link rel="stylesheet" href="assets/css/pouyab.css">
+<link rel="stylesheet" href="assets/css/resume.css">
+<style>
+:root{
+  --pouyab-green:#1a3d24;
+  --pouyab-green-2:#214c2b;
+  --pouyab-green-3:#5f8d3d;
+  --pouyab-gold:#d4a520;
+  --pouyab-gold-soft:#f3d36c;
+  --pouyab-cream:#f7f4e8;
+  --pouyab-paper:#fbfaf4;
+  --pouyab-ink:#1a2b20;
+  --pouyab-muted:#5a6560;
+  --pouyab-line:#e2e7dc;
+  --pouyab-white:#fff;
+}
+@font-face{
+  font-family:"IRANYekan";
+  src:url("assets/fonts/IRANYekanX-Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"IRANYekan";
+  src:url("assets/fonts/IRANYekanX-Medium.woff2") format("woff2");
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"IRANYekan";
+  src:url("assets/fonts/IRANYekanX-Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"IRANYekan";
+  src:url("assets/fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+  font-weight:800;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"IRANYekan";
+  src:url("assets/fonts/IRANYekanX-Black.woff2") format("woff2");
+  font-weight:900;
+  font-style:normal;
+  font-display:swap;
+}
+</style>
+</head>
+<body style="margin:0;background:#ecebe8">
+
+<header class="pouyab-header" id="top">
+  <div class="pouyab-header-inner">
+    <a href="index.html" class="pouyab-brand">
+      <img src="assets/images/logo4.svg" alt="پویاب" data-i18n-alt="hero.brand">
+      <span class="pouyab-brand-text"><strong data-i18n="brand.title">گروه پژوهشگران پویاب</strong></span>
+    </a>
+    <nav class="pouyab-nav" id="pouyabNav">
+      <a href="index.html#home" data-i18n="nav.home">صفحه اصلی</a>
+      <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
+      <a href="index.html#team" class="is-current" data-i18n="nav.team">اعضای هسته</a>
+      <a href="pouyab_projects.html" data-i18n="nav.projects">پروژه‌ها</a>
+      <div class="pouyab-lang pouyab-lang-nav" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+        <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+        <div class="pouyab-lang-options">
+          <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+          <button type="button" data-lang="en" aria-label="English">EN</button>
+          <button type="button" data-lang="zh" aria-label="中文">中</button>
+          <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+        </div>
+      </div>
+    </nav>
+    <div class="pouyab-lang" id="pouyabLangSwitcher" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+      <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+      <div class="pouyab-lang-options">
+        <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+        <button type="button" data-lang="zh" aria-label="中文">中</button>
+        <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+      </div>
+    </div>
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false" data-i18n-aria="nav.aria">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="rf-loader" id="rfLoader"><div class="rf-loader-ring"></div></div>
+
+<main class="rf-page">
+  <div class="rf-progress" id="rfProgress" aria-hidden="true"></div>
+  <div class="rf-cv" id="rfCv" aria-live="polite"></div>
+  <div class="rf-back-wrap" id="rfBackWrap"></div>
+</main>
+
+<footer class="pouyab-footer">
+  <div class="pouyab-footer-top">
+    <div class="pouyab-footer-brand">
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب" data-i18n-alt="about.logoAlt"></a>
+      <p data-i18n="footer.desc">
+        هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
+        به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
+      </p>
+    </div>
+    <div>
+      <h4 data-i18n="footer.quick">دسترسی سریع</h4>
+      <div class="pouyab-footer-links">
+        <a href="index.html#home" data-i18n="nav.home">صفحه اصلی</a>
+        <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
+        <a href="index.html#team" data-i18n="nav.team">اعضای هسته</a>
+        <a href="pouyab_projects.html" data-i18n="nav.projects">پروژه‌ها</a>
+      </div>
+    </div>
+    <div>
+      <h4 data-i18n="footer.contact">تماس با ما</h4>
+      <div class="pouyab-footer-contact">
+        <p data-i18n="footer.email">ایمیل: pouyab.team@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/resume-data.js"></script>
+<script src="assets/js/resume.js"></script>
+
+</body>
+</html>

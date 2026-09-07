@@ -1,0 +1,482 @@
+var POUYAB_RESUMES = {
+  leader: {
+    id: "leader",
+    photo: "assets/images/1.webp",
+    accent: ["#1a3d24", "#5f8d3d", "#d4a520"],
+    links: { linkedin: "https://www.linkedin.com/in/ali-asghar-zolfaghari" },
+    content: {
+      fa: {
+        name: "دکتر علی‌اصغر ذوالفقاری",
+        role: "استاد راهبر و ناظر علمی هسته پویاب",
+        birth: "۱۳۴۸/۰۳/۱۵",
+        marital: "متأهل",
+        military: "—",
+        location: "سمنان",
+        email: "a.zolfaghari@semnan.ac.ir",
+        phone: "+98 23 3338 0000",
+        website: "semnan.ac.ir",
+        summary: "دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان با بیش از دو دهه تجربه آموزشی و پژوهشی. حوزه تخصصی بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی و کاربرد یادگیری ماشین در علوم منابع طبیعی است.\n\nمجری ده‌ها طرح پژوهشی در حوزه منابع طبیعی و محیط‌زیست و راهنمای ده‌ها پایان‌نامه کارشناسی ارشد و دکتری.",
+        skills: ["بیابان‌زدایی", "هیدرولوژی", "یادگیری ماشین", "سنجش از دور", "GIS", "تغییر اقلیم", "فرسایش خاک", "مدل‌سازی محیطی", "تدریس و هدایت پایان‌نامه"],
+        education: [
+          { degree: "دکتری بیابان‌زدایی", university: "دانشگاه تهران", city: "تهران", gpa: "", period: "۱۳۸۵ - ۱۳۸۹" },
+          { degree: "کارشناسی ارشد مدیریت منابع آب و خاک", university: "دانشگاه صنعتی اصفهان", city: "اصفهان", gpa: "", period: "۱۳۸۲ - ۱۳۸۵" },
+          { degree: "کارشناسی مرتع و آبخیزداری", university: "دانشگاه گیلان", city: "رشت", gpa: "", period: "۱۳۷۸ - ۱۳۸۲" }
+        ],
+        experience: [
+          { title: "رئیس دانشکده کویرشناسی", company: "دانشگاه سمنان", city: "سمنان", period: "۱۳۹۶ - اکنون" },
+          { title: "دانشیار گروه بیابان‌زدایی", company: "دانشگاه سمنان", city: "سمنان", period: "۱۳۹۰ - اکنون" }
+        ],
+        languages: [{ name: "انگلیسی", reading: 4, writing: 4, speaking: 4, listening: 4 }],
+        certificates: [{ title: "عضو هیئت علمی نمونه", institute: "وزارت علوم" }]
+      },
+      en: {
+        name: "Dr. Ali-Asghar Zolfaghari",
+        role: "Lead Advisor, Pouyab Research Core",
+        birth: "1969/06/05",
+        marital: "Married",
+        military: "—",
+        location: "Semnan",
+        email: "a.zolfaghari@semnan.ac.ir",
+        phone: "+98 23 3338 0000",
+        website: "semnan.ac.ir",
+        summary: "Associate Professor and Head of the Faculty of Desert Studies at Semnan University with over two decades of teaching and research. Specialized in desertification, soil and water, erosion, hydrology and machine learning in natural resources.\n\nPrincipal investigator of dozens of research projects and supervisor of numerous graduate theses.",
+        skills: ["Desertification", "Hydrology", "Machine Learning", "Remote Sensing", "GIS", "Climate Change", "Soil Erosion", "Environmental Modeling"],
+        education: [
+          { degree: "Ph.D. Desertification", university: "University of Tehran", city: "Tehran", gpa: "", period: "2006 - 2010" },
+          { degree: "M.Sc. Soil & Water", university: "Isfahan University of Technology", city: "Isfahan", gpa: "", period: "2003 - 2006" }
+        ],
+        experience: [
+          { title: "Head of Faculty of Desert Studies", company: "Semnan University", city: "Semnan", period: "2017 - Now" },
+          { title: "Associate Professor", company: "Semnan University", city: "Semnan", period: "2011 - Now" }
+        ],
+        languages: [{ name: "English", reading: 4, writing: 4, speaking: 4, listening: 4 }],
+        certificates: [{ title: "Distinguished Faculty", institute: "Ministry of Science" }]
+      },
+      zh: {
+        name: "阿里·阿斯加尔·佐勒法加里博士",
+        role: "普雅布研究核心学术顾问",
+        birth: "1969/06/05",
+        marital: "已婚",
+        military: "—",
+        location: "塞姆南",
+        email: "a.zolfaghari@semnan.ac.ir",
+        phone: "+98 23 3338 0000",
+        website: "semnan.ac.ir",
+        summary: "塞姆南大学荒漠化防治系副教授兼沙漠研究学院院长，拥有二十余年的教学与研究经验，专长于荒漠化防治、水土与土壤侵蚀、水文学以及机器学习在自然资源科学中的应用。\n\n主持数十项自然资源与环境领域科研项目，并指导数十篇硕士与博士学位论文。",
+        skills: ["荒漠化", "水文", "机器学习", "遥感", "GIS", "气候变化"],
+        education: [{ degree: "博士 荒漠化防治", university: "德黑兰大学", city: "德黑兰", gpa: "", period: "2006 - 2010" }],
+        experience: [{ title: "荒漠科学学院院长", company: "塞姆南大学", city: "塞姆南", period: "2017至今" }],
+        languages: [{ name: "英语", reading: 4, writing: 4, speaking: 4, listening: 4 }],
+        certificates: [{ title: "优秀教师", institute: "科学部" }]
+      },
+      ar: {
+        name: "الدكتور علي أصغر ذوالفقاري",
+        role: "المستشار العلمي لنواة بویاب",
+        birth: "1969/06/05",
+        marital: "متزوج",
+        military: "—",
+        location: "سمنان",
+        email: "a.zolfaghari@semnan.ac.ir",
+        phone: "+98 23 3338 0000",
+        website: "semnan.ac.ir",
+        summary: "أستاذ مشارك ورئيس كلية الدراسات الصحراوية بجامعة سمنان، خبير في مكافحة التصحر والهيدرولوجيا وتطبيقات التعلم الآلي.",
+        skills: ["مكافحة التصحر", "الهيدرولوجيا", "التعلم الآلي", "الاستشعار عن بعد", "GIS"],
+        education: [{ degree: "دكتوراه مكافحة التصحر", university: "جامعة طهران", city: "طهران", gpa: "", period: "2006 - 2010" }],
+        experience: [{ title: "رئيس كلية الدراسات الصحراوية", company: "جامعة سمنان", city: "سمنان", period: "2017 - الآن" }],
+        languages: [{ name: "الإنجليزية", reading: 4, writing: 4, speaking: 4, listening: 4 }],
+        certificates: [{ title: "أستاذ متميز", institute: "وزارة العلوم" }]
+      }
+    }
+  },
+  member1: {
+    id: "member1",
+    photo: "assets/images/2.webp",
+    accent: ["#2d5a66", "#4a90a2", "#c49a65"],
+    links: { linkedin: "https://www.linkedin.com/in/azadeh-soltani" },
+    content: {
+      fa: {
+        name: "خانم آزاده سلطانی",
+        role: "دانشجوی دکتری مدیریت و کنترل بیابان",
+        birth: "۱۳۷۵/۰۴/۱۲",
+        marital: "مجرد",
+        military: "—",
+        location: "سمنان",
+        email: "azadeh.soltani@example.com",
+        phone: "+98 911 000 0001",
+        website: "azadeh-soltani.example.com",
+        summary: "دانشجوی دکتری مدیریت و کنترل بیابان با تمرکز بر داده‌های مکانی، سنجش از دور و تحلیل‌های کمی. علاقه‌مند به کار میدانی در مناطق خشک و مدل‌سازی فرآیندهای بیابان‌زایی.",
+        skills: ["سنجش از دور", "GIS", "آمار فضایی", "کار میدانی", "تحلیل داده‌های مکانی", "پایش بیابان‌زایی"],
+        education: [{ degree: "دکتری مدیریت و کنترل بیابان", university: "دانشگاه سمنان", city: "سمنان", gpa: "", period: "۱۴۰۰ - اکنون" }],
+        experience: [{ title: "کارشناس پژوهش", company: "هسته پویاب", city: "سمنان", period: "۱۴۰۱ - اکنون" }],
+        languages: [{ name: "انگلیسی", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "کارگاه سنجش از دور پیشرفته", institute: "دانشگاه سمنان" }]
+      },
+      en: {
+        name: "Ms. Azadeh Soltani",
+        role: "Ph.D. Candidate, Desert Management",
+        birth: "1996/07/02",
+        marital: "Single",
+        military: "—",
+        location: "Semnan",
+        email: "azadeh.soltani@example.com",
+        phone: "+98 911 000 0001",
+        website: "azadeh-soltani.example.com",
+        summary: "Ph.D. candidate focusing on spatial data, remote sensing and quantitative analysis of desertification processes.",
+        skills: ["Remote Sensing", "GIS", "Spatial Statistics", "Fieldwork"],
+        education: [{ degree: "Ph.D. Desert Management", university: "Semnan University", city: "Semnan", gpa: "", period: "2021 - Now" }],
+        experience: [{ title: "Research Assistant", company: "Pouyab Core", city: "Semnan", period: "2022 - Now" }],
+        languages: [{ name: "English", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "Advanced Remote Sensing", institute: "Semnan University" }]
+      },
+      zh: {
+        name: "阿扎德·索尔塔尼女士",
+        role: "荒漠管理博士研究生",
+        birth: "1996/07/02",
+        marital: "未婚",
+        military: "—",
+        location: "塞姆南",
+        email: "azadeh.soltani@example.com",
+        phone: "+98 911 000 0001",
+        website: "azadeh-soltani.example.com",
+        summary: "主攻空间数据与遥感的荒漠化过程建模。",
+        skills: ["遥感", "GIS", "空间统计"],
+        education: [{ degree: "博士 荒漠管理", university: "塞姆南大学", city: "塞姆南", gpa: "", period: "2021至今" }],
+        experience: [{ title: "科研助理", company: "普雅布核心", city: "塞姆南", period: "2022至今" }],
+        languages: [{ name: "英语", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "高级遥感", institute: "塞姆南大学" }]
+      },
+      ar: {
+        name: "الآنسة آزاد سلطاني",
+        role: "طالبة دكتوراه إدارة التصحر",
+        birth: "1996/07/02",
+        marital: "عزباء",
+        military: "—",
+        location: "سمنان",
+        email: "azadeh.soltani@example.com",
+        phone: "+98 911 000 0001",
+        website: "azadeh-soltani.example.com",
+        summary: "طالبة دكتوراه تركز على البيانات المكانية والاستشعار عن بعد.",
+        skills: ["الاستشعار عن بعد", "GIS", "الإحصاء المكاني"],
+        education: [{ degree: "دكتوراه إدارة التصحر", university: "جامعة سمنان", city: "سمنان", gpa: "", period: "2021 - الآن" }],
+        experience: [{ title: "باحثة", company: "نواة بویاب", city: "سمنان", period: "2022 - الآن" }],
+        languages: [{ name: "الإنجليزية", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "الاستشعار المتقدم", institute: "جامعة سمنان" }]
+      }
+    }
+  },
+  member2: {
+    id: "member2",
+    photo: "assets/images/3.webp",
+    accent: ["#5f3d2c", "#a2654a", "#d4a520"],
+    links: { linkedin: "https://www.linkedin.com/in/fatemeh-zahra-heydarieh" },
+    content: {
+      fa: {
+        name: "خانم فاطمه‌زهرا حیدریه",
+        role: "دانشجوی دکتری مدیریت و کنترل بیابان",
+        birth: "۱۳۷۶/۰۲/۲۰",
+        marital: "مجرد",
+        military: "—",
+        location: "سمنان",
+        email: "fz.heydarieh@example.com",
+        phone: "+98 911 000 0002",
+        website: "fz-heydarieh.example.com",
+        summary: "دانشجوی دکتری با تمرکز بر پوشش گیاهی، فرسایش بادی و شاخص‌های اکولوژیک در اکوسیستم‌های خشک. تجربه همکاری در پروژه‌های میدانی استان سمنان.",
+        skills: ["فرسایش بادی", "پوشش گیاهی", "اکولوژی مناطق خشک", "آمار", "سنجش از دور"],
+        education: [{ degree: "دکتری مدیریت و کنترل بیابان", university: "دانشگاه سمنان", city: "سمنان", gpa: "", period: "۱۴۰۰ - اکنون" }],
+        experience: [{ title: "کارشناس پژوهش", company: "هسته پویاب", city: "سمنان", period: "۱۴۰۱ - اکنون" }],
+        languages: [{ name: "انگلیسی", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "کارگاه پوشش گیاهی", institute: "دانشگاه سمنان" }]
+      },
+      en: {
+        name: "Ms. Fatemeh Zahra Heydarieh",
+        role: "Ph.D. Candidate, Desert Management",
+        birth: "1997/05/10",
+        marital: "Single",
+        military: "—",
+        location: "Semnan",
+        email: "fz.heydarieh@example.com",
+        phone: "+98 911 000 0002",
+        website: "fz-heydarieh.example.com",
+        summary: "Ph.D. candidate researching vegetation and wind erosion indicators in arid ecosystems.",
+        skills: ["Wind Erosion", "Vegetation", "Arid Ecology", "Statistics"],
+        education: [{ degree: "Ph.D. Desert Management", university: "Semnan University", city: "Semnan", gpa: "", period: "2021 - Now" }],
+        experience: [{ title: "Research Assistant", company: "Pouyab Core", city: "Semnan", period: "2022 - Now" }],
+        languages: [{ name: "English", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "Vegetation Workshop", institute: "Semnan University" }]
+      },
+      zh: {
+        name: "法蒂玛·扎赫拉·海达里耶女士",
+        role: "荒漠管理博士研究生",
+        birth: "1997/05/10",
+        marital: "未婚",
+        military: "—",
+        location: "塞姆南",
+        email: "fz.heydarieh@example.com",
+        phone: "+98 911 000 0002",
+        website: "fz-heydarieh.example.com",
+        summary: "研究干旱区植被与风蚀指标。",
+        skills: ["风蚀", "植被", "干旱生态"],
+        education: [{ degree: "博士 荒漠管理", university: "塞姆南大学", city: "塞姆南", gpa: "", period: "2021至今" }],
+        experience: [{ title: "科研助理", company: "普雅布核心", city: "塞姆南", period: "2022至今" }],
+        languages: [{ name: "英语", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "植被研讨会", institute: "塞姆南大学" }]
+      },
+      ar: {
+        name: "الآنسة فاطمة زهرا حيدرية",
+        role: "طالبة دكتوراه إدارة التصحر",
+        birth: "1997/05/10",
+        marital: "عزباء",
+        military: "—",
+        location: "سمنان",
+        email: "fz.heydarieh@example.com",
+        phone: "+98 911 000 0002",
+        website: "fz-heydarieh.example.com",
+        summary: "طالبة دكتوراه تبحث مؤشرات الغطاء النباتي والانجراف الريحي.",
+        skills: ["الانجراف الريحي", "الغطاء النباتي", "البيئة الجافة"],
+        education: [{ degree: "دكتوراه إدارة التصحر", university: "جامعة سمنان", city: "سمنان", gpa: "", period: "2021 - الآن" }],
+        experience: [{ title: "باحثة", company: "نواة بویاب", city: "سمنان", period: "2022 - الآن" }],
+        languages: [{ name: "الإنجليزية", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "ورشة الغطاء النباتي", institute: "جامعة سمنان" }]
+      }
+    }
+  },
+  member3: {
+    id: "member3",
+    photo: "assets/images/4.webp",
+    accent: ["#3f3d8f", "#6260a8", "#c49a65"],
+    links: { linkedin: "https://www.linkedin.com/in/samaneh-asgarian" },
+    content: {
+      fa: {
+        name: "خانم سمانه عسگریان",
+        role: "دانشجوی دکتری مدیریت و کنترل بیابان",
+        birth: "۱۳۷۴/۰۹/۰۱",
+        marital: "مجرد",
+        military: "—",
+        location: "سمنان",
+        email: "samaneh.asgarian@example.com",
+        phone: "+98 911 000 0003",
+        website: "samaneh-asgarian.example.com",
+        summary: "دانشجوی دکتری با تمرکز بر تحلیل‌های مکانی، ژئومورفولوژی و GIS. همکاری در پروژه‌های آبخیزداری و کنترل سیلاب به‌عنوان تحلیلگر GIS.",
+        skills: ["GIS", "ژئومورفولوژی", "آبخیزداری", "تحلیل فضایی", "کارتوگرافی"],
+        education: [{ degree: "دکتری مدیریت و کنترل بیابان", university: "دانشگاه سمنان", city: "سمنان", gpa: "", period: "۱۴۰۰ - اکنون" }],
+        experience: [{ title: "تحلیلگر GIS", company: "هسته پویاب", city: "سمنان", period: "۱۴۰۱ - اکنون" }],
+        languages: [{ name: "انگلیسی", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "کارگاه GIS پیشرفته", institute: "دانشگاه سمنان" }]
+      },
+      en: {
+        name: "Ms. Samaneh Asgarian",
+        role: "Ph.D. Candidate, Desert Management",
+        birth: "1995/11/22",
+        marital: "Single",
+        military: "—",
+        location: "Semnan",
+        email: "samaneh.asgarian@example.com",
+        phone: "+98 911 000 0003",
+        website: "samaneh-asgarian.example.com",
+        summary: "Ph.D. candidate focused on spatial analysis and geomorphology with GIS.",
+        skills: ["GIS", "Geomorphology", "Watershed", "Spatial Analysis"],
+        education: [{ degree: "Ph.D. Desert Management", university: "Semnan University", city: "Semnan", gpa: "", period: "2021 - Now" }],
+        experience: [{ title: "GIS Analyst", company: "Pouyab Core", city: "Semnan", period: "2022 - Now" }],
+        languages: [{ name: "English", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "Advanced GIS", institute: "Semnan University" }]
+      },
+      zh: {
+        name: "萨曼娜·阿斯加里安女士",
+        role: "荒漠管理博士研究生",
+        birth: "1995/11/22",
+        marital: "未婚",
+        military: "—",
+        location: "塞姆南",
+        email: "samaneh.asgarian@example.com",
+        phone: "+98 911 000 0003",
+        website: "samaneh-asgarian.example.com",
+        summary: "主攻空间分析与地貌学的GIS应用。",
+        skills: ["GIS", "地貌学", "流域"],
+        education: [{ degree: "博士 荒漠管理", university: "塞姆南大学", city: "塞姆南", gpa: "", period: "2021至今" }],
+        experience: [{ title: "GIS分析师", company: "普雅布核心", city: "塞姆南", period: "2022至今" }],
+        languages: [{ name: "英语", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "高级GIS", institute: "塞姆南大学" }]
+      },
+      ar: {
+        name: "الآنسة سمانه عسكريان",
+        role: "طالبة دكتوراه إدارة التصحر",
+        birth: "1995/11/22",
+        marital: "عزباء",
+        military: "—",
+        location: "سمنان",
+        email: "samaneh.asgarian@example.com",
+        phone: "+98 911 000 0003",
+        website: "samaneh-asgarian.example.com",
+        summary: "طالبة دكتوراه تركز على التحليل المكاني والجيومورفولوجيا.",
+        skills: ["GIS", "الجيومورفولوجيا", "الأحواض"],
+        education: [{ degree: "دكتوراه إدارة التصحر", university: "جامعة سمنان", city: "سمنان", gpa: "", period: "2021 - الآن" }],
+        experience: [{ title: "محللة GIS", company: "نواة بویاب", city: "سمنان", period: "2022 - الآن" }],
+        languages: [{ name: "الإنجليزية", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "GIS المتقدم", institute: "جامعة سمنان" }]
+      }
+    }
+  },
+  member4: {
+    id: "member4",
+    photo: "assets/images/5.webp",
+    accent: ["#1d4e2c", "#4a90a2", "#d4a520"],
+    content: {
+      fa: {
+        name: "امیرمحمد ثابتیان",
+        role: "کارشناس GIS و منابع طبیعی",
+        birth: "۱۳۸۱/۶/۲۵",
+        marital: "مجرد",
+        military: "معاف",
+        location: "اصفهان",
+        email: "sabetian2002@gmail.com",
+        phone: "(+۹۸)۹۲۱۲۶۴۳۸۴۲",
+        summary: "کارشناس GIS و مهندسی طبیعت با رویکردی بین‌رشته‌ای در پیوند علوم محیط‌زیست و فناوری داده‌های مکانی. با درکی عمیق از بوم‌سازگان‌های طبیعی و تسلط بر ابزارهای پیشرفتهٔ سنجش از دور و پردازش ابری (مانند Google Earth Engine)، بر آن هستم تا راهکارهای مقیاس‌پذیر و مبتنی بر داده برای مدیریت پایدار منابع طبیعی، پایش تغییرات کاربری اراضی، و بهینه‌سازی تصمیم‌گیری‌های محیط‌زیستی ارائه دهم. ترکیب دانش کدنویسی (Python، C++) با تجربهٔ پیاده‌سازی سامانه‌های اطلاعاتی، امکان خودکارسازی فرایندها و ایجاد داشبوردهای تحلیلی را برای من فراهم کرده است. همواره در جستجوی فرصتی برای پیاده‌سازی نوآوری‌های تکنولوژیک در حوزهٔ جنگلداری، مرتعداری و مخاطرات طبیعی هستم.",
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        education: [{ degree: "کارشناسی مهندسی طبیعت", university: "دانشگاه سمنان", city: "سمنان" }],
+        experience: [
+          { title: "کارشناس IT", company: "شرکت تیراژه ماشین", city: "سمنان" },
+          { title: "کارشناس IT", company: "شرکت فرایند کنترل نقش جهان" }
+        ],
+        languages: [{ name: "انگلیسی", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "ICDL", institute: "موسسه: فنی حرفه‌ای" }, { title: "MCSA", institute: "موسسه: فنی حرفه‌ای" }]
+      },
+      en: {
+        name: "Amirmohammad Sabetian",
+        role: "GIS & Natural Resources Specialist",
+        birth: "2002/09/16",
+        marital: "Single",
+        military: "Exempt",
+        location: "Isfahan",
+        email: "sabetian2002@gmail.com",
+        phone: "(+98) 921 264 3842",
+        summary: "GIS Specialist and Nature Engineering graduate with an interdisciplinary approach linking environmental science with geospatial data technology. With a deep understanding of natural ecosystems and mastery of advanced remote sensing tools and cloud processing (such as Google Earth Engine), I aim to deliver scalable, data-driven solutions for the sustainable management of natural resources, land-use change monitoring, and optimizing environmental decision-making. Combining programming knowledge (Python, C++) with hands-on experience in implementing information systems enables me to automate processes and build analytical dashboards. I am always seeking opportunities to implement technological innovations in forestry, rangeland management, and natural hazards.",
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        education: [{ degree: "B.Sc. Nature Engineering", university: "Semnan University", city: "Semnan" }],
+        experience: [
+          { title: "IT Specialist", company: "Tirajeh Machine Co.", city: "Semnan" },
+          { title: "IT Specialist", company: "Farayand Control Naghsh-e Jahan Co." }
+        ],
+        languages: [{ name: "English", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "ICDL", institute: "Technical & Vocational Org." }, { title: "MCSA", institute: "Technical & Vocational Org." }]
+      },
+      zh: {
+        name: "阿米尔穆罕默德·萨贝提安",
+        role: "GIS与自然资源专家",
+        birth: "2002/09/16",
+        marital: "未婚",
+        military: "免役",
+        location: "伊斯法罕",
+        email: "sabetian2002@gmail.com",
+        phone: "(+98) 921 264 3842",
+        summary: "GIS与自然工程专家，以跨学科视角贯通环境科学和地理空间数据技术。凭借对自然生态系统的深刻理解以及对先进遥感工具和云计算处理（如Google Earth Engine）的娴熟掌握，我致力于为自然资源可持续管理、土地利用变化监测和环境决策优化提供可扩展的数据驱动解决方案。将编程知识（Python、C++）与信息系统实施经验相结合，让我能够实现流程自动化并构建分析型仪表盘。我始终寻求机会在林业、牧场管理和自然灾害领域应用技术创新。",
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        education: [{ degree: "学士 自然工程", university: "塞姆南大学", city: "塞姆南" }],
+        experience: [
+          { title: "信息技术专家", company: "Tirajeh Machine公司", city: "塞姆南" },
+          { title: "信息技术专家", company: "Farayand Control Naghsh-e Jahan公司" }
+        ],
+        languages: [{ name: "英语", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "ICDL", institute: "职业培训机构" }, { title: "MCSA", institute: "职业培训机构" }]
+      },
+      ar: {
+        name: "أمير محمد ثابتيان",
+        role: "أخصائي GIS والموارد الطبيعية",
+        birth: "2002/09/16",
+        marital: "أعزب",
+        military: "معفى",
+        location: "أصفهان",
+        email: "sabetian2002@gmail.com",
+        phone: "(+98) 921 264 3842",
+        summary: "أخصائي GIS وهندسة الطبيعة بنهج متعدد التخصصات يربط علوم البيئة بتقنيات البيانات المكانية. بفضل فهم عميق للأنظمة البيئية الطبيعية وإتقان أدوات الاستشعار عن بعد والمعالجة السحابية المتقدمة (مثل Google Earth Engine)، أسعى إلى تقديم حلول قابلة للتطوير ومدفوعة بالبيانات للإدارة المستدامة للموارد الطبيعية، ورصد تغيرات استخدام الأراضي، وتحسين القرارات البيئية. يتيح لي الجمع بين معرفة البرمجة (Python، C++) وخبرة تنفيذ الأنظمة المعلوماتية أتمتة العمليات وبناء لوحات معلومات تحليلية. وأظل أبحث دائماً عن فرص لتطبيق الابتكارات التقنية في مجالات الغابات وإدارة المراعي والمخاطر الطبيعية.",
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        education: [{ degree: "بكالوريوس هندسة الطبيعة", university: "جامعة سمنان", city: "سمنان" }],
+        experience: [
+          { title: "أخصائي معلوماتية", company: "شركة تيراجه ماشين", city: "سمنان" },
+          { title: "أخصائي معلوماتية", company: "شركة فرایند کنترل نقش جهان" }
+        ],
+        languages: [{ name: "الإنجليزية", reading: 4, writing: 4, speaking: 3, listening: 3 }],
+        certificates: [{ title: "ICDL", institute: "المؤسسة المهنية" }, { title: "MCSA", institute: "المؤسسة المهنية" }]
+      }
+    }
+  },
+  member5: {
+    id: "member5",
+    photo: "assets/images/6.webp",
+    accent: ["#2c3e50", "#5f8d3d", "#d4a520"],
+    links: { linkedin: "https://www.linkedin.com/in/mahin-khosravi" },
+    content: {
+      fa: {
+        name: "خانم مهین خسروی",
+        role: "دکتری مدیریت و کنترل بیابان",
+        birth: "۱۳۷۰/۰۵/۱۲",
+        marital: "مجرد",
+        military: "—",
+        location: "سمنان",
+        email: "m.khosravi@example.com",
+        phone: "+98 911 000 0005",
+        website: "mahin-khosravi.example.com",
+        summary: "کارشناس GIS و مهندسی طبیعت با رویکردی بین‌رشته‌ای در پیوند علوم محیط‌زیست و فناوری داده‌های مکانی. با درکی عمیق از بوم‌سازگان‌های طبیعی و تسلط بر ابزارهای پیشرفتهٔ سنجش از دور و پردازش ابری (مانند Google Earth Engine)، بر آن هستم تا راهکارهای مقیاس‌پذیر و مبتنی بر داده برای مدیریت پایدار منابع طبیعی، پایش تغییرات کاربری اراضی، و بهینه‌سازی تصمیم‌گیری‌های محیط‌زیستی ارائه دهم. ترکیب دانش کدنویسی (Python، C++) با تجربهٔ پیاده‌سازی سامانه‌های اطلاعاتی، امکان خودکارسازی فرایندها و ایجاد داشبوردهای تحلیلی را برای من فراهم کرده است. همواره در جستجوی فرصتی برای پیاده‌سازی نوآوری‌های تکنولوژیک در حوزهٔ جنگلداری، مرتعداری و مخاطرات طبیعی هستم.",
+        skills: ["تحلیل اقلیمی", "آمار", "سنجش از دور", "پژوهش میدانی", "پایش اراضی", "بیابان‌زایی"],
+        education: [{ degree: "دکتری مدیریت و کنترل بیابان", university: "دانشگاه سمنان", city: "سمنان", gpa: "", period: "۱۳۹۴ - ۱۳۹۸" }],
+        experience: [{ title: "پژوهشگر", company: "هسته پویاب", city: "سمنان", period: "۱۳۹۸ - اکنون" }],
+        languages: [{ name: "انگلیسی", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "پایش اراضی", institute: "سازمان منابع طبیعی" }]
+      },
+      en: {
+        name: "Ms. Mahin Khosravi",
+        role: "Ph.D., Desert Management",
+        birth: "1991/08/03",
+        marital: "Single",
+        military: "—",
+        location: "Semnan",
+        email: "m.khosravi@example.com",
+        phone: "+98 911 000 0005",
+        website: "mahin-khosravi.example.com",
+        summary: "Ph.D. in Desert Management focusing on climate data and land monitoring.",
+        skills: ["Climate Analysis", "Statistics", "Remote Sensing", "Field Research"],
+        education: [{ degree: "Ph.D. Desert Management", university: "Semnan University", city: "Semnan", gpa: "", period: "2015 - 2019" }],
+        experience: [{ title: "Researcher", company: "Pouyab Core", city: "Semnan", period: "2019 - Now" }],
+        languages: [{ name: "English", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "Land Monitoring", institute: "Natural Resources Org." }]
+      },
+      zh: {
+        name: "马欣·霍斯拉维女士",
+        role: "荒漠管理博士",
+        birth: "1991/08/03",
+        marital: "未婚",
+        military: "—",
+        location: "塞姆南",
+        email: "m.khosravi@example.com",
+        phone: "+98 911 000 0005",
+        website: "mahin-khosravi.example.com",
+        summary: "主攻气候数据与土地监测的荒漠化研究。",
+        skills: ["气候分析", "统计", "遥感"],
+        education: [{ degree: "博士 荒漠管理", university: "塞姆南大学", city: "塞姆南", gpa: "", period: "2015 - 2019" }],
+        experience: [{ title: "研究员", company: "普雅布核心", city: "塞姆南", period: "2019至今" }],
+        languages: [{ name: "英语", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "土地监测", institute: "自然资源组织" }]
+      },
+      ar: {
+        name: "الآنسة ماهين خسروي",
+        role: "دكتوراه إدارة التصحر",
+        birth: "1991/08/03",
+        marital: "عزباء",
+        military: "—",
+        location: "سمنان",
+        email: "m.khosravi@example.com",
+        phone: "+98 911 000 0005",
+        website: "mahin-khosravi.example.com",
+        summary: "دكتوراه في إدارة التصحر تركز على البيانات المناخية.",
+        skills: ["التحليل المناخي", "الإحصاء", "الاستشعار"],
+        education: [{ degree: "دكتوراه إدارة التصحر", university: "جامعة سمنان", city: "سمنان", gpa: "", period: "2015 - 2019" }],
+        experience: [{ title: "باحثة", company: "نواة بویاب", city: "سمنان", period: "2019 - الآن" }],
+        languages: [{ name: "الإنجليزية", reading: 4, writing: 3, speaking: 3, listening: 4 }],
+        certificates: [{ title: "رصد الأراضي", institute: "منظمة الموارد" }]
+      }
+    }
+  }
+};
+
+if (typeof window !== "undefined") {
+  window.POUYAB_RESUMES = POUYAB_RESUMES;
+}
