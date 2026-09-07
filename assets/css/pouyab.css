@@ -60,19 +60,24 @@
 }
 
 .pouyab-brand img{
-  height:48px;
+  height:46px;
   width:auto;
   display:block;
 }
 
 .pouyab-brand-text{
-  display:none;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:1px;
 }
 
 .pouyab-brand-text strong{
-  font-size:20px;
+  font-size:19px;
   font-weight:900;
   color:var(--pouyab-green);
+  line-height:1.25;
+  white-space:nowrap;
 }
 
 .pouyab-brand-text small{
@@ -495,4 +500,62 @@ html[dir="ltr"] .pr-more:hover .pr-more-arrow,
 html[dir="ltr"] .pd-back .pd-more-arrow,
 html[dir="ltr"] .pd-back:hover .pd-more-arrow{
   transform:scaleX(-1);
+}
+
+/* =========================================================
+   POUYAB — RESPONSIVE HEADER (logo4 + brand text)
+   ========================================================= */
+
+.pouyab-lang-nav{
+  display:none;
+}
+
+@media(max-width:900px){
+  .pouyab-header-inner{
+    min-height:68px;
+  }
+
+  .pouyab-brand img{
+    height:42px;
+  }
+
+  .pouyab-brand-text strong{
+    font-size:17px;
+  }
+}
+
+@media(max-width:600px){
+  .pouyab-header-inner{
+    min-height:62px;
+    gap:10px;
+  }
+
+  .pouyab-brand{
+    gap:9px;
+  }
+
+  .pouyab-brand img{
+    height:36px;
+  }
+
+  .pouyab-brand-text strong{
+    font-size:15px;
+  }
+
+  .pouyab-header-inner > .pouyab-lang{
+    display:none;
+  }
+
+  .pouyab-nav .pouyab-lang-nav{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    margin-inline-start:0;
+    padding-top:10px;
+    border-top:1px solid rgba(33,76,43,.08);
+  }
+
+  .pouyab-nav .pouyab-lang-nav .pouyab-lang-label{
+    display:inline-flex;
+  }
 }

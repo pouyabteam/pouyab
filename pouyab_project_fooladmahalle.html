@@ -472,7 +472,7 @@ body{
   margin-top:34px;
   border:1px solid var(--pouyab-line);
   border-radius:22px;
-  overflow:hidden;
+  overflow-x:auto;
   background:#fff;
   box-shadow:0 12px 34px rgba(20,50,30,.05);
 }
@@ -879,7 +879,8 @@ body{
 <header class="pouyab-header" id="top">
   <div class="pouyab-header-inner">
     <a href="index.html" class="pouyab-brand">
-      <img src="assets/images/logo3.svg" alt="پویاب" data-i18n-alt="hero.brand">
+      <img src="assets/images/logo4.svg" alt="پویاب" data-i18n-alt="hero.brand">
+      <span class="pouyab-brand-text"><strong data-i18n="brand.title">گروه پژوهشگران پویاب</strong></span>
     </a>
 
     <nav class="pouyab-nav" id="pouyabNav">
@@ -887,6 +888,16 @@ body{
       <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
       <a href="index.html#team" data-i18n="nav.team">اعضای هسته</a>
       <a href="pouyab_projects.html#projects" class="is-current" data-i18n="nav.projects">پروژه‌ها</a>
+
+      <div class="pouyab-lang pouyab-lang-nav" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+        <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+        <div class="pouyab-lang-options">
+          <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+          <button type="button" data-lang="en" aria-label="English">EN</button>
+          <button type="button" data-lang="zh" aria-label="中文">中</button>
+          <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+        </div>
+      </div>
     </nav>
 
     <div class="pouyab-lang" id="pouyabLangSwitcher" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">

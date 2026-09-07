@@ -46,6 +46,7 @@ fa: {
   "hero.stat3.num": "۲",
   "hero.stat3.label": "همکار سازمانی",
   "hero.logoAlt": "لوگوی پویاب",
+  "brand.title": "گروه پژوهشگران پویاب",
 
   "identity1.title": "پژوهش مسئله‌محور",
   "identity1.desc": "از تعریف مسئله تا تولید خروجی قابل استفاده",
@@ -455,6 +456,7 @@ en: {
   "hero.stat3.num": "2",
   "hero.stat3.label": "Organizational Partners",
   "hero.logoAlt": "Pouyab logo",
+  "brand.title": "Pouyab Research Group",
 
   "identity1.title": "Problem-Driven Research",
   "identity1.desc": "From problem definition to usable output",
@@ -864,6 +866,7 @@ zh: {
   "hero.stat3.num": "2",
   "hero.stat3.label": "机构合作伙伴",
   "hero.logoAlt": "普雅布标志",
+  "brand.title": "普雅布研究团队",
 
   "identity1.title": "问题导向研究",
   "identity1.desc": "从问题定义到可用的成果产出",
@@ -1273,6 +1276,7 @@ ar: {
   "hero.stat3.num": "٢",
   "hero.stat3.label": "شريك مؤسسي",
   "hero.logoAlt": "شعار بویاب",
+  "brand.title": "مجموعة بویاب البحثية",
 
   "identity1.title": "بحث قائم على حل المشكلات",
   "identity1.desc": "من تحديد المشكلة إلى إنتاج مخرجات قابلة للاستخدام",
@@ -1705,27 +1709,33 @@ ar: {
 
     if (window.POUYAB_AFTER_LANG) window.POUYAB_AFTER_LANG(code);
 
-    var switcher = document.getElementById("pouyabLangSwitcher");
-    if (switcher) {
-      var btns = switcher.querySelectorAll("[data-lang]");
-      btns.forEach(function (b) {
+    document.querySelectorAll(".pouyab-lang").forEach(function (sw) {
+      sw.querySelectorAll("[data-lang]").forEach(function (b) {
         b.classList.toggle("is-active", b.getAttribute("data-lang") === code);
       });
-    }
-    var currentLabel = document.querySelector(".pouyab-lang-label");
-    if (currentLabel) currentLabel.textContent = meta.label;
+      var lbl = sw.querySelector(".pouyab-lang-label");
+      if (lbl) lbl.textContent = meta.label;
+    });
   }
 
   function initSwitcher() {
-    var switcher = document.getElementById("pouyabLangSwitcher");
-    if (!switcher) return;
-    var currentLabel = switcher.querySelector(".pouyab-lang-label") ;
-    if (currentLabel) currentLabel.textContent = getLangMeta(currentLang()).label;
+    document.querySelectorAll(".pouyab-lang").forEach(function (sw) {
+      var currentLabel = sw.querySelector(".pouyab-lang-label");
+      if (currentLabel) currentLabel.textContent = getLangMeta(currentLang()).label;
 
-    switcher.querySelectorAll("[data-lang]").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        setLang(btn.getAttribute("data-lang"));
-        btn.classList.add("is-active");
+      sw.querySelectorAll("[data-lang]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          setLang(btn.getAttribute("data-lang"));
+          var nav = btn.closest(".pouyab-nav");
+          if (nav) {
+            var header = nav.closest(".pouyab-header");
+            if (header) {
+              header.classList.remove("open");
+              var burger = header.querySelector("#pouyabBurger");
+              if (burger) burger.setAttribute("aria-expanded", "false");
+            }
+          }
+        });
       });
     });
   }
