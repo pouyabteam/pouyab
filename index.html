@@ -1,0 +1,2169 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="نمونه نمایشی صفحه هسته پژوهشی پویاب">
+<title>پویاب | هسته پژوهشی</title>
+
+<style>
+/* =========================================================
+   POUYAB — REDESIGNED ELITE THEME
+   ========================================================= */
+
+:root{
+  --pouyab-green:#1a3d24;
+  --pouyab-green-2:#214c2b;
+  --pouyab-green-3:#5f8d3d;
+  --pouyab-gold:#d4a520;
+  --pouyab-gold-soft:#f3d36c;
+  --pouyab-cream:#f7f4e8;
+  --pouyab-paper:#fbfaf4;
+  --pouyab-ink:#1a2b20;
+  --pouyab-muted:#5a6560;
+  --pouyab-line:#e2e7dc;
+  --pouyab-white:#fff;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- TOPOGRAPHIC SVG PATTERN ---------- */
+.pouyab-page{
+  --pouyab-green:#1a3d24;
+  --pouyab-green-2:#214c2b;
+  --pouyab-green-3:#5f8d3d;
+  --pouyab-gold:#d4a520;
+  --pouyab-gold-soft:#f3d36c;
+  --pouyab-cream:#f7f4e8;
+  --pouyab-paper:#fbfaf4;
+  --pouyab-ink:#1a2b20;
+  --pouyab-muted:#5a6560;
+  --pouyab-line:#e2e7dc;
+  --pouyab-white:#fff;
+  --pouyab-shadow:0 24px 60px rgba(20,50,30,.10);
+  --pouyab-shadow-lg:0 32px 80px rgba(20,50,30,.14);
+
+  width:100%;
+  max-width:none;
+  margin:0;
+  overflow:hidden;
+  background:var(--pouyab-paper);
+  color:var(--pouyab-ink);
+  font-family:"IRANYekan",sans-serif;
+  line-height:1.85;
+  box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+}
+
+.pouyab-page,
+.pouyab-page *{
+  box-sizing:border-box;
+}
+
+.pouyab-page img{
+  max-width:100%;
+}
+
+.pouyab-page p{
+  text-align:justify;
+  text-justify:inter-word;
+  text-align-last:right;
+}
+
+.pouyab-page .pouyab-subtitle,
+.pouyab-page .pouyab-copy p,
+.pouyab-page .pouyab-leader-copy p,
+.pouyab-page .pouyab-area p,
+.pouyab-page .pouyab-member p,
+.pouyab-page .pouyab-method-intro p,
+.pouyab-page .pouyab-future-subtitle,
+.pouyab-page .pouyab-collab .pouyab-subtitle,
+.pouyab-page .pouyab-projects-intro p{
+  text-align:justify;
+  text-justify:inter-word;
+  text-align-last:right;
+}
+
+/* Centered contexts must override the justify above */
+.pouyab-members-head p,
+.pouyab-member p,
+.pouyab-end p,
+.pouyab-projects-intro-center .pouyab-title,
+.pouyab-projects-intro-center .pouyab-subtitle{
+  text-align:center !important;
+  text-justify:auto !important;
+  text-align-last:center !important;
+}
+
+.pouyab-shell{
+  width:min(1120px,92%);
+  margin:0 auto;
+}
+
+.pouyab-section{
+  position:relative;
+  padding:100px 0;
+}
+
+.pouyab-section + .pouyab-section{
+  border-top:1px solid rgba(26,61,36,.06);
+}
+
+/* ---------- TOPOGRAPHIC BACKGROUND PATTERN ---------- */
+.pouyab-topo-pattern{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  z-index:0;
+  opacity:.028;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cpath d='M100,300 Q200,250 300,300 T500,300' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M80,340 Q220,280 320,340 T520,340' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M60,380 Q240,310 340,380 T540,380' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M40,420 Q260,340 360,420 T560,420' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M20,460 Q280,370 380,460 T580,460' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M100,180 Q200,140 300,180 T500,180' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M80,220 Q220,170 320,220 T520,220' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M60,260 Q240,200 340,260 T540,260' fill='none' stroke='%23214c2b' stroke-width='1'/%3E%3Cpath d='M150,100 Q250,60 350,100 T550,100' fill='none' stroke='%23214c2b' stroke-width='.8'/%3E%3Cpath d='M130,140 Q270,90 370,140 T570,140' fill='none' stroke='%23214c2b' stroke-width='.8'/%3E%3C/svg%3E");
+  background-size:600px 600px;
+}
+
+/* ---------- EDITORIAL TYPOGRAPHY ---------- */
+.pouyab-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-green-3);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+  text-transform:uppercase;
+  margin-bottom:12px;
+}
+
+.pouyab-eyebrow:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pouyab-title{
+  margin:0;
+  color:var(--pouyab-green);
+  font-size:clamp(30px,4.2vw,50px);
+  line-height:1.2;
+  font-weight:900;
+  letter-spacing:-.5px;
+}
+
+.pouyab-subtitle{
+  margin:16px 0 0;
+  max-width:700px;
+  color:var(--pouyab-muted);
+  font-size:16px;
+  line-height:1.9;
+}
+
+.pouyab-ltr{
+  direction:ltr;
+  unicode-bidi:embed;
+}
+
+/* ---------- SCROLL REVEAL ANIMATIONS ---------- */
+.sr{
+  opacity:0;
+  transform:translateY(40px);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+
+.sr.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.sr-delay-1{ transition-delay:.12s; }
+.sr-delay-2{ transition-delay:.24s; }
+.sr-delay-3{ transition-delay:.36s; }
+.sr-delay-4{ transition-delay:.48s; }
+.sr-delay-5{ transition-delay:.6s; }
+.sr-delay-6{ transition-delay:.72s; }
+
+.sr-left{
+  opacity:0;
+  transform:translateX(50px);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+.sr-left.is-visible{
+  opacity:1;
+  transform:translateX(0);
+}
+
+.sr-right{
+  opacity:0;
+  transform:translateX(-50px);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+.sr-right.is-visible{
+  opacity:1;
+  transform:translateX(0);
+}
+
+.sr-scale{
+  opacity:0;
+  transform:scale(.92);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+.sr-scale.is-visible{
+  opacity:1;
+  transform:scale(1);
+}
+
+/* ---------- HERO ---------- */
+.pouyab-hero{
+  position:relative;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  color:#fff;
+  background:linear-gradient(160deg,#0d1f13 0%,#183c22 35%,#1a4428 65%,#0d1f13 100%);
+}
+
+.pouyab-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 80% 20%,rgba(95,141,61,.15),transparent),
+    radial-gradient(ellipse 60% 50% at 20% 80%,rgba(212,165,32,.06),transparent);
+  z-index:1;
+}
+
+.pouyab-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.04;
+  background-image:
+    linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(ellipse 80% 70% at 70% 30%,rgba(0,0,0,.6),transparent);
+  z-index:1;
+}
+
+.pouyab-hero-topo{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  opacity:.06;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cpath d='M0,400 Q200,350 400,400 T800,400' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,360 Q200,300 400,360 T800,360' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,320 Q200,250 400,320 T800,320' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,280 Q200,200 400,280 T800,280' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,440 Q200,400 400,440 T800,440' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,480 Q200,450 400,480 T800,480' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,520 Q200,500 400,520 T800,520' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,560 Q200,540 400,560 T800,560' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,240 Q200,160 400,240 T800,240' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,200 Q200,120 400,200 T800,200' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,160 Q200,90 400,160 T800,160' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,600 Q200,580 400,600 T800,600' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,640 Q200,630 400,640 T800,640' fill='none' stroke='%23ffffff' stroke-width='.4'/%3E%3Cpath d='M0,120 Q200,60 400,120 T800,120' fill='none' stroke='%23ffffff' stroke-width='.4'/%3E%3Cpath d='M0,80 Q200,30 400,80 T800,80' fill='none' stroke='%23ffffff' stroke-width='.3'/%3E%3C/svg%3E");
+  background-size:800px 800px;
+}
+
+.pouyab-hero-glow{
+  position:absolute;
+  width:700px;
+  height:700px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(212,165,32,.08) 0%,transparent 70%);
+  top:-200px;
+  left:-100px;
+  z-index:1;
+  pointer-events:none;
+}
+
+.pouyab-hero-inner{
+  position:relative;
+  z-index:3;
+  width:min(1120px,92%);
+  margin:0 auto;
+  padding:60px 0 0;
+}
+
+.pouyab-hero-top{
+  display:grid;
+  grid-template-columns:1.4fr .6fr;
+  gap:60px;
+  align-items:center;
+}
+
+.pouyab-hero-copy{
+  max-width:760px;
+}
+
+.pouyab-hero-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 18px;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:999px;
+  background:rgba(255,255,255,.05);
+  font-size:13px;
+  color:rgba(255,255,255,.7);
+  backdrop-filter:blur(8px);
+}
+
+.pouyab-hero-kicker::before{
+  content:"";
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--pouyab-gold);
+}
+
+.pouyab-hero h1{
+  margin:-20px 0 0;
+  font-size:clamp(60px,10vw,120px);
+  line-height:1.4;
+  font-weight:900;
+  letter-spacing:-4px;
+  background:linear-gradient(135deg,#fff 30%,var(--pouyab-gold-soft) 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  margin-bottom:40px !important;
+}
+
+.pouyab-hero h2{
+  margin:30px 0 0;
+  font-size:clamp(18px,2.5vw,28px);
+  line-height:1.55;
+  font-weight:700;
+  color:rgba(255,255,255,.85);
+  max-width:600px;
+}
+
+.pouyab-hero p{
+  max-width:600px;
+  margin:18px 0 0;
+  color:rgba(255,255,255,.6);
+  font-size:15px;
+  line-height:1.95;
+}
+
+.pouyab-hero-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:28px;
+}
+
+.pouyab-hero-tag{
+  padding:7px 16px;
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  font-size:12px;
+  color:rgba(255,255,255,.65);
+  transition:all .3s ease;
+}
+
+.pouyab-hero-tag:hover{
+  background:rgba(255,255,255,.12);
+  color:#fff;
+}
+
+.pouyab-hero-mark{
+  position:relative;
+  min-height:320px;
+  display:grid;
+  place-items:center;
+}
+
+.pouyab-hero-logos{
+  position:absolute;
+  top:2px;
+  left:2px;
+  display:flex;
+  align-items:center;
+  gap:20px;
+  direction:ltr;
+  z-index:10;
+}
+
+.pouyab-hero-logos img{
+  width:120px;
+  height:120px;
+  object-fit:contain;
+  opacity:.9;
+}
+
+/* ---------- HERO STATS BAR ---------- */
+.pouyab-hero-stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  margin-top:60px;
+  background:rgba(255,255,255,.08);
+  border-radius:20px;
+  overflow:hidden;
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.08);
+}
+
+.pouyab-hero-stat{
+  padding:28px 24px;
+  text-align:center;
+  background:rgba(255,255,255,.03);
+  transition:background .3s ease;
+}
+
+.pouyab-hero-stat:hover{
+  background:rgba(255,255,255,.08);
+}
+
+.pouyab-hero-stat strong{
+  display:block;
+  font-size:clamp(28px,3.5vw,42px);
+  font-weight:900;
+  color:var(--pouyab-gold-soft);
+  line-height:1.1;
+}
+
+.pouyab-hero-stat span{
+  display:block;
+  margin-top:6px;
+  font-size:12px;
+  color:rgba(255,255,255,.55);
+  letter-spacing:.3px;
+}
+
+/* ---------- IDENTITY STRIP ---------- */
+.pouyab-identity{
+  margin-top:-1px;
+  position:relative;
+  z-index:3;
+}
+
+.pouyab-identity-card{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:0;
+  background:rgba(247,244,232,.95);
+  backdrop-filter:blur(16px);
+  border:1px solid rgba(26,61,36,.06);
+  border-radius:0 0 24px 24px;
+  overflow:hidden;
+  box-shadow:0 20px 50px rgba(20,50,30,.08);
+}
+
+.pouyab-identity-item{
+  padding:30px 28px;
+  text-align:center;
+  position:relative;
+  transition:background .3s ease;
+}
+
+.pouyab-identity-item:hover{
+  background:rgba(255,255,255,.6);
+}
+
+.pouyab-identity-item + .pouyab-identity-item{
+  border-right:1px solid rgba(26,61,36,.08);
+}
+
+.pouyab-identity-item strong{
+  display:block;
+  color:var(--pouyab-green);
+  font-size:18px;
+  font-weight:800;
+}
+
+.pouyab-identity-item span{
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.7;
+  display:block;
+  margin-top:4px;
+}
+
+/* ---------- ABOUT — EDITORIAL MANIFESTO ---------- */
+.pouyab-about{
+  position:relative;
+  overflow:hidden;
+}
+
+.pouyab-about-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:center;
+}
+
+.pouyab-about-visual{
+  position:relative;
+  min-height:420px;
+  border-radius:28px;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  overflow:hidden;
+  box-shadow:var(--pouyab-shadow-lg);
+}
+
+.pouyab-about-visual::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.08;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Ccircle cx='200' cy='200' r='150' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3Ccircle cx='200' cy='200' r='120' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3Ccircle cx='200' cy='200' r='90' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3Ccircle cx='200' cy='200' r='60' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3Ccircle cx='200' cy='200' r='30' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:400px 400px;
+}
+
+.pouyab-about-center{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  z-index:1;
+}
+
+.pouyab-about-logos{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:20px;
+  direction:ltr;
+}
+
+.pouyab-about-logos img{
+  width:280px;
+  height:280px;
+  object-fit:contain;
+  filter:brightness(0) invert(1);
+  opacity:.9;
+}
+
+.pouyab-about-accent{
+  position:absolute;
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  border:2px solid rgba(212,165,32,.3);
+  top:20px;
+  right:20px;
+}
+
+.pouyab-about-accent-2{
+  position:absolute;
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  background:rgba(212,165,32,.08);
+  bottom:30px;
+  left:30px;
+}
+
+.pouyab-copy{
+  position:relative;
+  z-index:1;
+}
+
+.pouyab-copy p{
+  color:var(--pouyab-muted);
+  font-size:16px;
+  margin:18px 0;
+  line-height:1.95;
+}
+
+.pouyab-highlight{
+  margin-top:28px;
+  padding:22px 26px;
+  border-right:4px solid var(--pouyab-gold);
+  border-radius:0 18px 18px 0;
+  background:#fff;
+  box-shadow:0 12px 40px rgba(20,50,30,.06);
+  color:var(--pouyab-green);
+  font-weight:700;
+  font-size:15px;
+  line-height:1.85;
+  position:relative;
+  overflow:hidden;
+}
+
+.pouyab-highlight::before{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background:linear-gradient(90deg,rgba(212,165,32,.03),transparent 60%);
+  pointer-events:none;
+}
+
+/* ---------- RESEARCH AREAS — CONSTELLATION ---------- */
+.pouyab-research{
+  position:relative;
+}
+
+.pouyab-area-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:40px;
+}
+
+.pouyab-area{
+  position:relative;
+  min-height:210px;
+  padding:28px 26px;
+  border:1px solid var(--pouyab-line);
+  border-radius:24px;
+  background:#fff;
+  transition:all .4s cubic-bezier(.22,1,.36,1);
+  overflow:hidden;
+}
+
+.pouyab-area::before{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:3px;
+  background:linear-gradient(90deg,var(--pouyab-gold),var(--pouyab-green-3));
+  opacity:0;
+  transition:opacity .4s ease;
+}
+
+.pouyab-area:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 50px rgba(20,50,30,.10);
+  border-color:rgba(212,165,32,.3);
+}
+
+.pouyab-area:hover::before{
+  opacity:1;
+}
+
+.pouyab-area-number{
+  color:var(--pouyab-gold);
+  font-weight:900;
+  font-size:13px;
+  letter-spacing:.5px;
+}
+
+.pouyab-area h3{
+  margin:18px 0 8px;
+  color:var(--pouyab-green);
+  font-size:19px;
+  font-weight:800;
+}
+
+.pouyab-area p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- LEADER — PRESTIGIOUS EDITORIAL ---------- */
+.pouyab-leader{
+  background:var(--pouyab-cream);
+  position:relative;
+  overflow:hidden;
+}
+
+.pouyab-leader::before{
+  content:"";
+  position:absolute;
+  width:600px;
+  height:600px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(212,165,32,.05),transparent 70%);
+  top:-200px;
+  right:-150px;
+  pointer-events:none;
+}
+
+.pouyab-leader-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.pouyab-leader-copy{
+  order:1;
+}
+
+.pouyab-leader-copy .pouyab-title{
+  font-size:clamp(28px,4vw,44px);
+}
+
+.pouyab-leader-role{
+  display:inline-block;
+  margin:16px 0;
+  color:var(--pouyab-green-3);
+  font-size:14px;
+  font-weight:800;
+  letter-spacing:.3px;
+}
+
+.pouyab-leader-copy p{
+  color:var(--pouyab-muted);
+  font-size:15px;
+  margin:0 0 16px;
+  line-height:1.95;
+}
+
+.pouyab-quote{
+  margin-top:28px;
+  padding:24px 28px;
+  border-radius:20px;
+  background:#fff;
+  border:1px solid rgba(26,61,36,.06);
+  color:var(--pouyab-green);
+  font-weight:700;
+  font-size:15px;
+  line-height:1.85;
+  position:relative;
+  box-shadow:0 10px 30px rgba(20,50,30,.04);
+}
+
+.pouyab-quote::before{
+  content:"\"";
+  position:absolute;
+  top:12px;
+  right:18px;
+  font-size:48px;
+  color:var(--pouyab-gold);
+  opacity:.3;
+  font-weight:900;
+  line-height:1;
+}
+
+/* ---------- Leader Photo — Clean Card ---------- */
+.pouyab-leader-photo{
+  position:relative;
+  order:2;
+  display:flex;
+  justify-content:center;
+}
+
+.pouyab-leader-card{
+  position:relative;
+  width:min(340px,100%);
+  border-radius:24px;
+  overflow:hidden;
+  background:#fff;
+  box-shadow:0 20px 50px rgba(20,50,30,.10);
+}
+
+.pouyab-leader-card-img{
+  position:relative;
+  width:100%;
+  aspect-ratio:4/5;
+  overflow:hidden;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+}
+
+.pouyab-leader-card-img::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cpath d='M0,150 Q75,120 150,150 T300,150' fill='none' stroke='%23fff' stroke-width='.6'/%3E%3Cpath d='M0,130 Q75,100 150,130 T300,130' fill='none' stroke='%23fff' stroke-width='.6'/%3E%3Cpath d='M0,170 Q75,140 150,170 T300,170' fill='none' stroke='%23fff' stroke-width='.6'/%3E%3Cpath d='M0,110 Q75,80 150,110 T300,110' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3Cpath d='M0,190 Q75,160 150,190 T300,190' fill='none' stroke='%23fff' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:300px 300px;
+  z-index:1;
+}
+
+.pouyab-leader-card-img img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center top;
+  display:block;
+}
+
+.pouyab-leader-card-body{
+  padding:28px 30px;
+  background:#fff;
+}
+
+.pouyab-leader-card-name{
+  margin:0;
+  color:var(--pouyab-green);
+  font-size:22px;
+  font-weight:900;
+  line-height:1.4;
+}
+
+.pouyab-leader-card-title{
+  margin:6px 0 0;
+  color:var(--pouyab-green-3);
+  font-size:14px;
+  font-weight:700;
+}
+
+.pouyab-leader-card-info{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+  padding-top:18px;
+  border-top:1px solid var(--pouyab-line);
+}
+
+.pouyab-leader-card-tag{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 14px;
+  border-radius:999px;
+  background:var(--pouyab-cream);
+  color:var(--pouyab-muted);
+  font-size:12px;
+  font-weight:700;
+}
+
+.pouyab-leader-card-tag::before{
+  content:"";
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--pouyab-gold);
+}
+
+/* ---------- TEAM MEMBERS — RESEARCH NETWORK ---------- */
+.pouyab-members{
+  position:relative;
+}
+
+.pouyab-members-head{
+  text-align:center;
+  max-width:760px;
+  margin:0 auto;
+}
+
+.pouyab-members-head .pouyab-eyebrow{
+  justify-content:center;
+}
+
+.pouyab-member-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  margin-top:48px;
+}
+
+.pouyab-member{
+  flex:0 0 200px;
+  text-align:center;
+  position:relative;
+}
+
+.pouyab-member-photo{
+  position:relative;
+  width:200px;
+  height:200px;
+  margin-inline:auto;
+  border-radius:100px 100px 0 0;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  overflow:hidden;
+  border:8px solid var(--pouyab-cream);
+  box-shadow:0 0 0 1px rgba(26,61,36,.08);
+  transition:all .4s cubic-bezier(.22,1,.36,1);
+}
+
+.pouyab-member:hover .pouyab-member-photo{
+  transform:translateY(-4px);
+  box-shadow:0 12px 30px rgba(20,50,30,.12);
+}
+
+.pouyab-member-photo img{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center top;
+  display:block;
+}
+
+.pouyab-member-photo .pouyab-photo-placeholder{
+  color:rgba(255,255,255,.68);
+}
+
+.pouyab-member h3{
+  color:var(--pouyab-green);
+  font-size:17px;
+  margin:16px 0 4px;
+  font-weight:800;
+}
+
+.pouyab-member p{
+  color:var(--pouyab-muted);
+  font-size:12px;
+  margin:0;
+  line-height:1.7;
+}
+
+.pouyab-member small{
+  display:block;
+  margin-top:6px;
+  color:#89948c;
+  font-size:11px;
+}
+
+/* ---------- METHOD — VISUAL PROCESS FLOW ---------- */
+.pouyab-method{
+  background:#fff;
+  position:relative;
+}
+
+.pouyab-method::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.018;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M0,100 L200,100' stroke='%23214c2b' stroke-width='.5'/%3E%3Cpath d='M100,0 L100,200' stroke='%23214c2b' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:200px 200px;
+}
+
+.pouyab-method-grid{
+  display:grid;
+  grid-template-columns:.8fr 1.2fr;
+  gap:70px;
+  align-items:start;
+}
+
+.pouyab-method-intro p{
+  color:var(--pouyab-muted);
+  font-size:16px;
+  line-height:1.95;
+  margin-top:16px;
+}
+
+.pouyab-flow{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+
+.pouyab-flow-card{
+  position:relative;
+  min-height:155px;
+  padding:24px 22px;
+  border:1px solid var(--pouyab-line);
+  border-radius:20px;
+  background:var(--pouyab-paper);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pouyab-flow-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+  border-color:rgba(212,165,32,.3);
+}
+
+.pouyab-flow-card:last-child{
+  background:var(--pouyab-green);
+  color:#fff;
+  border-color:transparent;
+}
+
+.pouyab-flow-card:last-child:hover{
+  background:#1a3d24;
+}
+
+.pouyab-flow-num{
+  font-size:11px;
+  color:var(--pouyab-gold);
+  font-weight:900;
+  letter-spacing:.5px;
+}
+
+.pouyab-flow-card h3{
+  margin:14px 0 5px;
+  color:inherit;
+  font-size:17px;
+  font-weight:800;
+}
+
+.pouyab-flow-card p{
+  margin:0;
+  color:inherit;
+  opacity:.7;
+  font-size:12px;
+  line-height:1.8;
+}
+
+/* ---------- PROJECTS ---------- */
+.pouyab-projects{
+  background:var(--pouyab-cream);
+  position:relative;
+}
+
+.pouyab-project-feature{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:0;
+  margin-top:40px;
+  border-radius:28px;
+  background:#fff;
+  box-shadow:var(--pouyab-shadow);
+  overflow:hidden;
+}
+
+.pouyab-project-visual{
+  min-height:380px;
+  position:relative;
+  overflow:hidden;
+  align-self:stretch;
+}
+
+.pouyab-project-copy{
+  padding:36px 32px;
+  align-self:center;
+}
+
+.pouyab-project-status{
+  display:inline-flex;
+  padding:6px 14px;
+  border-radius:999px;
+  color:var(--pouyab-green);
+  background:#edf3e8;
+  font-size:11px;
+  font-weight:800;
+}
+
+.pouyab-project-copy h3{
+  color:var(--pouyab-green);
+  font-size:26px;
+  line-height:1.45;
+  margin:16px 0 6px;
+  font-weight:800;
+}
+
+.pouyab-project-copy h4{
+  color:var(--pouyab-green-3);
+  margin:0 0 16px;
+  font-size:15px;
+  font-weight:700;
+}
+
+.pouyab-project-copy p{
+  color:var(--pouyab-muted);
+  font-size:14px;
+  line-height:1.85;
+}
+
+.pouyab-project-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:24px;
+}
+
+.pouyab-project-meta span{
+  padding:6px 12px;
+  border:1px solid var(--pouyab-line);
+  border-radius:10px;
+  font-size:11px;
+  color:var(--pouyab-muted);
+}
+
+/* ---------- PROJECTS INTRO ---------- */
+.pouyab-projects-intro{
+  position:relative;
+}
+
+.pouyab-projects-intro-center{
+  max-width:700px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.pouyab-projects-intro-steps{
+  position:relative;
+  max-width:560px;
+  margin:36px auto 0;
+  padding-right:0;
+  text-align:right;
+}
+
+.pouyab-projects-intro-step{
+  position:relative;
+  display:block;
+  padding:18px 24px 18px 18px;
+  border-radius:18px;
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pouyab-projects-intro-step:not(:last-child){
+  margin-bottom:16px;
+}
+
+.pouyab-projects-intro-step:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(20,50,30,.06);
+}
+
+.pouyab-projects-intro-step-dot{
+  position:absolute;
+  top:50%;
+  right:-6px;
+  width:12px;
+  height:12px;
+  margin-top:-6px;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  box-shadow:0 0 0 4px #f4f2e9;
+}
+
+.pouyab-projects-intro-step-body strong{
+  display:block;
+  color:var(--pouyab-green);
+  font-size:15px;
+  font-weight:800;
+  margin-top:4px;
+}
+
+.pouyab-projects-intro-step-body > span:last-child{
+  display:block;
+  margin-top:4px;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.7;
+}
+
+.pouyab-projects-intro-step-label{
+  display:inline-block;
+  padding:4px 12px;
+  border-radius:999px;
+  background:rgba(26,61,36,.08);
+  color:var(--pouyab-green);
+  font-size:12px;
+  font-weight:800;
+}
+
+.pouyab-projects-intro-btn-wrap{
+  margin-top:32px;
+  text-align:center;
+}
+
+.pouyab-projects-intro-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:14px 28px;
+  border-radius:999px;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:14px;
+  font-weight:800;
+  text-decoration:none;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pouyab-projects-intro-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 30px rgba(20,50,30,.25);
+}
+
+.pouyab-projects-intro-btn-arrow{
+  font-size:15px;
+  transition:transform .25s ease;
+}
+
+.pouyab-projects-intro-btn:hover .pouyab-projects-intro-btn-arrow{
+  transform:translateX(-4px);
+}
+
+/* ---------- COLLABORATIONS ---------- */
+.pouyab-collab{
+  background:linear-gradient(160deg,#0d1f13 0%,var(--pouyab-green) 50%,#1a3d24 100%);
+  color:#fff;
+  position:relative;
+  overflow:hidden;
+}
+
+.pouyab-collab::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.04;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cpath d='M100,300 Q200,250 300,300 T500,300' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M80,340 Q220,280 320,340 T520,340' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M60,380 Q240,310 340,380 T540,380' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M40,420 Q260,340 360,420 T560,420' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M20,460 Q280,370 380,460 T580,460' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M100,180 Q200,140 300,180 T500,180' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M80,220 Q220,170 320,220 T520,220' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:600px 600px;
+}
+
+.pouyab-collab .pouyab-title,
+.pouyab-collab .pouyab-subtitle{
+  color:#fff;
+}
+
+.pouyab-collab .pouyab-subtitle{
+  opacity:.7;
+}
+
+.pouyab-collab-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:28px;
+  margin-top:40px;
+}
+
+.pouyab-partner{
+  min-height:280px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+  padding:52px 24px;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:24px;
+  background:rgba(255,255,255,.05);
+  text-align:center;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+  backdrop-filter:blur(8px);
+}
+
+.pouyab-partner:hover{
+  background:rgba(255,255,255,.10);
+  border-color:rgba(255,255,255,.2);
+  transform:translateY(-5px);
+  box-shadow:0 20px 50px rgba(20,50,30,.25), 0 0 40px rgba(26,61,36,.3), 0 0 60px rgba(26,61,36,.15);
+}
+
+.pouyab-partner-logo{
+  max-width:300px;
+  max-height:120px;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  filter:drop-shadow(0 6px 20px rgba(0,0,0,.3)) drop-shadow(0 0 15px rgba(255,255,255,.15));
+  transition:filter .35s ease, transform .35s ease;
+}
+
+.pouyab-partner:hover .pouyab-partner-logo{
+  filter:drop-shadow(0 8px 28px rgba(0,0,0,.4)) drop-shadow(0 0 30px rgba(26,61,36,.5));
+  transform:scale(1.1);
+}
+
+.pouyab-partner strong{
+  display:block;
+  color:#fff;
+  font-size:18px;
+  font-weight:800;
+  line-height:1.6;
+}
+
+/* ---------- FUTURE — TRAJECTORY ---------- */
+.pouyab-future{
+  position:relative;
+  overflow:hidden;
+}
+
+.pouyab-future::before{
+  content:"";
+  position:absolute;
+  width:500px;
+  height:500px;
+  border-radius:50%;
+  left:-250px;
+  top:-180px;
+  background:radial-gradient(circle,rgba(26,61,36,.04),transparent 70%);
+  pointer-events:none;
+}
+
+.pouyab-future-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:18px;
+  margin-top:40px;
+}
+
+.pouyab-future-card{
+  position:relative;
+  padding:30px 28px;
+  min-height:220px;
+  border-radius:24px;
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+  overflow:hidden;
+}
+
+.pouyab-future-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  width:60px;
+  height:60px;
+  border-radius:0 24px 0 60px;
+  background:linear-gradient(135deg,var(--pouyab-gold),var(--pouyab-green-3));
+  opacity:.08;
+}
+
+.pouyab-future-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 45px rgba(20,50,30,.08);
+}
+
+.pouyab-future-card .num{
+  color:var(--pouyab-gold);
+  font-size:36px;
+  font-weight:900;
+  opacity:.8;
+}
+
+.pouyab-future-card h3{
+  color:var(--pouyab-green);
+  margin:14px 0 6px;
+  font-size:18px;
+  font-weight:800;
+}
+
+.pouyab-future-card p{
+  color:var(--pouyab-muted);
+  margin:0;
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- GALLERY — EDITORIAL MASONRY ---------- */
+.pouyab-gallery-section{
+  position:relative;
+}
+
+.pouyab-gallery{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  grid-template-rows:auto auto;
+  gap:14px;
+  margin-top:40px;
+}
+
+.pouyab-gallery-item{
+  min-height:190px;
+  border-radius:22px;
+  background:linear-gradient(135deg,#e7ebdf,#f6f4e8);
+  border:1px solid var(--pouyab-line);
+  display:grid;
+  place-items:center;
+  color:#7b867d;
+  text-align:center;
+  padding:18px;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+  cursor:pointer;
+}
+
+.pouyab-gallery-item:hover{
+  transform:scale(1.02);
+  box-shadow:0 16px 40px rgba(20,50,30,.10);
+}
+
+.pouyab-gallery-item:first-child{
+  grid-row:span 2;
+  min-height:400px;
+}
+
+/* ---------- END / FOOTER ---------- */
+.pouyab-end{
+  padding:70px 7%;
+  background:linear-gradient(160deg,#0d1f13 0%,#173a20 50%,#0d1f13 100%);
+  color:#fff;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.pouyab-end::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.03;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cpath d='M100,300 Q200,250 300,300 T500,300' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M80,340 Q220,280 320,340 T520,340' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M60,380 Q240,310 340,380 T540,380' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3C/svg%3E");
+  background-size:600px 600px;
+}
+
+.pouyab-end-mark{
+  font-size:44px;
+  font-weight:900;
+  position:relative;
+}
+
+.pouyab-end p{
+  max-width:670px;
+  margin:10px auto 0;
+  color:rgba(255,255,255,.6);
+  font-size:13px;
+  position:relative;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:1024px){
+  .pouyab-hero-top{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+  .pouyab-hero-mark{
+    display:none;
+  }
+  .pouyab-hero-stats{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+
+@media(max-width:900px){
+  .pouyab-hero-inner,
+  .pouyab-about-grid,
+  .pouyab-leader-grid,
+  .pouyab-method-grid,
+  .pouyab-project-feature{
+    grid-template-columns:1fr;
+  }
+
+  .pouyab-hero{
+    min-height:auto;
+    padding:80px 0 60px;
+  }
+
+  .pouyab-hero-top{
+    gap:30px;
+  }
+
+  .pouyab-hero-mark{
+    min-height:230px;
+    margin-top:5px;
+  }
+
+  .pouyab-hero-stats{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .pouyab-leader-photo{
+    order:1;
+  }
+
+  .pouyab-leader-copy{
+    order:2;
+  }
+
+  .pouyab-member-grid{
+    gap:18px;
+  }
+
+  .pouyab-member{
+    flex:0 1 calc((100% - 36px)/3);
+    max-width:200px;
+  }
+
+  .pouyab-member-photo{
+    width:100%;
+    height:auto;
+    aspect-ratio:1;
+    border-radius:999px 999px 0 0;
+  }
+
+  .pouyab-area-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pouyab-collab-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+  
+  .pouyab-partner{
+    min-height:240px;
+    padding:40px 20px;
+  }
+  
+  .pouyab-partner-logo{
+    max-width:240px;
+    max-height:100px;
+  }
+  
+  .pouyab-partner strong{
+    font-size:16px;
+  }
+
+  .pouyab-flow{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pouyab-future-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:600px){
+  .pouyab-section{
+    padding:64px 0;
+  }
+
+  .pouyab-shell{
+    width:88%;
+  }
+
+  .pouyab-hero h1{
+    font-size:56px;
+    letter-spacing:-2px;
+  }
+
+  .pouyab-hero h2{
+    font-size:20px;
+  }
+
+  .pouyab-hero-stats{
+    grid-template-columns:1fr;
+    border-radius:14px;
+  }
+
+  .pouyab-hero-stat{
+    padding:20px 16px;
+  }
+
+  .pouyab-identity-card{
+    grid-template-columns:1fr;
+    border-radius:0;
+  }
+
+  .pouyab-identity-item + .pouyab-identity-item{
+    border-right:0;
+    border-top:1px solid rgba(26,61,36,.08);
+  }
+
+  .pouyab-area-grid,
+  .pouyab-collab-grid,
+  .pouyab-future-grid{
+    grid-template-columns:1fr;
+  }
+
+  .pouyab-partner{
+    min-height:220px;
+    padding:36px 16px;
+  }
+
+  .pouyab-partner-logo{
+    max-width:200px;
+    max-height:80px;
+  }
+
+  .pouyab-member-grid{
+    gap:14px;
+  }
+
+  .pouyab-member{
+    flex-basis:calc((100% - 28px)/3);
+  }
+
+  .pouyab-project-feature{
+    padding:10px;
+  }
+
+  .pouyab-project-visual{
+    min-height:260px;
+  }
+
+  .pouyab-project-copy{
+    padding:20px 16px 28px;
+  }
+
+  .pouyab-project-copy h3{
+    font-size:22px;
+  }
+
+  .pouyab-flow{
+    grid-template-columns:1fr;
+  }
+
+  .pouyab-gallery{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .pouyab-gallery-item:first-child{
+    grid-column:span 2;
+    grid-row:auto;
+    min-height:260px;
+  }
+}
+</style>
+<link rel="stylesheet" href="assets/css/pouyab.css">
+</head>
+
+<body style="margin:0;background:#fff">
+
+<header class="pouyab-header" id="top">
+  <div class="pouyab-header-inner">
+    <a href="index.html" class="pouyab-brand">
+      <img src="assets/images/logo3.svg" alt="پویاب">
+    </a>
+
+    <nav class="pouyab-nav" id="pouyabNav">
+      <a href="#home" class="is-current">صفحه اصلی</a>
+      <a href="#about">درباره پویاب</a>
+      <a href="#team">اعضای هسته</a>
+      <a href="#projects-intro">پروژه‌ها</a>
+    </nav>
+
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="pouyab-page">
+
+  <!-- ======================================================
+       01 — HERO / IDENTITY
+       ====================================================== -->
+  <section class="pouyab-hero" id="home">
+    <div class="pouyab-hero-topo"></div>
+    <div class="pouyab-hero-glow"></div>
+    <div class="pouyab-hero-inner">
+      <div class="pouyab-hero-top">
+        <div class="pouyab-hero-copy sr">
+          <h1>پویاب</h1>
+          <h2>پژوهش، نوآوری و حرکت از مسئله به راهکار</h2>
+          <p>
+            پویاب یک تیم پژوهشی تحقیقاتی و مسئله‌محور است که با تکیه بر دانش تخصصی اعضا،
+            روش‌های نوین تحلیل و همکاری میان‌رشته‌ای، به مطالعه و توسعه راهکارهای
+            علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
+          </p>
+          <div class="pouyab-hero-tags">
+            <span class="pouyab-hero-tag">منابع طبیعی</span>
+            <span class="pouyab-hero-tag">آبخیزداری</span>
+            <span class="pouyab-hero-tag">داده و مدل‌سازی</span>
+            <span class="pouyab-hero-tag">روش‌های نوین پژوهش</span>
+          </div>
+        </div>
+        <div class="pouyab-hero-mark sr sr-delay-2">
+          <!-- decorative mark / logo space -->
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="pouyab-hero-stats sr sr-delay-3">
+        <div class="pouyab-hero-stat">
+          <strong>۵</strong>
+          <span>عضو فعال</span>
+        </div>
+        <div class="pouyab-hero-stat">
+          <strong>۱</strong>
+          <span>پروژه در حال اجرا</span>
+        </div>
+        <div class="pouyab-hero-stat">
+          <strong>۲</strong>
+          <span>همکار سازمانی</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Identity strip -->
+  <div class="pouyab-identity">
+    <div class="pouyab-identity-card">
+      <div class="pouyab-identity-item">
+        <strong>پژوهش مسئله‌محور</strong>
+        <span>از تعریف مسئله تا تولید خروجی قابل استفاده</span>
+      </div>
+      <div class="pouyab-identity-item">
+        <strong>تیم چندتخصصی</strong>
+        <span>ترکیب دانش، تجربه و مهارت‌های مکمل</span>
+      </div>
+      <div class="pouyab-identity-item">
+        <strong>نگاه رو به آینده</strong>
+        <span>ساختن یک مسیر پژوهشی مستمر و توسعه‌پذیر</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       02 — ABOUT POUYAB
+       ====================================================== -->
+  <section class="pouyab-section pouyab-about" id="about">
+    <div class="pouyab-topo-pattern"></div>
+    <div class="pouyab-shell pouyab-about-grid">
+      <div class="pouyab-about-visual sr-right">
+        <div class="pouyab-about-accent"></div>
+        <div class="pouyab-about-accent-2"></div>
+        <div class="pouyab-about-center">
+          <div class="pouyab-about-logos">
+            <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pouyab-copy sr-left">
+        <span class="pouyab-eyebrow">درباره پویاب</span>
+        <h2 class="pouyab-title">یک تیم پژوهشی<br>پویا و مسئله‌محور</h2>
+        <p>
+          پویاب با هدف شکل‌دهی به یک تیم پژوهشی پویا در حوزه منابع طبیعی شکل گرفته است.
+          تمرکز هسته بر توسعه فعالیت‌های علمی، استفاده از ابزارها و روش‌های نوین و
+          تبدیل مسائل واقعی محیطی به پرسش‌های پژوهشی قابل مطالعه است.
+        </p>
+        <div class="pouyab-highlight">
+          «پویاب» قرار است در طول زمان با اضافه‌شدن پروژه‌ها، خروجی‌های علمی و اعضای
+          جدید، به یک روایت زنده از مسیر پژوهشی تبدیل شود.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       03 — RESEARCH AREAS
+       ====================================================== -->
+  <section class="pouyab-section pouyab-research" id="research">
+    <div class="pouyab-shell">
+      <span class="pouyab-eyebrow">حوزه‌های پژوهشی</span>
+      <h2 class="pouyab-title">eco-system پژوهشی پویاب</h2>
+
+      <div class="pouyab-area-grid">
+        <article class="pouyab-area sr sr-delay-1">
+          <span class="pouyab-area-number">01</span>
+          <h3>منابع طبیعی</h3>
+          <p>مطالعه و تحلیل مسائل مرتبط با مدیریت پایدار منابع طبیعی و سامانه‌های محیطی.</p>
+        </article>
+
+        <article class="pouyab-area sr sr-delay-2">
+          <span class="pouyab-area-number">02</span>
+          <h3>آبخیزداری</h3>
+          <p>پژوهش در زمینه فرآیندهای آبخیز، سیلاب، فرسایش و راهکارهای مدیریتی.</p>
+        </article>
+
+        <article class="pouyab-area sr sr-delay-3">
+          <span class="pouyab-area-number">03</span>
+          <h3>مدل‌سازی و تحلیل داده</h3>
+          <p>استفاده از داده‌های محیطی، مکانی و زمانی برای شناخت الگوها و پشتیبانی از تصمیم‌گیری.</p>
+        </article>
+
+        <article class="pouyab-area sr sr-delay-1">
+          <span class="pouyab-area-number">04</span>
+          <h3>یادگیری ماشین</h3>
+          <p>بررسی ظرفیت روش‌های هوشمند و مدل‌های داده‌محور برای مسائل پژوهشی منتخب.</p>
+        </article>
+
+        <article class="pouyab-area sr sr-delay-2">
+          <span class="pouyab-area-number">05</span>
+          <h3>سنجش از دور و GIS</h3>
+          <p>تحلیل مکانی و استخراج اطلاعات از داده‌های جغرافیایی و سنجش از دور.</p>
+        </article>
+
+        <article class="pouyab-area sr sr-delay-3">
+          <span class="pouyab-area-number">06</span>
+          <h3>پژوهش کاربردی</h3>
+          <p>تبدیل یافته‌های علمی به خروجی‌هایی که بتوانند در حل مسائل واقعی مورد استفاده قرار گیرند.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       04 — TEAM LEADER
+       ====================================================== -->
+  <section class="pouyab-section pouyab-leader" id="leader">
+    <div class="pouyab-shell pouyab-leader-grid">
+
+      <div class="pouyab-leader-copy sr-left">
+        <span class="pouyab-eyebrow">معرفی تیم</span>
+        <h2 class="pouyab-title">دکتر علی‌اصغر ذوالفقاری</h2>
+        <span class="pouyab-leader-role">استاد راهبر و ناظر علمی هسته</span>
+
+        <p>
+          دکتر علی‌اصغر ذوالفقاری، دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان است. وی دارای مدرک کارشناسی از دانشگاه گیلان، کارشناسی ارشد از دانشگاه صنعتی اصفهان و دکتری از دانشگاه تهران است.
+          حوزه‌های تخصصی و پژوهشی ایشان شامل بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی، تغییر اقلیم، سنجش از دور و GIS، مدل‌سازی محیطی و کاربرد یادگیری ماشین در علوم منابع طبیعی است. ایشان سابقه فعالیت‌های آموزشی، پژوهشی و اجرایی متعدد در دانشگاه سمنان داشته و در انتشار مقالات علمی و اجرای طرح‌های پژوهشی در حوزه منابع طبیعی و محیط‌زیست فعال است.
+        </p>
+
+        <div class="pouyab-quote">
+          هدف، ساختن یک مسیر پژوهشی است که از مسئله واقعی آغاز شود و به دانش،
+          راهکار و اثر قابل سنجش برسد.
+        </div>
+      </div>
+
+      <div class="pouyab-leader-photo sr-right">
+        <div class="pouyab-leader-card">
+          <div class="pouyab-leader-card-img">
+            <img src="assets/images/1.webp" alt="تصویر استاد راهبر">
+          </div>
+          <div class="pouyab-leader-card-body">
+            <h3 class="pouyab-leader-card-name">دکتر علی اصغر ذوالفقاری</h3>
+            <p class="pouyab-leader-card-title">استاد راهبر</p>
+            <div class="pouyab-leader-card-info">
+              <span class="pouyab-leader-card-tag">استاد دانشگاه</span>
+              <span class="pouyab-leader-card-tag">پژوهشگر</span>
+              <span class="pouyab-leader-card-tag">عضو هیئت علمی</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      </section>
+
+  <!-- ======================================================
+       05 — TEAM MEMBERS
+       ====================================================== -->
+  <section class="pouyab-section pouyab-members" id="team">
+    <div class="pouyab-shell">
+      <div class="pouyab-members-head sr">
+        <span class="pouyab-eyebrow">اعضای هسته</span>
+        <h2 class="pouyab-title">تیم پژوهشی پویاب</h2>
+        <p class="pouyab-subtitle">
+          ترکیبی از پژوهشگران و دانشجویان متخصص که در مسیر تحقیق و توسعه
+          در کنار یکدیگر فعالیت می‌کنند.
+        </p>
+      </div>
+
+      <div class="pouyab-member-grid">
+
+        <article class="pouyab-member sr sr-delay-1">
+            <div class="pouyab-member-photo">
+              <img src="assets/images/2.webp" alt="تصویر عضو اول">
+            </div>
+            <h3>خانم آزاده سلطانی</h3>
+            <p>دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
+          </article>
+
+        <article class="pouyab-member sr sr-delay-2">
+            <div class="pouyab-member-photo">
+              <img src="assets/images/3.webp" alt="تصویر عضو دوم">
+            </div>
+            <h3>خانم فاطمه زهرا حیدریه</h3>
+            <p>دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
+          </article>
+
+        <article class="pouyab-member sr sr-delay-3">
+            <div class="pouyab-member-photo">
+              <img src="assets/images/4.webp" alt="تصویر عضو سوم">
+            </div>
+            <h3>خانم سمانه عسگریان</h3>
+            <p>دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
+          </article>
+
+        <article class="pouyab-member sr sr-delay-4">
+            <div class="pouyab-member-photo">
+              <img src="assets/images/5.webp" alt="تصویر عضو چهارم">
+            </div>
+            <h3>آقای امیرمحمد ثابتیان</h3>
+            <p>فارغ التحصیل کارشناسی رشته مهندسی طبیعت</p>
+          </article>
+
+        <article class="pouyab-member sr sr-delay-5">
+            <div class="pouyab-member-photo">
+              <img src="assets/images/6.webp" alt="تصویر عضو پنجم">
+            </div>
+            <h3>خانم مهین خسروی</h3>
+            <p>فارغ التحصیل مقطع دکتری رشته مدیریت و کنترل بیابان</p>
+          </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       06 — HOW WE WORK
+       ====================================================== -->
+  <section class="pouyab-section pouyab-method" id="method">
+    <div class="pouyab-shell pouyab-method-grid">
+      <div class="pouyab-method-intro sr-right">
+        <span class="pouyab-eyebrow">رویکرد پژوهشی</span>
+        <h2 class="pouyab-title">از مسئله تا اثرگذاری</h2>
+        <p>
+          پویاب تلاش می‌کند فرآیند پژوهش را از مسئله واقعی آغاز کند و با استفاده
+          از داده، روش علمی و ابزارهای نوین به خروجی قابل تفسیر و قابل استفاده برسد.
+        </p>
+      </div>
+
+      <div class="pouyab-flow">
+        <article class="pouyab-flow-card sr sr-delay-1">
+          <span class="pouyab-flow-num">01</span>
+          <h3>تعریف مسئله</h3>
+          <p>شناخت مسئله و تبدیل آن به پرسش پژوهشی مشخص.</p>
+        </article>
+
+        <article class="pouyab-flow-card sr sr-delay-2">
+          <span class="pouyab-flow-num">02</span>
+          <h3>داده و مشاهده</h3>
+          <p>گردآوری، آماده‌سازی و ارزیابی داده‌های مورد نیاز.</p>
+        </article>
+
+        <article class="pouyab-flow-card sr sr-delay-3">
+          <span class="pouyab-flow-num">03</span>
+          <h3>تحلیل و مدل‌سازی</h3>
+          <p>به‌کارگیری روش‌های آماری، مکانی و داده‌محور متناسب با مسئله.</p>
+        </article>
+
+        <article class="pouyab-flow-card sr sr-delay-4">
+          <span class="pouyab-flow-num">04</span>
+          <h3>اعتبارسنجی</h3>
+          <p>بررسی کیفیت نتایج و مقایسه روش‌ها برای افزایش اطمینان.</p>
+        </article>
+
+        <article class="pouyab-flow-card sr sr-delay-5">
+          <span class="pouyab-flow-num">05</span>
+          <h3>تفسیر و کاربرد</h3>
+          <p>تبدیل نتایج به بینش و راهکار قابل استفاده.</p>
+        </article>
+
+        <article class="pouyab-flow-card sr sr-delay-6">
+          <span class="pouyab-flow-num">06</span>
+          <h3>اثرگذاری</h3>
+          <p>پیوند دادن خروجی پژوهش با نیازهای واقعی و تصمیم‌گیری.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       08 — PROJECTS INTRO
+       ====================================================== -->
+  <section class="pouyab-section pouyab-projects-intro" id="projects-intro">
+    <div class="pouyab-shell">
+      <div class="pouyab-projects-intro-center sr">
+        <span class="pouyab-eyebrow" style="justify-content:center;">پروژه‌های پژوهشی</span>
+        <h2 class="pouyab-title" style="text-align:center;">از مسئله تا راهکار</h2>
+        <p class="pouyab-subtitle" style="text-align:center;margin-left:auto;margin-right:auto;">
+          راهنمای دسترسی به جزئیات پروژه های تیم.
+        </p>
+
+        <div class="pouyab-projects-intro-steps">
+          <div class="pouyab-projects-intro-step sr sr-delay-1">
+            <div class="pouyab-projects-intro-step-dot"></div>
+            <div class="pouyab-projects-intro-step-body">
+              <span class="pouyab-projects-intro-step-label">مرحله ۱</span>
+              <strong>ورود به صفحه پروژه‌ها</strong>
+              <span>از طریق دکمه زیر وارد صفحه پروژه‌ها شوید.</span>
+            </div>
+          </div>
+          <div class="pouyab-projects-intro-step sr sr-delay-2">
+            <div class="pouyab-projects-intro-step-dot"></div>
+            <div class="pouyab-projects-intro-step-body">
+              <span class="pouyab-projects-intro-step-label">مرحله ۲</span>
+              <strong>انتخاب پروژه</strong>
+              <span>پروژه مورد نظر خود را از جدول خلاصه پروژه‌ها انتخاب کنید.</span>
+            </div>
+          </div>
+          <div class="pouyab-projects-intro-step sr sr-delay-3">
+            <div class="pouyab-projects-intro-step-dot"></div>
+            <div class="pouyab-projects-intro-step-body">
+              <span class="pouyab-projects-intro-step-label">مرحله ۳</span>
+              <strong>مشاهده جزئیات</strong>
+              <span>با کلیک روی «جزئیات بیشتر» به صفحه اختصاصی پروژه هدایت می‌شوید.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pouyab-projects-intro-btn-wrap sr sr-delay-4">
+          <a class="pouyab-projects-intro-btn" href="pouyab_projects.html">
+            مشاهده پروژه‌ها
+            <span class="pouyab-projects-intro-btn-arrow">←</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       09 — COLLABORATIONS
+       ====================================================== -->
+  <section class="pouyab-section pouyab-collab" id="collabs">
+    <div class="pouyab-shell">
+      <span class="pouyab-eyebrow" style="color:#b8d4a0;">همکاری‌ها</span>
+      <h2 class="pouyab-title">شبکه همکاری پویاب</h2>
+      <p class="pouyab-subtitle">
+        شبکه همکاری پویاب در طول توسعه هسته بروزرسانی خواهد شد.
+      </p>
+
+      <div class="pouyab-collab-grid">
+        <div class="pouyab-partner sr sr-delay-1">
+          <img src="assets/images/semnan-natural-resources.webp" alt="اداره کل منابع طبیعی و آبخیزداری استان سمنان" class="pouyab-partner-logo">
+          <strong>اداره کل منابع طبیعی و آبخیزداری استان سمنان</strong>
+        </div>
+
+        <div class="pouyab-partner sr sr-delay-2">
+          <img src="assets/images/bonyadmeli.svg" alt="بنیاد ملی نخبگان" class="pouyab-partner-logo">
+          <strong>بنیاد ملی نخبگان</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       11 — FUTURE
+       ====================================================== -->
+  <section class="pouyab-section pouyab-future" id="future">
+    <div class="pouyab-shell">
+      <span class="pouyab-eyebrow">مسیر پیش‌رو</span>
+      <h2 class="pouyab-title">چشم‌انداز پویاب</h2>
+      <p class="pouyab-subtitle">
+        هویت پویاب با یک پروژه آغاز نمی‌شود و با یک پروژه هم پایان نمی‌یابد.
+      </p>
+
+      <div class="pouyab-future-grid">
+        <article class="pouyab-future-card sr sr-delay-1">
+          <div class="num">01</div>
+          <h3>توسعه پروژه‌ها</h3>
+          <p>افزایش دامنه پروژه‌های مسئله‌محور در حوزه منابع طبیعی و محیط‌زیست.</p>
+        </article>
+
+        <article class="pouyab-future-card sr sr-delay-2">
+          <div class="num">02</div>
+          <h3>توسعه تیم</h3>
+          <p>افزایش همکاری میان‌رشته‌ای و پیوند دانش تخصصی اعضای جدید با هسته.</p>
+        </article>
+
+        <article class="pouyab-future-card sr sr-delay-3">
+          <div class="num">03</div>
+          <h3>اثرگذاری پژوهش</h3>
+          <p>حرکت از تولید نتیجه علمی به سمت خروجی‌های کاربردی و قابل استفاده.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       12 — GALLERY
+       ====================================================== -->
+  <section class="pouyab-section pouyab-gallery-section" id="gallery">
+    <div class="pouyab-shell">
+      <span class="pouyab-eyebrow">گالری</span>
+      <h2 class="pouyab-title">پویاب در قاب تصویر</h2>
+
+      <div class="pouyab-gallery">
+        <div class="pouyab-gallery-item sr-scale">تصویر اصلی فعالیت هسته<br><small>جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-1">جلسه تخصصی<br><small>جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-2">فعالیت میدانی<br><small>جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-3">کارگاه / رویداد<br><small>جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-4">پروژه پژوهشی<br><small>جای عکس</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       13 — END
+       ====================================================== -->
+  <section class="pouyab-end" id="contact">
+    <div class="pouyab-end-mark">پویاب</div>
+    <p>
+      هسته پژوهشی پویاب · پژوهش، نوآوری و حرکت از مسئله به راهکار
+    </p>
+  </section>
+
+</div>
+
+<footer class="pouyab-footer">
+  <div class="pouyab-footer-top">
+    <div class="pouyab-footer-brand">
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
+      <p>
+        هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
+        به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
+      </p>
+    </div>
+
+    <div>
+      <h4>دسترسی سریع</h4>
+      <div class="pouyab-footer-links">
+        <a href="#home">صفحه اصلی</a>
+        <a href="#about">درباره پویاب</a>
+        <a href="#team">اعضای هسته</a>
+        <a href="pouyab_projects.html">پروژه‌ها</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>تماس با ما</h4>
+      <div class="pouyab-footer-contact">
+        <p>ایمیل: pouyab.team@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var header = document.querySelector('.pouyab-header');
+    var burger = document.getElementById('pouyabBurger');
+    function onScroll(){
+      if(header){ header.classList.toggle('is-scrolled', window.scrollY > 10); }
+    }
+    window.addEventListener('scroll', onScroll, { passive:true });
+    onScroll();
+    if(burger){
+      burger.addEventListener('click', function(){
+        var open = header.classList.toggle('open');
+        burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+
+    // Scroll Reveal — IntersectionObserver
+    var srElements = document.querySelectorAll('.sr, .sr-left, .sr-right, .sr-scale');
+    if('IntersectionObserver' in window && srElements.length){
+      var observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold:0.12, rootMargin:'0px 0px -40px 0px' });
+      srElements.forEach(function(el){ observer.observe(el); });
+    } else {
+      // Fallback: show everything
+      srElements.forEach(function(el){ el.classList.add('is-visible'); });
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var target = document.querySelector(this.getAttribute('href'));
+        if(target){
+          e.preventDefault();
+          target.scrollIntoView({ behavior:'smooth', block:'start' });
+          // Close mobile menu if open
+          if(header && header.classList.contains('open')){
+            header.classList.remove('open');
+            if(burger) burger.setAttribute('aria-expanded','false');
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

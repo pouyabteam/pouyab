@@ -1,0 +1,1747 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="صفحه اختصاصی پروژه روش‌های نوین در مطالعات آبخیزداری — حوضه آبخیز فولادمحله شهرستان مهدیشهر">
+<title>پروژه فولادمحله | پویاب</title>
+
+<style>
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================================
+   POUYAB — PROJECT DETAIL PAGE (REDESIGNED)
+   ========================================================= */
+:root{
+  --pouyab-green:#1a3d24;
+  --pouyab-green-2:#214c2b;
+  --pouyab-green-3:#5f8d3d;
+  --pouyab-gold:#d4a520;
+  --pouyab-gold-soft:#f3d36c;
+  --pouyab-cream:#f7f4e8;
+  --pouyab-paper:#fbfaf4;
+  --pouyab-ink:#1a2b20;
+  --pouyab-muted:#5a6560;
+  --pouyab-line:#e2e7dc;
+  --pouyab-white:#fff;
+}
+
+*{ box-sizing:border-box; }
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:var(--pouyab-paper);
+  color:var(--pouyab-ink);
+  font-family:"IRANYekan",sans-serif;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---------- Scroll Reveal ---------- */
+.sr{
+  opacity:0;
+  transform:translateY(40px);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+.sr.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
+.sr-delay-1{ transition-delay:.12s; }
+.sr-delay-2{ transition-delay:.24s; }
+.sr-delay-3{ transition-delay:.36s; }
+.sr-delay-4{ transition-delay:.48s; }
+
+/* ---------- Hero ---------- */
+.pr-hero{
+  position:relative;
+  padding:100px 0 88px;
+  overflow:hidden;
+  color:#fff;
+  background:linear-gradient(160deg,#0d1f13 0%,#183c22 35%,#1a4428 65%,#0d1f13 100%);
+}
+
+.pr-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 80% 20%,rgba(95,141,61,.15),transparent),
+    radial-gradient(ellipse 60% 50% at 20% 80%,rgba(212,165,32,.06),transparent);
+  z-index:1;
+}
+
+.pr-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.04;
+  background-image:
+    linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(ellipse 80% 70% at 70% 30%,rgba(0,0,0,.6),transparent);
+  z-index:1;
+}
+
+.pr-hero-topo{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  opacity:.06;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cpath d='M0,400 Q200,350 400,400 T800,400' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,360 Q200,300 400,360 T800,360' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,320 Q200,250 400,320 T800,320' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,280 Q200,200 400,280 T800,280' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,440 Q200,400 400,440 T800,440' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,480 Q200,450 400,480 T800,480' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,520 Q200,500 400,520 T800,520' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,240 Q200,160 400,240 T800,240' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,200 Q200,120 400,200 T800,200' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,160 Q200,90 400,160 T800,160' fill='none' stroke='%23ffffff' stroke-width='.4'/%3E%3Cpath d='M0,600 Q200,580 400,600 T800,600' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:800px 800px;
+}
+
+.pr-shell{
+  position:relative;
+  z-index:2;
+  width:min(1120px,92%);
+  margin:0 auto;
+}
+
+.pr-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-gold-soft);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+  margin-bottom:12px;
+}
+
+.pr-eyebrow:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pr-hero h1{
+  margin:0;
+  font-size:clamp(30px,5vw,52px);
+  line-height:1.35;
+  font-weight:900;
+  letter-spacing:-.5px;
+}
+
+.pr-hero h2{
+  margin:16px 0 0;
+  color:var(--pouyab-gold-soft);
+  font-size:clamp(16px,2.2vw,21px);
+  font-weight:700;
+}
+
+.pr-hero p{
+  max-width:760px;
+  margin:18px 0 0;
+  color:rgba(255,255,255,.65);
+  font-size:15px;
+  line-height:1.95;
+}
+
+.pr-hero-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:26px;
+}
+
+.pr-hero-tags span{
+  padding:7px 16px;
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  font-size:12px;
+  color:rgba(255,255,255,.65);
+  transition:all .3s ease;
+}
+
+.pr-hero-tags span:hover{
+  background:rgba(255,255,255,.12);
+  color:#fff;
+}
+
+/* ---------- Sections ---------- */
+.pd-section{
+  padding:100px 0;
+  position:relative;
+}
+
+.pd-section + .pd-section{
+  border-top:1px solid rgba(26,61,36,.06);
+}
+
+.pd-section.pd-muted{
+  background:var(--pouyab-cream);
+}
+
+.pd-title span{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-green-3);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+}
+
+.pd-title span:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pd-title h2{
+  margin:8px 0 0;
+  color:var(--pouyab-green);
+  font-size:clamp(24px,3.6vw,38px);
+  font-weight:900;
+  line-height:1.35;
+}
+
+.pd-title > p{
+  margin:14px 0 0;
+  max-width:720px;
+  color:var(--pouyab-muted);
+  font-size:15px;
+  line-height:1.9;
+}
+
+.pd-body{
+  margin-top:36px;
+}
+
+.pd-lead{
+  color:var(--pouyab-muted);
+  font-size:15px;
+}
+
+.pd-lead p{
+  margin:0 0 16px;
+  line-height:1.95;
+}
+
+/* ---------- Specs ---------- */
+.pd-kv{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+  margin-top:34px;
+}
+
+.pd-kv-item{
+  display:flex;
+  align-items:flex-start;
+  gap:14px;
+  padding:20px 22px;
+  border:1px solid var(--pouyab-line);
+  border-radius:20px;
+  background:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-kv-item:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(20,50,30,.06);
+}
+
+.pd-kv-item .pd-kv-k{
+  flex:0 0 150px;
+  color:var(--pouyab-green-3);
+  font-size:12px;
+  font-weight:800;
+}
+
+.pd-kv-item .pd-kv-v{
+  color:var(--pouyab-ink);
+  font-size:13px;
+  font-weight:700;
+}
+
+/* ---------- Stats band ---------- */
+.pd-stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+  margin-top:36px;
+}
+
+.pd-stat{
+  padding:28px 20px;
+  border-radius:22px;
+  text-align:center;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-stat:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.15);
+}
+
+.pd-stat b{
+  display:block;
+  font-size:clamp(24px,3vw,32px);
+  font-weight:900;
+  color:var(--pouyab-gold-soft);
+}
+
+.pd-stat span{
+  display:inline-block;
+  margin-top:8px;
+  font-size:12px;
+  color:rgba(255,255,255,.72);
+}
+
+/* ---------- Cards grid ---------- */
+.pd-cards{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.pd-card{
+  padding:26px;
+  border:1px solid var(--pouyab-line);
+  border-radius:22px;
+  background:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+}
+
+.pd-card .pd-card-num{
+  color:var(--pouyab-gold);
+  font-weight:900;
+  font-size:12px;
+  letter-spacing:.5px;
+}
+
+.pd-card h3{
+  margin:14px 0 8px;
+  color:var(--pouyab-green);
+  font-size:17px;
+  font-weight:800;
+}
+
+.pd-card p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- Objectives ---------- */
+.pd-obj{
+  counter-reset:obj;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-top:34px;
+}
+
+.pd-obj li{
+  counter-increment:obj;
+  list-style:none;
+  position:relative;
+  padding:24px 28px 24px 26px;
+  border-radius:22px;
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-obj li:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+}
+
+.pd-obj li:before{
+  content:counter(obj);
+  position:absolute;
+  top:20px;
+  right:20px;
+  width:30px;
+  height:30px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:12px;
+  font-weight:900;
+}
+
+.pd-obj li p{
+  margin:0;
+  padding-right:36px;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- Technology ---------- */
+.pd-tech{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:34px;
+}
+
+.pd-tech-item{
+  padding:24px;
+  border-radius:20px;
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-tech-item:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+}
+
+.pd-tech-item h3{
+  margin:0 0 8px;
+  color:var(--pouyab-green);
+  font-size:15px;
+  font-weight:800;
+}
+
+.pd-tech-item p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:12px;
+  line-height:1.85;
+}
+
+/* ---------- Table ---------- */
+.pd-table-wrap{
+  margin-top:34px;
+  border:1px solid var(--pouyab-line);
+  border-radius:22px;
+  overflow:hidden;
+  background:#fff;
+  box-shadow:0 12px 34px rgba(20,50,30,.05);
+}
+
+.pd-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:13px;
+}
+
+.pd-table th,
+.pd-table td{
+  padding:16px 18px;
+  text-align:right;
+  border-bottom:1px solid var(--pouyab-line);
+}
+
+.pd-table thead th{
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+}
+
+.pd-table tbody tr:last-child td{
+  border-bottom:none;
+}
+
+.pd-table tbody td{
+  color:var(--pouyab-muted);
+}
+
+.pd-table tbody td b{
+  color:var(--pouyab-ink);
+  font-weight:700;
+}
+
+/* ---------- Timeline / activities ---------- */
+.pd-act{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:34px;
+}
+
+.pd-act-item{
+  padding:26px;
+  border-radius:22px;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-act-item:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.2);
+}
+
+.pd-act-item .num{
+  color:var(--pouyab-gold-soft);
+  font-weight:900;
+  font-size:12px;
+  letter-spacing:.5px;
+}
+
+.pd-act-item h3{
+  margin:14px 0 8px;
+  font-size:17px;
+  font-weight:800;
+}
+
+.pd-act-item p{
+  margin:0;
+  color:rgba(255,255,255,.72);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- Back link ---------- */
+.pd-back{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:40px;
+  padding:14px 28px;
+  border-radius:999px;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:14px;
+  font-weight:800;
+  text-decoration:none;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-back:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 30px rgba(20,50,30,.25);
+}
+
+.pd-back .pd-more-arrow{
+  font-size:15px;
+  transition:transform .25s ease;
+}
+
+.pd-back:hover .pd-more-arrow{
+  transform:translateX(-4px);
+}
+
+/* ---------- Gallery: maps ---------- */
+.pd-galleries{
+  margin-top:38px;
+}
+
+.pd-map-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.pd-fig{
+  margin:0;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid var(--pouyab-line);
+  background:#fff;
+  cursor:zoom-in;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-fig:hover{
+  transform:translateY(-4px);
+  box-shadow:0 16px 38px rgba(20,50,30,.10);
+  border-color:rgba(212,165,32,.3);
+}
+
+.pd-fig-img{
+  position:relative;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  background:#eef1ea;
+}
+
+.pd-fig-img img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .4s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-fig:hover .pd-fig-img img{
+  transform:scale(1.06);
+}
+
+.pd-fig-img .pd-fig-zoom{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(26,61,36,.3);
+  color:#fff;
+  font-size:26px;
+  font-weight:900;
+  opacity:0;
+  transition:opacity .3s ease;
+}
+
+.pd-fig:hover .pd-fig-zoom{
+  opacity:1;
+}
+
+.pd-fig figcaption{
+  padding:12px 16px;
+  font-size:12px;
+  color:var(--pouyab-green);
+}
+
+/* ---------- Lightbox ---------- */
+.pd-lightbox{
+  position:fixed;
+  z-index:1000;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:30px;
+  background:rgba(13,31,20,.92);
+  backdrop-filter:blur(8px);
+}
+
+.pd-lightbox.open{
+  display:flex;
+}
+
+.pd-lb-close{
+  position:absolute;
+  top:20px;
+  left:24px;
+  width:46px;
+  height:46px;
+  border:none;
+  border-radius:50%;
+  background:rgba(255,255,255,.1);
+  color:#fff;
+  font-size:24px;
+  line-height:1;
+  cursor:pointer;
+  transition:background .25s ease;
+}
+
+.pd-lb-close:hover{
+  background:rgba(255,255,255,.22);
+}
+
+.pd-lb-fig{
+  max-width:min(1100px,94%);
+  margin:0;
+  text-align:center;
+}
+
+.pd-lb-fig img{
+  max-width:100%;
+  max-height:78vh;
+  border-radius:14px;
+  background:#fff;
+}
+
+.pd-lb-fig figcaption{
+  margin:16px 0 0;
+  color:var(--pouyab-gold-soft);
+  font-size:14px;
+}
+
+/* ---------- Gallery: activities timeline ---------- */
+.pd-timeline{
+  position:relative;
+  margin-top:38px;
+}
+
+.pd-timeline:before{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:18px;
+  width:3px;
+  border-radius:999px;
+  background:linear-gradient(to bottom,var(--pouyab-green),var(--pouyab-line));
+}
+
+.pd-tl-item{
+  position:relative;
+  padding-right:54px;
+  padding-bottom:32px;
+}
+
+.pd-tl-item:last-child{
+  padding-bottom:0;
+}
+
+.pd-tl-item:before{
+  content:"";
+  position:absolute;
+  right:12px;
+  top:8px;
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  background:var(--pouyab-green-2);
+  border:3px solid var(--pouyab-white);
+  box-shadow:0 0 0 2px var(--pouyab-green-2);
+}
+
+.pd-tl-item:nth-child(even) .pd-tl-body{
+  background:var(--pouyab-cream);
+}
+
+.pd-tl-body{
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  border-radius:22px;
+  padding:22px;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-tl-body:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(20,50,30,.06);
+}
+
+.pd-tl-body h3{
+  margin:0 0 6px;
+  color:var(--pouyab-green);
+  font-size:17px;
+  font-weight:800;
+}
+
+.pd-tl-body p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+.pd-tl-img{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  margin-bottom:16px;
+  aspect-ratio:16/9;
+  border-radius:16px;
+  border:1px dashed var(--pouyab-line);
+  background:
+    repeating-linear-gradient(135deg,#f7f4e8 0 14px,#f2f1e6 14px 28px);
+  color:#a0aa9f;
+  font-size:12px;
+  overflow:hidden;
+}
+
+.pd-tl-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* ---------- Responsive ---------- */
+@media(max-width:900px){
+  .pd-kv{
+    grid-template-columns:1fr;
+  }
+
+  .pd-stats{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pd-cards,
+  .pd-obj{
+    grid-template-columns:1fr;
+  }
+
+  .pd-tech{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pd-act{
+    grid-template-columns:1fr;
+  }
+
+  .pd-map-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+
+@media(max-width:600px){
+  .pr-hero{
+    padding:68px 0;
+  }
+
+  .pd-section{
+    padding:64px 0;
+  }
+
+  .pd-stats{
+    grid-template-columns:1fr;
+  }
+
+  .pd-tech{
+    grid-template-columns:1fr;
+  }
+
+  .pd-kv-item{
+    flex-direction:column;
+    gap:8px;
+  }
+
+  .pd-kv-item .pd-kv-k{
+    flex:none;
+  }
+
+  .pd-map-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+  }
+
+  .pd-fig figcaption{
+    padding:8px 10px;
+    font-size:11px;
+  }
+}
+
+@media(max-width:420px){
+  .pd-map-grid{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+<link rel="stylesheet" href="assets/css/pouyab.css">
+</head>
+
+<body>
+
+<header class="pouyab-header" id="top">
+  <div class="pouyab-header-inner">
+    <a href="index.html" class="pouyab-brand">
+      <img src="assets/images/logo3.svg" alt="پویاب">
+    </a>
+
+    <nav class="pouyab-nav" id="pouyabNav">
+      <a href="index.html">صفحه اصلی</a>
+      <a href="index.html#about">درباره پویاب</a>
+      <a href="index.html#team">اعضای هسته</a>
+      <a href="pouyab_projects.html#projects" class="is-current">پروژه‌ها</a>
+    </nav>
+
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="pr-hero">
+    <div class="pr-hero-topo"></div>
+    <div class="pr-shell">
+      <span class="pr-eyebrow">پروژه ۰۱ — جزئیات</span>
+      <h1>مطالعه راهبردهای اساسی کنترل سیل در آبخیزداری</h1>
+      <h2>حوضه آبخیز فولادمحله، شهرستان مهدیشهر</h2>
+      <p>
+        «روش‌های نوین در مطالعات آبخیزداری» به‌عنوان نخستین پروژه آغازین هسته پویاب،
+        بر پایه یک چارچوب هوشمند، داده‌محور و مکان‌مبنا اجرا شده است؛ چارچوبی که
+        مطالعات سنتی آبخیزداری را به یک سامانه تحلیل، پیش‌بینی و تصمیم‌سازی ارتقا می‌دهد.
+      </p>
+      <div class="pr-hero-tags">
+        <span>آبخیزداری</span>
+        <span>کنترل سیل</span>
+        <span>سنجش از دور</span>
+        <span>یادگیری ماشین</span>
+        <span>مدیریت ریسک</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>مشخصات کلی</span>
+        <h2>شناسنامه پروژه</h2>
+      </div>
+
+      <div class="pd-kv sr sr-delay-1">
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">عنوان پروژه</span>
+          <span class="pd-kv-v">مطالعه راهبردهای اساسی کنترل سیل در آبخیزداری</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">حوضه مورد مطالعه</span>
+          <span class="pd-kv-v">حوضه آبخیز فولادمحله — شهرستان مهدیشهر، استان سمنان</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">مساحت حوضه</span>
+          <span class="pd-kv-v">۱۵٬۵۳۵٫۸۷ هکتار</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">تقسیم‌بندی</span>
+          <span class="pd-kv-v">۲۲ واحد هیدرولوژیک (F01 تا F21 و F-int)</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">دوره ارتفاعی</span>
+          <span class="pd-kv-v">۱۷۸۰ تا ۲۸۰۰ متر (ارتفاع متوسط وزنی ~۱۹۸۰ متر)</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">اقلیم غالب</span>
+          <span class="pd-kv-v">خشک سرد</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">مجری / سرپرست</span>
+          <span class="pd-kv-v">دکتر علی‌اصغر ذوالفقاری</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">اعضای هسته</span>
+          <span class="pd-kv-v">امیرمحمد ثابتیان، آزاده سلطانی، سمانه عسگریان، فاطمه‌زهرا حیدریه، مهین خسروی</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">نهادهای پشتیبان</span>
+          <span class="pd-kv-v">بنیاد ملی نخبگان، اداره کل منابع طبیعی و آبخیزداری استان سمنان، دانشگاه سمنان</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k">وضعیت</span>
+          <span class="pd-kv-v">نمونه پروژه آغازین هسته پویاب</span>
+        </div>
+      </div>
+
+      <div class="pd-stats">
+        <div class="pd-stat">
+          <b>۱۵٬۵۳۶</b>
+          <span>هکتار مساحت حوضه</span>
+        </div>
+        <div class="pd-stat">
+          <b>۲۲+</b>
+          <span>زیرحوضه / واحد هیدرولوژیک</span>
+        </div>
+        <div class="pd-stat">
+          <b>۲۱۹٫۳</b>
+          <span>میلی‌متر بارش سالانه حوضه</span>
+        </div>
+        <div class="pd-stat">
+          <b>۶</b>
+          <span>کلاس فرسایشی (RUSLE)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>چکیده پروژه</span>
+        <h2>یک چارچوب هوشمند برای مدیریت حوضه‌های آبخیز</h2>
+      </div>
+
+      <div class="pd-lead pd-body sr sr-delay-1">
+        <p>
+          این پروژه با هدف توسعه یک چارچوب هوشمند، داده‌محور و مبتنی بر هوش مصنوعی برای
+          تحلیل و مدیریت حوضه‌های آبخیز طراحی و اجراء شده است. در این پژوهش، با تلفیق
+          فناوری‌های سنجش از دور (Remote Sensing)، سامانه اطلاعات جغرافیایی (GIS)،
+          کلان‌داده‌های اقلیمی (Climate Big Data)، مدل‌سازی رقومی زمین (Digital Terrain
+          Modeling) و الگوریتم‌های یادگیری ماشین (Machine Learning)، بستری یکپارچه برای
+          تحلیل رفتار هیدرولوژیکی و ژئومورفولوژیکی حوضه ایجاد گردید.
+        </p>
+        <p>
+          وجه تمایز این پروژه نسبت به مطالعات متداول، تغییر رویکرد از تحلیل‌های کلاسیک
+          به تحلیل‌های هوشمند مبتنی بر داده است؛ به‌گونه‌ای که تصمیم‌گیری‌های مدیریتی
+          نه بر اساس روابط تجربی محدود، بلکه بر پایه پردازش هم‌زمان داده‌های چندمنبعی،
+          مدل‌های پیش‌بینی و تحلیل‌های پیشرفته مکانی انجام شده است.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>بیان مسئله و ضرورت طرح</span>
+        <h2>چرا این حوضه نیازمند مطالعه است؟</h2>
+        <p>
+          وقوع بارش‌های شدید و کوتاه‌مدت، آغازگر فرآیند تولید رواناب در حوضه است. کاهش
+          پوشش گیاهی و افت ظرفیت نفوذ خاک، موجب افزایش حجم رواناب سطحی و انتقال سریع آن
+          به آبراهه‌ها می‌شود. جریان سیلاب با حمل مقادیر زیادی رسوب، خسارات قابل توجهی به
+          زیرساخت‌ها، اراضی کشاورزی و سکونتگاه‌ها وارد می‌کند؛ همچنین فرسایش شدید دامنه‌ها
+          و بستر رودخانه، ظرفیت انتقال جریان را کاهش داده و زمینه را برای تشدید سیلاب‌های
+          بعدی فراهم می‌کند.
+        </p>
+      </div>
+
+      <div class="pd-cards pd-body">
+        <article class="pd-card">
+          <span class="pd-card-num">چالش ۰۱</span>
+          <h3>شتاب هیدروگراف و کاهش زمان تمرکز</h3>
+          <p>شیب متوسط بالا در ارتفاعات حوضه باعث کاهش زمان تمرکز رواناب و وقوع سیلاب‌های سریع می‌شود.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">چالش ۰۲</span>
+          <h3>حساسیت سنگی و فرسایش شدید سازندها</h3>
+          <p>حضور سازندهای فرسایش‌پذیر منجر به تولید حجم بالای رسوب و کاهش ظرفیت انتقال کانال‌ها و مخازن می‌شود.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">چالش ۰۳</span>
+          <h3>تخریب پوشش گیاهی و افزایش ضریب رواناب</h3>
+          <p>فشار چرا و تغییر کاربری اراضی موجب کاهش زبری مانینگ، کاهش نفوذپذیری خاک و افزایش چشمگیر ضریب رواناب می‌گردد.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">چالش ۰۴</span>
+          <h3>تهدید زیرساخت‌ها و توجیه اقتصادی پروژه</h3>
+          <p>تهدید معیشت ساکنان، اراضی زراعی و محورهای کلیدی منطقه و عدم کارایی طرح‌های تک‌بعدی گذشته، نیاز مبرم به رویکرد تلفیقی و بهینه‌سازی هزینه–فایده را آشکار می‌سازد.</p>
+        </article>
+      </div>
+
+      <p class="pd-lead" style="margin-top:26px">
+        هدف طرح، ارائه یک سند جامع و تلفیقی برای اولویت‌بندی زون‌های بحرانی و کاهش ریسک سیلاب
+        با رویکرد پایدار و مشارکت جوامع محلی است.
+      </p>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>اهمیت سیلاب</span>
+        <h2>جایگاه سیل در مخاطرات منطقه</h2>
+        <p>
+          بر اساس سند برنامه کاهش خطر حوادث و سوانح استان سمنان (بند «پ» ماده ۴ قانون مدیریت
+          بحران کشور) و با به‌کارگیری طبقه‌بندی چهارگانه فِما و معیارهای تاریخچه، آسیب‌پذیری،
+          حداکثر تهدید و احتمال وقوع مخاطره، سیل چهارمین مخاطره اولویت‌دار استان سمنان و
+          سومین مخاطره اولویت‌دار شهرستان مهدیشهر شناخته شده است.
+        </p>
+      </div>
+
+      <div class="pd-stats">
+        <div class="pd-stat">
+          <b>۴ام</b>
+          <span>مخاطره اولویت‌دار استان سمنان</span>
+        </div>
+        <div class="pd-stat">
+          <b>۳ام</b>
+          <span>مخاطره اولویت‌دار شهرستان مهدیشهر</span>
+        </div>
+        <div class="pd-stat">
+          <b>۸+</b>
+          <span>مخاطره طبیعی اولویت‌دار استان</span>
+        </div>
+        <div class="pd-stat">
+          <b>۴۰٪</b>
+          <span>مبنای ارزیابی: چهارمعیار فِما</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>اهداف مطالعه</span>
+        <h2>اهداف اصلی پروژه</h2>
+      </div>
+
+      <ul class="pd-obj sr sr-delay-1">
+        <li><p><b>چارچوب تلفیقی و داده‌محور:</b> تدوین چارچوبی تلفیقی، داده‌محور و مکان‌مبنا برای تحلیل و برنامه‌ریزی مدیریت حوضه، با هدف کاهش ریسک سیلاب، کنترل فرسایش و رسوب و ارتقای پایداری اکولوژیکی و بهره‌برداری سازگار با توان سرزمین.</p></li>
+        <li><p><b>تلفیق لایه‌های اطلاعاتی:</b> تلفیق نظام‌مند لایه‌های فیزیوگرافی، اقلیم، زمین‌شناسی، هیدرولوژی، خاک، پوشش گیاهی، فرسایش–رسوب و مؤلفه‌های اجتماعی–اقتصادی برای تبدیل داده‌های پراکنده به چارچوبی واحد برای تصمیم‌سازی.</p></li>
+        <li><p><b>استخراج واحدهای همگن برنامه‌ریزی:</b> تفکیک حوضه به واحدهای نسبتاً مشابه از نظر ویژگی‌های محیطی و انسانی به‌عنوان مبنای مدیریت مکان‌محور، اولویت‌بندی مداخلات و افزایش اثربخشی اقدامات.</p></li>
+        <li><p><b>تهیه نقشه توان اکولوژیکی:</b> شناسایی ظرفیت‌ها و محدودیت‌های هر بخش از حوضه برای حفاظت، احیا، بهره‌برداری اصولی و استقرار مداخلات متناسب با ویژگی‌های سرزمین.</p></li>
+        <li><p><b>تحلیل ساختار اجتماعی–اقتصادی:</b> تمرکز بر ویژگی‌های معیشتی، فشار بهره‌برداری، ظرفیت مشارکت محلی و سهم عوامل انسانی در تشدید یا کاهش ناپایداری‌های محیطی.</p></li>
+        <li><p><b>تدوین بسته اقدامات اجرایی:</b> پیشنهاد طرح‌ها و پروژه‌های حفاظتی، بیولوژیکی، مدیریتی و اجرایی بر پایه شرایط اختصاصی هر واحد مدیریتی.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>فناوری‌ها و تکنیک‌ها</span>
+        <h2>ابزارها و داده‌های پیشرفته پروژه</h2>
+      </div>
+
+      <div class="pd-tech pd-body sr sr-delay-1">
+        <div class="pd-tech-item">
+          <h3>کلان‌داده‌ اقلیمی</h3>
+          <p>ERA5-Land (بازتحلیل اقلیمی)، CHIRPS (بارش ترکیبی سنجش از دور) و IMERG/GPM (تحلیل بارش ماهواره‌ای) برای شبیه‌سازی بارش با توان تفکیک فضایی بالا.</p>
+        </div>
+        <div class="pd-tech-item">
+          <h3>تلفیق داده‌های چندمنبعی</h3>
+          <p>هم‌جهت‌سازی داده‌های ماهواره‌ای، اقلیمی، میدانی و مکانی برای کاهش عدم‌قطعیت و پوشش شکاف داده‌ها.</p>
+        </div>
+        <div class="pd-tech-item">
+          <h3>یادگیری ماشین</h3>
+          <p>مدل‌های طبقه‌بندی (Classification) برای زون‌بندی و ریسک و مدل‌های رگرسیون (Regression) برای پیش‌بینی فرسایش و رواناب.</p>
+        </div>
+        <div class="pd-tech-item">
+          <h3>تحلیل‌های ژئوفضایی</h3>
+          <p>استفاده از GIS، R، Python، QGIS، Google Earth و Google Earth Engine برای تحلیل‌های مکانی پیشرفته.</p>
+        </div>
+        <div class="pd-tech-item">
+          <h3>مدل‌سازی رقومی زمین</h3>
+          <p>به‌کارگیری مدل رقومی ارتفاعی (DEM) برای استخراج ویژگی‌های ژئومورفومتری و تحلیل سلسله‌مراتب آبراهه‌ها.</p>
+        </div>
+        <div class="pd-tech-item">
+          <h3>پشتیبان تصمیم فضایی</h3>
+          <p>پایگاه تجزیه‌وتحلیل یکپارچه برای تصمیم‌سازی مدیریتی مبتنی بر داده و تحلیل‌های سناریومحور.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>ویژگی‌های حوضه</span>
+        <h2>وضعیت منابع و محیط حوضه فولادمحله</h2>
+      </div>
+
+      <div class="pd-cards pd-body sr sr-delay-1">
+        <article class="pd-card">
+          <span class="pd-card-num">منابع آب زیرزمینی</span>
+          <h3>قنات‌ها، چشمه‌ها و چاه‌ها</h3>
+          <p>در محدوده حوضه به‌ترتیب ۸ رشته قنات، ۲۸ دهنه چشمه و ۱۴۷ حلقه چاه شناسایی شده است که نقش کلیدی در معیشت و کشاورزی منطقه دارند.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">فیزیوگرافی</span>
+          <h3>ناهمواری و تقسیمات حوضه</h3>
+          <p>حوضه به ۲۲ واحد هیدرولوژیک تفکیک شده است؛ دامنه ارتفاعی از حدود ۱۷۸۰ متر (پایاب) تا ۲۸۰۰ متر (ارتفاعات) و شیب متوسط بالا در سرشاخه‌ها، زمان تمرکز را کاهش می‌دهد.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">اقلیم و بارش</span>
+          <h3>خشک سرد؛ بارش متمرکز</h3>
+          <p>الگوی اقلیم غالب حوضه خشک سرد است. میانگین بارش سالانه ۲۱۹٫۳ میلی‌متر برآورد می‌شود و در شرایط اقلیمی حاضر، بارش‌ها عمدتاً به‌صورت رواناب سریع ظاهر می‌شوند و حساسیت حوضه به سیلاب افزایش می‌یابد.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">زمین‌شناسی و ژئومورفولوژی</span>
+          <h3>۱۲ واحد، ۸ رخساره چینه‌ای</h3>
+          <p>حوضه در زون زمین‌شناسی ایران مرکزی قرار دارد؛ ۴ واحد مزوزوئیک (آهک، ماسه‌سنگ و شیل) و ۴ واحد سنوزوئیک (توف داسیتی، کنگلومرا و نهشته‌های کواترنری با راستای تقریبی شمال‌غرب–جنوب‌شرق).</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">خاک‌شناسی</span>
+          <h3>گروه‌های هیدرولوژیکی خاک</h3>
+          <p>تیپ‌های اراضی شامل کوهستان (~۵۹٪)، تپه‌ماهوری (~۱۷٪)، دشت آبرفتی قدیمی (~۱۳٪) و دشت‌های سیلابی فعال (~۸٪) است و خاک‌ها در گروه‌های هیدرولوژیکی A، B و D طبقه‌بندی شده‌اند.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num">پوشش گیاهی</span>
+          <h3>۵ تیپ گیاهی مرتعی</h3>
+          <p>مراتع حوضه در ۵ تیپ گیاهی (مجموعاً حدود ۱۲٬۳۳۳ هکتار) با وضعیت خوب تا ضعیف طبقه‌بندی شده‌اند؛ گرایش بیشتر تیپ‌ها ثابت است اما بخشی از مراتع نیازمند توجه ویژه است.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>فرسایش و رسوب</span>
+        <h2>نتایج مدل RUSLE</h2>
+        <p>
+          حوزه آبخیز فولادمحله بر اساس نتایج مدل RUSLE دارای ۶ کلاس فرسایشی است؛ بیشترین
+          مساحت حوضه مربوط به کلاس فرسایش متوسط با حدود ۲۹٫۶ درصد است، حدود ۱۶ درصد در
+          کلاس بسیار زیاد قرار دارد و حدود ۳٫۵ درصد از حوضه در کلاس بحرانی است که نیازمند
+          اجرای فوری عملیات آبخیزداری است.
+        </p>
+      </div>
+
+      <div class="pd-table-wrap pd-body">
+        <table class="pd-table">
+          <thead>
+            <tr>
+              <th>کلاس</th>
+              <th>شدت فرسایش</th>
+              <th>محدوده (تن/هکتار/سال)</th>
+              <th>درصد مساحت</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>I</td><td>رخنمون سنگی</td><td>&lt; ۰٫۵</td><td>۲۲٫۷۹٪</td></tr>
+            <tr><td>II</td><td>کم</td><td>۰٫۵ – ۵</td><td>۷٫۵۶٪</td></tr>
+            <tr><td>III</td><td><b>متوسط</b></td><td>۵ – ۱۰</td><td><b>۲۹٫۵۷٪</b></td></tr>
+            <tr><td>IV</td><td>زیاد</td><td>۱۰ – ۲۰</td><td>۱۳٫۹۴٪</td></tr>
+            <tr><td>V</td><td>بسیار زیاد</td><td>۲۰ – ۳۰</td><td>۱۵٫۸۸٪</td></tr>
+            <tr><td>VI</td><td>بحرانی</td><td>&gt; ۳۰</td><td>۳٫۵۰٪</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pd-stats">
+        <div class="pd-stat">
+          <b>~۱۲۷٬۸۰۰</b>
+          <span>تن فرسایش سالانه حوضه</span>
+        </div>
+        <div class="pd-stat">
+          <b>~۴۵٬۴۰۰</b>
+          <span>تن رسوب سالانه (SDR ۰٫۳۶)</span>
+        </div>
+        <div class="pd-stat">
+          <b>۸٫۲۳</b>
+          <span>تن/هکتار/سال فرسایش ویژه کل</span>
+        </div>
+        <div class="pd-stat">
+          <b>۲۹٫۶٪</b>
+          <span>بیشترین مساحت در کلاس فرسایش متوسط</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section" id="maps">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>گالری نقشه‌ها</span>
+        <h2>نقشه‌های پروژه</h2>
+        <p>
+          خروجی‌های مکانی تولیدشده در فرآیند مطالعات حوضه در گالری زیر آمده است؛
+          با کلیک روی هر نقشه، نمای بزرگ آن باز می‌شود.
+        </p>
+      </div>
+
+      <div class="pd-galleries pd-map-grid">
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/%Cover.webp" alt="کاور پروژه — نمای کلی حوضه">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>کاور پروژه — نمای کلی حوضه</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Local.webp" alt="موقعیت محلی حوضه">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>موقعیت محلی حوضه</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Mojaver.webp" alt="موقعیت حوضه در منطقه">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>موقعیت حوضه در منطقه</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Road &amp; Pop.webp" alt="جاده‌ها و مراکز جمعیتی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>جاده‌ها و مراکز جمعیتی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Tamab.webp" alt="مرز و تقسیم حوضه آبخیز">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>مرز و تقسیم حوضه آبخیز</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Slop_Map earh.webp" alt="نقشه شیب حوضه">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>نقشه شیب</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Aspect.webp" alt="جهت شیب (آسپکت)">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>جهت شیب (Aspect)</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Stream.webp" alt="شبکه آبراهه‌ها">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>شبکه آبراهه‌ها</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Hydro.webp" alt="نقشه هیدرولوژی حوضه">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>نقشه هیدرولوژی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Geology.webp" alt="نقشه زمین‌شناسی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>زمین‌شناسی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Geomorphology.webp" alt="نقشه ژئومورفولوژی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>ژئومورفولوژی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Rock-Foolad.webp" alt="نقشه سنگ‌شناسی حوضه">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>سنگ‌شناسی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/nofozpaziri.webp" alt="نقشه نفوذپذیری واحدهای زمین‌شناسی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>نفوذپذیری واحدهای زمین‌شناسی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/hassasiatpaziri.webp" alt="نقشه حساسیت‌پذیری اراضی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>حساسیت‌پذیری اراضی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Ajzai arazi.webp" alt="اجزاء واحدهای اراضی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>اجزاء واحدهای اراضی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Hydrology-soil.webp" alt="گروه‌های هیدرولوژیکی خاک">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>گروه‌های هیدرولوژیکی خاک</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/clay Soil.webp" alt="توزیع رس خاک">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>توزیع رس خاک</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Silt (1).webp" alt="توزیع سیلت خاک">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>توزیع سیلت خاک</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Sand (1).webp" alt="توزیع شن خاک">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>توزیع شن خاک</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/EC.webp" alt="شوری خاک (EC)">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>شوری خاک (EC)</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/OC Soil (1).webp" alt="مواد آلی خاک">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>مواد آلی خاک (OC)</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Landuse.webp" alt="کاربری اراضی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>کاربری اراضی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Landcover.webp" alt="پوشش اراضی">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>پوشش اراضی</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/RUSLE.webp" alt="شدت فرسایش (RUSLE)">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>شدت فرسایش (RUSLE)</figcaption>
+        </figure>
+
+        <figure class="pd-fig">
+          <div class="pd-fig-img">
+            <img src="assets/maps/01/Tip_Erosion.webp" alt="تیپ‌های فرسایش">
+            <span class="pd-fig-zoom">+</span>
+          </div>
+          <figcaption>تیپ‌های فرسایش</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>فعالیت‌های انجام‌شده</span>
+        <h2>اجرای میدانی و تخصصی پروژه</h2>
+      </div>
+
+      <div class="pd-act pd-body sr sr-delay-1">
+        <div class="pd-act-item">
+          <span class="num">۰۱</span>
+          <h3>نشست تخصصی و برنامه‌ریزی اجرای پروژه</h3>
+          <p>برگزاری نشست‌های تخصصی برای تدوین نقشه راه اجرایی و هماهنگی بین‌بخشی.</p>
+        </div>
+        <div class="pd-act-item">
+          <span class="num">۰۲</span>
+          <h3>بازدید میدانی از حوضه</h3>
+          <p>بازدید از حوضه آبخیز به همراه کارشناسان اداره کل منابع طبیعی، اعضای شورا و دهیاری حوضه و اعضای پروژه.</p>
+        </div>
+        <div class="pd-act-item">
+          <span class="num">۰۳</span>
+          <h3>نمونه‌برداری و آزمایشات آب و خاک</h3>
+          <p>انجام نمونه‌برداری و آزمایش‌های آب و خاک برای پشتیبانی از مدل‌سازی فرسایش و شبیه‌سازی هیدرولوژیکی.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted" id="activity-gallery">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span>گالری فعالیت‌ها</span>
+        <h2>گزارش تصویری پروژه</h2>
+        <p>
+          فعالیت‌های میدانی و تخصصی پروژه به‌ترتیب زمان در قاب‌های زیر ثبت می‌شود؛
+          با قرارگرفتن هر عکس، قاب مربوطه تکمیل می‌شود.
+        </p>
+      </div>
+
+      <div class="pd-timeline pd-galleries">
+        <article class="pd-tl-item">
+          <div class="pd-tl-body">
+            <div class="pd-tl-img"><span>جای عکس — نشست تخصصی</span></div>
+            <h3>نشست تخصصی و برنامه‌ریزی اجرای پروژه</h3>
+            <p>جلسات هماهنگی بین‌بخشی و تدوین نقشه راه اجرایی با حضور کارشناسان و اعضای هسته.</p>
+          </div>
+        </article>
+
+        <article class="pd-tl-item">
+          <div class="pd-tl-body">
+            <div class="pd-tl-img"><span>جای عکس — بازدید میدانی</span></div>
+            <h3>بازدید از حوضه به همراه کارشناسان</h3>
+            <p>بررسی میدانی حوضه آبخیز با همراهی اداره کل منابع طبیعی، اعضای شورا و دهیاری و اعضای پروژه.</p>
+          </div>
+        </article>
+
+        <article class="pd-tl-item">
+          <div class="pd-tl-body">
+            <div class="pd-tl-img"><span>جای عکس — نمونه‌برداری</span></div>
+            <h3>نمونه‌برداری و آزمایشات آب و خاک</h3>
+            <p>برداشت نمونه‌های آب و خاک و انجام آزمایش‌های آزمایشگاهی برای مدل‌سازی دقیق رفتار حوضه.</p>
+          </div>
+        </article>
+
+        <article class="pd-tl-item">
+          <div class="pd-tl-body">
+            <div class="pd-tl-img"><span>جای عکس — تحلیل و مدل‌سازی</span></div>
+            <h3>تحلیل داده‌ها و مدل‌سازی هوشمند</h3>
+            <p>تلفیق داده‌های چندمنبعی، مدل‌سازی هیدرولوژیکی و تولید خروجی‌های مکانی و تحلیلی.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title">
+        <span>مزیت رقابتی</span>
+        <h2>تمایز این پروژه نسبت به مطالعات متداول</h2>
+        <p>
+          این پروژه از یک مطالعه صرفاً توصیفی فراتر رفته و با استقرار یک پایگاه جامع تحلیل
+          فضایی، امکان مدل‌سازی دقیق رفتار حوضه را فراهم ساخته است.
+        </p>
+      </div>
+
+      <ul class="pd-obj">
+        <li><p>افزایش دقت تحلیل‌های هیدرولوژیکی و ژئومورفولوژیکی با پردازش داده‌های چندمنبعی.</p></li>
+        <li><p>کاهش عدم‌قطعیت در فرآیند تصمیم‌گیری مدیریتی.</p></li>
+        <li><p>کاهش هزینه و زمان مطالعات میدانی از طریق بهره‌گیری از فناوری‌های ژئوماتیک.</p></li>
+        <li><p>ایجاد قابلیت به‌نگام‌سازی سریع اطلاعات با ورود داده‌های جدید.</p></li>
+        <li><p>تولید خروجی‌های استاندارد و قابل استفاده در پروژه‌های ملی آبخیزداری.</p></li>
+        <li><p>فراهم‌سازی زیرساخت لازم برای توسعه سامانه‌های هوشمند مدیریت منابع طبیعی.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title">
+        <span>دستاورد فناورانه</span>
+        <h2>از مطالعه توصیفی تا سامانه پیش‌بینی و تصمیم‌سازی</h2>
+      </div>
+
+      <div class="pd-lead pd-body">
+        <p>
+          این پژوهش با ایجاد یک معماری هوشمند مبتنی بر داده‌های ماهواره‌ای، کلان‌داده‌های
+          اقلیمی، تحلیل‌های ژئوفضایی و الگوریتم‌های یادگیری ماشین، فرآیند مطالعات آبخیزداری
+          را از یک روش سنتی و توصیفی به یک سامانه پیشرفته تحلیل، پیش‌بینی و تصمیم‌سازی ارتقا
+          داده است. ادغام هم‌زمان داده‌های ERA5-Land، CHIRPS و IMERG با مدل‌های یادگیری
+          ماشین و تحلیل‌های GIS، امکان شناسایی الگوهای پنهان، کاهش عدم‌قطعیت، افزایش دقت
+          پیش‌بینی، کاهش هزینه‌های برداشت میدانی و بهینه‌سازی تصمیمات مدیریتی را فراهم کرده است.
+        </p>
+        <p>
+          از منظر فناوری، این پروژه نمونه‌ای از کاربرد هوش مصنوعی و تحلیل‌های پیشرفته ژئوفضایی
+          در مدیریت منابع طبیعی است و قابلیت توسعه به سامانه‌های پایش هوشمند، پیش‌بینی مخاطرات
+          طبیعی، مدیریت سیلاب، ارزیابی فرسایش و برنامه‌ریزی داده‌محور حوضه‌های آبخیز را داراست.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title">
+        <span>افق توسعه فناوری</span>
+        <h2>مسیر آینده و ارزش افزوده ملی</h2>
+      </div>
+
+      <div class="pd-lead pd-body">
+        <p>
+          زیرساخت ایجادشده در این پروژه، قابلیت توسعه به نسل جدید سامانه‌های مدیریت هوشمند
+          منابع طبیعی را داراست و می‌تواند مبنایی برای توسعه سامانه‌های پایش مستمر حوضه‌های
+          آبخیز، تحلیل‌های پیش‌بینی‌محور، ارزیابی مخاطرات محیطی و سیستم‌های پشتیبان تصمیم در
+          برنامه‌ریزی سرزمین قرار گیرد. پروژه حاضر صرفاً یک مطالعه اجرایی نبوده، بلکه یک
+          پلتفرم فناورانه برای مدیریت داده‌محور منابع طبیعی محسوب می‌شود.
+        </p>
+        <p>
+          این پروژه با هم‌افزایی میان هوش مصنوعی، سنجش از دور، داده‌های ماهواره‌ای و اقلیمی،
+          GIS و مدل‌سازی هیدرولوژیکی، الگویی نوین برای مدیریت هوشمند حوضه‌های آبخیز ارائه
+          می‌کند؛ دستاوردی که نه‌تنها تولید نقشه یا گزارش، بلکه ایجاد یک چارچوب فناورانه
+          قابل توسعه، تکرارپذیر و بومی‌سازی‌پذیر برای سایر حوضه‌های آبخیز کشور است.
+        </p>
+      </div>
+
+      <a class="pd-back" href="pouyab_projects.html#projects">
+        بازگشت به فهرست پروژه‌ها
+        <span class="pd-more-arrow">←</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pouyab-footer">
+  <div class="pouyab-footer-top">
+    <div class="pouyab-footer-brand">
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
+      <p>
+        هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
+        به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
+      </p>
+    </div>
+
+    <div>
+      <h4>دسترسی سریع</h4>
+      <div class="pouyab-footer-links">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="index.html#about">درباره پویاب</a>
+        <a href="index.html#team">اعضای هسته</a>
+        <a href="pouyab_projects.html#projects">پروژه‌ها</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>تماس با ما</h4>
+      <div class="pouyab-footer-contact">
+        <p>ایمیل: pouyab.team@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="pd-lightbox" id="pdLightbox" aria-hidden="true">
+  <button class="pd-lb-close" id="pdLbClose" aria-label="بستن">×</button>
+  <figure class="pd-lb-fig">
+    <img id="pdLbImg" src="" alt="">
+    <figcaption id="pdLbCap"></figcaption>
+  </figure>
+</div>
+
+<script>
+  (function(){
+    var header = document.querySelector('.pouyab-header');
+    var burger = document.getElementById('pouyabBurger');
+    function onScroll(){
+      if(header){ header.classList.toggle('is-scrolled', window.scrollY > 10); }
+    }
+    window.addEventListener('scroll', onScroll, { passive:true });
+    onScroll();
+    if(burger){
+      burger.addEventListener('click', function(){
+        var open = header.classList.toggle('open');
+        burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+
+    // Scroll Reveal
+    var srElements = document.querySelectorAll('.sr');
+    if('IntersectionObserver' in window && srElements.length){
+      var observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold:0.12, rootMargin:'0px 0px -40px 0px' });
+      srElements.forEach(function(el){ observer.observe(el); });
+    } else {
+      srElements.forEach(function(el){ el.classList.add('is-visible'); });
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var target = document.querySelector(this.getAttribute('href'));
+        if(target){
+          e.preventDefault();
+          target.scrollIntoView({ behavior:'smooth', block:'start' });
+          if(header && header.classList.contains('open')){
+            header.classList.remove('open');
+            if(burger) burger.setAttribute('aria-expanded','false');
+          }
+        }
+      });
+    });
+
+    // Lightbox
+    var lightbox = document.getElementById('pdLightbox');
+    var lbImg = document.getElementById('pdLbImg');
+    var lbCap = document.getElementById('pdLbCap');
+    function openLb(img, cap){
+      lbImg.src = img;
+      lbImg.alt = cap;
+      lbCap.textContent = cap;
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLb(){
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      lbImg.src = '';
+    }
+    var figs = document.querySelectorAll('.pd-fig');
+    for(var i = 0; i < figs.length; i++){
+      (function(fig){
+        fig.addEventListener('click', function(){
+          var img = fig.querySelector('img');
+          var cap = fig.querySelector('figcaption');
+          openLb(img.getAttribute('src'), cap ? cap.textContent : '');
+        });
+      })(figs[i]);
+    }
+    document.getElementById('pdLbClose').addEventListener('click', closeLb);
+    lightbox.addEventListener('click', function(e){
+      if(e.target === lightbox){ closeLb(); }
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape'){ closeLb(); }
+    });
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="پروژه‌های پژوهشی هسته پویاب">
+<title>پروژه‌های پژوهشی | پویاب</title>
+
+<style>
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================================
+   POUYAB — PROJECTS PAGE (REDESIGNED)
+   ========================================================= */
+:root{
+  --pouyab-green:#1a3d24;
+  --pouyab-green-2:#214c2b;
+  --pouyab-green-3:#5f8d3d;
+  --pouyab-gold:#d4a520;
+  --pouyab-gold-soft:#f3d36c;
+  --pouyab-cream:#f7f4e8;
+  --pouyab-paper:#fbfaf4;
+  --pouyab-ink:#1a2b20;
+  --pouyab-muted:#5a6560;
+  --pouyab-line:#e2e7dc;
+  --pouyab-white:#fff;
+}
+
+*{ box-sizing:border-box; }
+
+html{
+  scroll-behavior:smooth;
+}
+
+#projects,
+#fooladmahalle,
+#upcoming{
+  scroll-margin-top:90px;
+}
+
+body{
+  margin:0;
+  background:var(--pouyab-paper);
+  color:var(--pouyab-ink);
+  font-family:"IRANYekan",sans-serif;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---------- Scroll Reveal ---------- */
+.sr{
+  opacity:0;
+  transform:translateY(40px);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+.sr.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
+.sr-delay-1{ transition-delay:.12s; }
+.sr-delay-2{ transition-delay:.24s; }
+.sr-delay-3{ transition-delay:.36s; }
+
+/* ---------- Hero ---------- */
+.pr-hero{
+  position:relative;
+  padding:100px 0 88px;
+  overflow:hidden;
+  color:#fff;
+  background:linear-gradient(160deg,#0d1f13 0%,#183c22 35%,#1a4428 65%,#0d1f13 100%);
+}
+
+.pr-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 80% 20%,rgba(95,141,61,.15),transparent),
+    radial-gradient(ellipse 60% 50% at 20% 80%,rgba(212,165,32,.06),transparent);
+  z-index:1;
+}
+
+.pr-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.04;
+  background-image:
+    linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(ellipse 80% 70% at 70% 30%,rgba(0,0,0,.6),transparent);
+  z-index:1;
+}
+
+.pr-hero-topo{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  opacity:.06;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cpath d='M0,400 Q200,350 400,400 T800,400' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,360 Q200,300 400,360 T800,360' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,320 Q200,250 400,320 T800,320' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,280 Q200,200 400,280 T800,280' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,440 Q200,400 400,440 T800,440' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,480 Q200,450 400,480 T800,480' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,520 Q200,500 400,520 T800,520' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,240 Q200,160 400,240 T800,240' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,200 Q200,120 400,200 T800,200' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,160 Q200,90 400,160 T800,160' fill='none' stroke='%23ffffff' stroke-width='.4'/%3E%3Cpath d='M0,600 Q200,580 400,600 T800,600' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:800px 800px;
+}
+
+.pr-shell{
+  position:relative;
+  z-index:2;
+  width:min(1120px,92%);
+  margin:0 auto;
+}
+
+.pr-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-gold-soft);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+  margin-bottom:12px;
+}
+
+.pr-eyebrow:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pr-hero h1{
+  margin:0;
+  font-size:clamp(34px,6vw,60px);
+  line-height:1.2;
+  font-weight:900;
+  letter-spacing:-.5px;
+}
+
+.pr-hero p{
+  max-width:720px;
+  margin:18px 0 0;
+  color:rgba(255,255,255,.65);
+  font-size:16px;
+  line-height:1.95;
+}
+
+.pr-hero-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:26px;
+}
+
+.pr-hero-tags span{
+  padding:7px 16px;
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  font-size:12px;
+  color:rgba(255,255,255,.65);
+  transition:all .3s ease;
+}
+
+.pr-hero-tags span:hover{
+  background:rgba(255,255,255,.12);
+  color:#fff;
+}
+
+/* ---------- Sections ---------- */
+.pr-section{
+  padding:100px 0;
+  position:relative;
+}
+
+.pr-section + .pr-section{
+  border-top:1px solid rgba(26,61,36,.06);
+}
+
+.pr-section-title span{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-green-3);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+}
+
+.pr-section-title span:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pr-section-title h2{
+  margin:8px 0 0;
+  color:var(--pouyab-green);
+  font-size:clamp(26px,3.8vw,40px);
+  font-weight:900;
+  line-height:1.3;
+}
+
+.pr-section-title > p{
+  margin:14px 0 0;
+  max-width:700px;
+  color:var(--pouyab-muted);
+  font-size:15px;
+  line-height:1.9;
+}
+
+/* ---------- Featured project ---------- */
+.pr-featured{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:0;
+  margin-top:40px;
+  border-radius:28px;
+  background:#fff;
+  box-shadow:0 24px 60px rgba(20,50,30,.10);
+  overflow:hidden;
+}
+
+.pr-featured-media{
+  position:relative;
+  overflow:hidden;
+  align-self:stretch;
+}
+
+.pr-featured-media img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  min-height:340px;
+}
+
+.pr-featured-media .pr-badge{
+  position:absolute;
+  z-index:2;
+  top:18px;
+  right:18px;
+  padding:6px 14px;
+  border-radius:999px;
+  background:#fff;
+  color:var(--pouyab-green);
+  font-size:11px;
+  font-weight:800;
+  box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.pr-featured-copy{
+  padding:36px 32px;
+  align-self:center;
+}
+
+.pr-featured-status{
+  display:inline-flex;
+  padding:6px 14px;
+  border-radius:999px;
+  color:var(--pouyab-green);
+  background:#edf3e8;
+  font-size:11px;
+  font-weight:800;
+}
+
+.pr-featured-copy h3{
+  color:var(--pouyab-green);
+  font-size:26px;
+  line-height:1.45;
+  margin:16px 0 6px;
+  font-weight:800;
+}
+
+.pr-featured-copy h4{
+  color:var(--pouyab-green-3);
+  margin:0 0 16px;
+  font-size:15px;
+  font-weight:700;
+}
+
+.pr-featured-copy p{
+  color:var(--pouyab-muted);
+  font-size:14px;
+  margin:0 0 14px;
+  line-height:1.9;
+}
+
+.pr-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:24px;
+}
+
+.pr-meta span{
+  padding:6px 12px;
+  border:1px solid var(--pouyab-line);
+  border-radius:10px;
+  font-size:11px;
+  color:var(--pouyab-muted);
+}
+
+/* ---------- Project cards ---------- */
+.pr-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:40px;
+}
+
+.pr-card{
+  padding:28px 26px;
+  border:1px solid var(--pouyab-line);
+  border-radius:24px;
+  background:#fff;
+  transition:all .4s cubic-bezier(.22,1,.36,1);
+  position:relative;
+  overflow:hidden;
+}
+
+.pr-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:3px;
+  background:linear-gradient(90deg,var(--pouyab-gold),var(--pouyab-green-3));
+  opacity:0;
+  transition:opacity .4s ease;
+}
+
+.pr-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 50px rgba(20,50,30,.10);
+  border-color:rgba(212,165,32,.3);
+}
+
+.pr-card:hover::before{
+  opacity:1;
+}
+
+.pr-card .pr-num{
+  color:var(--pouyab-gold);
+  font-weight:900;
+  font-size:13px;
+  letter-spacing:.5px;
+}
+
+.pr-card h3{
+  margin:18px 0 8px;
+  color:var(--pouyab-green);
+  font-size:18px;
+  font-weight:800;
+}
+
+.pr-card p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+.pr-card.pouyab-solid{
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  border-color:transparent;
+  color:#fff;
+}
+
+.pr-card.pouyab-solid::before{
+  background:linear-gradient(90deg,var(--pouyab-gold-soft),var(--pouyab-gold));
+}
+
+.pr-card.pouyab-solid h3{
+  color:#fff;
+}
+
+.pr-card.pouyab-solid p{
+  color:rgba(255,255,255,.72);
+}
+
+.pr-card.pouyab-solid .pr-num{
+  color:var(--pouyab-gold-soft);
+}
+
+/* ---------- Summary table ---------- */
+.pr-table-wrap{
+  margin-top:40px;
+  border:1px solid var(--pouyab-line);
+  border-radius:24px;
+  overflow-x:auto;
+  background:#fff;
+  box-shadow:0 16px 45px rgba(20,50,30,.06);
+}
+
+.pr-table{
+  min-width:560px;
+  width:100%;
+  border-collapse:collapse;
+}
+
+.pr-table th,
+.pr-table td{
+  padding:18px 20px;
+  text-align:right;
+  font-size:13px;
+}
+
+.pr-table thead th{
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-weight:800;
+  font-size:12px;
+}
+
+.pr-table tbody td{
+  border-top:1px solid var(--pouyab-line);
+  color:var(--pouyab-muted);
+}
+
+.pr-table tbody tr:first-child td{
+  border-top:none;
+}
+
+.pr-table td strong{
+  color:var(--pouyab-ink);
+  font-weight:700;
+}
+
+.pr-status{
+  display:inline-flex;
+  padding:5px 12px;
+  border-radius:999px;
+  background:#edf3e8;
+  color:var(--pouyab-green);
+  font-size:11px;
+  font-weight:800;
+}
+
+.pr-table-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  color:#fff;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  padding:9px 16px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:800;
+  text-decoration:none;
+  transition:all .3s ease;
+}
+
+.pr-table-link:hover{
+  transform:translateY(-2px);
+  box-shadow:0 6px 16px rgba(20,50,30,.2);
+}
+
+.pr-table-note{
+  margin:18px 2px 0;
+  font-size:12px;
+  color:var(--pouyab-muted);
+}
+
+/* ---------- جزئیات بیشتر button ---------- */
+.pr-more{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:28px;
+  padding:14px 28px;
+  border:none;
+  border-radius:999px;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-family:inherit;
+  font-size:14px;
+  font-weight:800;
+  cursor:pointer;
+  text-decoration:none;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pr-more:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 30px rgba(20,50,30,.25);
+}
+
+.pr-more .pr-more-arrow{
+  font-size:15px;
+  transition:transform .25s ease;
+}
+
+.pr-more:hover .pr-more-arrow{
+  transform:translateX(-4px);
+}
+
+/* ---------- Responsive ---------- */
+@media(max-width:900px){
+  .pr-featured{
+    grid-template-columns:1fr;
+  }
+
+  .pr-featured-media img{
+    min-height:260px;
+  }
+
+  .pr-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:600px){
+  .pr-hero{
+    padding:68px 0;
+  }
+
+  .pr-section{
+    padding:64px 0;
+  }
+
+  .pr-featured{
+    padding:10px;
+  }
+
+  .pr-featured-copy{
+    padding:20px 16px 28px;
+  }
+
+  .pr-featured-copy h3{
+    font-size:22px;
+  }
+
+  .pr-grid{
+    grid-template-columns:1fr;
+  }
+
+  .pr-table th,
+  .pr-table td{
+    padding:12px 12px;
+    font-size:12px;
+  }
+}
+</style>
+<link rel="stylesheet" href="assets/css/pouyab.css">
+</head>
+
+<body>
+
+<header class="pouyab-header" id="top">
+  <div class="pouyab-header-inner">
+    <a href="index.html" class="pouyab-brand">
+      <img src="assets/images/logo3.svg" alt="پویاب">
+    </a>
+
+    <nav class="pouyab-nav" id="pouyabNav">
+      <a href="index.html">صفحه اصلی</a>
+      <a href="index.html#about">درباره پویاب</a>
+      <a href="index.html#team">اعضای هسته</a>
+      <a href="#projects" class="is-current">پروژه‌ها</a>
+    </nav>
+
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="pr-hero">
+    <div class="pr-hero-topo"></div>
+    <div class="pr-shell">
+      <span class="pr-eyebrow">پروژه‌های پژوهشی پویاب</span>
+      <h1>از مسئله شروع می‌شود، به راهکار می‌رسد</h1>
+      <p>
+        هسته پویاب مسائل واقعی حوزه منابع طبیعی و آبخیزداری را به پروژه‌های مسئله‌محور
+        تبدیل می‌کند؛ با داده‌محوری، مدل‌سازی هوشمند و خروجی قابل استفاده.
+      </p>
+      <div class="pr-hero-tags">
+        <span>منابع طبیعی</span>
+        <span>آبخیزداری</span>
+        <span>سنجش از دور</span>
+        <span>یادگیری ماشین</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="pr-section" id="projects">
+    <div class="pr-shell">
+      <div class="pr-section-title sr">
+        <span>جدول خلاصه پروژه‌ها</span>
+        <h2>نمونه‌های پژوهشی هسته</h2>
+        <p>
+          نمای کلی پروژه‌های هسته پویاب در جدول زیر آمده است؛ با کلیک روی
+          «چکیده پروژه» صفحه به‌صورت خودکار به چکیده همان پروژه اسکرول می‌شود.
+        </p>
+      </div>
+
+      <div class="pr-table-wrap sr sr-delay-1">
+        <table class="pr-table">
+          <thead>
+            <tr>
+              <th>ردیف</th>
+              <th>عنوان پروژه</th>
+              <th>حوضه مورد مطالعه</th>
+              <th>وضعیت</th>
+              <th>چکیده پروژه</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>۰۱</td>
+              <td><strong>روش‌های نوین در مطالعات آبخیزداری</strong></td>
+              <td>حوضه آبخیز فولادمحله، شهرستان مهدیشهر</td>
+              <td><span class="pr-status">در حال اجرا</span></td>
+              <td>
+                <a class="pr-table-link" href="#fooladmahalle">
+                  چکیده پروژه
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="pr-table-note">
+        جدول به‌مرور با ورود پروژه‌های جدید بروزرسانی می‌شود.
+      </p>
+    </div>
+  </section>
+
+  <section class="pr-section" id="fooladmahalle" style="background:var(--pouyab-cream)">
+    <div class="pr-shell">
+      <div class="pr-section-title sr">
+        <span>چکیده پروژه</span>
+        <h2>روش‌های نوین در مطالعات آبخیزداری</h2>
+        <p>حوضه مورد مطالعه: حوضه آبخیز فولادمحله شهرستان مهدیشهر</p>
+      </div>
+
+      <article class="pr-featured sr sr-delay-1">
+        <div class="pr-featured-media">
+          <img src="assets/images/basin.webp" alt="پروژه فولادمحله">
+          <span class="pr-badge">پروژه ۰۱</span>
+        </div>
+
+        <div class="pr-featured-copy">
+          <span class="pr-featured-status">نمونه پروژه آغازین</span>
+          <h3>یک چارچوب هوشمند برای مدیریت حوضه‌های آبخیز</h3>
+          <h4>حوضه آبخیز فولادمحله — مهدیشهر</h4>
+          <p>
+            این پروژه با هدف توسعه یک چارچوب هوشمند، داده‌محور و مبتنی بر هوش مصنوعی
+            برای تحلیل و مدیریت حوضه‌های آبخیز طراحی و اجراء شده است. در این پژوهش،
+            با تلفیق فناوری‌های سنجش از دور (Remote Sensing)، سامانه اطلاعات جغرافیایی
+            (GIS)، کلان‌داده‌های اقلیمی (Climate Big Data)، مدل‌سازی رقومی زمین
+            (Digital Terrain Modeling) و الگوریتم‌های یادگیری ماشین (Machine Learning)،
+            بستری یکپارچه برای تحلیل رفتار هیدرولوژیکی و ژئومورفولوژیکی حوضه ایجاد گردید.
+          </p>
+          <p>
+            وجه تمایز این پروژه نسبت به مطالعات متداول، تغییر رویکرد از تحلیل‌های کلاسیک
+            به تحلیل‌های هوشمند مبتنی بر داده است؛ به‌گونه‌ای که تصمیم‌گیری‌های مدیریتی
+            نه بر اساس روابط تجربی محدود، بلکه بر پایه پردازش هم‌زمان داده‌های چندمنبعی،
+            مدل‌های پیش‌بینی و تحلیل‌های پیشرفته مکانی انجام شده است.
+          </p>
+
+          <div class="pr-meta">
+            <span>منابع طبیعی</span>
+            <span>آبخیزداری</span>
+            <span>روش‌های نوین</span>
+            <span>یادگیری ماشین</span>
+          </div>
+
+          <a class="pr-more" href="pouyab_project_fooladmahalle.html">
+            جزئیات بیشتر
+            <span class="pr-more-arrow">←</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pouyab-footer">
+  <div class="pouyab-footer-top">
+    <div class="pouyab-footer-brand">
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
+      <p>
+        هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
+        به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
+      </p>
+    </div>
+
+    <div>
+      <h4>دسترسی سریع</h4>
+      <div class="pouyab-footer-links">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="index.html#about">درباره پویاب</a>
+        <a href="index.html#team">اعضای هسته</a>
+        <a href="#projects">پروژه‌ها</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>تماس با ما</h4>
+      <div class="pouyab-footer-contact">
+        <p>ایمیل: pouyab.team@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var header = document.querySelector('.pouyab-header');
+    var burger = document.getElementById('pouyabBurger');
+    function onScroll(){
+      if(header){ header.classList.toggle('is-scrolled', window.scrollY > 10); }
+    }
+    window.addEventListener('scroll', onScroll, { passive:true });
+    onScroll();
+    if(burger){
+      burger.addEventListener('click', function(){
+        var open = header.classList.toggle('open');
+        burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+
+    // Scroll Reveal
+    var srElements = document.querySelectorAll('.sr');
+    if('IntersectionObserver' in window && srElements.length){
+      var observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold:0.12, rootMargin:'0px 0px -40px 0px' });
+      srElements.forEach(function(el){ observer.observe(el); });
+    } else {
+      srElements.forEach(function(el){ el.classList.add('is-visible'); });
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var target = document.querySelector(this.getAttribute('href'));
+        if(target){
+          e.preventDefault();
+          target.scrollIntoView({ behavior:'smooth', block:'start' });
+          if(header && header.classList.contains('open')){
+            header.classList.remove('open');
+            if(burger) burger.setAttribute('aria-expanded','false');
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
