@@ -590,17 +590,27 @@ body{
 <header class="pouyab-header" id="top">
   <div class="pouyab-header-inner">
     <a href="index.html" class="pouyab-brand">
-      <img src="assets/images/logo3.svg" alt="پویاب">
+      <img src="assets/images/logo3.svg" alt="پویاب" data-i18n-alt="hero.brand">
     </a>
 
     <nav class="pouyab-nav" id="pouyabNav">
-      <a href="index.html">صفحه اصلی</a>
-      <a href="index.html#about">درباره پویاب</a>
-      <a href="index.html#team">اعضای هسته</a>
-      <a href="#projects" class="is-current">پروژه‌ها</a>
+      <a href="index.html" data-i18n="nav.home">صفحه اصلی</a>
+      <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
+      <a href="index.html#team" data-i18n="nav.team">اعضای هسته</a>
+      <a href="#projects" class="is-current" data-i18n="nav.projects">پروژه‌ها</a>
     </nav>
 
-    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false">
+    <div class="pouyab-lang" id="pouyabLangSwitcher" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+      <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+      <div class="pouyab-lang-options">
+        <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+        <button type="button" data-lang="zh" aria-label="中文">中</button>
+        <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+      </div>
+    </div>
+
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false" data-i18n-aria="nav.aria">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -611,17 +621,17 @@ body{
   <section class="pr-hero">
     <div class="pr-hero-topo"></div>
     <div class="pr-shell">
-      <span class="pr-eyebrow">پروژه‌های پژوهشی پویاب</span>
-      <h1>از مسئله شروع می‌شود، به راهکار می‌رسد</h1>
-      <p>
+      <span class="pr-eyebrow" data-i18n="pp.hero.eyebrow">پروژه‌های پژوهشی پویاب</span>
+      <h1 data-i18n="pp.hero.title">از مسئله شروع می‌شود، به راهکار می‌رسد</h1>
+      <p data-i18n="pp.hero.desc">
         هسته پویاب مسائل واقعی حوزه منابع طبیعی و آبخیزداری را به پروژه‌های مسئله‌محور
         تبدیل می‌کند؛ با داده‌محوری، مدل‌سازی هوشمند و خروجی قابل استفاده.
       </p>
       <div class="pr-hero-tags">
-        <span>منابع طبیعی</span>
-        <span>آبخیزداری</span>
-        <span>سنجش از دور</span>
-        <span>یادگیری ماشین</span>
+        <span data-i18n="pp.hero.tag1">منابع طبیعی</span>
+        <span data-i18n="pp.hero.tag2">آبخیزداری</span>
+        <span data-i18n="pp.hero.tag3">سنجش از دور</span>
+        <span data-i18n="pp.hero.tag4">یادگیری ماشین</span>
       </div>
     </div>
   </section>
@@ -629,9 +639,9 @@ body{
   <section class="pr-section" id="projects">
     <div class="pr-shell">
       <div class="pr-section-title sr">
-        <span>جدول خلاصه پروژه‌ها</span>
-        <h2>نمونه‌های پژوهشی هسته</h2>
-        <p>
+        <span data-i18n="pp.tab.eyebrow">جدول خلاصه پروژه‌ها</span>
+        <h2 data-i18n="pp.tab.title">نمونه‌های پژوهشی هسته</h2>
+        <p data-i18n="pp.tab.desc">
           نمای کلی پروژه‌های هسته پویاب در جدول زیر آمده است؛ با کلیک روی
           «چکیده پروژه» صفحه به‌صورت خودکار به چکیده همان پروژه اسکرول می‌شود.
         </p>
@@ -641,21 +651,21 @@ body{
         <table class="pr-table">
           <thead>
             <tr>
-              <th>ردیف</th>
-              <th>عنوان پروژه</th>
-              <th>حوضه مورد مطالعه</th>
-              <th>وضعیت</th>
-              <th>چکیده پروژه</th>
+              <th data-i18n="pp.tab.th1">ردیف</th>
+              <th data-i18n="pp.tab.th2">عنوان پروژه</th>
+              <th data-i18n="pp.tab.th3">حوضه مورد مطالعه</th>
+              <th data-i18n="pp.tab.th4">وضعیت</th>
+              <th data-i18n="pp.tab.th5">چکیده پروژه</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>۰۱</td>
-              <td><strong>روش‌های نوین در مطالعات آبخیزداری</strong></td>
-              <td>حوضه آبخیز فولادمحله، شهرستان مهدیشهر</td>
-              <td><span class="pr-status">در حال اجرا</span></td>
+              <td><strong data-i18n="pp.tab.row.title">روش‌های نوین در مطالعات آبخیزداری</strong></td>
+              <td data-i18n="pp.tab.row.basin">حوضه آبخیز فولادمحله، شهرستان مهدیشهر</td>
+              <td><span class="pr-status" data-i18n="pp.tab.row.status">در حال اجرا</span></td>
               <td>
-                <a class="pr-table-link" href="#fooladmahalle">
+                <a class="pr-table-link" href="#fooladmahalle" data-i18n="pp.tab.row.link">
                   چکیده پروژه
                 </a>
               </td>
@@ -663,7 +673,7 @@ body{
           </tbody>
         </table>
       </div>
-      <p class="pr-table-note">
+      <p class="pr-table-note" data-i18n="pp.tab.note">
         جدول به‌مرور با ورود پروژه‌های جدید بروزرسانی می‌شود.
       </p>
     </div>
@@ -672,22 +682,22 @@ body{
   <section class="pr-section" id="fooladmahalle" style="background:var(--pouyab-cream)">
     <div class="pr-shell">
       <div class="pr-section-title sr">
-        <span>چکیده پروژه</span>
-        <h2>روش‌های نوین در مطالعات آبخیزداری</h2>
-        <p>حوضه مورد مطالعه: حوضه آبخیز فولادمحله شهرستان مهدیشهر</p>
+        <span data-i18n="pp.abs.eyebrow">چکیده پروژه</span>
+        <h2 data-i18n="pp.abs.title">روش‌های نوین در مطالعات آبخیزداری</h2>
+        <p data-i18n="pp.abs.basin">حوضه مورد مطالعه: حوضه آبخیز فولادمحله شهرستان مهدیشهر</p>
       </div>
 
       <article class="pr-featured sr sr-delay-1">
         <div class="pr-featured-media">
-          <img src="assets/images/basin.webp" alt="پروژه فولادمحله">
-          <span class="pr-badge">پروژه ۰۱</span>
+          <img src="assets/images/basin.webp" alt="پروژه فولادمحله" data-i18n-alt="pp.abs.imgAlt">
+          <span class="pr-badge" data-i18n="pp.abs.badge">پروژه ۰۱</span>
         </div>
 
         <div class="pr-featured-copy">
-          <span class="pr-featured-status">نمونه پروژه آغازین</span>
-          <h3>یک چارچوب هوشمند برای مدیریت حوضه‌های آبخیز</h3>
-          <h4>حوضه آبخیز فولادمحله — مهدیشهر</h4>
-          <p>
+          <span class="pr-featured-status" data-i18n="pp.abs.status">نمونه پروژه آغازین</span>
+          <h3 data-i18n="pp.abs.h3">یک چارچوب هوشمند برای مدیریت حوضه‌های آبخیز</h3>
+          <h4 data-i18n="pp.abs.h4">حوضه آبخیز فولادمحله — مهدیشهر</h4>
+          <p data-i18n="pp.abs.p1">
             این پروژه با هدف توسعه یک چارچوب هوشمند، داده‌محور و مبتنی بر هوش مصنوعی
             برای تحلیل و مدیریت حوضه‌های آبخیز طراحی و اجراء شده است. در این پژوهش،
             با تلفیق فناوری‌های سنجش از دور (Remote Sensing)، سامانه اطلاعات جغرافیایی
@@ -695,7 +705,7 @@ body{
             (Digital Terrain Modeling) و الگوریتم‌های یادگیری ماشین (Machine Learning)،
             بستری یکپارچه برای تحلیل رفتار هیدرولوژیکی و ژئومورفولوژیکی حوضه ایجاد گردید.
           </p>
-          <p>
+          <p data-i18n="pp.abs.p2">
             وجه تمایز این پروژه نسبت به مطالعات متداول، تغییر رویکرد از تحلیل‌های کلاسیک
             به تحلیل‌های هوشمند مبتنی بر داده است؛ به‌گونه‌ای که تصمیم‌گیری‌های مدیریتی
             نه بر اساس روابط تجربی محدود، بلکه بر پایه پردازش هم‌زمان داده‌های چندمنبعی،
@@ -703,14 +713,14 @@ body{
           </p>
 
           <div class="pr-meta">
-            <span>منابع طبیعی</span>
-            <span>آبخیزداری</span>
-            <span>روش‌های نوین</span>
-            <span>یادگیری ماشین</span>
+            <span data-i18n="pp.abs.meta1">منابع طبیعی</span>
+            <span data-i18n="pp.abs.meta2">آبخیزداری</span>
+            <span data-i18n="pp.abs.meta3">روش‌های نوین</span>
+            <span data-i18n="pp.abs.meta4">یادگیری ماشین</span>
           </div>
 
           <a class="pr-more" href="pouyab_project_fooladmahalle.html">
-            جزئیات بیشتر
+            <span data-i18n="pp.abs.btn">جزئیات بیشتر</span>
             <span class="pr-more-arrow">←</span>
           </a>
         </div>
@@ -723,27 +733,27 @@ body{
 <footer class="pouyab-footer">
   <div class="pouyab-footer-top">
     <div class="pouyab-footer-brand">
-      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
-      <p>
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب" data-i18n-alt="about.logoAlt"></a>
+      <p data-i18n="footer.desc">
         هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
         به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
       </p>
     </div>
 
     <div>
-      <h4>دسترسی سریع</h4>
+      <h4 data-i18n="footer.quick">دسترسی سریع</h4>
       <div class="pouyab-footer-links">
-        <a href="index.html">صفحه اصلی</a>
-        <a href="index.html#about">درباره پویاب</a>
-        <a href="index.html#team">اعضای هسته</a>
-        <a href="#projects">پروژه‌ها</a>
+        <a href="index.html" data-i18n="nav.home">صفحه اصلی</a>
+        <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
+        <a href="index.html#team" data-i18n="nav.team">اعضای هسته</a>
+        <a href="#projects" data-i18n="nav.projects">پروژه‌ها</a>
       </div>
     </div>
 
     <div>
-      <h4>تماس با ما</h4>
+      <h4 data-i18n="footer.contact">تماس با ما</h4>
       <div class="pouyab-footer-contact">
-        <p>ایمیل: pouyab.team@gmail.com</p>
+        <p data-i18n="footer.email">ایمیل: pouyab.team@gmail.com</p>
       </div>
     </div>
   </div>
@@ -797,6 +807,8 @@ body{
     });
   })();
 </script>
+
+<script src="assets/js/i18n.js"></script>
 
 </body>
 </html>

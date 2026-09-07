@@ -308,3 +308,191 @@
     padding:46px 0 34px;
   }
 }
+
+/* =========================================================
+   POUYAB — LANGUAGE SWITCHER + CJK + LTR OVERRIDES
+   ========================================================= */
+
+/* ---------- Language switcher ---------- */
+.pouyab-lang{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-inline-start:4px;
+  padding:4px 6px 4px 10px;
+  border:1px solid rgba(33,76,43,.14);
+  border-radius:999px;
+  background:rgba(33,76,43,.05);
+  white-space:nowrap;
+}
+
+.pouyab-lang-label{
+  font-size:12px;
+  font-weight:700;
+  color:var(--pouyab-green);
+}
+
+.pouyab-lang-options{
+  display:flex;
+  gap:3px;
+}
+
+.pouyab-lang-options button{
+  min-width:30px;
+  height:26px;
+  padding:0 8px;
+  border:none;
+  border-radius:999px;
+  background:transparent;
+  color:var(--pouyab-muted);
+  font-family:inherit;
+  font-size:11px;
+  font-weight:800;
+  line-height:1;
+  cursor:pointer;
+  transition:background .2s ease,color .2s ease;
+}
+
+.pouyab-lang-options button:hover{
+  color:var(--pouyab-green);
+  background:rgba(33,76,43,.08);
+}
+
+.pouyab-lang-options button.is-active{
+  color:#fff;
+  background:var(--pouyab-green);
+  box-shadow:0 4px 10px rgba(33,76,43,.25);
+}
+
+@media(max-width:900px){
+  .pouyab-header .pouyab-lang-label{
+    display:none;
+  }
+}
+
+@media(max-width:520px){
+  .pouyab-lang{
+    padding:3px 4px;
+    gap:4px;
+  }
+
+  .pouyab-lang-options button{
+    min-width:27px;
+    height:24px;
+    padding:0 6px;
+    font-size:10px;
+  }
+}
+
+/* ---------- CJK (Chinese) font stack ---------- */
+html[lang="zh"] body,
+html[lang="zh"] .pouyab-header,
+html[lang="zh"] .pouyab-footer,
+html[lang="zh"] .pouyab-page,
+html[lang="zh"] .pr-hero,
+html[lang="zh"] .pd-section,
+html[lang="zh"] .pr-eyebrow,
+html[lang="zh"] .pd-title,
+html[lang="zh"] button{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Source Han Sans SC","IRANYekan",sans-serif;
+}
+
+/* ---------- LTR alignment fixes (home) ---------- */
+html[dir="ltr"] .pouyab-page p,
+html[dir="ltr"] .pouyab-page .pouyab-subtitle,
+html[dir="ltr"] .pouyab-page .pouyab-copy p,
+html[dir="ltr"] .pouyab-page .pouyab-leader-copy p,
+html[dir="ltr"] .pouyab-page .pouyab-area p,
+html[dir="ltr"] .pouyab-page .pouyab-member p,
+html[dir="ltr"] .pouyab-page .pouyab-method-intro p,
+html[dir="ltr"] .pouyab-page .pouyab-future-subtitle,
+html[dir="ltr"] .pouyab-page .pouyab-collab .pouyab-subtitle,
+html[dir="ltr"] .pouyab-page .pouyab-projects-intro p{
+  text-align-last:left;
+}
+
+html[dir="ltr"] .pouyab-footer-brand p{
+  text-align-last:left;
+}
+
+html[dir="ltr"] .pouyab-identity-item + .pouyab-identity-item{
+  border-right:0;
+  border-left:1px solid rgba(26,61,36,.08);
+}
+
+html[dir="ltr"] .pouyab-highlight{
+  border-right:0;
+  border-left:4px solid var(--pouyab-gold);
+  border-radius:18px 0 0 18px;
+}
+
+html[dir="ltr"] .pouyab-quote::before{
+  right:auto;
+  left:18px;
+}
+
+html[dir="ltr"] .pouyab-projects-intro-steps{
+  text-align:left;
+}
+
+html[dir="ltr"] .pouyab-projects-intro-step{
+  padding:18px 18px 18px 24px;
+}
+
+html[dir="ltr"] .pouyab-projects-intro-step-dot{
+  right:auto;
+  left:-6px;
+}
+
+html[dir="ltr"] .pouyab-footer-links a:hover{
+  padding-right:0;
+  padding-left:4px;
+}
+
+/* ---------- LTR alignment fixes (projects + detail) ---------- */
+html[dir="ltr"] .pr-table th,
+html[dir="ltr"] .pr-table td,
+html[dir="ltr"] .pd-table th,
+html[dir="ltr"] .pd-table td{
+  text-align:left;
+}
+
+html[dir="ltr"] .pr-featured-media .pr-badge{
+  right:auto;
+  left:18px;
+}
+
+html[dir="ltr"] .pd-obj li p{
+  padding-right:0;
+  padding-left:36px;
+}
+
+html[dir="ltr"] .pd-obj li:before{
+  right:auto;
+  left:20px;
+}
+
+html[dir="ltr"] .pd-timeline:before{
+  right:auto;
+  left:18px;
+}
+
+html[dir="ltr"] .pd-tl-item{
+  padding-right:0;
+  padding-left:54px;
+}
+
+html[dir="ltr"] .pd-tl-item:before{
+  right:auto;
+  left:12px;
+}
+
+/* ---------- LTR arrow mirroring ---------- */
+html[dir="ltr"] .pouyab-projects-intro-btn .pouyab-projects-intro-btn-arrow,
+html[dir="ltr"] .pouyab-projects-intro-btn:hover .pouyab-projects-intro-btn-arrow,
+html[dir="ltr"] .pr-more .pr-more-arrow,
+html[dir="ltr"] .pr-more:hover .pr-more-arrow,
+html[dir="ltr"] .pd-back .pd-more-arrow,
+html[dir="ltr"] .pd-back:hover .pd-more-arrow{
+  transform:scaleX(-1);
+}

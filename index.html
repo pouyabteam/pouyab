@@ -1630,17 +1630,27 @@
 <header class="pouyab-header" id="top">
   <div class="pouyab-header-inner">
     <a href="index.html" class="pouyab-brand">
-      <img src="assets/images/logo3.svg" alt="پویاب">
+      <img src="assets/images/logo3.svg" alt="پویاب" data-i18n-alt="hero.brand">
     </a>
 
     <nav class="pouyab-nav" id="pouyabNav">
-      <a href="#home" class="is-current">صفحه اصلی</a>
-      <a href="#about">درباره پویاب</a>
-      <a href="#team">اعضای هسته</a>
-      <a href="#projects-intro">پروژه‌ها</a>
+      <a href="#home" class="is-current" data-i18n="nav.home">صفحه اصلی</a>
+      <a href="#about" data-i18n="nav.about">درباره پویاب</a>
+      <a href="#team" data-i18n="nav.team">اعضای هسته</a>
+      <a href="#projects-intro" data-i18n="nav.projects">پروژه‌ها</a>
     </nav>
 
-    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false">
+    <div class="pouyab-lang" id="pouyabLangSwitcher" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+      <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+      <div class="pouyab-lang-options">
+        <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+        <button type="button" data-lang="zh" aria-label="中文">中</button>
+        <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+      </div>
+    </div>
+
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false" data-i18n-aria="nav.aria">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -1657,18 +1667,18 @@
     <div class="pouyab-hero-inner">
       <div class="pouyab-hero-top">
         <div class="pouyab-hero-copy sr">
-          <h1>پویاب</h1>
-          <h2>پژوهش، نوآوری و حرکت از مسئله به راهکار</h2>
-          <p>
+          <h1 data-i18n="hero.brand">پویاب</h1>
+          <h2 data-i18n="hero.subtitle">پژوهش، نوآوری و حرکت از مسئله به راهکار</h2>
+          <p data-i18n="hero.desc">
             پویاب یک تیم پژوهشی تحقیقاتی و مسئله‌محور است که با تکیه بر دانش تخصصی اعضا،
             روش‌های نوین تحلیل و همکاری میان‌رشته‌ای، به مطالعه و توسعه راهکارهای
             علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
           </p>
           <div class="pouyab-hero-tags">
-            <span class="pouyab-hero-tag">منابع طبیعی</span>
-            <span class="pouyab-hero-tag">آبخیزداری</span>
-            <span class="pouyab-hero-tag">داده و مدل‌سازی</span>
-            <span class="pouyab-hero-tag">روش‌های نوین پژوهش</span>
+            <span class="pouyab-hero-tag" data-i18n="hero.tag1">منابع طبیعی</span>
+            <span class="pouyab-hero-tag" data-i18n="hero.tag2">آبخیزداری</span>
+            <span class="pouyab-hero-tag" data-i18n="hero.tag3">داده و مدل‌سازی</span>
+            <span class="pouyab-hero-tag" data-i18n="hero.tag4">روش‌های نوین پژوهش</span>
           </div>
         </div>
         <div class="pouyab-hero-mark sr sr-delay-2">
@@ -1679,16 +1689,16 @@
       <!-- Stats Bar -->
       <div class="pouyab-hero-stats sr sr-delay-3">
         <div class="pouyab-hero-stat">
-          <strong>۵</strong>
-          <span>عضو فعال</span>
+          <strong data-i18n="hero.stat1.num">۵</strong>
+          <span data-i18n="hero.stat1.label">عضو فعال</span>
         </div>
         <div class="pouyab-hero-stat">
-          <strong>۱</strong>
-          <span>پروژه در حال اجرا</span>
+          <strong data-i18n="hero.stat2.num">۱</strong>
+          <span data-i18n="hero.stat2.label">پروژه در حال اجرا</span>
         </div>
         <div class="pouyab-hero-stat">
-          <strong>۲</strong>
-          <span>همکار سازمانی</span>
+          <strong data-i18n="hero.stat3.num">۲</strong>
+          <span data-i18n="hero.stat3.label">همکار سازمانی</span>
         </div>
       </div>
     </div>
@@ -1698,16 +1708,16 @@
   <div class="pouyab-identity">
     <div class="pouyab-identity-card">
       <div class="pouyab-identity-item">
-        <strong>پژوهش مسئله‌محور</strong>
-        <span>از تعریف مسئله تا تولید خروجی قابل استفاده</span>
+        <strong data-i18n="identity1.title">پژوهش مسئله‌محور</strong>
+        <span data-i18n="identity1.desc">از تعریف مسئله تا تولید خروجی قابل استفاده</span>
       </div>
       <div class="pouyab-identity-item">
-        <strong>تیم چندتخصصی</strong>
-        <span>ترکیب دانش، تجربه و مهارت‌های مکمل</span>
+        <strong data-i18n="identity2.title">تیم چندتخصصی</strong>
+        <span data-i18n="identity2.desc">ترکیب دانش، تجربه و مهارت‌های مکمل</span>
       </div>
       <div class="pouyab-identity-item">
-        <strong>نگاه رو به آینده</strong>
-        <span>ساختن یک مسیر پژوهشی مستمر و توسعه‌پذیر</span>
+        <strong data-i18n="identity3.title">نگاه رو به آینده</strong>
+        <span data-i18n="identity3.desc">ساختن یک مسیر پژوهشی مستمر و توسعه‌پذیر</span>
       </div>
     </div>
   </div>
@@ -1723,20 +1733,20 @@
         <div class="pouyab-about-accent-2"></div>
         <div class="pouyab-about-center">
           <div class="pouyab-about-logos">
-            <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
+            <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب" data-i18n-alt="about.logoAlt"></a>
           </div>
         </div>
       </div>
 
       <div class="pouyab-copy sr-left">
-        <span class="pouyab-eyebrow">درباره پویاب</span>
-        <h2 class="pouyab-title">یک تیم پژوهشی<br>پویا و مسئله‌محور</h2>
-        <p>
+        <span class="pouyab-eyebrow" data-i18n="about.eyebrow">درباره پویاب</span>
+        <h2 class="pouyab-title" data-i18n-html="about.title">یک تیم پژوهشی<br>پویا و مسئله‌محور</h2>
+        <p data-i18n="about.p1">
           پویاب با هدف شکل‌دهی به یک تیم پژوهشی پویا در حوزه منابع طبیعی شکل گرفته است.
           تمرکز هسته بر توسعه فعالیت‌های علمی، استفاده از ابزارها و روش‌های نوین و
           تبدیل مسائل واقعی محیطی به پرسش‌های پژوهشی قابل مطالعه است.
         </p>
-        <div class="pouyab-highlight">
+        <div class="pouyab-highlight" data-i18n="about.p2">
           «پویاب» قرار است در طول زمان با اضافه‌شدن پروژه‌ها، خروجی‌های علمی و اعضای
           جدید، به یک روایت زنده از مسیر پژوهشی تبدیل شود.
         </div>
@@ -1749,44 +1759,44 @@
        ====================================================== -->
   <section class="pouyab-section pouyab-research" id="research">
     <div class="pouyab-shell">
-      <span class="pouyab-eyebrow">حوزه‌های پژوهشی</span>
-      <h2 class="pouyab-title">eco-system پژوهشی پویاب</h2>
+      <span class="pouyab-eyebrow" data-i18n="research.eyebrow">حوزه‌های پژوهشی</span>
+      <h2 class="pouyab-title" data-i18n="research.title">eco-system پژوهشی پویاب</h2>
 
       <div class="pouyab-area-grid">
         <article class="pouyab-area sr sr-delay-1">
           <span class="pouyab-area-number">01</span>
-          <h3>منابع طبیعی</h3>
-          <p>مطالعه و تحلیل مسائل مرتبط با مدیریت پایدار منابع طبیعی و سامانه‌های محیطی.</p>
+          <h3 data-i18n="area1.title">منابع طبیعی</h3>
+          <p data-i18n="area1.desc">مطالعه و تحلیل مسائل مرتبط با مدیریت پایدار منابع طبیعی و سامانه‌های محیطی.</p>
         </article>
 
         <article class="pouyab-area sr sr-delay-2">
           <span class="pouyab-area-number">02</span>
-          <h3>آبخیزداری</h3>
-          <p>پژوهش در زمینه فرآیندهای آبخیز، سیلاب، فرسایش و راهکارهای مدیریتی.</p>
+          <h3 data-i18n="area2.title">آبخیزداری</h3>
+          <p data-i18n="area2.desc">پژوهش در زمینه فرآیندهای آبخیز، سیلاب، فرسایش و راهکارهای مدیریتی.</p>
         </article>
 
         <article class="pouyab-area sr sr-delay-3">
           <span class="pouyab-area-number">03</span>
-          <h3>مدل‌سازی و تحلیل داده</h3>
-          <p>استفاده از داده‌های محیطی، مکانی و زمانی برای شناخت الگوها و پشتیبانی از تصمیم‌گیری.</p>
+          <h3 data-i18n="area3.title">مدل‌سازی و تحلیل داده</h3>
+          <p data-i18n="area3.desc">استفاده از داده‌های محیطی، مکانی و زمانی برای شناخت الگوها و پشتیبانی از تصمیم‌گیری.</p>
         </article>
 
         <article class="pouyab-area sr sr-delay-1">
           <span class="pouyab-area-number">04</span>
-          <h3>یادگیری ماشین</h3>
-          <p>بررسی ظرفیت روش‌های هوشمند و مدل‌های داده‌محور برای مسائل پژوهشی منتخب.</p>
+          <h3 data-i18n="area4.title">یادگیری ماشین</h3>
+          <p data-i18n="area4.desc">بررسی ظرفیت روش‌های هوشمند و مدل‌های داده‌محور برای مسائل پژوهشی منتخب.</p>
         </article>
 
         <article class="pouyab-area sr sr-delay-2">
           <span class="pouyab-area-number">05</span>
-          <h3>سنجش از دور و GIS</h3>
-          <p>تحلیل مکانی و استخراج اطلاعات از داده‌های جغرافیایی و سنجش از دور.</p>
+          <h3 data-i18n="area5.title">سنجش از دور و GIS</h3>
+          <p data-i18n="area5.desc">تحلیل مکانی و استخراج اطلاعات از داده‌های جغرافیایی و سنجش از دور.</p>
         </article>
 
         <article class="pouyab-area sr sr-delay-3">
           <span class="pouyab-area-number">06</span>
-          <h3>پژوهش کاربردی</h3>
-          <p>تبدیل یافته‌های علمی به خروجی‌هایی که بتوانند در حل مسائل واقعی مورد استفاده قرار گیرند.</p>
+          <h3 data-i18n="area6.title">پژوهش کاربردی</h3>
+          <p data-i18n="area6.desc">تبدیل یافته‌های علمی به خروجی‌هایی که بتوانند در حل مسائل واقعی مورد استفاده قرار گیرند.</p>
         </article>
       </div>
     </div>
@@ -1799,16 +1809,18 @@
     <div class="pouyab-shell pouyab-leader-grid">
 
       <div class="pouyab-leader-copy sr-left">
-        <span class="pouyab-eyebrow">معرفی تیم</span>
-        <h2 class="pouyab-title">دکتر علی‌اصغر ذوالفقاری</h2>
-        <span class="pouyab-leader-role">استاد راهبر و ناظر علمی هسته</span>
+        <span class="pouyab-eyebrow" data-i18n="leader.eyebrow">معرفی تیم</span>
+        <h2 class="pouyab-title" data-i18n="leader.name">دکتر علی‌اصغر ذوالفقاری</h2>
+        <span class="pouyab-leader-role" data-i18n="leader.role">استاد راهبر و ناظر علمی هسته</span>
 
-        <p>
-          دکتر علی‌اصغر ذوالفقاری، دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان است. وی دارای مدرک کارشناسی از دانشگاه گیلان، کارشناسی ارشد از دانشگاه صنعتی اصفهان و دکتری از دانشگاه تهران است.
-          حوزه‌های تخصصی و پژوهشی ایشان شامل بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی، تغییر اقلیم، سنجش از دور و GIS، مدل‌سازی محیطی و کاربرد یادگیری ماشین در علوم منابع طبیعی است. ایشان سابقه فعالیت‌های آموزشی، پژوهشی و اجرایی متعدد در دانشگاه سمنان داشته و در انتشار مقالات علمی و اجرای طرح‌های پژوهشی در حوزه منابع طبیعی و محیط‌زیست فعال است.
+        <p data-i18n="leader.p1">
+          دکتر علی‌اصغر ذوالفقاری، دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان است. وی دارای مدرک کارشناسی از دانشگاه گیلان، کارشناسی ارشد از دانشگاه صنعتی اصفهان و دکتری از دانشگاه تهران است. حوزه‌های تخصصی و پژوهشی ایشان شامل بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی، تغییر اقلیم، سنجش از دور و GIS، مدل‌سازی محیطی و کاربرد یادگیری ماشین در علوم منابع طبیعی است.
+        </p>
+        <p data-i18n="leader.p2">
+          ایشان سابقه فعالیت‌های آموزشی، پژوهشی و اجرایی متعدد در دانشگاه سمنان داشته و در انتشار مقالات علمی و اجرای طرح‌های پژوهشی در حوزه منابع طبیعی و محیط‌زیست فعال است.
         </p>
 
-        <div class="pouyab-quote">
+        <div class="pouyab-quote" data-i18n="leader.quote">
           هدف، ساختن یک مسیر پژوهشی است که از مسئله واقعی آغاز شود و به دانش،
           راهکار و اثر قابل سنجش برسد.
         </div>
@@ -1817,15 +1829,15 @@
       <div class="pouyab-leader-photo sr-right">
         <div class="pouyab-leader-card">
           <div class="pouyab-leader-card-img">
-            <img src="assets/images/1.webp" alt="تصویر استاد راهبر">
+            <img src="assets/images/1.webp" alt="تصویر استاد راهبر" data-i18n-alt="leader.imgAlt">
           </div>
           <div class="pouyab-leader-card-body">
-            <h3 class="pouyab-leader-card-name">دکتر علی اصغر ذوالفقاری</h3>
-            <p class="pouyab-leader-card-title">استاد راهبر</p>
+            <h3 class="pouyab-leader-card-name" data-i18n="leader.cardName">دکتر علی اصغر ذوالفقاری</h3>
+            <p class="pouyab-leader-card-title" data-i18n="leader.cardTitle">استاد راهبر</p>
             <div class="pouyab-leader-card-info">
-              <span class="pouyab-leader-card-tag">استاد دانشگاه</span>
-              <span class="pouyab-leader-card-tag">پژوهشگر</span>
-              <span class="pouyab-leader-card-tag">عضو هیئت علمی</span>
+              <span class="pouyab-leader-card-tag" data-i18n="leader.tag1">استاد دانشگاه</span>
+              <span class="pouyab-leader-card-tag" data-i18n="leader.tag2">پژوهشگر</span>
+              <span class="pouyab-leader-card-tag" data-i18n="leader.tag3">عضو هیئت علمی</span>
             </div>
           </div>
         </div>
@@ -1840,9 +1852,9 @@
   <section class="pouyab-section pouyab-members" id="team">
     <div class="pouyab-shell">
       <div class="pouyab-members-head sr">
-        <span class="pouyab-eyebrow">اعضای هسته</span>
-        <h2 class="pouyab-title">تیم پژوهشی پویاب</h2>
-        <p class="pouyab-subtitle">
+        <span class="pouyab-eyebrow" data-i18n="members.eyebrow">اعضای هسته</span>
+        <h2 class="pouyab-title" data-i18n="members.title">تیم پژوهشی پویاب</h2>
+        <p class="pouyab-subtitle" data-i18n="members.subtitle">
           ترکیبی از پژوهشگران و دانشجویان متخصص که در مسیر تحقیق و توسعه
           در کنار یکدیگر فعالیت می‌کنند.
         </p>
@@ -1852,42 +1864,42 @@
 
         <article class="pouyab-member sr sr-delay-1">
             <div class="pouyab-member-photo">
-              <img src="assets/images/2.webp" alt="تصویر عضو اول">
+              <img src="assets/images/2.webp" alt="تصویر عضو اول" data-i18n-alt="memberImg1Alt">
             </div>
-            <h3>خانم آزاده سلطانی</h3>
-            <p>دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
+            <h3 data-i18n="member1.name">خانم آزاده سلطانی</h3>
+            <p data-i18n="member1.role">دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
           </article>
 
         <article class="pouyab-member sr sr-delay-2">
             <div class="pouyab-member-photo">
-              <img src="assets/images/3.webp" alt="تصویر عضو دوم">
+              <img src="assets/images/3.webp" alt="تصویر عضو دوم" data-i18n-alt="memberImg2Alt">
             </div>
-            <h3>خانم فاطمه زهرا حیدریه</h3>
-            <p>دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
+            <h3 data-i18n="member2.name">خانم فاطمه زهرا حیدریه</h3>
+            <p data-i18n="member2.role">دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
           </article>
 
         <article class="pouyab-member sr sr-delay-3">
             <div class="pouyab-member-photo">
-              <img src="assets/images/4.webp" alt="تصویر عضو سوم">
+              <img src="assets/images/4.webp" alt="تصویر عضو سوم" data-i18n-alt="memberImg3Alt">
             </div>
-            <h3>خانم سمانه عسگریان</h3>
-            <p>دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
+            <h3 data-i18n="member3.name">خانم سمانه عسگریان</h3>
+            <p data-i18n="member3.role">دانشجوی مقطع دکتری مدیریت و کنترل بیابان</p>
           </article>
 
         <article class="pouyab-member sr sr-delay-4">
             <div class="pouyab-member-photo">
-              <img src="assets/images/5.webp" alt="تصویر عضو چهارم">
+              <img src="assets/images/5.webp" alt="تصویر عضو چهارم" data-i18n-alt="memberImg4Alt">
             </div>
-            <h3>آقای امیرمحمد ثابتیان</h3>
-            <p>فارغ التحصیل کارشناسی رشته مهندسی طبیعت</p>
+            <h3 data-i18n="member4.name">آقای امیرمحمد ثابتیان</h3>
+            <p data-i18n="member4.role">فارغ التحصیل کارشناسی رشته مهندسی طبیعت</p>
           </article>
 
         <article class="pouyab-member sr sr-delay-5">
             <div class="pouyab-member-photo">
-              <img src="assets/images/6.webp" alt="تصویر عضو پنجم">
+              <img src="assets/images/6.webp" alt="تصویر عضو پنجم" data-i18n-alt="memberImg5Alt">
             </div>
-            <h3>خانم مهین خسروی</h3>
-            <p>فارغ التحصیل مقطع دکتری رشته مدیریت و کنترل بیابان</p>
+            <h3 data-i18n="member5.name">خانم مهین خسروی</h3>
+            <p data-i18n="member5.role">فارغ التحصیل مقطع دکتری رشته مدیریت و کنترل بیابان</p>
           </article>
 
       </div>
@@ -1900,9 +1912,9 @@
   <section class="pouyab-section pouyab-method" id="method">
     <div class="pouyab-shell pouyab-method-grid">
       <div class="pouyab-method-intro sr-right">
-        <span class="pouyab-eyebrow">رویکرد پژوهشی</span>
-        <h2 class="pouyab-title">از مسئله تا اثرگذاری</h2>
-        <p>
+        <span class="pouyab-eyebrow" data-i18n="method.eyebrow">رویکرد پژوهشی</span>
+        <h2 class="pouyab-title" data-i18n="method.title">از مسئله تا اثرگذاری</h2>
+        <p data-i18n="method.intro">
           پویاب تلاش می‌کند فرآیند پژوهش را از مسئله واقعی آغاز کند و با استفاده
           از داده، روش علمی و ابزارهای نوین به خروجی قابل تفسیر و قابل استفاده برسد.
         </p>
@@ -1911,38 +1923,38 @@
       <div class="pouyab-flow">
         <article class="pouyab-flow-card sr sr-delay-1">
           <span class="pouyab-flow-num">01</span>
-          <h3>تعریف مسئله</h3>
-          <p>شناخت مسئله و تبدیل آن به پرسش پژوهشی مشخص.</p>
+          <h3 data-i18n="flow1.title">تعریف مسئله</h3>
+          <p data-i18n="flow1.desc">شناخت مسئله و تبدیل آن به پرسش پژوهشی مشخص.</p>
         </article>
 
         <article class="pouyab-flow-card sr sr-delay-2">
           <span class="pouyab-flow-num">02</span>
-          <h3>داده و مشاهده</h3>
-          <p>گردآوری، آماده‌سازی و ارزیابی داده‌های مورد نیاز.</p>
+          <h3 data-i18n="flow2.title">داده و مشاهده</h3>
+          <p data-i18n="flow2.desc">گردآوری، آماده‌سازی و ارزیابی داده‌های مورد نیاز.</p>
         </article>
 
         <article class="pouyab-flow-card sr sr-delay-3">
           <span class="pouyab-flow-num">03</span>
-          <h3>تحلیل و مدل‌سازی</h3>
-          <p>به‌کارگیری روش‌های آماری، مکانی و داده‌محور متناسب با مسئله.</p>
+          <h3 data-i18n="flow3.title">تحلیل و مدل‌سازی</h3>
+          <p data-i18n="flow3.desc">به‌کارگیری روش‌های آماری، مکانی و داده‌محور متناسب با مسئله.</p>
         </article>
 
         <article class="pouyab-flow-card sr sr-delay-4">
           <span class="pouyab-flow-num">04</span>
-          <h3>اعتبارسنجی</h3>
-          <p>بررسی کیفیت نتایج و مقایسه روش‌ها برای افزایش اطمینان.</p>
+          <h3 data-i18n="flow4.title">اعتبارسنجی</h3>
+          <p data-i18n="flow4.desc">بررسی کیفیت نتایج و مقایسه روش‌ها برای افزایش اطمینان.</p>
         </article>
 
         <article class="pouyab-flow-card sr sr-delay-5">
           <span class="pouyab-flow-num">05</span>
-          <h3>تفسیر و کاربرد</h3>
-          <p>تبدیل نتایج به بینش و راهکار قابل استفاده.</p>
+          <h3 data-i18n="flow5.title">تفسیر و کاربرد</h3>
+          <p data-i18n="flow5.desc">تبدیل نتایج به بینش و راهکار قابل استفاده.</p>
         </article>
 
         <article class="pouyab-flow-card sr sr-delay-6">
           <span class="pouyab-flow-num">06</span>
-          <h3>اثرگذاری</h3>
-          <p>پیوند دادن خروجی پژوهش با نیازهای واقعی و تصمیم‌گیری.</p>
+          <h3 data-i18n="flow6.title">اثرگذاری</h3>
+          <p data-i18n="flow6.desc">پیوند دادن خروجی پژوهش با نیازهای واقعی و تصمیم‌گیری.</p>
         </article>
       </div>
     </div>
@@ -1954,9 +1966,9 @@
   <section class="pouyab-section pouyab-projects-intro" id="projects-intro">
     <div class="pouyab-shell">
       <div class="pouyab-projects-intro-center sr">
-        <span class="pouyab-eyebrow" style="justify-content:center;">پروژه‌های پژوهشی</span>
-        <h2 class="pouyab-title" style="text-align:center;">از مسئله تا راهکار</h2>
-        <p class="pouyab-subtitle" style="text-align:center;margin-left:auto;margin-right:auto;">
+        <span class="pouyab-eyebrow" style="justify-content:center;" data-i18n="intro.eyebrow">پروژه‌های پژوهشی</span>
+        <h2 class="pouyab-title" style="text-align:center;" data-i18n="intro.title">از مسئله تا راهکار</h2>
+        <p class="pouyab-subtitle" style="text-align:center;margin-left:auto;margin-right:auto;" data-i18n="intro.subtitle">
           راهنمای دسترسی به جزئیات پروژه های تیم.
         </p>
 
@@ -1964,32 +1976,32 @@
           <div class="pouyab-projects-intro-step sr sr-delay-1">
             <div class="pouyab-projects-intro-step-dot"></div>
             <div class="pouyab-projects-intro-step-body">
-              <span class="pouyab-projects-intro-step-label">مرحله ۱</span>
-              <strong>ورود به صفحه پروژه‌ها</strong>
-              <span>از طریق دکمه زیر وارد صفحه پروژه‌ها شوید.</span>
+              <span class="pouyab-projects-intro-step-label" data-i18n="intro.step1.label">مرحله ۱</span>
+              <strong data-i18n="intro.step1.title">ورود به صفحه پروژه‌ها</strong>
+              <span data-i18n="intro.step1.desc">از طریق دکمه زیر وارد صفحه پروژه‌ها شوید.</span>
             </div>
           </div>
           <div class="pouyab-projects-intro-step sr sr-delay-2">
             <div class="pouyab-projects-intro-step-dot"></div>
             <div class="pouyab-projects-intro-step-body">
-              <span class="pouyab-projects-intro-step-label">مرحله ۲</span>
-              <strong>انتخاب پروژه</strong>
-              <span>پروژه مورد نظر خود را از جدول خلاصه پروژه‌ها انتخاب کنید.</span>
+              <span class="pouyab-projects-intro-step-label" data-i18n="intro.step2.label">مرحله ۲</span>
+              <strong data-i18n="intro.step2.title">انتخاب پروژه</strong>
+              <span data-i18n="intro.step2.desc">پروژه مورد نظر خود را از جدول خلاصه پروژه‌ها انتخاب کنید.</span>
             </div>
           </div>
           <div class="pouyab-projects-intro-step sr sr-delay-3">
             <div class="pouyab-projects-intro-step-dot"></div>
             <div class="pouyab-projects-intro-step-body">
-              <span class="pouyab-projects-intro-step-label">مرحله ۳</span>
-              <strong>مشاهده جزئیات</strong>
-              <span>با کلیک روی «جزئیات بیشتر» به صفحه اختصاصی پروژه هدایت می‌شوید.</span>
+              <span class="pouyab-projects-intro-step-label" data-i18n="intro.step3.label">مرحله ۳</span>
+              <strong data-i18n="intro.step3.title">مشاهده جزئیات</strong>
+              <span data-i18n="intro.step3.desc">با کلیک روی «جزئیات بیشتر» به صفحه اختصاصی پروژه هدایت می‌شوید.</span>
             </div>
           </div>
         </div>
 
         <div class="pouyab-projects-intro-btn-wrap sr sr-delay-4">
           <a class="pouyab-projects-intro-btn" href="pouyab_projects.html">
-            مشاهده پروژه‌ها
+            <span data-i18n="intro.btn">مشاهده پروژه‌ها</span>
             <span class="pouyab-projects-intro-btn-arrow">←</span>
           </a>
         </div>
@@ -2002,21 +2014,21 @@
        ====================================================== -->
   <section class="pouyab-section pouyab-collab" id="collabs">
     <div class="pouyab-shell">
-      <span class="pouyab-eyebrow" style="color:#b8d4a0;">همکاری‌ها</span>
-      <h2 class="pouyab-title">شبکه همکاری پویاب</h2>
-      <p class="pouyab-subtitle">
+      <span class="pouyab-eyebrow" style="color:#b8d4a0;" data-i18n="collab.eyebrow">همکاری‌ها</span>
+      <h2 class="pouyab-title" data-i18n="collab.title">شبکه همکاری پویاب</h2>
+      <p class="pouyab-subtitle" data-i18n="collab.subtitle">
         شبکه همکاری پویاب در طول توسعه هسته بروزرسانی خواهد شد.
       </p>
 
       <div class="pouyab-collab-grid">
         <div class="pouyab-partner sr sr-delay-1">
-          <img src="assets/images/semnan-natural-resources.webp" alt="اداره کل منابع طبیعی و آبخیزداری استان سمنان" class="pouyab-partner-logo">
-          <strong>اداره کل منابع طبیعی و آبخیزداری استان سمنان</strong>
+          <img src="assets/images/semnan-natural-resources.webp" alt="اداره کل منابع طبیعی و آبخیزداری استان سمنان" class="pouyab-partner-logo" data-i18n-alt="collab.partner1Alt">
+          <strong data-i18n="collab.partner1">اداره کل منابع طبیعی و آبخیزداری استان سمنان</strong>
         </div>
 
         <div class="pouyab-partner sr sr-delay-2">
-          <img src="assets/images/bonyadmeli.svg" alt="بنیاد ملی نخبگان" class="pouyab-partner-logo">
-          <strong>بنیاد ملی نخبگان</strong>
+          <img src="assets/images/bonyadmeli.svg" alt="بنیاد ملی نخبگان" class="pouyab-partner-logo" data-i18n-alt="collab.partner2Alt">
+          <strong data-i18n="collab.partner2">بنیاد ملی نخبگان</strong>
         </div>
       </div>
     </div>
@@ -2027,29 +2039,29 @@
        ====================================================== -->
   <section class="pouyab-section pouyab-future" id="future">
     <div class="pouyab-shell">
-      <span class="pouyab-eyebrow">مسیر پیش‌رو</span>
-      <h2 class="pouyab-title">چشم‌انداز پویاب</h2>
-      <p class="pouyab-subtitle">
+      <span class="pouyab-eyebrow" data-i18n="future.eyebrow">مسیر پیش‌رو</span>
+      <h2 class="pouyab-title" data-i18n="future.title">چشم‌انداز پویاب</h2>
+      <p class="pouyab-subtitle" data-i18n="future.subtitle">
         هویت پویاب با یک پروژه آغاز نمی‌شود و با یک پروژه هم پایان نمی‌یابد.
       </p>
 
       <div class="pouyab-future-grid">
         <article class="pouyab-future-card sr sr-delay-1">
           <div class="num">01</div>
-          <h3>توسعه پروژه‌ها</h3>
-          <p>افزایش دامنه پروژه‌های مسئله‌محور در حوزه منابع طبیعی و محیط‌زیست.</p>
+          <h3 data-i18n="future.card1.title">توسعه پروژه‌ها</h3>
+          <p data-i18n="future.card1.desc">افزایش دامنه پروژه‌های مسئله‌محور در حوزه منابع طبیعی و محیط‌زیست.</p>
         </article>
 
         <article class="pouyab-future-card sr sr-delay-2">
           <div class="num">02</div>
-          <h3>توسعه تیم</h3>
-          <p>افزایش همکاری میان‌رشته‌ای و پیوند دانش تخصصی اعضای جدید با هسته.</p>
+          <h3 data-i18n="future.card2.title">توسعه تیم</h3>
+          <p data-i18n="future.card2.desc">افزایش همکاری میان‌رشته‌ای و پیوند دانش تخصصی اعضای جدید با هسته.</p>
         </article>
 
         <article class="pouyab-future-card sr sr-delay-3">
           <div class="num">03</div>
-          <h3>اثرگذاری پژوهش</h3>
-          <p>حرکت از تولید نتیجه علمی به سمت خروجی‌های کاربردی و قابل استفاده.</p>
+          <h3 data-i18n="future.card3.title">اثرگذاری پژوهش</h3>
+          <p data-i18n="future.card3.desc">حرکت از تولید نتیجه علمی به سمت خروجی‌های کاربردی و قابل استفاده.</p>
         </article>
       </div>
     </div>
@@ -2060,15 +2072,15 @@
        ====================================================== -->
   <section class="pouyab-section pouyab-gallery-section" id="gallery">
     <div class="pouyab-shell">
-      <span class="pouyab-eyebrow">گالری</span>
-      <h2 class="pouyab-title">پویاب در قاب تصویر</h2>
+      <span class="pouyab-eyebrow" data-i18n="gallery.eyebrow">گالری</span>
+      <h2 class="pouyab-title" data-i18n="gallery.title">پویاب در قاب تصویر</h2>
 
       <div class="pouyab-gallery">
-        <div class="pouyab-gallery-item sr-scale">تصویر اصلی فعالیت هسته<br><small>جای عکس</small></div>
-        <div class="pouyab-gallery-item sr sr-delay-1">جلسه تخصصی<br><small>جای عکس</small></div>
-        <div class="pouyab-gallery-item sr sr-delay-2">فعالیت میدانی<br><small>جای عکس</small></div>
-        <div class="pouyab-gallery-item sr sr-delay-3">کارگاه / رویداد<br><small>جای عکس</small></div>
-        <div class="pouyab-gallery-item sr sr-delay-4">پروژه پژوهشی<br><small>جای عکس</small></div>
+        <div class="pouyab-gallery-item sr-scale"><span data-i18n="gallery.item1">تصویر اصلی فعالیت هسته</span><br><small data-i18n="gallery.ph">جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-1"><span data-i18n="gallery.item2">جلسه تخصصی</span><br><small data-i18n="gallery.ph">جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-2"><span data-i18n="gallery.item3">فعالیت میدانی</span><br><small data-i18n="gallery.ph">جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-3"><span data-i18n="gallery.item4">کارگاه / رویداد</span><br><small data-i18n="gallery.ph">جای عکس</small></div>
+        <div class="pouyab-gallery-item sr sr-delay-4"><span data-i18n="gallery.item5">پروژه پژوهشی</span><br><small data-i18n="gallery.ph">جای عکس</small></div>
       </div>
     </div>
   </section>
@@ -2077,8 +2089,8 @@
        13 — END
        ====================================================== -->
   <section class="pouyab-end" id="contact">
-    <div class="pouyab-end-mark">پویاب</div>
-    <p>
+    <div class="pouyab-end-mark" data-i18n="hero.brand">پویاب</div>
+    <p data-i18n="end.desc">
       هسته پژوهشی پویاب · پژوهش، نوآوری و حرکت از مسئله به راهکار
     </p>
   </section>
@@ -2088,27 +2100,27 @@
 <footer class="pouyab-footer">
   <div class="pouyab-footer-top">
     <div class="pouyab-footer-brand">
-      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب"></a>
-      <p>
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب" data-i18n-alt="about.logoAlt"></a>
+      <p data-i18n="footer.desc">
         هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
         به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
       </p>
     </div>
 
     <div>
-      <h4>دسترسی سریع</h4>
+      <h4 data-i18n="footer.quick">دسترسی سریع</h4>
       <div class="pouyab-footer-links">
-        <a href="#home">صفحه اصلی</a>
-        <a href="#about">درباره پویاب</a>
-        <a href="#team">اعضای هسته</a>
-        <a href="pouyab_projects.html">پروژه‌ها</a>
+        <a href="#home" data-i18n="nav.home">صفحه اصلی</a>
+        <a href="#about" data-i18n="nav.about">درباره پویاب</a>
+        <a href="#team" data-i18n="nav.team">اعضای هسته</a>
+        <a href="pouyab_projects.html" data-i18n="nav.projects">پروژه‌ها</a>
       </div>
     </div>
 
     <div>
-      <h4>تماس با ما</h4>
+      <h4 data-i18n="footer.contact">تماس با ما</h4>
       <div class="pouyab-footer-contact">
-        <p>ایمیل: pouyab.team@gmail.com</p>
+        <p data-i18n="footer.email">ایمیل: pouyab.team@gmail.com</p>
       </div>
     </div>
   </div>
@@ -2164,6 +2176,8 @@
     });
   })();
 </script>
+
+<script src="assets/js/i18n.js"></script>
 
 </body>
 </html>
