@@ -1,0 +1,1357 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="صفحه اختصاصی پروژه بررسی کارایی مالچ سنگریزه‌ای بر کنترل فرسایش بادی — منطقه گرمسار، استان سمنان">
+<title>پروژه مالچ سنگریزه‌ای | پویاب</title>
+
+<style>
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("assets/fonts/IRANYekanX-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================================
+   POUYAB — PROJECT DETAIL PAGE (REDESIGNED)
+   ========================================================= */
+:root{
+  --pouyab-green:#1a3d24;
+  --pouyab-green-2:#214c2b;
+  --pouyab-green-3:#5f8d3d;
+  --pouyab-gold:#d4a520;
+  --pouyab-gold-soft:#f3d36c;
+  --pouyab-cream:#f7f4e8;
+  --pouyab-paper:#fbfaf4;
+  --pouyab-ink:#1a2b20;
+  --pouyab-muted:#5a6560;
+  --pouyab-line:#e2e7dc;
+  --pouyab-white:#fff;
+}
+
+*{ box-sizing:border-box; }
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:var(--pouyab-paper);
+  color:var(--pouyab-ink);
+  font-family:"IRANYekan",sans-serif;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---------- Scroll Reveal ---------- */
+.sr{
+  opacity:0;
+  transform:translateY(40px);
+  transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);
+}
+.sr.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
+.sr-delay-1{ transition-delay:.12s; }
+.sr-delay-2{ transition-delay:.24s; }
+.sr-delay-3{ transition-delay:.36s; }
+.sr-delay-4{ transition-delay:.48s; }
+
+/* ---------- Hero ---------- */
+.pr-hero{
+  position:relative;
+  padding:100px 0 88px;
+  overflow:hidden;
+  color:#fff;
+  background:linear-gradient(160deg,#0d1f13 0%,#183c22 35%,#1a4428 65%,#0d1f13 100%);
+}
+
+.pr-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 80% 20%,rgba(95,141,61,.15),transparent),
+    radial-gradient(ellipse 60% 50% at 20% 80%,rgba(212,165,32,.06),transparent);
+  z-index:1;
+}
+
+.pr-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  opacity:.04;
+  background-image:
+    linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(ellipse 80% 70% at 70% 30%,rgba(0,0,0,.6),transparent);
+  z-index:1;
+}
+
+.pr-hero-topo{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  opacity:.06;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cpath d='M0,400 Q200,350 400,400 T800,400' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,360 Q200,300 400,360 T800,360' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,320 Q200,250 400,320 T800,320' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,280 Q200,200 400,280 T800,280' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,440 Q200,400 400,440 T800,440' fill='none' stroke='%23ffffff' stroke-width='.8'/%3E%3Cpath d='M0,480 Q200,450 400,480 T800,480' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,520 Q200,500 400,520 T800,520' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,240 Q200,160 400,240 T800,240' fill='none' stroke='%23ffffff' stroke-width='.6'/%3E%3Cpath d='M0,200 Q200,120 400,200 T800,200' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3Cpath d='M0,160 Q200,90 400,160 T800,160' fill='none' stroke='%23ffffff' stroke-width='.4'/%3E%3Cpath d='M0,600 Q200,580 400,600 T800,600' fill='none' stroke='%23ffffff' stroke-width='.5'/%3E%3C/svg%3E");
+  background-size:800px 800px;
+}
+
+.pr-shell{
+  position:relative;
+  z-index:2;
+  width:min(1120px,92%);
+  margin:0 auto;
+}
+
+.pr-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-gold-soft);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+  margin-bottom:12px;
+}
+
+.pr-eyebrow:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pr-hero h1{
+  margin:0;
+  font-size:clamp(30px,5vw,52px);
+  line-height:1.35;
+  font-weight:900;
+  letter-spacing:-.5px;
+}
+
+.pr-hero h2{
+  margin:16px 0 0;
+  color:var(--pouyab-gold-soft);
+  font-size:clamp(16px,2.2vw,21px);
+  font-weight:700;
+}
+
+.pr-hero p{
+  max-width:760px;
+  margin:18px 0 0;
+  color:rgba(255,255,255,.65);
+  font-size:15px;
+  line-height:1.95;
+}
+
+.pr-hero-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:26px;
+}
+
+.pr-hero-tags span{
+  padding:7px 16px;
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  font-size:12px;
+  color:rgba(255,255,255,.65);
+  transition:all .3s ease;
+}
+
+.pr-hero-tags span:hover{
+  background:rgba(255,255,255,.12);
+  color:#fff;
+}
+
+/* ---------- Sections ---------- */
+.pd-section{
+  padding:100px 0;
+  position:relative;
+}
+
+.pd-section + .pd-section{
+  border-top:1px solid rgba(26,61,36,.06);
+}
+
+.pd-section.pd-muted{
+  background:var(--pouyab-cream);
+}
+
+.pd-title span{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--pouyab-green-3);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+}
+
+.pd-title span:before{
+  content:"";
+  width:32px;
+  height:2px;
+  background:var(--pouyab-gold);
+  border-radius:999px;
+}
+
+.pd-title h2{
+  margin:8px 0 0;
+  color:var(--pouyab-green);
+  font-size:clamp(24px,3.6vw,38px);
+  font-weight:900;
+  line-height:1.35;
+}
+
+.pd-title > p{
+  margin:14px 0 0;
+  max-width:720px;
+  color:var(--pouyab-muted);
+  font-size:15px;
+  line-height:1.9;
+}
+
+.pd-body{
+  margin-top:36px;
+}
+
+.pd-lead{
+  color:var(--pouyab-muted);
+  font-size:15px;
+}
+
+.pd-lead p{
+  margin:0 0 16px;
+  line-height:1.95;
+}
+
+/* ---------- Specs ---------- */
+.pd-kv{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+  margin-top:34px;
+}
+
+.pd-kv-item{
+  display:flex;
+  align-items:flex-start;
+  gap:14px;
+  padding:20px 22px;
+  border:1px solid var(--pouyab-line);
+  border-radius:20px;
+  background:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-kv-item:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(20,50,30,.06);
+}
+
+.pd-kv-item .pd-kv-k{
+  flex:0 0 150px;
+  color:var(--pouyab-green-3);
+  font-size:12px;
+  font-weight:800;
+}
+
+.pd-kv-item .pd-kv-v{
+  color:var(--pouyab-ink);
+  font-size:13px;
+  font-weight:700;
+}
+
+/* ---------- Stats band ---------- */
+.pd-stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+  margin-top:36px;
+}
+
+.pd-stat{
+  padding:28px 20px;
+  border-radius:22px;
+  text-align:center;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-stat:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.15);
+}
+
+.pd-stat b{
+  display:block;
+  font-size:clamp(24px,3vw,32px);
+  font-weight:900;
+  color:var(--pouyab-gold-soft);
+}
+
+.pd-stat span{
+  display:inline-block;
+  margin-top:8px;
+  font-size:12px;
+  color:rgba(255,255,255,.72);
+}
+
+/* ---------- Cards grid ---------- */
+.pd-cards{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.pd-card{
+  padding:26px;
+  border:1px solid var(--pouyab-line);
+  border-radius:22px;
+  background:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+}
+
+.pd-card .pd-card-num{
+  color:var(--pouyab-gold);
+  font-weight:900;
+  font-size:12px;
+  letter-spacing:.5px;
+}
+
+.pd-card h3{
+  margin:14px 0 8px;
+  color:var(--pouyab-green);
+  font-size:17px;
+  font-weight:800;
+}
+
+.pd-card p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- Objectives ---------- */
+.pd-obj{
+  counter-reset:obj;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-top:34px;
+}
+
+.pd-obj li{
+  counter-increment:obj;
+  list-style:none;
+  position:relative;
+  padding:24px 28px 24px 26px;
+  border-radius:22px;
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-obj li:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+}
+
+.pd-obj li:before{
+  content:counter(obj);
+  position:absolute;
+  top:20px;
+  right:20px;
+  width:30px;
+  height:30px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:12px;
+  font-weight:900;
+}
+
+.pd-obj li p{
+  margin:0;
+  padding-right:36px;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- Technology ---------- */
+.pd-tech{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:34px;
+}
+
+.pd-tech-item{
+  padding:24px;
+  border-radius:20px;
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-tech-item:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.07);
+}
+
+.pd-tech-item h3{
+  margin:0 0 8px;
+  color:var(--pouyab-green);
+  font-size:15px;
+  font-weight:800;
+}
+
+.pd-tech-item p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:12px;
+  line-height:1.85;
+}
+
+/* ---------- Table ---------- */
+.pd-table-wrap{
+  margin-top:34px;
+  border:1px solid var(--pouyab-line);
+  border-radius:22px;
+  overflow-x:auto;
+  background:#fff;
+  box-shadow:0 12px 34px rgba(20,50,30,.05);
+}
+
+.pd-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:13px;
+}
+
+.pd-table th,
+.pd-table td{
+  padding:16px 18px;
+  text-align:right;
+  border-bottom:1px solid var(--pouyab-line);
+}
+
+.pd-table thead th{
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+}
+
+.pd-table tbody tr:last-child td{
+  border-bottom:none;
+}
+
+.pd-table tbody td{
+  color:var(--pouyab-muted);
+}
+
+.pd-table tbody td b{
+  color:var(--pouyab-ink);
+  font-weight:700;
+}
+
+/* ---------- Timeline / activities ---------- */
+.pd-act{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:34px;
+}
+
+.pd-act-item{
+  padding:26px;
+  border-radius:22px;
+  background:linear-gradient(160deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-act-item:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(20,50,30,.2);
+}
+
+.pd-act-item .num{
+  color:var(--pouyab-gold-soft);
+  font-weight:900;
+  font-size:12px;
+  letter-spacing:.5px;
+}
+
+.pd-act-item h3{
+  margin:14px 0 8px;
+  font-size:17px;
+  font-weight:800;
+}
+
+.pd-act-item p{
+  margin:0;
+  color:rgba(255,255,255,.72);
+  font-size:13px;
+  line-height:1.85;
+}
+
+/* ---------- Back link ---------- */
+.pd-back{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:40px;
+  padding:14px 28px;
+  border-radius:999px;
+  background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+  color:#fff;
+  font-size:14px;
+  font-weight:800;
+  text-decoration:none;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-back:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 30px rgba(20,50,30,.25);
+}
+
+.pd-back .pd-more-arrow{
+  font-size:15px;
+  transition:transform .25s ease;
+}
+
+.pd-back:hover .pd-more-arrow{
+  transform:translateX(-4px);
+}
+
+/* ---------- Gallery: maps ---------- */
+.pd-galleries{
+  margin-top:38px;
+}
+
+.pd-map-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.pd-fig{
+  margin:0;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid var(--pouyab-line);
+  background:#fff;
+  cursor:zoom-in;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-fig:hover{
+  transform:translateY(-4px);
+  box-shadow:0 16px 38px rgba(20,50,30,.10);
+  border-color:rgba(212,165,32,.3);
+}
+
+.pd-fig-img{
+  position:relative;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  background:#eef1ea;
+}
+
+.pd-fig-img img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .4s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-fig:hover .pd-fig-img img{
+  transform:scale(1.06);
+}
+
+.pd-fig-img .pd-fig-zoom{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(26,61,36,.3);
+  color:#fff;
+  font-size:26px;
+  font-weight:900;
+  opacity:0;
+  transition:opacity .3s ease;
+}
+
+.pd-fig:hover .pd-fig-zoom{
+  opacity:1;
+}
+
+.pd-fig figcaption{
+  padding:12px 16px;
+  font-size:12px;
+  color:var(--pouyab-green);
+}
+
+/* ---------- Lightbox ---------- */
+.pd-lightbox{
+  position:fixed;
+  z-index:1000;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:30px;
+  background:rgba(13,31,20,.92);
+  backdrop-filter:blur(8px);
+}
+
+.pd-lightbox.open{
+  display:flex;
+}
+
+.pd-lb-close{
+  position:absolute;
+  top:20px;
+  left:24px;
+  width:46px;
+  height:46px;
+  border:none;
+  border-radius:50%;
+  background:rgba(255,255,255,.1);
+  color:#fff;
+  font-size:24px;
+  line-height:1;
+  cursor:pointer;
+  transition:background .25s ease;
+}
+
+.pd-lb-close:hover{
+  background:rgba(255,255,255,.22);
+}
+
+.pd-lb-fig{
+  max-width:min(1100px,94%);
+  margin:0;
+  text-align:center;
+}
+
+.pd-lb-fig img{
+  max-width:100%;
+  max-height:78vh;
+  border-radius:14px;
+  background:#fff;
+}
+
+.pd-lb-fig figcaption{
+  margin:16px 0 0;
+  color:var(--pouyab-gold-soft);
+  font-size:14px;
+}
+
+/* ---------- Gallery: activities timeline ---------- */
+.pd-timeline{
+  position:relative;
+  margin-top:38px;
+}
+
+.pd-timeline:before{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:18px;
+  width:3px;
+  border-radius:999px;
+  background:linear-gradient(to bottom,var(--pouyab-green),var(--pouyab-line));
+}
+
+.pd-tl-item{
+  position:relative;
+  padding-right:54px;
+  padding-bottom:32px;
+}
+
+.pd-tl-item:last-child{
+  padding-bottom:0;
+}
+
+.pd-tl-item:before{
+  content:"";
+  position:absolute;
+  right:12px;
+  top:8px;
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  background:var(--pouyab-green-2);
+  border:3px solid var(--pouyab-white);
+  box-shadow:0 0 0 2px var(--pouyab-green-2);
+}
+
+.pd-tl-item:nth-child(even) .pd-tl-body{
+  background:var(--pouyab-cream);
+}
+
+.pd-tl-body{
+  background:#fff;
+  border:1px solid var(--pouyab-line);
+  border-radius:22px;
+  padding:22px;
+  transition:all .35s cubic-bezier(.22,1,.36,1);
+}
+
+.pd-tl-body:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(20,50,30,.06);
+}
+
+.pd-tl-body h3{
+  margin:0 0 6px;
+  color:var(--pouyab-green);
+  font-size:17px;
+  font-weight:800;
+}
+
+.pd-tl-body p{
+  margin:0;
+  color:var(--pouyab-muted);
+  font-size:13px;
+  line-height:1.85;
+}
+
+.pd-tl-img{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  margin-bottom:16px;
+  aspect-ratio:16/9;
+  border-radius:16px;
+  border:1px dashed var(--pouyab-line);
+  background:
+    repeating-linear-gradient(135deg,#f7f4e8 0 14px,#f2f1e6 14px 28px);
+  color:#a0aa9f;
+  font-size:12px;
+  overflow:hidden;
+}
+
+.pd-tl-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* ---------- Responsive ---------- */
+@media(max-width:900px){
+  .pd-kv{
+    grid-template-columns:1fr;
+  }
+
+  .pd-stats{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pd-cards,
+  .pd-obj{
+    grid-template-columns:1fr;
+  }
+
+  .pd-tech{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pd-act{
+    grid-template-columns:1fr;
+  }
+
+  .pd-map-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+
+@media(max-width:600px){
+  .pr-hero{
+    padding:68px 0;
+  }
+
+  .pd-section{
+    padding:64px 0;
+  }
+
+  .pd-stats{
+    grid-template-columns:1fr;
+  }
+
+  .pd-tech{
+    grid-template-columns:1fr;
+  }
+
+  .pd-kv-item{
+    flex-direction:column;
+    gap:8px;
+  }
+
+  .pd-kv-item .pd-kv-k{
+    flex:none;
+  }
+
+  .pd-map-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+  }
+
+  .pd-fig figcaption{
+    padding:8px 10px;
+    font-size:11px;
+  }
+}
+
+@media(max-width:420px){
+  .pd-map-grid{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+<link rel="stylesheet" href="assets/css/pouyab.css">
+</head>
+
+<body>
+
+<header class="pouyab-header" id="top">
+  <div class="pouyab-header-inner">
+    <a href="index.html" class="pouyab-brand">
+      <img src="assets/images/logo4.svg" alt="پویاب" data-i18n-alt="hero.brand">
+      <span class="pouyab-brand-text"><strong data-i18n="brand.title">گروه پژوهشگران پویاب</strong></span>
+    </a>
+
+    <nav class="pouyab-nav" id="pouyabNav">
+      <a href="index.html" data-i18n="nav.home">صفحه اصلی</a>
+      <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
+      <a href="index.html#team" data-i18n="nav.team">اعضای هسته</a>
+      <a href="pouyab_projects.html#projects" class="is-current" data-i18n="nav.projects">پروژه‌ها</a>
+
+      <div class="pouyab-lang pouyab-lang-nav" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+        <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+        <div class="pouyab-lang-options">
+          <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+          <button type="button" data-lang="en" aria-label="English">EN</button>
+          <button type="button" data-lang="zh" aria-label="中文">中</button>
+          <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="pouyab-lang" id="pouyabLangSwitcher" role="group" aria-label="زبان سایت" data-i18n-aria="lang.aria">
+      <span class="pouyab-lang-label" aria-hidden="true">فارسی</span>
+      <div class="pouyab-lang-options">
+        <button type="button" data-lang="fa" aria-label="فارسی">فا</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+        <button type="button" data-lang="zh" aria-label="中文">中</button>
+        <button type="button" data-lang="ar" aria-label="العربية">ع</button>
+      </div>
+    </div>
+
+    <button class="pouyab-burger" id="pouyabBurger" aria-label="منوی ناوبری" aria-expanded="false" data-i18n-aria="nav.aria">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="pr-hero">
+    <div class="pr-hero-topo"></div>
+    <div class="pr-shell">
+      <span class="pr-eyebrow" data-i18n="det3.hero.eyebrow">پروژه ۰۳ — جزئیات</span>
+      <h1 data-i18n="det3.hero.title">بررسی کارایی مالچ سنگریزه‌ای بر کنترل فرسایش بادی</h1>
+      <h2 data-i18n="det3.hero.h2">منطقه گرمسار، استان سمنان</h2>
+      <p data-i18n="det3.hero.desc">
+        ارزیابی آزمایشگاهی و میدانی اثر مالچ سنگریزه‌ای بر شدت فرسایش بادی در اراضی کویری
+        گرمسار؛ پروژه‌ای که کارایی بالای این روش بومی، پایدار و اقتصادی را در مهار گرد و
+        غبار و تثبیت خاک تأیید می‌کند.
+      </p>
+      <div class="pr-hero-tags">
+        <span data-i18n="det3.hero.tag1">فرسایش بادی</span>
+        <span data-i18n="det3.hero.tag2">مالچ سنگریزه‌ای</span>
+        <span data-i18n="det3.hero.tag3">تونل باد</span>
+        <span data-i18n="det3.hero.tag4">گرمسار</span>
+        <span data-i18n="det3.hero.tag5">مدیریت بیابان</span>
+        <span data-i18n="det3.hero.tag6">تحلیل اقتصادی</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det3.spec.eyebrow">مشخصات کلی</span>
+        <h2 data-i18n="det3.spec.title">شناسنامه پروژه</h2>
+      </div>
+
+      <div class="pd-kv sr sr-delay-1">
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k1">عنوان پروژه</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v1">بررسی کارایی مالچ سنگریزه‌ای بر کنترل فرسایش بادی (مطالعه موردی منطقه گرمسار)</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k2">کارفرما</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v2">اداره کل منابع طبیعی و آبخیزداری استان سمنان</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k3">مدیر پروژه</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v3">دکتر علی‌اصغر ذوالفقاری</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k4">منطقه مطالعه</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v4">اراضی کویری پایین‌دست جاده گرمسار–قم در شهرستان گرمسار، استان سمنان (مساحت مالچ‌پاشی‌شده حدود ۴۰ هکتار)</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k5">اقلیم منطقه</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v5">صحرایی گرم و خشک؛ میانگین بارش سالانه حدود ۱۱۷ میلی‌متر؛ تبخیر و تعرق پتانسیل سالانه بیش از ۲٬۵۵۰ میلی‌متر؛ میانگین دمای سالانه حدود ۱۹ درجه سانتی‌گراد</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k6">ویژگی‌های خاک</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v6">خاک‌های گچی و شور با پوشش گیاهی کمتر از ۱ درصد و بافت مستعد فرسایش بادی</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k7">طراحی آزمایش</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v7">هفت تیمار پوشش سنگریزه‌ای (۰، ۱۰، ۲۰، ۳۰، ۴۰، ۵۰، ۶۰ و ۷۰ درصد) در شش سرعت باد؛ آزمایش فاکتوریل در قالب طرح کاملاً تصادفی با سه تکرار</span>
+        </div>
+        <div class="pd-kv-item">
+          <span class="pd-kv-k" data-i18n="det3.spec.k8">وضعیت</span>
+          <span class="pd-kv-v" data-i18n="det3.spec.v8">تکمیل‌شده و تحویل نسخه نهایی گزارش (پاییز ۱۴۰۴)</span>
+        </div>
+      </div>
+
+      <div class="pd-stats">
+        <div class="pd-stat">
+          <b data-i18n="det3.stat1.num">۹۸٪+</b>
+          <span data-i18n="det3.stat1.label">کاهش فرسایش بادی با مالچ سنگریزه‌ای</span>
+        </div>
+        <div class="pd-stat">
+          <b data-i18n="det3.stat2.num">۰٫۳۹</b>
+          <span data-i18n="det3.stat2.label">گرم فرسایش خاک در بهترین پوشش (۷۰٪) در برابر ۲۲٫۷۳ گرم شاهد</span>
+        </div>
+        <div class="pd-stat">
+          <b data-i18n="det3.stat3.num">۶٫۴۹–۷٫۱۱</b>
+          <span data-i18n="det3.stat3.label">محدوده سرعت آستانه فرسایش (متر بر ثانیه) در تیمارها</span>
+        </div>
+        <div class="pd-stat">
+          <b data-i18n="det3.stat4.num">۱۳۰–۲۵۲</b>
+          <span data-i18n="det3.stat4.label">هزینه مالچ‌پاشی (میلیون تومان در هکتار)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det3.abs.eyebrow">چکیده پروژه</span>
+        <h2 data-i18n="det3.abs.title">تثبیت خاک‌های کویری با مالچ سنگریزه‌ای</h2>
+      </div>
+
+      <div class="pd-lead pd-body sr sr-delay-1">
+        <p data-i18n="det3.abs.p1">
+          فرسایش بادی از مهم‌ترین چالش‌های محیط‌زیستی و اقتصادی مناطق خشک و نیمه‌خشک است؛
+          با انتقال ذرات خاک، تخریب ساختمان خاک و انتشار گرد و غبار، ثبات زیست‌بوم‌ها و سلامت
+          جوامع را تهدید می‌کند. مالچ سنگریزه‌ای پوششی سطحی و عاری از هرگونه نهاده شیمیایی است
+          که با افزایش زبری سطح، کاهش سرعت باد نزدیک زمین و ایجاد لایه محافظ فیزیکی، از کنده
+          شدن و انتقال ذرات خاک جلوگیری می‌کند. کارایی این روش در اراضی کویری منطقه گرمسار با
+          تونل باد و مطالعات میدانی ارزیابی شد.
+        </p>
+        <p data-i18n="det3.abs.p2">
+          آزمایش‌ها در قالب طرح فاکتوریل با آرایش کاملاً تصادفی و سه تکرار، شامل هفت تیمار
+          پوشش سنگریزه‌ای (۱۰ تا ۷۰ درصد) و شش سرعت باد اجرا شد. نتایج نشان داد فرسایش بیش از
+          ۹۸ درصد کاهش می‌یابد (از ۲۲٫۷۳ به ۰٫۳۹ گرم)؛ تیمارهای ۵۰، ۶۰ و ۷۰ درصد بهترین و از
+          نظر آماری مشابه یکدیگر بودند. رطوبت خاک ۲ درصدی فرسایش را بیش از ۹۹ درصد کاهش داد و
+          مالچ سنگریزه‌ای هدایت الکتریکی، سدیم محلول و نسبت جذب سدیم را به‌ترتیب ۴۲، ۶۱ و ۴۴
+          درصد کاهش داد. تحلیل اقتصادی نیز پوشش ۵۰ درصد را گزینه بهینه معرفی کرد.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det3.area.eyebrow">منطقه مطالعه</span>
+        <h2 data-i18n="det3.area.title">گرمسار؛ عرصه‌ای حساس به فرسایش بادی</h2>
+        <p data-i18n="det3.area.p">
+          منطقه مطالعه در اراضی کویری پایین‌دست جاده گرمسار–قم (شهرستان گرمسار، استان سمنان)
+          قرار دارد. این منطقه دارای اقلیم صحرایی گرم و خشک است؛ میانگین بلندمدت بارش سالانه
+          ایستگاه سینوپتیک گرمسار حدود ۱۱۷ میلی‌متر ثبت شده که عمدتاً در زمستان و بهار می‌بارد.
+          میانگین دمای سالانه هوا حدود ۱۹ درجه سانتی‌گراد و تبخیر و تعرق پتانسیل سالانه بیش از
+          ۲٬۵۵۰ میلی‌متر است. باد غالب بیشتر غربی–شرقی است و در برخی فصول به سرعت‌های قابل
+          توجهی می‌رسد که فرسایش بادی گسترده‌ای ایجاد می‌کند.
+        </p>
+      </div>
+
+      <div class="pd-cards pd-body sr sr-delay-1">
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.area1.n">بارش کم</span>
+          <h3 data-i18n="det3.area1.t">روزهای بارانی محدود</h3>
+          <p data-i18n="det3.area1.d">میانگین بارش سالانه حدود ۱۱۷ میلی‌متر که عمدتاً در زمستان و بهار رخ می‌دهد.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.area2.n">تبخیر و تعرق بالا</span>
+          <h3 data-i18n="det3.area2.t">کمبود شدید رطوبت</h3>
+          <p data-i18n="det3.area2.d">تبخیر و تعرق پتانسیل سالانه بیش از ۲٬۵۵۰ میلی‌متر که کمبود رطوبت خاک را تشدید می‌کند.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.area3.n">خاک گچی و شور</span>
+          <h3 data-i18n="det3.area3.t">تشکیلات شور و گچی</h3>
+          <p data-i18n="det3.area3.d">هسته‌های نمک و کانی‌های گچی موجود در خاک، پتانسیل بالای فرسایش بادی ایجاد می‌کنند.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.area4.n">گیاهان پراکنده</span>
+          <h3 data-i18n="det3.area4.t">پوشش بسیار پراکنده</h3>
+          <p data-i18n="det3.area4.d">پوشش گیاهی کمتر از ۱ درصد و در بیشتر نقاط نزدیک به صفر است.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det3.method.eyebrow">روش انجام</span>
+        <h2 data-i18n="det3.method.title">تلفیق مطالعات میدانی و آزمایش‌های تونل باد</h2>
+        <p data-i18n="det3.method.p">
+          مطالعه در دو بخش میدانی و آزمایشگاهی انجام شد. در بخش میدانی، تونل باد به محل منتقل
+          و سرعت آستانه فرسایش در نقاط مالچ‌پاشی‌شده و شاهد اندازه‌گیری شد و مقاطع رطوبت خاک و
+          نفوذپذیری در محل بررسی گردید. در بخش آزمایشگاهی، داده‌های ۳۰ ساله ایستگاه سینوپتیک
+          گرمسار پردازش، گلباد ترسیم و ویژگی‌های فیزیکوشیمیایی خاک در سه عمق (۰ تا ۳۰، ۳۰ تا ۶۰
+          و ۶۰ تا ۹۰ سانتی‌متر) در دو منطقه مالچ‌شده و شاهد مقایسه شد. سپس تیمارهای سنگریزه به‌صورت
+          تصادفی روی سینی‌های تونل باد اعمال و در شش سرعت باد آزمایش شد.
+        </p>
+      </div>
+
+      <div class="pd-act pd-body sr sr-delay-1">
+        <div class="pd-act-item">
+          <span class="num">۰۱</span>
+          <h3 data-i18n="det3.method1.t">مطالعات میدانی</h3>
+          <p data-i18n="det3.method1.d">تعیین سرعت آستانه فرسایش با تونل باد و بادسنج و اندازه‌گیری مقاطع رطوبت خاک و نفوذپذیری در محل.</p>
+        </div>
+        <div class="pd-act-item">
+          <span class="num">۰۲</span>
+          <h3 data-i18n="det3.method2.t">آزمایش‌های آزمایشگاهی</h3>
+          <p data-i18n="det3.method2.d">تهیه هفت تیمار پوشش سنگریزه‌ای، تعیین سرعت آستانه هر یک و اندازه‌گیری فرسایش در شش سرعت باد (حدود ۷ تا ۱۸ متر بر ثانیه در ارتفاع ۲ متری).</p>
+        </div>
+        <div class="pd-act-item">
+          <span class="num">۰۳</span>
+          <h3 data-i18n="det3.method3.t">تحلیل آماری و اقتصادی</h3>
+          <p data-i18n="det3.method3.d">تحلیل واریانس و مقایسه میانگین‌ها در طرح کاملاً تصادفی با نرم‌افزار R و برآورد هزینه مالچ‌پاشی برای پوشش‌های منتخب.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det3.res.eyebrow">نتایج</span>
+        <h2 data-i18n="det3.res.title">کاهش چشمگیر فرسایش با پوشش سنگریزه</h2>
+        <p data-i18n="det3.res.p">
+          آزمایش‌های تونل باد نشان داد کاربرد مالچ سنگریزه‌ای تأثیر بسیار معناداری
+          (P&lt;0.01) بر کاهش فرسایش بادی دارد. فرسایش از ۲۲٫۷۳ گرم در تیمار شاهد به ۰٫۳۹ گرم
+          در پوشش ۷۰ درصد کاهش یافت؛ یعنی بیش از ۹۸ درصد کاهش. تیمارهای ۵۰، ۶۰ و ۷۰ درصد از
+          نظر آماری مشابه بودند و هر سه در بیشترین سرعت باد نیز فرسایش را زیر ۹ گرم نگاه داشتند.
+        </p>
+      </div>
+
+      <div class="pd-cards pd-body sr sr-delay-1">
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.res1.n">۹۸٪+</span>
+          <h3 data-i18n="det3.res1.t">کاهش فرسایش بادی</h3>
+          <p data-i18n="det3.res1.d">فرسایش از ۲۲٫۷۳ گرم (شاهد) به ۰٫۳۹ گرم (پوشش ۷۰ درصد) کاهش یافت.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.res2.n">۵۰/۶۰/۷۰</span>
+          <h3 data-i18n="det3.res2.t">بهترین تیمارهای پوشش سنگریزه</h3>
+          <p data-i18n="det3.res2.d">این سه تیمار از نظر آماری مشابه بودند و همگی فرسایش را زیر ۹ گرم نگاه داشتند.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.res3.n">۶٫۴۹–۷٫۱۱</span>
+          <h3 data-i18n="det3.res3.t">سرعت آستانه فرسایش</h3>
+          <p data-i18n="det3.res3.d">متر بر ثانیه؛ تفاوت معناداری میان تیمارها در سرعت آستانه مشاهده نشد.</p>
+        </article>
+
+        <article class="pd-card">
+          <span class="pd-card-num" data-i18n="det3.res4.n">۹۹٪+</span>
+          <h3 data-i18n="det3.res4.t">اثر رطوبت خاک</h3>
+          <p data-i18n="det3.res4.d">افزایش رطوبت خاک به ۲ درصد، فرسایش را بیش از ۹۹ درصد کاهش داد (تشکیل پوسته سطحی).</p>
+        </article>
+      </div>
+
+      <p class="pd-lead" style="margin-top:26px" data-i18n="det3.reso.p">
+        مالچ سنگریزه‌ای افزون بر مهار فرسایش، هدایت الکتریکی (EC)، سدیم محلول و نسبت جذب سدیم
+        (SAR) خاک سطحی را به‌ترتیب ۴۲، ۶۱ و ۴۴ درصد کاهش داد؛ اما تأثیر معناداری بر کربن آلی
+        خاک یا نفوذپذیری نداشت.
+      </p>
+    </div>
+  </section>
+
+  <section class="pd-section pd-muted">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det3.eco.eyebrow">تحلیل اقتصادی</span>
+        <h2 data-i18n="det3.eco.title">هزینه مالچ‌پاشی برای پوشش‌های پیشنهادی</h2>
+        <p data-i18n="det3.eco.p">
+          هزینه اجرای مالچ‌پاشی برای تیمارهای منتخب (۵۰، ۶۰ و ۷۰ درصد) به‌صورت هکتاری برآورد
+          شد. عمده هزینه مربوط به پخش و حمل سنگریزه است و سهم خود مصالح کمتر است. جدول زیر
+          هزینه اجرا را برای دو فاصله حمل از محل قرضه نشان می‌دهد.
+        </p>
+      </div>
+
+      <div class="pd-table-wrap pd-body">
+        <table class="pd-table">
+          <thead>
+            <tr>
+              <th data-i18n="det3.eco.th1">پوشش سنگریزه</th>
+              <th data-i18n="det3.eco.th2">فاصله حمل کمتر از ۳۰ کیلومتر</th>
+              <th data-i18n="det3.eco.th3">فاصله حمل ۳۰ تا ۵۰ کیلومتر</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><b data-i18n="det3.eco.r1c1">۵۰٪</b></td><td data-i18n="det3.eco.r1c2">۱۳۰</td><td data-i18n="det3.eco.r1c3">۱۷۹</td></tr>
+            <tr><td><b data-i18n="det3.eco.r2c1">۶۰٪</b></td><td data-i18n="det3.eco.r2c2">۱۵۶</td><td data-i18n="det3.eco.r2c3">۲۱۵</td></tr>
+            <tr><td><b data-i18n="det3.eco.r3c1">۷۰٪</b></td><td data-i18n="det3.eco.r3c2">۱۸۳</td><td data-i18n="det3.eco.r3c3">۲۵۲</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="pd-lead" style="margin-top:14px;font-size:12px;color:var(--pouyab-muted)" data-i18n="det3.eco.unit">
+        میلیون تومان در هکتار
+      </p>
+
+      <p class="pd-lead" style="margin-top:20px" data-i18n="det3.eco.lead">
+        توصیه نهایی اجرای مالچ‌پاشی با پوشش ۵۰ درصد است؛ زیرا با هزینه به‌مراتب کمتر، عملکردی
+        مشابه پوشش‌های بالاتر ارائه می‌دهد.
+      </p>
+    </div>
+  </section>
+
+  <section class="pd-section">
+    <div class="pr-shell">
+      <div class="pd-title">
+        <span data-i18n="det3.rec.eyebrow">نتایج و توصیه‌ها</span>
+        <h2 data-i18n="det3.rec.title">مالچ سنگریزه‌ای؛ روشی کارآمد، پایدار و اقتصادی</h2>
+      </div>
+
+      <div class="pd-lead pd-body">
+        <p data-i18n="det3.rec.p1">
+          یافته‌های این پروژه نشان می‌دهد مالچ سنگریزه‌ای راهکاری بسیار کارآمد، پایدار و
+          اقتصادی برای مهار فرسایش بادی در مناطق خشک و نیمه‌خشک با خاک‌های شور و سدیمی است.
+          با توجه به نبود تفاوت معنادار میان تیمارهای ۵۰، ۶۰ و ۷۰ درصد و صعودی‌بودن هزینه با
+          افزایش پوشش، تیمار ۵۰ درصد به‌عنوان گزینه بهینه فنی–اقتصادی پیشنهاد می‌شود. اجرای
+          این روش با مصالح نزدیک‌ترین محل‌های قرضه (کمتر از ۳۰ کیلومتر) و ادوات مکانیزه برای
+          توزیع یکنواخت، اراضی کویری را به‌طور مؤثر تثبیت، تولید گرد و غبار را کاهش و پایداری
+          زیست‌بوم‌های کشاورزی را بهبود می‌بخشد.
+        </p>
+        <p data-i18n="det3.rec.p2">
+          پیشنهاد می‌شود این روش در مقیاس گسترده‌تر به‌صورت پایلوت پیاده‌سازی شده و اثرات
+          بلندمدت آن بر پایداری خاک و عملکرد زیست‌بوم پایش شود تا مدیریت پایدار اراضی کویری
+          کشور محقق گردد.
+        </p>
+      </div>
+
+      <a class="pd-back" href="pouyab_projects.html#projects">
+        <span data-i18n="det.back">بازگشت به فهرست پروژه‌ها</span>
+        <span class="pd-more-arrow">←</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pouyab-footer">
+  <div class="pouyab-footer-top">
+    <div class="pouyab-footer-brand">
+      <a href="index.html"><img src="assets/images/logo1.svg" alt="لوگوی پویاب" data-i18n-alt="about.logoAlt"></a>
+      <p data-i18n="footer.desc">
+        هسته پژوهشی پویاب با تکیه بر دانش تخصصی اعضا و روش‌های نوین تحلیل،
+        به مطالعه و توسعه راهکارهای علمی در حوزه منابع طبیعی و محیط‌زیست می‌پردازد.
+      </p>
+    </div>
+
+    <div>
+      <h4 data-i18n="footer.quick">دسترسی سریع</h4>
+      <div class="pouyab-footer-links">
+        <a href="index.html" data-i18n="nav.home">صفحه اصلی</a>
+        <a href="index.html#about" data-i18n="nav.about">درباره پویاب</a>
+        <a href="index.html#team" data-i18n="nav.team">اعضای هسته</a>
+        <a href="pouyab_projects.html#projects" data-i18n="nav.projects">پروژه‌ها</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 data-i18n="footer.contact">تماس با ما</h4>
+      <div class="pouyab-footer-contact">
+        <p data-i18n="footer.email">ایمیل: pouyab.team@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="pd-lightbox" id="pdLightbox" aria-hidden="true">
+  <button class="pd-lb-close" id="pdLbClose" aria-label="بستن" data-i18n-aria="det.lbClose">×</button>
+  <figure class="pd-lb-fig">
+    <img id="pdLbImg" src="" alt="">
+    <figcaption id="pdLbCap"></figcaption>
+  </figure>
+</div>
+
+<script>
+  (function(){
+    var header = document.querySelector('.pouyab-header');
+    var burger = document.getElementById('pouyabBurger');
+    function onScroll(){
+      if(header){ header.classList.toggle('is-scrolled', window.scrollY > 10); }
+    }
+    window.addEventListener('scroll', onScroll, { passive:true });
+    onScroll();
+    if(burger){
+      burger.addEventListener('click', function(){
+        var open = header.classList.toggle('open');
+        burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+
+    // Scroll Reveal
+    var srElements = document.querySelectorAll('.sr');
+    if('IntersectionObserver' in window && srElements.length){
+      var observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold:0.12, rootMargin:'0px 0px -40px 0px' });
+      srElements.forEach(function(el){ observer.observe(el); });
+    } else {
+      srElements.forEach(function(el){ el.classList.add('is-visible'); });
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var target = document.querySelector(this.getAttribute('href'));
+        if(target){
+          e.preventDefault();
+          target.scrollIntoView({ behavior:'smooth', block:'start' });
+          if(header && header.classList.contains('open')){
+            header.classList.remove('open');
+            if(burger) burger.setAttribute('aria-expanded','false');
+          }
+        }
+      });
+    });
+
+    // Lightbox
+    var lightbox = document.getElementById('pdLightbox');
+    var lbImg = document.getElementById('pdLbImg');
+    var lbCap = document.getElementById('pdLbCap');
+    function openLb(img, cap){
+      lbImg.src = img;
+      lbImg.alt = cap;
+      lbCap.textContent = cap;
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLb(){
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      lbImg.src = '';
+    }
+    var figs = document.querySelectorAll('.pd-fig');
+    for(var i = 0; i < figs.length; i++){
+      (function(fig){
+        fig.addEventListener('click', function(){
+          var img = fig.querySelector('img');
+          var cap = fig.querySelector('figcaption');
+          openLb(img.getAttribute('src'), cap ? cap.textContent : '');
+        });
+      })(figs[i]);
+    }
+    document.getElementById('pdLbClose').addEventListener('click', closeLb);
+    lightbox.addEventListener('click', function(e){
+      if(e.target === lightbox){ closeLb(); }
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape'){ closeLb(); }
+    });
+  })();
+</script>
+
+<script src="assets/js/i18n.js"></script>
+
+</body>
+</html>
