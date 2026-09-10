@@ -800,7 +800,69 @@ body{
   object-fit:cover;
 }
 
-/* ---------- Responsive ---------- */
+/* ---------- 3D model embed ---------- */
+  .pd-model{
+    margin-top:36px;
+  }
+
+  .pd-model-frame{
+    position:relative;
+    width:100%;
+    height:min(72vh,600px);
+    border:1px solid var(--pouyab-line);
+    border-radius:22px;
+    overflow:hidden;
+    background:#0d1013;
+    box-shadow:0 18px 44px rgba(20,50,30,.10);
+  }
+
+  .pd-model-frame iframe{
+    display:block;
+    width:100%;
+    height:100%;
+    border:0;
+  }
+
+  .pd-model-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:16px;
+  }
+
+  .pd-model-open{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:11px 22px;
+    border-radius:999px;
+    background:linear-gradient(135deg,var(--pouyab-green) 0%,#1a3d24 100%);
+    color:#fff;
+    font-size:13px;
+    font-weight:800;
+    text-decoration:none;
+    transition:all .3s cubic-bezier(.22,1,.36,1);
+  }
+
+  .pd-model-open:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 22px rgba(20,50,30,.22);
+  }
+
+  .pd-model-note{
+    color:var(--pouyab-muted);
+    font-size:12px;
+  }
+
+  @media(max-width:600px){
+    .pd-model-frame{
+      height:56vh;
+    }
+  }
+
+  /* ---------- Responsive ---------- */
 @media(max-width:900px){
   .pd-kv{
     grid-template-columns:1fr;
@@ -935,6 +997,29 @@ body{
         <span data-i18n="det.hero.tag3">سنجش از دور</span>
         <span data-i18n="det.hero.tag4">یادگیری ماشین</span>
         <span data-i18n="det.hero.tag5">مدیریت ریسک</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-section" id="model3d">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det.model.eyebrow">مدل سه‌بعدی</span>
+        <h2 data-i18n="det.model.title">مدل سه‌بعدی حوضه آبخیز فولادمحله</h2>
+        <p data-i18n="det.model.desc">برای بررسی تعاملی حوضه؛ با دکمه چپ ماوس بچرخانید، با اسکرول بزرگ‌نمایی کنید و با دکمه راست جابه‌جا شوید. مدل همچنین در تمام‌صفحه قابل باز شدن است.</p>
+      </div>
+
+      <div class="pd-model sr sr-delay-1">
+        <div class="pd-model-frame">
+          <iframe src="assets/maps/01/Qgis2threejs%20-Foladmahale/Model3D.html" title="مدل سه‌بعدی حوضه آبخیز فولادمحله" data-i18n-aria="det.model.title" loading="lazy" allowfullscreen></iframe>
+        </div>
+        <div class="pd-model-bar">
+          <a class="pd-model-open" href="assets/maps/01/Qgis2threejs%20-Foladmahale/Model3D.html" target="_blank" rel="noopener">
+            <span data-i18n="det.model.open">باز کردن در تمام‌صفحه</span>
+            <span>↗</span>
+          </a>
+          <span class="pd-model-note" data-i18n="det.model.note">مدل با افزونه QGIS2threejs از داده‌های رقومی حوضه تهیه شده است.</span>
+        </div>
       </div>
     </div>
   </section>

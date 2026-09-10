@@ -452,9 +452,16 @@ fa: {
   "det.future.title": "مسیر آینده و ارزش افزوده ملی",
   "det.future.p1": "زیرساخت ایجادشده در این پروژه، قابلیت توسعه به نسل جدید سامانه‌های مدیریت هوشمند منابع طبیعی را داراست و می‌تواند مبنایی برای توسعه سامانه‌های پایش مستمر حوضه‌های آبخیز، تحلیل‌های پیش‌بینی‌محور، ارزیابی مخاطرات محیطی و سیستم‌های پشتیبان تصمیم در برنامه‌ریزی سرزمین قرار گیرد. پروژه حاضر صرفاً یک مطالعه اجرایی نبوده، بلکه یک پلتفرم فناورانه برای مدیریت داده‌محور منابع طبیعی محسوب می‌شود.",
   "det.future.p2": "این پروژه با هم‌افزایی میان هوش مصنوعی، سنجش از دور، داده‌های ماهواره‌ای و اقلیمی، GIS و مدل‌سازی هیدرولوژیکی، الگویی نوین برای مدیریت هوشمند حوضه‌های آبخیز ارائه می‌کند؛ دستاوردی که نه‌تنها تولید نقشه یا گزارش، بلکه ایجاد یک چارچوب فناورانه قابل توسعه، تکرارپذیر و بومی‌سازی‌پذیر برای سایر حوضه‌های آبخیز کشور است.",
-  "det.back": "بازگشت به فهرست پروژه‌ها",
-  "det.lbClose": "بستن",
+"det.back": "بازگشت به فهرست پروژه‌ها",
 
+  /* ---------- Project 01: interactive 3D model ---------- */
+  "det.model.eyebrow": "مدل سه‌بعدی",
+  "det.model.title": "مدل سه‌بعدی حوضه آبخیز فولادمحله",
+  "det.model.desc": "برای بررسی تعاملی حوضه؛ با دکمه چپ ماوس بچرخانید، با اسکرول بزرگ‌نمایی کنید و با دکمه راست جابه‌جا شوید. مدل همچنین در تمام‌صفحه قابل باز شدن است.",
+  "det.model.open": "باز کردن در تمام‌صفحه",
+  "det.model.note": "مدل با افزونه QGIS2threejs از داده‌های رقومی حوضه تهیه شده است.",
+
+  "det.lbClose": "بستن",
   /* ---------- پروژه ۰۲ — جدول و چکیده ---------- */
   "pp.tab.row2.title": "تهیه سیستم پشتیبان تصمیم‌گیری برای مکان‌یابی و اولویت‌بندی نواحی مستعد احداث پخش سیلاب",
   "pp.tab.row2.basin": "استان سمنان",
@@ -679,7 +686,7 @@ fa: {
   "det3.method3.d": "آنالیز واریانس و مقایسه میانگین‌ها در طرح کاملاً تصادفی با نرم‌افزار R و برآورد هزینه مالچ‌پاشی برای پوشش‌های منتخب.",
   "det3.res.eyebrow": "نتایج",
   "det3.res.title": "کاهش چشمگیر فرسایش با پوشش سنگریزه",
-  "det3.res.p": "نتایج آزمایش‌های تونل باد نشان داد که کاربرد مالچ سنگریزه‌ای تأثیر بسیار معناداری (P&lt;0.01) بر کاهش فرسایش بادی دارد. میزان فرسایش از ۲۲.۷۳ گرم در تیمار شاهد به ۰.۳۹ گرم در تیمار ۷۰ درصد کاهش یافت که معادل کاهش بیش از ۹۸ درصدی است. تیمارهای ۵۰، ۶۰ و ۷۰ درصد از نظر آماری تفاوت معناداری با یکدیگر نداشتند و هر سه سطح، فرسایش را در بالاترین سرعت باد به کمتر از ۹ گرم رساندند.",
+  "det3.res.p": "نتایج آزمایش‌های تونل باد نشان داد که کاربرد مالچ سنگریزه‌ای تأثیر بسیار معناداری (P<0.01) بر کاهش فرسایش بادی دارد. میزان فرسایش از ۲۲.۷۳ گرم در تیمار شاهد به ۰.۳۹ گرم در تیمار ۷۰ درصد کاهش یافت که معادل کاهش بیش از ۹۸ درصدی است. تیمارهای ۵۰، ۶۰ و ۷۰ درصد از نظر آماری تفاوت معناداری با یکدیگر نداشتند و هر سه سطح، فرسایش را در بالاترین سرعت باد به کمتر از ۹ گرم رساندند.",
   "det3.res1.n": "۹۸+٪",
   "det3.res1.t": "کاهش فرسایش بادی",
   "det3.res1.d": "کاهش فرسایش از ۲۲.۷۳ گرم (شاهد) به ۰.۳۹ گرم (پوشش ۷۰ درصد).",
@@ -1156,9 +1163,16 @@ en: {
   "det.future.title": "Future Path and National Value-Added",
   "det.future.p1": "The infrastructure created in this project can be extended to a new generation of smart natural-resource management systems and can serve as a basis for the development of continuous watershed monitoring systems, prediction-based analyses, environmental-risk assessment, and decision-support systems in land planning. This project is not merely an executive study but a technological platform for data-driven natural-resource management.",
   "det.future.p2": "Through the synergy of artificial intelligence, remote sensing, satellite and climatic data, GIS, and hydrological modeling, this project offers a novel model for the smart management of watersheds \u2014 an outcome that is not just the production of maps or reports but the creation of an expandable, reproducible, and localizable technological framework for other watersheds across the country.",
-  "det.back": "Back to Project List",
-  "det.lbClose": "Close",
+"det.back": "Back to Project List",
 
+  /* ---------- Project 01: interactive 3D model ---------- */
+  "det.model.eyebrow": "3D Model",
+  "det.model.title": "3D Model of the Fooladmahale Watershed",
+  "det.model.desc": "Explore the watershed interactively: rotate with the left mouse button, zoom with the scroll wheel, and pan with the right button. You can also open the model in fullscreen.",
+  "det.model.open": "Open Fullscreen",
+  "det.model.note": "Model generated with the QGIS2threejs exporter from digital elevation data of the watershed.",
+
+  "det.lbClose": "Close",
   /* ---------- Project 02 — table & abstract ---------- */
   "pp.tab.row2.title": "Developing a Decision Support System for Locating and Prioritizing Areas Suitable for Floodwater Spreading",
   "pp.tab.row2.basin": "Semnan Province",
@@ -1383,7 +1397,7 @@ en: {
   "det3.method3.d": "Analysis of variance and mean comparisons in a completely randomized design using R, plus a cost estimate of mulching for the selected covers.",
   "det3.res.eyebrow": "Results",
   "det3.res.title": "A Remarkable Reduction in Erosion with Gravel Cover",
-  "det3.res.p": "Wind-tunnel experiments showed that applying gravel mulch has a highly significant effect (P&lt;0.01) on reducing wind erosion. Erosion dropped from 22.73 g in the control treatment to 0.39 g at 70% cover — a reduction of more than 98%. The 50%, 60%, and 70% treatments were statistically similar, and all three kept erosion below 9 g even at the highest wind speed.",
+  "det3.res.p": "Wind-tunnel experiments showed that applying gravel mulch has a highly significant effect (P<0.01) on reducing wind erosion. Erosion dropped from 22.73 g in the control treatment to 0.39 g at 70% cover — a reduction of more than 98%. The 50%, 60%, and 70% treatments were statistically similar, and all three kept erosion below 9 g even at the highest wind speed.",
   "det3.res1.n": "98%+",
   "det3.res1.t": "Wind-erosion reduction",
   "det3.res1.d": "Erosion reduced from 22.73 g (control) to 0.39 g (70% cover).",
@@ -1860,9 +1874,16 @@ zh: {
   "det.future.title": "未来路径与国家增值",
   "det.future.p1": "本项目建立的基础设施可扩展至新一代自然资源智能管理系统，并可成为持续流域监测系统、预测性分析、环境风险评估以及国土规划中决策支持系统的发展基础。本项目并不仅是执行性研究，更是面向数据驱动的自然资源管理的技术平台。",
   "det.future.p2": "通过人工智能、遥感、卫星与气候数据、GIS 与水文建模之间的协同，本项目为流域智能治理提供了全新范式；其成果不仅在于制图或报告，更在于为国内其他流域构建一套可扩展、可复现、可本土化的技术框架。",
-  "det.back": "返回项目列表",
-  "det.lbClose": "关闭",
+"det.back": "返回项目列表",
 
+  /* ---------- Project 01: interactive 3D model ---------- */
+  "det.model.eyebrow": "3D 模型",
+  "det.model.title": "福拉马哈莱流域三维模型",
+  "det.model.desc": "交互式探索流域：按住鼠标左键旋转，滚动滚轮缩放，按住鼠标右键平移。也可以全屏打开模型。",
+  "det.model.open": "全屏打开",
+  "det.model.note": "模型由 QGIS2threejs 插件基于流域数字高程数据生成。",
+
+  "det.lbClose": "关闭",
   /* ---------- 项目02 — 表格与摘要 ---------- */
   "pp.tab.row2.title": "开发决策支持系统以选址和排序塞姆南省适合建设拦蓄洪水工程的地区",
   "pp.tab.row2.basin": "塞姆南省",
@@ -2087,7 +2108,7 @@ zh: {
   "det3.method3.d": "使用 R 软件对完全随机设计进行方差分析与均值比较，并估算所选覆盖的铺设成本。",
   "det3.res.eyebrow": "研究结果",
   "det3.res.title": "砾石覆盖显著降低风蚀",
-  "det3.res.p": "风洞试验表明，铺设砾石覆盖对削减风蚀具有极显著效果（P&lt;0.01）。风蚀量从对照处理的 22.73 克降至 70% 覆盖下的 0.39 克，削减幅度超过 98%。50%、60% 与 70% 三种处理在统计上相近，且在最 高速风下也将风蚀控制在 9 克以内。",
+  "det3.res.p": "风洞试验表明，铺设砾石覆盖对削减风蚀具有极显著效果（P<0.01）。风蚀量从对照处理的 22.73 克降至 70% 覆盖下的 0.39 克，削减幅度超过 98%。50%、60% 与 70% 三种处理在统计上相近，且在最 高速风下也将风蚀控制在 9 克以内。",
   "det3.res1.n": "98%+",
   "det3.res1.t": "风蚀削减幅度",
   "det3.res1.d": "风蚀量从 22.73 克（对照）降至 0.39 克（70% 覆盖）。",
@@ -2565,6 +2586,13 @@ ar: {
   "det.future.p1": "تمتلك البنية التي أُنشئت في هذا المشروع قابلية التوسع نحو جيل جديد من أنظمة الإدارة الذكية للموارد الطبيعية، ويمكن أن تشكل أساسًا لتطوير أنظمة الرصد المستمر للأحواض المائية والتحليلات القائمة على التنبؤ وتقييم الأخطار البيئية وأنظمة دعم القرار في تخطيط الأراضي. وليس هذا المشروع دراسة تنفيذية فحسب، بل منصة تقنية لإدارة الموارد الطبيعية القائمة على البيانات.",
   "det.future.p2": "يقدّم هذا المشروع، عبر التآزر بين الذكاء الاصطناعي والاستشعار عن بعد والبيانات الساتلية والمناخية وGIS والنمذجة الهيدرولوجية، نموذجًا جديدًا للإدارة الذكية للأحواض المائية؛ وهو إنجاز لا يقتصر على إنتاج الخرائط أو التقارير، بل بناء إطار تقني قابل للتوسع والتكرار والتوطين لباقي أحواض البلاد.",
   "det.back": "العودة إلى قائمة المشاريع",
+
+  /* ---------- Project 01: interactive 3D model ---------- */
+  "det.model.eyebrow": "نموذج ثلاثي الأبعاد",
+  "det.model.title": "نموذج ثلاثي الأبعاد لحوض فولاد محله",
+  "det.model.desc": "استكشف الحوض بشكل تفاعلي: أدر النموذج بزر الفأرة الأيسر، وقرّب بالعجلة، وحرّك الخريطة بزر الفأرة الأيمن. يمكنك أيضًا فتح النموذج بملء الشاشة.",
+  "det.model.open": "فتح بملء الشاشة",
+  "det.model.note": "تم إنشاء النموذج بواسطة إضافة QGIS2threejs من بيانات الارتفاع الرقمية للحوض.",
   "det.lbClose": "إغلاق",
 
   /* ---------- المشروع 02 — الجدول والملخص ---------- */
@@ -2791,7 +2819,7 @@ ar: {
   "det3.method3.d": "تحليل التباين ومقارنة المتوسطات في تصميم عشوائي كامل باستخدام R، مع تقدير تكلفة فرش الحصى للتغطيات المختارة.",
   "det3.res.eyebrow": "النتائج",
   "det3.res.title": "تخفيض ملحوظ للانجراف بفعل الغطاء الحصوي",
-  "det3.res.p": "أظهرت تجارب نفق الرياح أن تطبيق النشارة الحصوية له تأثير معنوي جدًا (P&lt;٠٫٠١) في تخفيض الانجراف الريحي. وانخفض الانجراف من ٢٢٫٧٣ غرامًا في معاملة الشاهد إلى ٠٫٣٩ غرامًا عند تغطية ٧٠٪ — أي تخفيض يتجاوز ٩٨٪. وكانت معاملات ٥٠٪ و٦٠٪ و٧٠٪ متشابهة إحصائيًا، وأبقت جميعها الانجراف دون ٩ غرامات حتى عند أعلى سرعة رياح.",
+  "det3.res.p": "أظهرت تجارب نفق الرياح أن تطبيق النشارة الحصوية له تأثير معنوي جدًا (P<٠٫٠١) في تخفيض الانجراف الريحي. وانخفض الانجراف من ٢٢٫٧٣ غرامًا في معاملة الشاهد إلى ٠٫٣٩ غرامًا عند تغطية ٧٠٪ — أي تخفيض يتجاوز ٩٨٪. وكانت معاملات ٥٠٪ و٦٠٪ و٧٠٪ متشابهة إحصائيًا، وأبقت جميعها الانجراف دون ٩ غرامات حتى عند أعلى سرعة رياح.",
   "det3.res1.n": "٩٨٪+",
   "det3.res1.t": "تخفيض الانجراف الريحي",
   "det3.res1.d": "انخفض الانجراف من ٢٢٫٧٣ غرامًا (الشاهد) إلى ٠٫٣٩ غرامًا (تغطية ٧٠٪).",
