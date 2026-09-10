@@ -463,9 +463,9 @@ fa: {
 
   "det.kmz.eyebrow": "نقشه تعاملی",
   "det.kmz.title": "نقشه جامع حوضه فولادمحله (KMZ)",
-  "det.kmz.desc": "نقشه زیر برگرفته از فایل KMZ شامل زیرحوضه‌ها، آبراهه‌ها، چاه‌ها، چشمه‌ها و قنات‌هاست. لایه‌ها را از کنترل بالا-راست روشن/خاموش کنید و روی عوارض برای جزئیات کلیک کنید.",
+  "det.kmz.desc": "",
   "det.kmz.download": "دانلود فایل KMZ",
-  "det.kmz.note": "نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود — سرویس آزاد و بدون نیاز به کلید.",
+  "det.kmz.note": "نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود.",
 
   "det.lbClose": "بستن",
   /* ---------- پروژه ۰۲ — جدول و چکیده ---------- */
@@ -1180,9 +1180,9 @@ en: {
 
   "det.kmz.eyebrow": "Interactive Map",
   "det.kmz.title": "Comprehensive Map of Fooladmahale Watershed (KMZ)",
-  "det.kmz.desc": "The map below is derived from the KMZ file and includes sub-basins, streams, wells, springs and qanats. Toggle layers from the top-right control and click features for details.",
+  "det.kmz.desc": "",
   "det.kmz.download": "Download KMZ File",
-  "det.kmz.note": "Map rendered with Leaflet and OpenStreetMap tiles — free, open and keyless.",
+  "det.kmz.note": "Map rendered with Leaflet and OpenStreetMap tiles.",
 
   "det.lbClose": "Close",
   /* ---------- Project 02 — table & abstract ---------- */
@@ -1897,9 +1897,9 @@ zh: {
 
   "det.kmz.eyebrow": "交互式地图",
   "det.kmz.title": "福拉马哈莱流域综合地图（KMZ）",
-  "det.kmz.desc": "下图来自 KMZ 文件，包含子流域、河道、水井、泉眼和坎儿井。可在右上角切换图层，点击要素查看详情。",
+  "det.kmz.desc": "",
   "det.kmz.download": "下载 KMZ 文件",
-  "det.kmz.note": "地图由 Leaflet 与 OpenStreetMap 瓦片渲染 — 免费、开放、无需密钥。",
+  "det.kmz.note": "地图由 Leaflet 与 OpenStreetMap 瓦片渲染。",
 
   "det.lbClose": "关闭",
   /* ---------- 项目02 — 表格与摘要 ---------- */
@@ -2614,9 +2614,9 @@ ar: {
 
   "det.kmz.eyebrow": "خريطة تفاعلية",
   "det.kmz.title": "الخريطة الشاملة لحوض فولاد محله (KMZ)",
-  "det.kmz.desc": "الخريطة أدناه مشتقة من ملف KMZ وتضم الأحواض الفرعية والمجاري المائية والآبار والينابيع والقنوات. بدّل الطبقات من عنصر التحكم أعلى اليمين وانقر على المعالم للتفاصيل.",
+  "det.kmz.desc": "",
   "det.kmz.download": "تنزيل ملف KMZ",
-  "det.kmz.note": "الخريطة معروضة عبر Leaflet وبلاطات OpenStreetMap — مجانية ومفتوحة وبدون مفتاح.",
+  "det.kmz.note": "الخريطة معروضة عبر Leaflet وبلاطات OpenStreetMap.",
 
   "det.lbClose": "إغلاق",
 

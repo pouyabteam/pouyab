@@ -1002,35 +1002,11 @@ body{
     </div>
   </section>
 
-  <section class="pd-section" id="model3d">
-    <div class="pr-shell">
-      <div class="pd-title sr">
-        <span data-i18n="det.model.eyebrow">مدل سه‌بعدی</span>
-        <h2 data-i18n="det.model.title">مدل سه‌بعدی حوضه آبخیز فولادمحله</h2>
-        <p data-i18n="det.model.desc">برای بررسی تعاملی حوضه؛ با دکمه چپ ماوس بچرخانید، با اسکرول بزرگ‌نمایی کنید و با دکمه راست جابه‌جا شوید. مدل همچنین در تمام‌صفحه قابل باز شدن است.</p>
-      </div>
-
-      <div class="pd-model sr sr-delay-1">
-        <div class="pd-model-frame">
-          <iframe src="assets/maps/01/Qgis2threejs%20-Foladmahale/Model3D.html" title="مدل سه‌بعدی حوضه آبخیز فولادمحله" data-i18n-aria="det.model.title" loading="lazy" allowfullscreen></iframe>
-        </div>
-        <div class="pd-model-bar">
-          <a class="pd-model-open" href="assets/maps/01/Qgis2threejs%20-Foladmahale/Model3D.html" target="_blank" rel="noopener">
-            <span data-i18n="det.model.open">باز کردن در تمام‌صفحه</span>
-            <span>↗</span>
-          </a>
-          <span class="pd-model-note" data-i18n="det.model.note">مدل با افزونه QGIS2threejs از داده‌های رقومی حوضه تهیه شده است.</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pd-section" id="kmz-map-section">
+    <section class="pd-section" id="kmz-map-section">
     <div class="pr-shell">
       <div class="pd-title sr">
         <span data-i18n="det.kmz.eyebrow">نقشه تعاملی</span>
         <h2 data-i18n="det.kmz.title">نقشه جامع حوضه فولادمحله (KMZ)</h2>
-        <p data-i18n="det.kmz.desc">نقشه زیر برگرفته از فایل KMZ شامل زیرحوضه‌ها، آبراهه‌ها، چاه‌ها، چشمه‌ها و قنات‌هاست. لایه‌ها را از کنترل بالا-راست روشن/خاموش کنید و روی عوارض برای جزئیات کلیک کنید.</p>
       </div>
       <div class="pd-model sr sr-delay-1">
         <div id="kmz-map" style="height:560px; border-radius:22px; overflow:hidden; border:1px solid var(--pouyab-line); background:#eef2eb"></div>
@@ -1039,7 +1015,7 @@ body{
             <span data-i18n="det.kmz.download">دانلود فایل KMZ</span>
             <span>⬇</span>
           </a>
-          <span class="pd-model-note" data-i18n="det.kmz.note">نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود — سرویس آزاد و بدون نیاز به کلید.</span>
+          <span class="pd-model-note" data-i18n="det.kmz.note">نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود.</span>
         </div>
       </div>
     </div>
@@ -1380,7 +1356,30 @@ body{
     </div>
   </section>
 
-  <section class="pd-section" id="maps">
+  <section class="pd-section" id="model3d">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det.model.eyebrow">مدل سه‌بعدی</span>
+        <h2 data-i18n="det.model.title">مدل سه‌بعدی حوضه آبخیز فولادمحله</h2>
+        <p data-i18n="det.model.desc">برای بررسی تعاملی حوضه؛ با دکمه چپ ماوس بچرخانید، با اسکرول بزرگ‌نمایی کنید و با دکمه راست جابه‌جا شوید. مدل همچنین در تمام‌صفحه قابل باز شدن است.</p>
+      </div>
+
+      <div class="pd-model sr sr-delay-1">
+        <div class="pd-model-frame">
+          <iframe src="assets/maps/01/Qgis2threejs%20-Foladmahale/Model3D.html" title="مدل سه‌بعدی حوضه آبخیز فولادمحله" data-i18n-aria="det.model.title" loading="lazy" allowfullscreen></iframe>
+        </div>
+        <div class="pd-model-bar">
+          <a class="pd-model-open" href="assets/maps/01/Qgis2threejs%20-Foladmahale/Model3D.html" target="_blank" rel="noopener">
+            <span data-i18n="det.model.open">باز کردن در تمام‌صفحه</span>
+            <span>↗</span>
+          </a>
+          <span class="pd-model-note" data-i18n="det.model.note">مدل با افزونه QGIS2threejs از داده‌های رقومی حوضه تهیه شده است.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="pd-section" id="maps">
     <div class="pr-shell">
       <div class="pd-title sr">
         <span data-i18n="det.maps.eyebrow">گالری نقشه‌ها</span>
@@ -1880,12 +1879,11 @@ body{
   var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-  // Esri World Imagery — free, open (no key)
+  });
   var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
     attribution: 'Tiles &copy; Esri'
-  });
-  L.control.layers({ 'نقشه خیابانی (OSM)': osm, 'تصویر ماهواره‌ای (Esri)': esri }, null, { position: 'topleft', collapsed: true }).addTo(map);
+  }).addTo(map);
+  L.control.layers({ 'Streets': osm, 'Satellite': esri }, null, { position: 'topleft', collapsed: true }).addTo(map);
 
   fetch('assets/maps/01/111.geojson').then(function(r){ return r.json(); }).then(function(geojson){
     var colors = {
