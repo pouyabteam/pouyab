@@ -1011,11 +1011,10 @@ body{
       <div class="pd-model sr sr-delay-1">
         <div id="kmz-map" style="height:560px; border-radius:22px; overflow:hidden; border:1px solid var(--pouyab-line); background:#eef2eb"></div>
         <div class="pd-model-bar">
-          <a class="pd-model-open" href="assets/maps/01/111.kmz" download>
+          <a id="kmz-download" class="pd-model-open" href="assets/maps/01/111.kmz" download>
             <span data-i18n="det.kmz.download">دانلود فایل KMZ</span>
             <span>⬇</span>
           </a>
-          <span class="pd-model-note" data-i18n="det.kmz.note">نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود.</span>
         </div>
       </div>
     </div>
@@ -1869,6 +1868,8 @@ body{
   })();
 </script>
 
+<script src="https://unpkg.com/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="https://unpkg.com/@mapbox/togeojson@0.16.0/dist/togeojson.min.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 (function(){
@@ -1885,7 +1886,76 @@ body{
   }).addTo(map);
   L.control.layers({ 'Streets': osm, 'Satellite': esri }, null, { position: 'topleft', collapsed: true }).addTo(map);
 
-  fetch('assets/maps/01/111.geojson').then(function(r){ return r.json(); }).then(function(geojson){
+  function enrichWithFolders(kmlDom, geojson){
+    var placemarks = kmlDom.getElementsByTagName('Placemark');
+    var folders = [];
+    for(var i=0;i<placemarks.length;i++){
+      var pm=placemarks[i], cur=pm.parentNode, name='';
+      while(cur){
+        if(cur.nodeName==='Folder'){
+          for(var j=0;j<cur.childNodes.length;j++) if(cur.childNodes[j].nodeName==='name'){ name=cur.childNodes[j].textContent.trim(); break; }
+          if(name) break;
+        }
+        cur=cur.parentNode;
+      }
+      folders.push(name||'unknown');
+    }
+    for(var i=0;i<geojson.features.length&&i<folders.length;i++){
+      geojson.features[i].properties=geojson.features[i].properties||{};
+      if(!geojson.features[i].properties.folder) geojson.features[i].properties.folder=folders[i];
+    }
+    return geojson;
+  }
+  async function load111(){
+    var base='assets/maps/01/111';
+    var cands=[
+      {url:base+'.kmz',type:'kmz'},
+      {url:base+'.kml',type:'kml'},
+      {url:base+'.geojson',type:'geojson'},
+      {url:base+'.json',type:'geojson'},
+      {url:base,type:'geojson'}
+    ];
+    for(var c of cands){
+      try{
+        if(c.type==='geojson'){
+          var r=await fetch(c.url);
+          if(!r.ok) continue;
+          var j=await r.json();
+          if(j&&j.type==='FeatureCollection'&&j.features){
+            var dl=document.getElementById('kmz-download'); if(dl) dl.href=c.url;
+            return j;
+          }
+        }else if(c.type==='kml'){
+          var r=await fetch(c.url);
+          if(!r.ok) continue;
+          var t=await r.text();
+          var d=new DOMParser().parseFromString(t,'text/xml');
+          var g=toGeoJSON.kml(d);
+          g=enrichWithFolders(d,g);
+          var dl=document.getElementById('kmz-download'); if(dl) dl.href=c.url;
+          return g;
+        }else if(c.type==='kmz'){
+          var r=await fetch(c.url);
+          if(!r.ok) continue;
+          var b=await r.arrayBuffer();
+          if(typeof JSZip==='undefined') continue;
+          var z=await JSZip.loadAsync(b);
+          var kf=null;
+          z.forEach(function(p,f){ if(!kf&&p.toLowerCase().endsWith('.kml')) kf=f; });
+          if(!kf){ var fs=Object.values(z.files); for(var f of fs) if(f.name.toLowerCase().endsWith('.kml')){kf=f;break;} }
+          if(!kf) continue;
+          var t=await kf.async('string');
+          var d=new DOMParser().parseFromString(t,'text/xml');
+          var g=toGeoJSON.kml(d);
+          g=enrichWithFolders(d,g);
+          var dl=document.getElementById('kmz-download'); if(dl) dl.href=c.url;
+          return g;
+        }
+      }catch(e){ continue; }
+    }
+    throw new Error('No 111 file');
+  }
+  load111().then(function(geojson){
     var colors = {
       'Subbase_Poly': '#1a3d24',
       'Stream': '#2563eb',

@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
    POUYAB — i18n Engine + Translation Dictionary
    Languages: fa (فارسی) · en (English) · zh (中文) · ar (العربية)
    ========================================================= */
@@ -465,7 +465,7 @@ fa: {
   "det.kmz.title": "نقشه جامع حوضه فولادمحله (KMZ)",
   "det.kmz.desc": "",
   "det.kmz.download": "دانلود فایل KMZ",
-  "det.kmz.note": "نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود.",
+  "det.kmz.note": "",
 
   "det.lbClose": "بستن",
   /* ---------- پروژه ۰۲ — جدول و چکیده ---------- */
@@ -1182,7 +1182,7 @@ en: {
   "det.kmz.title": "Comprehensive Map of Fooladmahale Watershed (KMZ)",
   "det.kmz.desc": "",
   "det.kmz.download": "Download KMZ File",
-  "det.kmz.note": "Map rendered with Leaflet and OpenStreetMap tiles.",
+  "det.kmz.note": "",
 
   "det.lbClose": "Close",
   /* ---------- Project 02 — table & abstract ---------- */
@@ -1899,7 +1899,7 @@ zh: {
   "det.kmz.title": "福拉马哈莱流域综合地图（KMZ）",
   "det.kmz.desc": "",
   "det.kmz.download": "下载 KMZ 文件",
-  "det.kmz.note": "地图由 Leaflet 与 OpenStreetMap 瓦片渲染。",
+  "det.kmz.note": "",
 
   "det.lbClose": "关闭",
   /* ---------- 项目02 — 表格与摘要 ---------- */
@@ -2616,7 +2616,7 @@ ar: {
   "det.kmz.title": "الخريطة الشاملة لحوض فولاد محله (KMZ)",
   "det.kmz.desc": "",
   "det.kmz.download": "تنزيل ملف KMZ",
-  "det.kmz.note": "الخريطة معروضة عبر Leaflet وبلاطات OpenStreetMap.",
+  "det.kmz.note": "",
 
   "det.lbClose": "إغلاق",
 
