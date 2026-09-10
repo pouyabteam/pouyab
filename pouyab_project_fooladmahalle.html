@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="صفحه اختصاصی پروژه روش‌های نوین در مطالعات آبخیزداری — حوضه آبخیز فولادمحله شهرستان مهدیشهر">
 <title>پروژه فولادمحله | پویاب</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 
 <style>
 @font-face {
@@ -1024,6 +1025,26 @@ body{
     </div>
   </section>
 
+  <section class="pd-section" id="kmz-map-section">
+    <div class="pr-shell">
+      <div class="pd-title sr">
+        <span data-i18n="det.kmz.eyebrow">نقشه تعاملی</span>
+        <h2 data-i18n="det.kmz.title">نقشه جامع حوضه فولادمحله (KMZ)</h2>
+        <p data-i18n="det.kmz.desc">نقشه زیر برگرفته از فایل KMZ شامل زیرحوضه‌ها، آبراهه‌ها، چاه‌ها، چشمه‌ها و قنات‌هاست. لایه‌ها را از کنترل بالا-راست روشن/خاموش کنید و روی عوارض برای جزئیات کلیک کنید.</p>
+      </div>
+      <div class="pd-model sr sr-delay-1">
+        <div id="kmz-map" style="height:560px; border-radius:22px; overflow:hidden; border:1px solid var(--pouyab-line); background:#eef2eb"></div>
+        <div class="pd-model-bar">
+          <a class="pd-model-open" href="assets/maps/01/111.kmz" download>
+            <span data-i18n="det.kmz.download">دانلود فایل KMZ</span>
+            <span>⬇</span>
+          </a>
+          <span class="pd-model-note" data-i18n="det.kmz.note">نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود — سرویس آزاد و بدون نیاز به کلید.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="pd-section">
     <div class="pr-shell">
       <div class="pd-title sr">
@@ -1849,6 +1870,80 @@ body{
   })();
 </script>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function(){
+  var mapEl = document.getElementById('kmz-map');
+  if(!mapEl || typeof L === 'undefined') return;
+  var map = L.map('kmz-map', { scrollWheelZoom: false }).setView([36.05, 53.65], 11);
+  // OpenStreetMap — free, open, no key (https://www.openstreetmap.org/copyright)
+  var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  // Esri World Imagery — free, open (no key)
+  var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri'
+  });
+  L.control.layers({ 'نقشه خیابانی (OSM)': osm, 'تصویر ماهواره‌ای (Esri)': esri }, null, { position: 'topleft', collapsed: true }).addTo(map);
+
+  fetch('assets/maps/01/111.geojson').then(function(r){ return r.json(); }).then(function(geojson){
+    var colors = {
+      'Subbase_Poly': '#1a3d24',
+      'Stream': '#2563eb',
+      'چاه': '#dc2626',
+      'چشمه': '#0891b2',
+      'Qanat-foolad-Mahaleh': '#7c3aed'
+    };
+    var groups = {};
+    geojson.features.forEach(function(f){
+      var folder = (f.properties && f.properties.folder) || 'unknown';
+      (groups[folder] = groups[folder] || []).push(f);
+    });
+    var overlays = {};
+    Object.keys(groups).forEach(function(folder){
+      var feats = groups[folder];
+      var c = colors[folder] || '#1a3d24';
+      var layer = L.geoJSON({ type: 'FeatureCollection', features: feats }, {
+        style: function(feat){
+          var t = feat.geometry && feat.geometry.type;
+          if(t === 'Polygon' || t === 'MultiPolygon') return { color: c, weight: 2, fillColor: c, fillOpacity: 0.18 };
+          if(t === 'LineString' || t === 'MultiLineString' || t === 'GeometryCollection') return { color: c, weight: 2.2, opacity: 0.85 };
+          return { color: c };
+        },
+        pointToLayer: function(feat, latlng){
+          return L.circleMarker(latlng, { radius: 6, fillColor: c, color: '#fff', weight: 1.5, fillOpacity: 0.92 });
+        },
+        onEachFeature: function(feat, lyr){
+          var p = feat.properties || {};
+          var title = p.name || p.Name_subba || folder;
+          var html = '<div style="min-width:200px; font-family:Vazirmatn,IRANYekan,sans-serif; font-size:12.5px; line-height:1.7; direction:rtl; text-align:right">'
+            + '<b style="color:#1a3d24">' + title + '</b><br>'
+            + '<span style="color:#5a6560; font-size:11px">' + folder + '</span><hr style="margin:6px 0; border:none; border-top:1px solid #e2e7dc">'
+            + '<table style="width:100%; border-collapse:collapse; font-size:11px">';
+          var fields = ['Area','Perimeter','sazeman','name_ostan','name_mahdo','name_shahr','name_abadi','name_malek','name_ghana','vaziyat_qa','vaziyat_ab','debi_dar_f','tedad_resh','omgh_madar','Tool','Arz'];
+          fields.forEach(function(k){
+            if(p[k] !== undefined && p[k] !== '' && p[k] !== null) html += '<tr><td style="color:#5a6560; padding:2px 6px">' + k + '</td><td style="padding:2px 6px; font-weight:600">' + p[k] + '</td></tr>';
+          });
+          html += '</table></div>';
+          lyr.bindPopup(html, { maxWidth: 320 });
+          // Tooltip for quick identify
+          if(title) lyr.bindTooltip(title, { direction: 'top', sticky: true });
+        }
+      });
+      layer.addTo(map);
+      overlays[folder + ' (' + feats.length + ')'] = layer;
+    });
+    L.control.layers(null, overlays, { collapsed: false, position: 'topright' }).addTo(map);
+    try { map.fitBounds(L.geoJSON(geojson).getBounds(), { padding: [24,24] }); } catch(e){}
+    // Fix Leaflet rendering when section was hidden during load
+    setTimeout(function(){ map.invalidateSize(); }, 400);
+  }).catch(function(e){
+    console.error(e);
+    mapEl.innerHTML = '<div style="padding:48px; text-align:center; color:#5a6560">خطا در بارگذاری نقشه. لطفاً فایل KMZ را دانلود کنید.</div>';
+  });
+})();
+</script>
 <script src="assets/js/i18n.js"></script>
 
 </body>

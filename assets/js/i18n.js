@@ -461,6 +461,12 @@ fa: {
   "det.model.open": "باز کردن در تمام‌صفحه",
   "det.model.note": "مدل با افزونه QGIS2threejs از داده‌های رقومی حوضه تهیه شده است.",
 
+  "det.kmz.eyebrow": "نقشه تعاملی",
+  "det.kmz.title": "نقشه جامع حوضه فولادمحله (KMZ)",
+  "det.kmz.desc": "نقشه زیر برگرفته از فایل KMZ شامل زیرحوضه‌ها، آبراهه‌ها، چاه‌ها، چشمه‌ها و قنات‌هاست. لایه‌ها را از کنترل بالا-راست روشن/خاموش کنید و روی عوارض برای جزئیات کلیک کنید.",
+  "det.kmz.download": "دانلود فایل KMZ",
+  "det.kmz.note": "نقشه با Leaflet و کاشی‌های OpenStreetMap نمایش داده می‌شود — سرویس آزاد و بدون نیاز به کلید.",
+
   "det.lbClose": "بستن",
   /* ---------- پروژه ۰۲ — جدول و چکیده ---------- */
   "pp.tab.row2.title": "تهیه سیستم پشتیبان تصمیم‌گیری برای مکان‌یابی و اولویت‌بندی نواحی مستعد احداث پخش سیلاب",
@@ -1171,6 +1177,12 @@ en: {
   "det.model.desc": "Explore the watershed interactively: rotate with the left mouse button, zoom with the scroll wheel, and pan with the right button. You can also open the model in fullscreen.",
   "det.model.open": "Open Fullscreen",
   "det.model.note": "Model generated with the QGIS2threejs exporter from digital elevation data of the watershed.",
+
+  "det.kmz.eyebrow": "Interactive Map",
+  "det.kmz.title": "Comprehensive Map of Fooladmahale Watershed (KMZ)",
+  "det.kmz.desc": "The map below is derived from the KMZ file and includes sub-basins, streams, wells, springs and qanats. Toggle layers from the top-right control and click features for details.",
+  "det.kmz.download": "Download KMZ File",
+  "det.kmz.note": "Map rendered with Leaflet and OpenStreetMap tiles — free, open and keyless.",
 
   "det.lbClose": "Close",
   /* ---------- Project 02 — table & abstract ---------- */
@@ -1883,6 +1895,12 @@ zh: {
   "det.model.open": "全屏打开",
   "det.model.note": "模型由 QGIS2threejs 插件基于流域数字高程数据生成。",
 
+  "det.kmz.eyebrow": "交互式地图",
+  "det.kmz.title": "福拉马哈莱流域综合地图（KMZ）",
+  "det.kmz.desc": "下图来自 KMZ 文件，包含子流域、河道、水井、泉眼和坎儿井。可在右上角切换图层，点击要素查看详情。",
+  "det.kmz.download": "下载 KMZ 文件",
+  "det.kmz.note": "地图由 Leaflet 与 OpenStreetMap 瓦片渲染 — 免费、开放、无需密钥。",
+
   "det.lbClose": "关闭",
   /* ---------- 项目02 — 表格与摘要 ---------- */
   "pp.tab.row2.title": "开发决策支持系统以选址和排序塞姆南省适合建设拦蓄洪水工程的地区",
@@ -2593,6 +2611,13 @@ ar: {
   "det.model.desc": "استكشف الحوض بشكل تفاعلي: أدر النموذج بزر الفأرة الأيسر، وقرّب بالعجلة، وحرّك الخريطة بزر الفأرة الأيمن. يمكنك أيضًا فتح النموذج بملء الشاشة.",
   "det.model.open": "فتح بملء الشاشة",
   "det.model.note": "تم إنشاء النموذج بواسطة إضافة QGIS2threejs من بيانات الارتفاع الرقمية للحوض.",
+
+  "det.kmz.eyebrow": "خريطة تفاعلية",
+  "det.kmz.title": "الخريطة الشاملة لحوض فولاد محله (KMZ)",
+  "det.kmz.desc": "الخريطة أدناه مشتقة من ملف KMZ وتضم الأحواض الفرعية والمجاري المائية والآبار والينابيع والقنوات. بدّل الطبقات من عنصر التحكم أعلى اليمين وانقر على المعالم للتفاصيل.",
+  "det.kmz.download": "تنزيل ملف KMZ",
+  "det.kmz.note": "الخريطة معروضة عبر Leaflet وبلاطات OpenStreetMap — مجانية ومفتوحة وبدون مفتاح.",
+
   "det.lbClose": "إغلاق",
 
   /* ---------- المشروع 02 — الجدول والملخص ---------- */
