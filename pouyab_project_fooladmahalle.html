@@ -1912,14 +1912,14 @@ body{
     for(var c of cands){
       try{
         if(c.type==='geojson'){
-          var r=await fetch(c.url);
+          var r=await fetch(c.url,{cache:'no-store'});
           if(!r.ok) continue;
           var j=await r.json();
           if(j&&j.type==='FeatureCollection'&&j.features){
             return j;
           }
         }else if(c.type==='kml'){
-          var r=await fetch(c.url);
+          var r=await fetch(c.url,{cache:'no-store'});
           if(!r.ok) continue;
           var t=await r.text();
           var d=new DOMParser().parseFromString(t,'text/xml');
@@ -1927,7 +1927,7 @@ body{
           g=enrichWithFolders(d,g);
           return g;
         }else if(c.type==='kmz'){
-          var r=await fetch(c.url);
+          var r=await fetch(c.url,{cache:'no-store'});
           if(!r.ok) continue;
           var b=await r.arrayBuffer();
           if(typeof JSZip==='undefined') continue;
@@ -1954,13 +1954,6 @@ body{
       'Spring': '#0891b2',
       'Qanat': '#7c3aed'
     };
-    var labels = {
-      'Watershed Boundary': 'مرز حوضه',
-      'Stream': 'آبراهه‌ها',
-      'Well': 'چاه‌ها',
-      'Spring': 'چشمه‌ها',
-      'Qanat': 'قنات'
-    };
     var groups = {};
     geojson.features.forEach(function(f){
       var folder = (f.properties && f.properties.folder) || 'unknown';
@@ -1985,7 +1978,7 @@ body{
           var title = p.name || p.Name_subba || folder;
           var html = '<div style="min-width:200px; font-family:Vazirmatn,IRANYekan,sans-serif; font-size:12.5px; line-height:1.7; direction:rtl; text-align:right">'
             + '<b style="color:#1a3d24">' + title + '</b><br>'
-            + '<span style="color:#5a6560; font-size:11px">' + (labels[folder] || folder) + '</span><hr style="margin:6px 0; border:none; border-top:1px solid #e2e7dc">'
+            + '<span style="color:#5a6560; font-size:11px">' + folder + '</span><hr style="margin:6px 0; border:none; border-top:1px solid #e2e7dc">'
             + '<table style="width:100%; border-collapse:collapse; font-size:11px">';
           var fields = ['Area','Perimeter','sazeman','name_ostan','name_mahdo','name_shahr','name_abadi','name_malek','name_ghana','vaziyat_qa','vaziyat_ab','debi_dar_f','tedad_resh','omgh_madar','Tool','Arz'];
           fields.forEach(function(k){
@@ -1998,7 +1991,7 @@ body{
         }
       });
       if(folder === 'Watershed Boundary') layer.addTo(map);
-      overlays[(labels[folder] || folder) + ' (' + feats.length + ')'] = layer;
+      overlays[folder + ' (' + feats.length + ')'] = layer;
     });
     L.control.layers(null, overlays, { collapsed: false, position: 'topright' }).addTo(map);
     try { map.fitBounds(L.geoJSON(geojson).getBounds(), { padding: [24,24] }); } catch(e){}
