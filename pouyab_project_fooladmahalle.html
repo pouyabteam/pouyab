@@ -793,6 +793,7 @@ body{
   color:#a0aa9f;
   font-size:12px;
   overflow:hidden;
+  cursor:zoom-in;
 }
 
 .pd-tl-img img{
@@ -1882,13 +1883,15 @@ body{
       document.body.style.overflow = '';
       lbImg.src = '';
     }
-    var figs = document.querySelectorAll('.pd-fig');
+    var figs = document.querySelectorAll('.pd-fig, .pd-tl-img');
     for(var i = 0; i < figs.length; i++){
       (function(fig){
         fig.addEventListener('click', function(){
           var img = fig.querySelector('img');
-          var cap = fig.querySelector('figcaption');
-          openLb(img.getAttribute('src'), cap ? cap.textContent : '');
+          if(!img) return;
+          var capEl = fig.querySelector('figcaption');
+          if(!capEl && fig.parentNode) capEl = fig.parentNode.querySelector('h3');
+          openLb(img.getAttribute('src'), capEl ? capEl.textContent.trim() : '');
         });
       })(figs[i]);
     }
