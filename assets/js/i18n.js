@@ -461,10 +461,9 @@ fa: {
   "det.model.open": "باز کردن در تمام‌صفحه",
   "det.model.note": "مدل با افزونه QGIS2threejs از داده‌های رقومی حوضه تهیه شده است.",
 
-  "det.kmz.eyebrow": "نقشه تعاملی",
-  "det.kmz.title": "نقشه جامع حوضه فولادمحله (KMZ)",
+"det.kmz.eyebrow": "نقشه تعاملی",
+  "det.kmz.title": "نقشه جامع حوضه فولادمحله",
   "det.kmz.desc": "",
-  "det.kmz.download": "دانلود فایل KMZ",
   "det.kmz.note": "",
 
   "det.lbClose": "بستن",
@@ -1178,10 +1177,9 @@ en: {
   "det.model.open": "Open Fullscreen",
   "det.model.note": "Model generated with the QGIS2threejs exporter from digital elevation data of the watershed.",
 
-  "det.kmz.eyebrow": "Interactive Map",
-  "det.kmz.title": "Comprehensive Map of Fooladmahale Watershed (KMZ)",
+"det.kmz.eyebrow": "Interactive Map",
+  "det.kmz.title": "Comprehensive Map of Fooladmahale Watershed",
   "det.kmz.desc": "",
-  "det.kmz.download": "Download KMZ File",
   "det.kmz.note": "",
 
   "det.lbClose": "Close",
@@ -1895,10 +1893,9 @@ zh: {
   "det.model.open": "全屏打开",
   "det.model.note": "模型由 QGIS2threejs 插件基于流域数字高程数据生成。",
 
-  "det.kmz.eyebrow": "交互式地图",
-  "det.kmz.title": "福拉马哈莱流域综合地图（KMZ）",
+"det.kmz.eyebrow": "交互式地图",
+  "det.kmz.title": "福拉马哈莱流域综合地图",
   "det.kmz.desc": "",
-  "det.kmz.download": "下载 KMZ 文件",
   "det.kmz.note": "",
 
   "det.lbClose": "关闭",
@@ -2612,10 +2609,9 @@ ar: {
   "det.model.open": "فتح بملء الشاشة",
   "det.model.note": "تم إنشاء النموذج بواسطة إضافة QGIS2threejs من بيانات الارتفاع الرقمية للحوض.",
 
-  "det.kmz.eyebrow": "خريطة تفاعلية",
-  "det.kmz.title": "الخريطة الشاملة لحوض فولاد محله (KMZ)",
+"det.kmz.eyebrow": "خريطة تفاعلية",
+  "det.kmz.title": "الخريطة الشاملة لحوض فولاد محله",
   "det.kmz.desc": "",
-  "det.kmz.download": "تنزيل ملف KMZ",
   "det.kmz.note": "",
 
   "det.lbClose": "إغلاق",

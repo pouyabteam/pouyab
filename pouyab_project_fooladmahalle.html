@@ -1006,16 +1006,10 @@ body{
     <div class="pr-shell">
       <div class="pd-title sr">
         <span data-i18n="det.kmz.eyebrow">نقشه تعاملی</span>
-        <h2 data-i18n="det.kmz.title">نقشه جامع حوضه فولادمحله (KMZ)</h2>
+        <h2 data-i18n="det.kmz.title">نقشه جامع حوضه فولادمحله</h2>
       </div>
       <div class="pd-model sr sr-delay-1">
         <div id="kmz-map" style="height:560px; border-radius:22px; overflow:hidden; border:1px solid var(--pouyab-line); background:#eef2eb"></div>
-        <div class="pd-model-bar">
-          <a id="kmz-download" class="pd-model-open" href="assets/maps/01/111.kmz" download>
-            <span data-i18n="det.kmz.download">دانلود فایل KMZ</span>
-            <span>⬇</span>
-          </a>
-        </div>
       </div>
     </div>
   </section>
@@ -1922,7 +1916,6 @@ body{
           if(!r.ok) continue;
           var j=await r.json();
           if(j&&j.type==='FeatureCollection'&&j.features){
-            var dl=document.getElementById('kmz-download'); if(dl) dl.href=c.url;
             return j;
           }
         }else if(c.type==='kml'){
@@ -1932,7 +1925,6 @@ body{
           var d=new DOMParser().parseFromString(t,'text/xml');
           var g=toGeoJSON.kml(d);
           g=enrichWithFolders(d,g);
-          var dl=document.getElementById('kmz-download'); if(dl) dl.href=c.url;
           return g;
         }else if(c.type==='kmz'){
           var r=await fetch(c.url);
@@ -1948,7 +1940,6 @@ body{
           var d=new DOMParser().parseFromString(t,'text/xml');
           var g=toGeoJSON.kml(d);
           g=enrichWithFolders(d,g);
-          var dl=document.getElementById('kmz-download'); if(dl) dl.href=c.url;
           return g;
         }
       }catch(e){ continue; }
@@ -1957,11 +1948,18 @@ body{
   }
   load111().then(function(geojson){
     var colors = {
-      'Subbase_Poly': '#1a3d24',
+      'Watershed Boundary': '#00d7ff',
       'Stream': '#2563eb',
-      'چاه': '#dc2626',
-      'چشمه': '#0891b2',
-      'Qanat-foolad-Mahaleh': '#7c3aed'
+      'Well': '#dc2626',
+      'Spring': '#0891b2',
+      'Qanat': '#7c3aed'
+    };
+    var labels = {
+      'Watershed Boundary': 'مرز حوضه',
+      'Stream': 'آبراهه‌ها',
+      'Well': 'چاه‌ها',
+      'Spring': 'چشمه‌ها',
+      'Qanat': 'قنات'
     };
     var groups = {};
     geojson.features.forEach(function(f){
@@ -1987,7 +1985,7 @@ body{
           var title = p.name || p.Name_subba || folder;
           var html = '<div style="min-width:200px; font-family:Vazirmatn,IRANYekan,sans-serif; font-size:12.5px; line-height:1.7; direction:rtl; text-align:right">'
             + '<b style="color:#1a3d24">' + title + '</b><br>'
-            + '<span style="color:#5a6560; font-size:11px">' + folder + '</span><hr style="margin:6px 0; border:none; border-top:1px solid #e2e7dc">'
+            + '<span style="color:#5a6560; font-size:11px">' + (labels[folder] || folder) + '</span><hr style="margin:6px 0; border:none; border-top:1px solid #e2e7dc">'
             + '<table style="width:100%; border-collapse:collapse; font-size:11px">';
           var fields = ['Area','Perimeter','sazeman','name_ostan','name_mahdo','name_shahr','name_abadi','name_malek','name_ghana','vaziyat_qa','vaziyat_ab','debi_dar_f','tedad_resh','omgh_madar','Tool','Arz'];
           fields.forEach(function(k){
@@ -1999,8 +1997,8 @@ body{
           if(title) lyr.bindTooltip(title, { direction: 'top', sticky: true });
         }
       });
-      layer.addTo(map);
-      overlays[folder + ' (' + feats.length + ')'] = layer;
+      if(folder === 'Watershed Boundary') layer.addTo(map);
+      overlays[(labels[folder] || folder) + ' (' + feats.length + ')'] = layer;
     });
     L.control.layers(null, overlays, { collapsed: false, position: 'topright' }).addTo(map);
     try { map.fitBounds(L.geoJSON(geojson).getBounds(), { padding: [24,24] }); } catch(e){}
@@ -2008,7 +2006,7 @@ body{
     setTimeout(function(){ map.invalidateSize(); }, 400);
   }).catch(function(e){
     console.error(e);
-    mapEl.innerHTML = '<div style="padding:48px; text-align:center; color:#5a6560">خطا در بارگذاری نقشه. لطفاً فایل KMZ را دانلود کنید.</div>';
+    mapEl.innerHTML = '<div style="padding:48px; text-align:center; color:#5a6560">خطا در بارگذاری نقشه. لطفاً دوباره تلاش کنید.</div>';
   });
 })();
 </script>
