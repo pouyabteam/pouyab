@@ -1141,7 +1141,8 @@
             "QGIS",
             "ENVI",
             "Geomatica",
-            "AutoCAD"
+            "AutoCAD",
+            "R-STUDIO"
           ],
           "summary": "متخصص تحلیل‌های مکانی و مدیریت جامع حوزه‌های آبخیز با تکیه بر هم‌افزایی سامانه‌های اطلاعات جغرافیایی (GIS) و سنجش از دور (RS). دارای تجربه عملیاتی در بهره‌گیری از ابزارهای پیشرفته‌ای همچون ArcGIS Pro، QGIS، Google Earth Engine و ENVI جهت پیاده‌سازی مدل‌های پیچیده هیدرولوژیکی، اقلیمی و تحلیل‌های ژئومورفولوژیک. متخصص در سنتز و تلفیق داده‌های چندلایه در پروژه‌های کلان ملی، با رویکرد تبدیل داده‌های خام ژئوسپشال به خروجی‌های استراتژیک و تصمیم‌ساز برای برنامه‌ریزی پایدار و مدیریت هوشمند منابع طبیعی.",
           "education": [
@@ -1385,7 +1386,8 @@
             "QGIS",
             "ENVI",
             "Geomatica",
-            "AutoCAD"
+            "AutoCAD",
+            "R-STUDIO"
           ],
           "summary": "Specialist in spatial analysis and integrated watershed management, leveraging GIS and Remote Sensing synergy. Hands-on experience with advanced tools such as ArcGIS Pro, QGIS, Google Earth Engine and ENVI for developing complex hydrological and climatic models and geomorphological analyses. Expert in synthesizing multi-layer national-scale datasets, turning raw geospatial data into strategic, decision-ready outputs for sustainable planning and intelligent natural resource management.",
           "education": [
@@ -1629,7 +1631,8 @@
             "QGIS",
             "ENVI",
             "Geomatica",
-            "AutoCAD"
+            "AutoCAD",
+            "R-STUDIO"
           ],
           "summary": "空间分析与流域综合治理专家，擅长GIS与遥感的协同应用，熟练使用ArcGIS Pro、QGIS、Google Earth Engine和ENVI等工具构建复杂水文、气候模型及地貌分析，致力于将多源地理空间数据转化为战略决策成果。",
           "education": [
@@ -1873,7 +1876,8 @@
             "QGIS",
             "ENVI",
             "Geomatica",
-            "AutoCAD"
+            "AutoCAD",
+            "R-STUDIO"
           ],
           "summary": "متخصصة في التحليلات المكانية والإدارة المتكاملة للأحواض المائية، بالاعتماد على تآزر نظم المعلومات الجغرافية والاستشعار عن بعد، مع خبرة في النمذجة الهيدرولوجية والمناخية باستخدام ArcGIS Pro وQGIS وGoogle Earth Engine وENVI.",
           "education": [
