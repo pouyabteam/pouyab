@@ -7,28 +7,19 @@
         "linkedin": "https://www.linkedin.com/in/ali-asghar-zolfaghari"
       },
       "display": {
+        "contact": true,
+        "skills": true,
         "meta": true,
         "summary": true,
-        "skills": true,
         "education": true,
         "experience": true,
-        "projects": true,
-        "contact": true,
-        "languages": true,
         "links": true,
+        "projects": true,
+        "languages": true,
         "stats": true
       },
       "content": {
         "fa": {
-          "name": "دکتر علی‌اصغر ذوالفقاری",
-          "role": "استاد راهبر و ناظر علمی هسته پویاب",
-          "birth": "۱۳۴۸/۰۳/۱۵",
-          "marital": "متأهل",
-          "location": "سمنان",
-          "email": "a.zolfaghari@semnan.ac.ir",
-          "phone": "+98 23 3338 0000",
-          "summary": "دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان با بیش از دو دهه تجربه آموزشی و پژوهشی. حوزه تخصصی بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی و کاربرد یادگیری ماشین در علوم منابع طبیعی است.\n\nمجری ده‌ها طرح پژوهشی در حوزه منابع طبیعی و محیط‌زیست و راهنمای ده‌ها پایان‌نامه کارشناسی ارشد و دکتری.",
-          "website": "semnan.ac.ir",
           "skills": [
             "بیابان‌زدایی",
             "هیدرولوژی",
@@ -40,6 +31,7 @@
             "مدل‌سازی محیطی",
             "تدریس و هدایت پایان‌نامه"
           ],
+          "summary": "دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان با بیش از دو دهه تجربه آموزشی و پژوهشی. حوزه تخصصی بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی و کاربرد یادگیری ماشین در علوم منابع طبیعی است.\n\nمجری ده‌ها طرح پژوهشی در حوزه منابع طبیعی و محیط‌زیست و راهنمای ده‌ها پایان‌نامه کارشناسی ارشد و دکتری.",
           "education": [
             {
               "degree": "دکتری بیابان‌زدایی",
@@ -77,6 +69,11 @@
               "period": "۱۳۹۰ - اکنون"
             }
           ],
+          "name": "دکتر علی‌اصغر ذوالفقاری",
+          "phone": "+98 23 3338 0000",
+          "marital": "متأهل",
+          "location": "سمنان",
+          "role": "استاد راهبر و ناظر علمی هسته پویاب",
           "projects": [],
           "languages": [
             {
@@ -86,18 +83,12 @@
               "speaking": 4,
               "listening": 4
             }
-          ]
+          ],
+          "website": "semnan.ac.ir",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "birth": "۱۳۴۸/۰۳/۱۵"
         },
         "en": {
-          "name": "Dr. Ali-Asghar Zolfaghari",
-          "role": "Lead Advisor, Pouyab Research Core",
-          "birth": "1969/06/05",
-          "marital": "Married",
-          "location": "Semnan",
-          "email": "a.zolfaghari@semnan.ac.ir",
-          "phone": "+98 23 3338 0000",
-          "summary": "Associate Professor and Head of the Faculty of Desert Studies at Semnan University with over two decades of teaching and research. Specialized in desertification, soil and water, erosion, hydrology and machine learning in natural resources.\n\nPrincipal investigator of dozens of research projects and supervisor of numerous graduate theses.",
-          "website": "semnan.ac.ir",
           "skills": [
             "Desertification",
             "Hydrology",
@@ -108,6 +99,7 @@
             "Soil Erosion",
             "Environmental Modeling"
           ],
+          "summary": "Associate Professor and Head of the Faculty of Desert Studies at Semnan University with over two decades of teaching and research. Specialized in desertification, soil and water, erosion, hydrology and machine learning in natural resources.\n\nPrincipal investigator of dozens of research projects and supervisor of numerous graduate theses.",
           "education": [
             {
               "degree": "Ph.D. Desertification",
@@ -138,6 +130,11 @@
               "period": "2011 - Now"
             }
           ],
+          "name": "Dr. Ali-Asghar Zolfaghari",
+          "phone": "+98 23 3338 0000",
+          "marital": "Married",
+          "location": "Semnan",
+          "role": "Lead Advisor, Pouyab Research Core",
           "projects": [],
           "languages": [
             {
@@ -147,18 +144,12 @@
               "speaking": 4,
               "listening": 4
             }
-          ]
+          ],
+          "website": "semnan.ac.ir",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "birth": "1969/06/05"
         },
         "zh": {
-          "name": "阿里·阿斯加尔·佐勒法加里博士",
-          "role": "普雅布研究核心学术顾问",
-          "birth": "1969/06/05",
-          "marital": "已婚",
-          "location": "塞姆南",
-          "email": "a.zolfaghari@semnan.ac.ir",
-          "phone": "+98 23 3338 0000",
-          "summary": "塞姆南大学荒漠化防治系副教授兼沙漠研究学院院长，拥有二十余年的教学与研究经验，专长于荒漠化防治、水土与土壤侵蚀、水文学以及机器学习在自然资源科学中的应用。\n\n主持数十项自然资源与环境领域科研项目，并指导数十篇硕士与博士学位论文。",
-          "website": "semnan.ac.ir",
           "skills": [
             "荒漠化",
             "水文",
@@ -167,6 +158,7 @@
             "GIS",
             "气候变化"
           ],
+          "summary": "塞姆南大学荒漠化防治系副教授兼沙漠研究学院院长，拥有二十余年的教学与研究经验，专长于荒漠化防治、水土与土壤侵蚀、水文学以及机器学习在自然资源科学中的应用。\n\n主持数十项自然资源与环境领域科研项目，并指导数十篇硕士与博士学位论文。",
           "education": [
             {
               "degree": "博士 荒漠化防治",
@@ -184,6 +176,11 @@
               "period": "2017至今"
             }
           ],
+          "name": "阿里·阿斯加尔·佐勒法加里博士",
+          "phone": "+98 23 3338 0000",
+          "marital": "已婚",
+          "location": "塞姆南",
+          "role": "普雅布研究核心学术顾问",
           "projects": [],
           "languages": [
             {
@@ -193,18 +190,12 @@
               "speaking": 4,
               "listening": 4
             }
-          ]
+          ],
+          "website": "semnan.ac.ir",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "birth": "1969/06/05"
         },
         "ar": {
-          "name": "الدكتور علي أصغر ذوالفقاري",
-          "role": "المستشار العلمي لنواة بویاب",
-          "birth": "1969/06/05",
-          "marital": "متزوج",
-          "location": "سمنان",
-          "email": "a.zolfaghari@semnan.ac.ir",
-          "phone": "+98 23 3338 0000",
-          "summary": "أستاذ مشارك ورئيس كلية الدراسات الصحراوية بجامعة سمنان، خبير في مكافحة التصحر والهيدرولوجيا وتطبيقات التعلم الآلي.",
-          "website": "semnan.ac.ir",
           "skills": [
             "مكافحة التصحر",
             "الهيدرولوجيا",
@@ -212,6 +203,7 @@
             "الاستشعار عن بعد",
             "GIS"
           ],
+          "summary": "أستاذ مشارك ورئيس كلية الدراسات الصحراوية بجامعة سمنان، خبير في مكافحة التصحر والهيدرولوجيا وتطبيقات التعلم الآلي.",
           "education": [
             {
               "degree": "دكتوراه مكافحة التصحر",
@@ -229,6 +221,11 @@
               "period": "2017 - الآن"
             }
           ],
+          "name": "الدكتور علي أصغر ذوالفقاري",
+          "phone": "+98 23 3338 0000",
+          "marital": "متزوج",
+          "location": "سمنان",
+          "role": "المستشار العلمي لنواة بویاب",
           "projects": [],
           "languages": [
             {
@@ -238,7 +235,10 @@
               "speaking": 4,
               "listening": 4
             }
-          ]
+          ],
+          "website": "semnan.ac.ir",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "birth": "1969/06/05"
         }
       }
     },
@@ -249,28 +249,19 @@
         "linkedin": "https://linkedin.com/in/azade-soltani-8b5062291"
       },
       "display": {
+        "contact": true,
+        "skills": true,
         "meta": true,
         "summary": true,
-        "skills": true,
         "education": true,
         "experience": true,
-        "projects": true,
-        "contact": true,
-        "languages": true,
         "links": true,
+        "projects": true,
+        "languages": true,
         "stats": true
       },
       "content": {
         "fa": {
-          "name": "خانم آزاده سلطانی",
-          "role": "دکتری بیابان زدایی",
-          "birth": "۱۳۷۱/۱۱/۲۸",
-          "marital": "متأهل",
-          "location": "مشهد",
-          "email": "soltaniazade2228@gmail.com",
-          "phone": "(+۹۸)۹۱۴۰۸۳۵۴۸۶",
-          "summary": "دانشجوی مقطع دکتری مهندسی منابع طبیعی با گرایش مدیریت و کنترل مناطق بیابانی (بیابان زدایی) در دانشگاه سمنان. دارای علاقه‌مندی ویژه به پژوهش‌های کاربردی در حوزه مدیریت پایدار منابع طبیعی و توسعه روش‌های نوآورانه برای کنترل مناطق بیابانی. از ویژگی‌های برجسته، روحیه قوی کار تیمی، توانایی برقراری ارتباط موثر با اقشار مختلف جامعه و علاقه‌مندی به فعالیت‌های اجتماعی و بین رشته‌ای است. با تجربه در اجرای پروژه‌های تحقیقاتی و آموزشی مرتبط با مدیریت مناطق خشک و بیابانی، و مهارت در تحلیل داده‌ها و به کارگیری روش‌های علمی به منظور ارائه راه‌حل‌های عملی. مشتاق به توسعه دانش و مشارکت در برنامه‌هایی با تأثیر مثبت بر جوامع و محیط زیست.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -284,6 +275,7 @@
             "AutoCAD",
             "Google Earth"
           ],
+          "summary": "دانشجوی مقطع دکتری مهندسی منابع طبیعی با گرایش مدیریت و کنترل مناطق بیابانی (بیابان زدایی) در دانشگاه سمنان. دارای علاقه‌مندی ویژه به پژوهش‌های کاربردی در حوزه مدیریت پایدار منابع طبیعی و توسعه روش‌های نوآورانه برای کنترل مناطق بیابانی. از ویژگی‌های برجسته، روحیه قوی کار تیمی، توانایی برقراری ارتباط موثر با اقشار مختلف جامعه و علاقه‌مندی به فعالیت‌های اجتماعی و بین رشته‌ای است. با تجربه در اجرای پروژه‌های تحقیقاتی و آموزشی مرتبط با مدیریت مناطق خشک و بیابانی، و مهارت در تحلیل داده‌ها و به کارگیری روش‌های علمی به منظور ارائه راه‌حل‌های عملی. مشتاق به توسعه دانش و مشارکت در برنامه‌هایی با تأثیر مثبت بر جوامع و محیط زیست.",
           "education": [
             {
               "degree": "کارشناسی مهندسی منابع طبیعی",
@@ -327,6 +319,11 @@
               "period": ""
             }
           ],
+          "name": "خانم آزاده سلطانی",
+          "phone": "(+۹۸)۹۱۴۰۸۳۵۴۸۶",
+          "marital": "متأهل",
+          "location": "مشهد",
+          "role": "دکتری بیابان زدایی",
           "projects": [
             {
               "title": "تهیه سند استانی کاهش خطر حوادث و سوانح",
@@ -391,18 +388,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "soltaniazade2228@gmail.com",
+          "birth": "۱۳۷۱/۱۱/۲۸"
         },
         "en": {
-          "name": "Ms. Azadeh Soltani",
-          "role": "Ph.D. Student in Desertification",
-          "birth": "1993/02/17",
-          "marital": "Married",
-          "location": "Mashhad",
-          "email": "soltaniazade2228@gmail.com",
-          "phone": "+98 914 083 5486",
-          "summary": "Ph.D. candidate in Natural Resources Engineering with a focus on Desert Management and Control at Semnan University, with special interest in applied research on sustainable management of natural resources and innovative methods for desert control. Known for strong teamwork, effective communication with different groups of society, and interest in social and interdisciplinary activities. Experienced in research and educational projects related to arid and desert land management, with skills in data analysis and applying scientific methods to deliver practical solutions. Eager to expand knowledge and take part in programs with a positive impact on communities and the environment.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -416,6 +407,7 @@
             "AutoCAD",
             "Google Earth"
           ],
+          "summary": "Ph.D. candidate in Natural Resources Engineering with a focus on Desert Management and Control at Semnan University, with special interest in applied research on sustainable management of natural resources and innovative methods for desert control. Known for strong teamwork, effective communication with different groups of society, and interest in social and interdisciplinary activities. Experienced in research and educational projects related to arid and desert land management, with skills in data analysis and applying scientific methods to deliver practical solutions. Eager to expand knowledge and take part in programs with a positive impact on communities and the environment.",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -459,6 +451,11 @@
               "period": ""
             }
           ],
+          "name": "Ms. Azadeh Soltani",
+          "phone": "+98 914 083 5486",
+          "marital": "Married",
+          "location": "Mashhad",
+          "role": "Ph.D. Student in Desertification",
           "projects": [
             {
               "title": "Provincial Disaster Risk Reduction Document",
@@ -523,18 +520,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "soltaniazade2228@gmail.com",
+          "birth": "1993/02/17"
         },
         "zh": {
-          "name": "阿扎德·索尔塔尼女士",
-          "role": "荒漠化防治博士生",
-          "birth": "1993/02/17",
-          "marital": "已婚",
-          "location": "马什哈德",
-          "email": "soltaniazade2228@gmail.com",
-          "phone": "+98 914 083 5486",
-          "summary": "塞姆南大学自然资源工程专业荒漠化管理与控制方向博士生，专注于自然资源可持续管理与荒漠控制的应用研究，具备出色的团队合作精神及跨学科实践经验。",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -548,6 +539,7 @@
             "AutoCAD",
             "Google Earth"
           ],
+          "summary": "塞姆南大学自然资源工程专业荒漠化管理与控制方向博士生，专注于自然资源可持续管理与荒漠控制的应用研究，具备出色的团队合作精神及跨学科实践经验。",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -591,6 +583,11 @@
               "period": ""
             }
           ],
+          "name": "阿扎德·索尔塔尼女士",
+          "phone": "+98 914 083 5486",
+          "marital": "已婚",
+          "location": "马什哈德",
+          "role": "荒漠化防治博士生",
           "projects": [
             {
               "title": "Provincial Disaster Risk Reduction Document",
@@ -655,18 +652,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "soltaniazade2228@gmail.com",
+          "birth": "1993/02/17"
         },
         "ar": {
-          "name": "الأنسة آزاد سلطاني",
-          "role": "طالبة دكتوراه مكافحة التصحر",
-          "birth": "1993/02/17",
-          "marital": "متزوجة",
-          "location": "مشهد",
-          "email": "soltaniazade2228@gmail.com",
-          "phone": "+98 914 083 5486",
-          "summary": "طالبة دكتوراه في هندسة الموارد الطبيعية بتخصص إدارة المناطق الصحراوية والتحكم بها بجامعة سمنان، مهتمة بالبحوث التطبيقية في الإدارة المستدامة للموارد الطبيعية وتطوير طرق مبتكرة لمكافحة التصحر.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -680,6 +671,7 @@
             "AutoCAD",
             "Google Earth"
           ],
+          "summary": "طالبة دكتوراه في هندسة الموارد الطبيعية بتخصص إدارة المناطق الصحراوية والتحكم بها بجامعة سمنان، مهتمة بالبحوث التطبيقية في الإدارة المستدامة للموارد الطبيعية وتطوير طرق مبتكرة لمكافحة التصحر.",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -723,6 +715,11 @@
               "period": ""
             }
           ],
+          "name": "الأنسة آزاد سلطاني",
+          "phone": "+98 914 083 5486",
+          "marital": "متزوجة",
+          "location": "مشهد",
+          "role": "طالبة دكتوراه مكافحة التصحر",
           "projects": [
             {
               "title": "Provincial Disaster Risk Reduction Document",
@@ -787,7 +784,10 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "soltaniazade2228@gmail.com",
+          "birth": "1993/02/17"
         }
       }
     },
@@ -798,33 +798,25 @@
         "linkedin": ""
       },
       "display": {
+        "contact": true,
+        "skills": true,
         "meta": true,
         "summary": true,
-        "skills": true,
         "education": true,
         "experience": true,
-        "projects": true,
-        "contact": true,
-        "languages": true,
         "links": true,
+        "projects": true,
+        "languages": true,
         "stats": true
       },
       "content": {
         "fa": {
-          "name": "خانم فاطمه زهرا حیدریه",
-          "role": "کارشناس منابع طبیعی",
-          "birth": "۱۳۷۵/۰۷/۲۱",
-          "marital": "مجرد",
-          "location": "سمنان",
-          "email": "fheydariyeh@gmail.com",
-          "phone": "(+۹۸)۹۱۲۰۹۵۹۶۱۷",
-          "summary": "توانمندی در انجام مطالعات و نمونه‌برداری‌های میدانی خاک و پوشش گیاهی، شناسایی و ثبت اطلاعات پوشش گیاهی، بررسی و ارزیابی فرسایش.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "QGIS",
             "Google Earth"
           ],
+          "summary": "توانمندی در انجام مطالعات و نمونه‌برداری‌های میدانی خاک و پوشش گیاهی، شناسایی و ثبت اطلاعات پوشش گیاهی، بررسی و ارزیابی فرسایش.",
           "education": [
             {
               "degree": "کارشناسی مهندسی منابع طبیعی",
@@ -849,6 +841,11 @@
             }
           ],
           "experience": [],
+          "name": "خانم فاطمه زهرا حیدریه",
+          "phone": "(+۹۸)۹۱۲۰۹۵۹۶۱۷",
+          "marital": "مجرد",
+          "location": "سمنان",
+          "role": "کارشناس منابع طبیعی",
           "projects": [
             {
               "title": "برنامه کاهش خطر حوادث و سوانح استان سمنان - بند پ ماده ۴ قانون مدیریت بحران کشور",
@@ -883,23 +880,18 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "fheydariyeh@gmail.com",
+          "birth": "۱۳۷۵/۰۷/۲۱"
         },
         "en": {
-          "name": "Ms. Fatemeh Zahra Heydarieh",
-          "role": "Natural Resources Specialist",
-          "birth": "1996/10/12",
-          "marital": "Single",
-          "location": "Semnan",
-          "email": "fheydariyeh@gmail.com",
-          "phone": "+98 912 095 9617",
-          "summary": "Skilled in field studies and sampling of soil and vegetation, identifying and recording vegetation data, and assessing erosion.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "QGIS",
             "Google Earth"
           ],
+          "summary": "Skilled in field studies and sampling of soil and vegetation, identifying and recording vegetation data, and assessing erosion.",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -924,6 +916,11 @@
             }
           ],
           "experience": [],
+          "name": "Ms. Fatemeh Zahra Heydarieh",
+          "phone": "+98 912 095 9617",
+          "marital": "Single",
+          "location": "Semnan",
+          "role": "Natural Resources Specialist",
           "projects": [
             {
               "title": "Semnan Province Disaster Risk Reduction Program — Art. 4(C) of the National Crisis Management Law",
@@ -958,23 +955,18 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "fheydariyeh@gmail.com",
+          "birth": "1996/10/12"
         },
         "zh": {
-          "name": "法蒂玛·扎赫拉·海达里耶女士",
-          "role": "自然资源专员",
-          "birth": "1996/10/12",
-          "marital": "未婚",
-          "location": "塞姆南",
-          "email": "fheydariyeh@gmail.com",
-          "phone": "+98 912 095 9617",
-          "summary": "擅长土壤与植被的实地调查与采样、植被信息识别与记录，以及侵蚀评估。",
-          "website": "",
           "skills": [
             "ArcGIS",
             "QGIS",
             "Google Earth"
           ],
+          "summary": "擅长土壤与植被的实地调查与采样、植被信息识别与记录，以及侵蚀评估。",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -999,6 +991,11 @@
             }
           ],
           "experience": [],
+          "name": "法蒂玛·扎赫拉·海达里耶女士",
+          "phone": "+98 912 095 9617",
+          "marital": "未婚",
+          "location": "塞姆南",
+          "role": "自然资源专员",
           "projects": [
             {
               "title": "Semnan Province Disaster Risk Reduction Program — Art. 4(C) of the National Crisis Management Law",
@@ -1033,23 +1030,18 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "fheydariyeh@gmail.com",
+          "birth": "1996/10/12"
         },
         "ar": {
-          "name": "الأنسة فاطمة زهرا حيدرية",
-          "role": "أخصائية الموارد الطبيعية",
-          "birth": "1996/10/12",
-          "marital": "عزباء",
-          "location": "سمنان",
-          "email": "fheydariyeh@gmail.com",
-          "phone": "+98 912 095 9617",
-          "summary": "قادرة على إجراء الدراسات والعينات الميدانية للتربة والغطاء النباتي، وتحديد وتسجيل بيانات الغطاء النباتي، وتقييم الانجراف.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "QGIS",
             "Google Earth"
           ],
+          "summary": "قادرة على إجراء الدراسات والعينات الميدانية للتربة والغطاء النباتي، وتحديد وتسجيل بيانات الغطاء النباتي، وتقييم الانجراف.",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -1074,6 +1066,11 @@
             }
           ],
           "experience": [],
+          "name": "الأنسة فاطمة زهرا حيدرية",
+          "phone": "+98 912 095 9617",
+          "marital": "عزباء",
+          "location": "سمنان",
+          "role": "أخصائية الموارد الطبيعية",
           "projects": [
             {
               "title": "Semnan Province Disaster Risk Reduction Program — Art. 4(C) of the National Crisis Management Law",
@@ -1108,7 +1105,10 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "fheydariyeh@gmail.com",
+          "birth": "1996/10/12"
         }
       }
     },
@@ -1119,28 +1119,19 @@
         "linkedin": "https://www.linkedin.com/in/samaneh-asgarian-7984b2132"
       },
       "display": {
-        "meta": true,
-        "summary": true,
+        "contact": true,
         "skills": true,
+        "meta": false,
+        "summary": true,
         "education": true,
         "experience": true,
-        "projects": true,
-        "contact": true,
-        "languages": true,
         "links": true,
+        "projects": true,
+        "languages": true,
         "stats": true
       },
       "content": {
         "fa": {
-          "name": "خانم سمانه عسگریان",
-          "role": "دکتری بیابان زدایی",
-          "birth": "۱۳۶۹/۰۴/۲۳",
-          "marital": "مجرد",
-          "location": "سمنان",
-          "email": "samaneh.asgarian@semnan.ac.ir",
-          "phone": "(+۹۸)۹۱۰۴۸۹۰۸۸۲",
-          "summary": "متخصص تحلیل‌های مکانی و مدیریت جامع حوزه‌های آبخیز با تکیه بر هم‌افزایی سامانه‌های اطلاعات جغرافیایی (GIS) و سنجش از دور (RS). دارای تجربه عملیاتی در بهره‌گیری از ابزارهای پیشرفته‌ای همچون ArcGIS Pro، QGIS، Google Earth Engine و ENVI جهت پیاده‌سازی مدل‌های پیچیده هیدرولوژیکی، اقلیمی و تحلیل‌های ژئومورفولوژیک. متخصص در سنتز و تلفیق داده‌های چندلایه در پروژه‌های کلان ملی، با رویکرد تبدیل داده‌های خام ژئوسپشال به خروجی‌های استراتژیک و تصمیم‌ساز برای برنامه‌ریزی پایدار و مدیریت هوشمند منابع طبیعی.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -1152,6 +1143,7 @@
             "Geomatica",
             "AutoCAD"
           ],
+          "summary": "متخصص تحلیل‌های مکانی و مدیریت جامع حوزه‌های آبخیز با تکیه بر هم‌افزایی سامانه‌های اطلاعات جغرافیایی (GIS) و سنجش از دور (RS). دارای تجربه عملیاتی در بهره‌گیری از ابزارهای پیشرفته‌ای همچون ArcGIS Pro، QGIS، Google Earth Engine و ENVI جهت پیاده‌سازی مدل‌های پیچیده هیدرولوژیکی، اقلیمی و تحلیل‌های ژئومورفولوژیک. متخصص در سنتز و تلفیق داده‌های چندلایه در پروژه‌های کلان ملی، با رویکرد تبدیل داده‌های خام ژئوسپشال به خروجی‌های استراتژیک و تصمیم‌ساز برای برنامه‌ریزی پایدار و مدیریت هوشمند منابع طبیعی.",
           "education": [
             {
               "degree": "کارشناسی مهندسی منابع طبیعی",
@@ -1189,6 +1181,11 @@
               "period": ""
             }
           ],
+          "name": "خانم سمانه عسگریان",
+          "phone": "(+۹۸)۹۱۰۴۸۹۰۸۸۲",
+          "marital": "مجرد",
+          "location": "سمنان",
+          "role": "دکتری بیابان زدایی",
           "projects": [
             {
               "title": "مطالعات تلفیق و سنتز حوزه آبخیز خیج",
@@ -1373,18 +1370,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "birth": "۱۳۶۹/۰۴/۲۳"
         },
         "en": {
-          "name": "Ms. Samaneh Asgarian",
-          "role": "Ph.D. Student in Desertification",
-          "birth": "1990/07/14",
-          "marital": "Single",
-          "location": "Semnan",
-          "email": "samaneh.asgarian@semnan.ac.ir",
-          "phone": "+98 910 489 0882",
-          "summary": "Specialist in spatial analysis and integrated watershed management, leveraging GIS and Remote Sensing synergy. Hands-on experience with advanced tools such as ArcGIS Pro, QGIS, Google Earth Engine and ENVI for developing complex hydrological and climatic models and geomorphological analyses. Expert in synthesizing multi-layer national-scale datasets, turning raw geospatial data into strategic, decision-ready outputs for sustainable planning and intelligent natural resource management.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -1396,6 +1387,7 @@
             "Geomatica",
             "AutoCAD"
           ],
+          "summary": "Specialist in spatial analysis and integrated watershed management, leveraging GIS and Remote Sensing synergy. Hands-on experience with advanced tools such as ArcGIS Pro, QGIS, Google Earth Engine and ENVI for developing complex hydrological and climatic models and geomorphological analyses. Expert in synthesizing multi-layer national-scale datasets, turning raw geospatial data into strategic, decision-ready outputs for sustainable planning and intelligent natural resource management.",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -1433,6 +1425,11 @@
               "period": ""
             }
           ],
+          "name": "Ms. Samaneh Asgarian",
+          "phone": "+98 910 489 0882",
+          "marital": "Single",
+          "location": "Semnan",
+          "role": "Ph.D. Student in Desertification",
           "projects": [
             {
               "title": "Integration & Synthesis Studies of Kheyj Watershed",
@@ -1617,18 +1614,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "birth": "1990/07/14"
         },
         "zh": {
-          "name": "萨曼娜·阿斯加里安女士",
-          "role": "荒漠化防治博士生",
-          "birth": "1990/07/14",
-          "marital": "未婚",
-          "location": "塞姆南",
-          "email": "samaneh.asgarian@semnan.ac.ir",
-          "phone": "+98 910 489 0882",
-          "summary": "空间分析与流域综合治理专家，擅长GIS与遥感的协同应用，熟练使用ArcGIS Pro、QGIS、Google Earth Engine和ENVI等工具构建复杂水文、气候模型及地貌分析，致力于将多源地理空间数据转化为战略决策成果。",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -1640,6 +1631,7 @@
             "Geomatica",
             "AutoCAD"
           ],
+          "summary": "空间分析与流域综合治理专家，擅长GIS与遥感的协同应用，熟练使用ArcGIS Pro、QGIS、Google Earth Engine和ENVI等工具构建复杂水文、气候模型及地貌分析，致力于将多源地理空间数据转化为战略决策成果。",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -1677,6 +1669,11 @@
               "period": ""
             }
           ],
+          "name": "萨曼娜·阿斯加里安女士",
+          "phone": "+98 910 489 0882",
+          "marital": "未婚",
+          "location": "塞姆南",
+          "role": "荒漠化防治博士生",
           "projects": [
             {
               "title": "Integration & Synthesis Studies of Kheyj Watershed",
@@ -1861,18 +1858,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "birth": "1990/07/14"
         },
         "ar": {
-          "name": "الأنسة سمانه عسكريان",
-          "role": "طالبة دكتوراه مكافحة التصحر",
-          "birth": "1990/07/14",
-          "marital": "عزباء",
-          "location": "سمنان",
-          "email": "samaneh.asgarian@semnan.ac.ir",
-          "phone": "+98 910 489 0882",
-          "summary": "متخصصة في التحليلات المكانية والإدارة المتكاملة للأحواض المائية، بالاعتماد على تآزر نظم المعلومات الجغرافية والاستشعار عن بعد، مع خبرة في النمذجة الهيدرولوجية والمناخية باستخدام ArcGIS Pro وQGIS وGoogle Earth Engine وENVI.",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Google Earth Engine",
@@ -1884,6 +1875,7 @@
             "Geomatica",
             "AutoCAD"
           ],
+          "summary": "متخصصة في التحليلات المكانية والإدارة المتكاملة للأحواض المائية، بالاعتماد على تآزر نظم المعلومات الجغرافية والاستشعار عن بعد، مع خبرة في النمذجة الهيدرولوجية والمناخية باستخدام ArcGIS Pro وQGIS وGoogle Earth Engine وENVI.",
           "education": [
             {
               "degree": "B.Sc. Natural Resources Engineering",
@@ -1921,6 +1913,11 @@
               "period": ""
             }
           ],
+          "name": "الأنسة سمانه عسكريان",
+          "phone": "+98 910 489 0882",
+          "marital": "عزباء",
+          "location": "سمنان",
+          "role": "طالبة دكتوراه مكافحة التصحر",
           "projects": [
             {
               "title": "Integration & Synthesis Studies of Kheyj Watershed",
@@ -2105,7 +2102,10 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "birth": "1990/07/14"
         }
       }
     },
@@ -2116,28 +2116,19 @@
         "linkedin": ""
       },
       "display": {
+        "contact": true,
+        "skills": true,
         "meta": true,
         "summary": true,
-        "skills": true,
         "education": true,
         "experience": true,
-        "projects": true,
-        "contact": true,
-        "languages": true,
         "links": true,
+        "projects": true,
+        "languages": true,
         "stats": true
       },
       "content": {
         "fa": {
-          "name": "امیرمحمد ثابتیان",
-          "role": "کارشناس GIS و منابع طبیعی",
-          "birth": "۱۳۸۱/۶/۲۵",
-          "marital": "مجرد",
-          "location": "اصفهان",
-          "email": "sabetian2002@gmail.com",
-          "phone": "(+۹۸)۹۲۱۲۶۴۳۸۴۲",
-          "summary": "کارشناس GIS و مهندسی طبیعت با رویکردی بین‌رشته‌ای در پیوند علوم محیط‌زیست و فناوری داده‌های مکانی. با درکی عمیق از بوم‌سازگان‌های طبیعی و تسلط بر ابزارهای پیشرفتهٔ سنجش از دور و پردازش ابری (مانند Google Earth Engine)، بر آن هستم تا راهکارهای مقیاس‌پذیر و مبتنی بر داده برای مدیریت پایدار منابع طبیعی، پایش تغییرات کاربری اراضی، و بهینه‌سازی تصمیم‌گیری‌های محیط‌زیستی ارائه دهم. ترکیب دانش کدنویسی (Python، C++) با تجربهٔ پیاده‌سازی سامانه‌های اطلاعاتی، امکان خودکارسازی فرایندها و ایجاد داشبوردهای تحلیلی را برای من فراهم کرده است. همواره در جستجوی فرصتی برای پیاده‌سازی نوآوری‌های تکنولوژیک در حوزهٔ جنگلداری، مرتعداری و مخاطرات طبیعی هستم.",
-          "website": "",
           "skills": [
             "ICDL",
             "MCSA",
@@ -2158,6 +2149,7 @@
             "Adobe Premiere",
             "General Electronics"
           ],
+          "summary": "کارشناس GIS و مهندسی طبیعت با رویکردی بین‌رشته‌ای در پیوند علوم محیط‌زیست و فناوری داده‌های مکانی. با درکی عمیق از بوم‌سازگان‌های طبیعی و تسلط بر ابزارهای پیشرفتهٔ سنجش از دور و پردازش ابری (مانند Google Earth Engine)، بر آن هستم تا راهکارهای مقیاس‌پذیر و مبتنی بر داده برای مدیریت پایدار منابع طبیعی، پایش تغییرات کاربری اراضی، و بهینه‌سازی تصمیم‌گیری‌های محیط‌زیستی ارائه دهم. ترکیب دانش کدنویسی (Python، C++) با تجربهٔ پیاده‌سازی سامانه‌های اطلاعاتی، امکان خودکارسازی فرایندها و ایجاد داشبوردهای تحلیلی را برای من فراهم کرده است. همواره در جستجوی فرصتی برای پیاده‌سازی نوآوری‌های تکنولوژیک در حوزهٔ جنگلداری، مرتعداری و مخاطرات طبیعی هستم.",
           "education": [
             {
               "degree": "کارشناسی مهندسی طبیعت",
@@ -2181,6 +2173,11 @@
               "period": ""
             }
           ],
+          "name": "امیرمحمد ثابتیان",
+          "phone": "(+۹۸)۹۲۱۲۶۴۳۸۴۲",
+          "marital": "مجرد",
+          "location": "اصفهان",
+          "role": "کارشناس GIS و منابع طبیعی",
           "projects": [
             {
               "title": "روش‌های نوین در مطالعات آبخیزداری (حوضه آبخیز فولادمحله، شهرستان مهدیشهر)",
@@ -2203,18 +2200,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "sabetian2002@gmail.com",
+          "birth": "۱۳۸۱/۶/۲۵"
         },
         "en": {
-          "name": "Amirmohammad Sabetian",
-          "role": "GIS & Natural Resources Specialist",
-          "birth": "2002/09/16",
-          "marital": "Single",
-          "location": "Isfahan",
-          "email": "sabetian2002@gmail.com",
-          "phone": "(+98) 921 264 3842",
-          "summary": "GIS Specialist and Nature Engineering graduate with an interdisciplinary approach linking environmental science with geospatial data technology. With a deep understanding of natural ecosystems and mastery of advanced remote sensing tools and cloud processing (such as Google Earth Engine), I aim to deliver scalable, data-driven solutions for the sustainable management of natural resources, land-use change monitoring, and optimizing environmental decision-making. Combining programming knowledge (Python, C++) with hands-on experience in implementing information systems enables me to automate processes and build analytical dashboards. I am always seeking opportunities to implement technological innovations in forestry, rangeland management, and natural hazards.",
-          "website": "",
           "skills": [
             "ICDL",
             "MCSA",
@@ -2235,6 +2226,7 @@
             "Adobe Premiere",
             "General Electronics"
           ],
+          "summary": "GIS Specialist and Nature Engineering graduate with an interdisciplinary approach linking environmental science with geospatial data technology. With a deep understanding of natural ecosystems and mastery of advanced remote sensing tools and cloud processing (such as Google Earth Engine), I aim to deliver scalable, data-driven solutions for the sustainable management of natural resources, land-use change monitoring, and optimizing environmental decision-making. Combining programming knowledge (Python, C++) with hands-on experience in implementing information systems enables me to automate processes and build analytical dashboards. I am always seeking opportunities to implement technological innovations in forestry, rangeland management, and natural hazards.",
           "education": [
             {
               "degree": "B.Sc. Nature Engineering",
@@ -2258,6 +2250,11 @@
               "period": ""
             }
           ],
+          "name": "Amirmohammad Sabetian",
+          "phone": "(+98) 921 264 3842",
+          "marital": "Single",
+          "location": "Isfahan",
+          "role": "GIS & Natural Resources Specialist",
           "projects": [
             {
               "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
@@ -2280,18 +2277,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "sabetian2002@gmail.com",
+          "birth": "2002/09/16"
         },
         "zh": {
-          "name": "阿米尔穆罕默德·萨贝提安",
-          "role": "GIS与自然资源专家",
-          "birth": "2002/09/16",
-          "marital": "未婚",
-          "location": "伊斯法罕",
-          "email": "sabetian2002@gmail.com",
-          "phone": "(+98) 921 264 3842",
-          "summary": "GIS与自然工程专家，以跨学科视角贯通环境科学和地理空间数据技术。凭借对自然生态系统的深刻理解以及对先进遥感工具和云计算处理（如Google Earth Engine）的娴熟掌握，我致力于为自然资源可持续管理、土地利用变化监测和环境决策优化提供可扩展的数据驱动解决方案。将编程知识（Python、C++）与信息系统实施经验相结合，让我能够实现流程自动化并构建分析型仪表盘。我始终寻求机会在林业、牧场管理和自然灾害领域应用技术创新。",
-          "website": "",
           "skills": [
             "ICDL",
             "MCSA",
@@ -2312,6 +2303,7 @@
             "Adobe Premiere",
             "General Electronics"
           ],
+          "summary": "GIS与自然工程专家，以跨学科视角贯通环境科学和地理空间数据技术。凭借对自然生态系统的深刻理解以及对先进遥感工具和云计算处理（如Google Earth Engine）的娴熟掌握，我致力于为自然资源可持续管理、土地利用变化监测和环境决策优化提供可扩展的数据驱动解决方案。将编程知识（Python、C++）与信息系统实施经验相结合，让我能够实现流程自动化并构建分析型仪表盘。我始终寻求机会在林业、牧场管理和自然灾害领域应用技术创新。",
           "education": [
             {
               "degree": "学士 自然工程",
@@ -2335,6 +2327,11 @@
               "period": ""
             }
           ],
+          "name": "阿米尔穆罕默德·萨贝提安",
+          "phone": "(+98) 921 264 3842",
+          "marital": "未婚",
+          "location": "伊斯法罕",
+          "role": "GIS与自然资源专家",
           "projects": [
             {
               "title": "现代方法在流域研究中的应用（福拉德马赫雷流域，马赫迪沙赫尔）",
@@ -2357,18 +2354,12 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "sabetian2002@gmail.com",
+          "birth": "2002/09/16"
         },
         "ar": {
-          "name": "أمير محمد ثابتيان",
-          "role": "أخصائي GIS والموارد الطبيعية",
-          "birth": "2002/09/16",
-          "marital": "أعزب",
-          "location": "أصفهان",
-          "email": "sabetian2002@gmail.com",
-          "phone": "(+98) 921 264 3842",
-          "summary": "أخصائي GIS وهندسة الطبيعة بنهج متعدد التخصصات يربط علوم البيئة بتقنيات البيانات المكانية. بفضل فهم عميق للأنظمة البيئية الطبيعية وإتقان أدوات الاستشعار عن بعد والمعالجة السحابية المتقدمة (مثل Google Earth Engine)، أسعى إلى تقديم حلول قابلة للتطوير ومدفوعة بالبيانات للإدارة المستدامة للموارد الطبيعية، ورصد تغيرات استخدام الأراضي، وتحسين القرارات البيئية. يتيح لي الجمع بين معرفة البرمجة (Python، C++) وخبرة تنفيذ الأنظمة المعلوماتية أتمتة العمليات وبناء لوحات معلومات تحليلية. وأظل أبحث دائماً عن فرص لتطبيق الابتكارات التقنية في مجالات الغابات وإدارة المراعي والمخاطر الطبيعية.",
-          "website": "",
           "skills": [
             "ICDL",
             "MCSA",
@@ -2389,6 +2380,7 @@
             "Adobe Premiere",
             "General Electronics"
           ],
+          "summary": "أخصائي GIS وهندسة الطبيعة بنهج متعدد التخصصات يربط علوم البيئة بتقنيات البيانات المكانية. بفضل فهم عميق للأنظمة البيئية الطبيعية وإتقان أدوات الاستشعار عن بعد والمعالجة السحابية المتقدمة (مثل Google Earth Engine)، أسعى إلى تقديم حلول قابلة للتطوير ومدفوعة بالبيانات للإدارة المستدامة للموارد الطبيعية، ورصد تغيرات استخدام الأراضي، وتحسين القرارات البيئية. يتيح لي الجمع بين معرفة البرمجة (Python، C++) وخبرة تنفيذ الأنظمة المعلوماتية أتمتة العمليات وبناء لوحات معلومات تحليلية. وأظل أبحث دائماً عن فرص لتطبيق الابتكارات التقنية في مجالات الغابات وإدارة المراعي والمخاطر الطبيعية.",
           "education": [
             {
               "degree": "بكالوريوس هندسة الطبيعة",
@@ -2412,6 +2404,11 @@
               "period": ""
             }
           ],
+          "name": "أمير محمد ثابتيان",
+          "phone": "(+98) 921 264 3842",
+          "marital": "أعزب",
+          "location": "أصفهان",
+          "role": "أخصائي GIS والموارد الطبيعية",
           "projects": [
             {
               "title": "الأساليب الحديثة في دراسات الأحواض المائية (حوض فولاد محله، مهديشهر)",
@@ -2434,7 +2431,10 @@
               "speaking": 3,
               "listening": 3
             }
-          ]
+          ],
+          "website": "",
+          "email": "sabetian2002@gmail.com",
+          "birth": "2002/09/16"
         }
       }
     },
@@ -2445,28 +2445,19 @@
         "linkedin": ""
       },
       "display": {
+        "contact": true,
+        "skills": true,
         "meta": true,
         "summary": true,
-        "skills": true,
         "education": true,
         "experience": true,
-        "projects": true,
-        "contact": true,
-        "languages": true,
         "links": true,
+        "projects": true,
+        "languages": true,
         "stats": true
       },
       "content": {
         "fa": {
-          "name": "خانم مهین خسروی",
-          "role": "دکتری منابع طبیعی مدیریت وکنترل بیابان",
-          "birth": "؟",
-          "marital": "؟",
-          "location": "؟",
-          "email": "ma.khosravi@semnan.ac.ir",
-          "phone": "(+۹۸)۹۳۷۰۶۰۸۹۳۳",
-          "summary": "؟",
-          "website": "",
           "skills": [
             "ArcGIS",
             "نرم‌افزارهای مدل‌سازی هیدرولوژیکی",
@@ -2476,6 +2467,7 @@
             "QGIS",
             "Google Earth"
           ],
+          "summary": "؟",
           "education": [
             {
               "degree": "کارشناسی مهندسی منابع طبیعی، مرتع و آبخیزداری",
@@ -2519,6 +2511,11 @@
               "period": ""
             }
           ],
+          "name": "خانم مهین خسروی",
+          "phone": "(+۹۸)۹۳۷۰۶۰۸۹۳۳",
+          "marital": "؟",
+          "location": "؟",
+          "role": "دکتری منابع طبیعی مدیریت وکنترل بیابان",
           "projects": [
             {
               "title": "فعال‌سازی تعاونی‌های راکد مرتعداری",
@@ -2551,70 +2548,70 @@
               "period": ""
             }
           ],
-          "languages": []
+          "languages": [],
+          "website": "",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "birth": "؟"
         },
         "en": {
+          "skills": [
+            "ArcGIS",
+            "Hydrological Modeling Software",
+            "R Programming",
+            "Matlab",
+            "Microsoft Office",
+            "QGIS",
+            "Google Earth"
+          ],
+          "summary": "?",
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
+              "university": "University of Kurdistan",
+              "city": "Sanandaj",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "University of Zabol",
+              "city": "Zabol",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Research Assistant",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Adjunct Lecturer",
+              "company": "University of Kurdistan",
+              "city": "Sanandaj",
+              "period": ""
+            },
+            {
+              "title": "Cropping Pattern Consultant",
+              "company": "Kurdistan Agricultural Jihad Organization",
+              "city": "Kurdistan",
+              "period": ""
+            }
+          ],
           "name": "Ms. Mahin Khosravi",
-          "role": "Ph.D. Natural Resources, Desert Management & Control",
-          "birth": "؟",
+          "phone": "+98 937 060 8933",
           "marital": "?",
           "location": "?",
-          "email": "ma.khosravi@semnan.ac.ir",
-          "phone": "+98 937 060 8933",
-          "summary": "?",
-          "website": "",
-          "skills": [
-            "ArcGIS",
-            "Hydrological Modeling Software",
-            "R Programming",
-            "Matlab",
-            "Microsoft Office",
-            "QGIS",
-            "Google Earth"
-          ],
-          "education": [
-            {
-              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
-              "university": "University of Kurdistan",
-              "city": "Sanandaj",
-              "gpa": "",
-              "period": ""
-            },
-            {
-              "degree": "M.Sc. Natural Resources Engineering",
-              "university": "University of Zabol",
-              "city": "Zabol",
-              "gpa": "",
-              "period": ""
-            },
-            {
-              "degree": "Ph.D. Natural Resources Engineering",
-              "university": "Semnan University",
-              "city": "Semnan",
-              "gpa": "",
-              "period": ""
-            }
-          ],
-          "experience": [
-            {
-              "title": "Research Assistant",
-              "company": "Semnan University",
-              "city": "Semnan",
-              "period": ""
-            },
-            {
-              "title": "Adjunct Lecturer",
-              "company": "University of Kurdistan",
-              "city": "Sanandaj",
-              "period": ""
-            },
-            {
-              "title": "Cropping Pattern Consultant",
-              "company": "Kurdistan Agricultural Jihad Organization",
-              "city": "Kurdistan",
-              "period": ""
-            }
-          ],
+          "role": "Ph.D. Natural Resources, Desert Management & Control",
           "projects": [
             {
               "title": "Activating Dormant Rangeland Cooperatives",
@@ -2647,70 +2644,70 @@
               "period": ""
             }
           ],
-          "languages": []
+          "languages": [],
+          "website": "",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "birth": "؟"
         },
         "zh": {
+          "skills": [
+            "ArcGIS",
+            "Hydrological Modeling Software",
+            "R Programming",
+            "Matlab",
+            "Microsoft Office",
+            "QGIS",
+            "Google Earth"
+          ],
+          "summary": "？",
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
+              "university": "University of Kurdistan",
+              "city": "Sanandaj",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "University of Zabol",
+              "city": "Zabol",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Research Assistant",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Adjunct Lecturer",
+              "company": "University of Kurdistan",
+              "city": "Sanandaj",
+              "period": ""
+            },
+            {
+              "title": "Cropping Pattern Consultant",
+              "company": "Kurdistan Agricultural Jihad Organization",
+              "city": "Kurdistan",
+              "period": ""
+            }
+          ],
           "name": "马欣·霍斯拉维女士",
-          "role": "自然资源荒漠化管理与控制博士",
-          "birth": "？",
+          "phone": "+98 937 060 8933",
           "marital": "？",
           "location": "？",
-          "email": "ma.khosravi@semnan.ac.ir",
-          "phone": "+98 937 060 8933",
-          "summary": "？",
-          "website": "",
-          "skills": [
-            "ArcGIS",
-            "Hydrological Modeling Software",
-            "R Programming",
-            "Matlab",
-            "Microsoft Office",
-            "QGIS",
-            "Google Earth"
-          ],
-          "education": [
-            {
-              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
-              "university": "University of Kurdistan",
-              "city": "Sanandaj",
-              "gpa": "",
-              "period": ""
-            },
-            {
-              "degree": "M.Sc. Natural Resources Engineering",
-              "university": "University of Zabol",
-              "city": "Zabol",
-              "gpa": "",
-              "period": ""
-            },
-            {
-              "degree": "Ph.D. Natural Resources Engineering",
-              "university": "Semnan University",
-              "city": "Semnan",
-              "gpa": "",
-              "period": ""
-            }
-          ],
-          "experience": [
-            {
-              "title": "Research Assistant",
-              "company": "Semnan University",
-              "city": "Semnan",
-              "period": ""
-            },
-            {
-              "title": "Adjunct Lecturer",
-              "company": "University of Kurdistan",
-              "city": "Sanandaj",
-              "period": ""
-            },
-            {
-              "title": "Cropping Pattern Consultant",
-              "company": "Kurdistan Agricultural Jihad Organization",
-              "city": "Kurdistan",
-              "period": ""
-            }
-          ],
+          "role": "自然资源荒漠化管理与控制博士",
           "projects": [
             {
               "title": "Activating Dormant Rangeland Cooperatives",
@@ -2743,18 +2740,12 @@
               "period": ""
             }
           ],
-          "languages": []
+          "languages": [],
+          "website": "",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "birth": "？"
         },
         "ar": {
-          "name": "الأنسة ماهين خسروي",
-          "role": "دكتوراه الموارد الطبيعية، إدارة التصحر",
-          "birth": "؟",
-          "marital": "؟",
-          "location": "؟",
-          "email": "ma.khosravi@semnan.ac.ir",
-          "phone": "+98 937 060 8933",
-          "summary": "؟",
-          "website": "",
           "skills": [
             "ArcGIS",
             "Hydrological Modeling Software",
@@ -2764,6 +2755,7 @@
             "QGIS",
             "Google Earth"
           ],
+          "summary": "؟",
           "education": [
             {
               "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
@@ -2807,6 +2799,11 @@
               "period": ""
             }
           ],
+          "name": "الأنسة ماهين خسروي",
+          "phone": "+98 937 060 8933",
+          "marital": "؟",
+          "location": "؟",
+          "role": "دكتوراه الموارد الطبيعية، إدارة التصحر",
           "projects": [
             {
               "title": "Activating Dormant Rangeland Cooperatives",
@@ -2839,7 +2836,10 @@
               "period": ""
             }
           ],
-          "languages": []
+          "languages": [],
+          "website": "",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "birth": "؟"
         }
       }
     }
