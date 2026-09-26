@@ -2,9 +2,12 @@ backend:
   name: github
   repo: pouyabteam/pouyab
   branch: main
+  base_url: https://pouyab-auth.pouyab-team.workers.dev
+  auth_endpoint: auth
   client_id: Ov23liaCT47of5OKtIsm
 
-# نحوهٔ ورود به داشبورد هنوز نهایی نشده؛ این فایل به هیچ سرویس خارجی وابسته نیست.
+# ورود با گیت‌هاب از www.pouyabteam.com/admin از طریق Worker مخصوص پویاب
+# (pouyab-auth) انجام می‌شود. هاستینگ سایت همچنان GitHub Pages است.
 
 media_folder: assets/images/uploads
 public_folder: /assets/images/uploads
