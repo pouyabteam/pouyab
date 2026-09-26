@@ -2,7 +2,6 @@ backend:
   name: github
   repo: pouyabteam/pouyab
   branch: main
-  base_url: https://api.github.com
   client_id: Ov23liaCT47of5OKtIsm
 
 # ورود با گیت‌هاب (بدون پروکسی محلی) از آدرس www.pouyabteam.com/admin انجام می‌شود.
