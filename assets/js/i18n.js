@@ -2989,12 +2989,44 @@ ar: {
     });
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    setLang(currentLang(), false);
-    initSwitcher();
-  });
-  if (document.readyState !== "loading") {
-    setLang(currentLang(), false);
-    initSwitcher();
+function bootDict(onDone) {
+    try {
+      fetch("assets/data/i18n.json")
+        .then(function (r) { if (!r.ok) throw new Error("http"); return r.json(); })
+        .then(function (j) {
+          if (j && j.items && j.items.length) {
+            var codes = [];
+            for (var i = 0; i < POUYAB_LANGS.length; i++) codes.push(POUYAB_LANGS[i].code);
+            var merged = {};
+            for (var L = 0; L < codes.length; L++) {
+              merged[codes[L]] = {};
+              if (POUYAB_I18N[codes[L]]) {
+                for (var k in POUYAB_I18N[codes[L]]) merged[codes[L]][k] = POUYAB_I18N[codes[L]][k];
+              }
+            }
+            j.items.forEach(function (it) {
+              for (var L2 = 0; L2 < codes.length; L2++) {
+                var c2 = codes[L2];
+                if (it[c2] !== undefined && it[c2] !== "") merged[c2][it.key] = it[c2];
+              }
+            });
+            POUYAB_I18N = merged;
+          }
+          onDone();
+        })
+        .catch(function () { onDone(); });
+    } catch (e) { onDone(); }
   }
+
+  function start() {
+    function run() {
+      bootDict(function () { setLang(currentLang(), false); initSwitcher(); });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", run);
+    } else {
+      run();
+    }
+  }
+  start();
 })();

@@ -1,0 +1,2847 @@
+{
+  "members": [
+    {
+      "id": "leader",
+      "photo": "assets/images/1.webp",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/ali-asghar-zolfaghari"
+      },
+      "display": {
+        "meta": true,
+        "summary": true,
+        "skills": true,
+        "education": true,
+        "experience": true,
+        "projects": true,
+        "contact": true,
+        "languages": true,
+        "links": true,
+        "stats": true
+      },
+      "content": {
+        "fa": {
+          "name": "دکتر علی‌اصغر ذوالفقاری",
+          "role": "استاد راهبر و ناظر علمی هسته پویاب",
+          "birth": "۱۳۴۸/۰۳/۱۵",
+          "marital": "متأهل",
+          "location": "سمنان",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "phone": "+98 23 3338 0000",
+          "summary": "دانشیار گروه بیابان‌زدایی و رئیس دانشکده کویرشناسی دانشگاه سمنان با بیش از دو دهه تجربه آموزشی و پژوهشی. حوزه تخصصی بیابان‌زدایی، خاک و آب، فرسایش خاک، هیدرولوژی و کاربرد یادگیری ماشین در علوم منابع طبیعی است.\n\nمجری ده‌ها طرح پژوهشی در حوزه منابع طبیعی و محیط‌زیست و راهنمای ده‌ها پایان‌نامه کارشناسی ارشد و دکتری.",
+          "website": "semnan.ac.ir",
+          "skills": [
+            "بیابان‌زدایی",
+            "هیدرولوژی",
+            "یادگیری ماشین",
+            "سنجش از دور",
+            "GIS",
+            "تغییر اقلیم",
+            "فرسایش خاک",
+            "مدل‌سازی محیطی",
+            "تدریس و هدایت پایان‌نامه"
+          ],
+          "education": [
+            {
+              "degree": "دکتری بیابان‌زدایی",
+              "university": "دانشگاه تهران",
+              "city": "تهران",
+              "gpa": "",
+              "period": "۱۳۸۵ - ۱۳۸۹"
+            },
+            {
+              "degree": "کارشناسی ارشد مدیریت منابع آب و خاک",
+              "university": "دانشگاه صنعتی اصفهان",
+              "city": "اصفهان",
+              "gpa": "",
+              "period": "۱۳۸۲ - ۱۳۸۵"
+            },
+            {
+              "degree": "کارشناسی مرتع و آبخیزداری",
+              "university": "دانشگاه گیلان",
+              "city": "رشت",
+              "gpa": "",
+              "period": "۱۳۷۸ - ۱۳۸۲"
+            }
+          ],
+          "experience": [
+            {
+              "title": "رئیس دانشکده کویرشناسی",
+              "company": "دانشگاه سمنان",
+              "city": "سمنان",
+              "period": "۱۳۹۶ - اکنون"
+            },
+            {
+              "title": "دانشیار گروه بیابان‌زدایی",
+              "company": "دانشگاه سمنان",
+              "city": "سمنان",
+              "period": "۱۳۹۰ - اکنون"
+            }
+          ],
+          "projects": [],
+          "languages": [
+            {
+              "name": "انگلیسی",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 4,
+              "listening": 4
+            }
+          ]
+        },
+        "en": {
+          "name": "Dr. Ali-Asghar Zolfaghari",
+          "role": "Lead Advisor, Pouyab Research Core",
+          "birth": "1969/06/05",
+          "marital": "Married",
+          "location": "Semnan",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "phone": "+98 23 3338 0000",
+          "summary": "Associate Professor and Head of the Faculty of Desert Studies at Semnan University with over two decades of teaching and research. Specialized in desertification, soil and water, erosion, hydrology and machine learning in natural resources.\n\nPrincipal investigator of dozens of research projects and supervisor of numerous graduate theses.",
+          "website": "semnan.ac.ir",
+          "skills": [
+            "Desertification",
+            "Hydrology",
+            "Machine Learning",
+            "Remote Sensing",
+            "GIS",
+            "Climate Change",
+            "Soil Erosion",
+            "Environmental Modeling"
+          ],
+          "education": [
+            {
+              "degree": "Ph.D. Desertification",
+              "university": "University of Tehran",
+              "city": "Tehran",
+              "gpa": "",
+              "period": "2006 - 2010"
+            },
+            {
+              "degree": "M.Sc. Soil & Water",
+              "university": "Isfahan University of Technology",
+              "city": "Isfahan",
+              "gpa": "",
+              "period": "2003 - 2006"
+            }
+          ],
+          "experience": [
+            {
+              "title": "Head of Faculty of Desert Studies",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": "2017 - Now"
+            },
+            {
+              "title": "Associate Professor",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": "2011 - Now"
+            }
+          ],
+          "projects": [],
+          "languages": [
+            {
+              "name": "English",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 4,
+              "listening": 4
+            }
+          ]
+        },
+        "zh": {
+          "name": "阿里·阿斯加尔·佐勒法加里博士",
+          "role": "普雅布研究核心学术顾问",
+          "birth": "1969/06/05",
+          "marital": "已婚",
+          "location": "塞姆南",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "phone": "+98 23 3338 0000",
+          "summary": "塞姆南大学荒漠化防治系副教授兼沙漠研究学院院长，拥有二十余年的教学与研究经验，专长于荒漠化防治、水土与土壤侵蚀、水文学以及机器学习在自然资源科学中的应用。\n\n主持数十项自然资源与环境领域科研项目，并指导数十篇硕士与博士学位论文。",
+          "website": "semnan.ac.ir",
+          "skills": [
+            "荒漠化",
+            "水文",
+            "机器学习",
+            "遥感",
+            "GIS",
+            "气候变化"
+          ],
+          "education": [
+            {
+              "degree": "博士 荒漠化防治",
+              "university": "德黑兰大学",
+              "city": "德黑兰",
+              "gpa": "",
+              "period": "2006 - 2010"
+            }
+          ],
+          "experience": [
+            {
+              "title": "荒漠科学学院院长",
+              "company": "塞姆南大学",
+              "city": "塞姆南",
+              "period": "2017至今"
+            }
+          ],
+          "projects": [],
+          "languages": [
+            {
+              "name": "英语",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 4,
+              "listening": 4
+            }
+          ]
+        },
+        "ar": {
+          "name": "الدكتور علي أصغر ذوالفقاري",
+          "role": "المستشار العلمي لنواة بویاب",
+          "birth": "1969/06/05",
+          "marital": "متزوج",
+          "location": "سمنان",
+          "email": "a.zolfaghari@semnan.ac.ir",
+          "phone": "+98 23 3338 0000",
+          "summary": "أستاذ مشارك ورئيس كلية الدراسات الصحراوية بجامعة سمنان، خبير في مكافحة التصحر والهيدرولوجيا وتطبيقات التعلم الآلي.",
+          "website": "semnan.ac.ir",
+          "skills": [
+            "مكافحة التصحر",
+            "الهيدرولوجيا",
+            "التعلم الآلي",
+            "الاستشعار عن بعد",
+            "GIS"
+          ],
+          "education": [
+            {
+              "degree": "دكتوراه مكافحة التصحر",
+              "university": "جامعة طهران",
+              "city": "طهران",
+              "gpa": "",
+              "period": "2006 - 2010"
+            }
+          ],
+          "experience": [
+            {
+              "title": "رئيس كلية الدراسات الصحراوية",
+              "company": "جامعة سمنان",
+              "city": "سمنان",
+              "period": "2017 - الآن"
+            }
+          ],
+          "projects": [],
+          "languages": [
+            {
+              "name": "الإنجليزية",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 4,
+              "listening": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "member1",
+      "photo": "assets/images/2.webp",
+      "links": {
+        "linkedin": "https://linkedin.com/in/azade-soltani-8b5062291"
+      },
+      "display": {
+        "meta": true,
+        "summary": true,
+        "skills": true,
+        "education": true,
+        "experience": true,
+        "projects": true,
+        "contact": true,
+        "languages": true,
+        "links": true,
+        "stats": true
+      },
+      "content": {
+        "fa": {
+          "name": "خانم آزاده سلطانی",
+          "role": "دکتری بیابان زدایی",
+          "birth": "۱۳۷۱/۱۱/۲۸",
+          "marital": "متأهل",
+          "location": "مشهد",
+          "email": "soltaniazade2228@gmail.com",
+          "phone": "(+۹۸)۹۱۴۰۸۳۵۴۸۶",
+          "summary": "دانشجوی مقطع دکتری مهندسی منابع طبیعی با گرایش مدیریت و کنترل مناطق بیابانی (بیابان زدایی) در دانشگاه سمنان. دارای علاقه‌مندی ویژه به پژوهش‌های کاربردی در حوزه مدیریت پایدار منابع طبیعی و توسعه روش‌های نوآورانه برای کنترل مناطق بیابانی. از ویژگی‌های برجسته، روحیه قوی کار تیمی، توانایی برقراری ارتباط موثر با اقشار مختلف جامعه و علاقه‌مندی به فعالیت‌های اجتماعی و بین رشته‌ای است. با تجربه در اجرای پروژه‌های تحقیقاتی و آموزشی مرتبط با مدیریت مناطق خشک و بیابانی، و مهارت در تحلیل داده‌ها و به کارگیری روش‌های علمی به منظور ارائه راه‌حل‌های عملی. مشتاق به توسعه دانش و مشارکت در برنامه‌هایی با تأثیر مثبت بر جوامع و محیط زیست.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "R-STUDIO",
+            "کار با GPS",
+            "office",
+            "QGIS",
+            "Adobe Photoshop",
+            "TAL",
+            "DIPS",
+            "AutoCAD",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "کارشناسی مهندسی منابع طبیعی",
+              "university": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
+              "city": "گرگان",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "کارشناسی ارشد مهندسی منابع طبیعی",
+              "university": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
+              "city": "گرگان",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "دکتری مهندسی منابع طبیعی",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "کارشناس نقشه‌برداری",
+              "company": "مرکز خدمات کشاورزی و منابع طبیعی",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "کارشناس منابع طبیعی",
+              "company": "اداره کل منابع طبیعی و آبخیزداری استان سمنان",
+              "city": "سمنان",
+              "period": ""
+            },
+            {
+              "title": "کارشناس منابع طبیعی",
+              "company": "سازمان نظام مهندسی کشاورزی و منابع طبیعی سمنان",
+              "city": "سمنان",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "تهیه سند استانی کاهش خطر حوادث و سوانح",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "روش‌های نوین در مطالعات آبخیزداری (حوضه آبخیز فولادمحله، شهرستان مهدیشهر)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "تهیه سند استانی آمادگی و پاسخ",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "تهیه سیستم پشتیبان تصمیم‌گیری برای مکان‌یابی و اولویت‌بندی نواحی مستعد پخش سیلاب",
+              "company": "",
+              "city": "در استان سمنان",
+              "period": ""
+            },
+            {
+              "title": "تهیه طرح اجرایی مدیریت مناطق بیابانی منطقه یزدان‌آباد",
+              "company": "",
+              "city": "به مساحت ۱۰۰۰۰ هکتار",
+              "period": ""
+            },
+            {
+              "title": "بررسی روند تغییرات سطح ایستابی و کیفیت آب چاه",
+              "company": "شرکت کانیار گچ نوین",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "بررسی کارایی مالچ سنگریزه‌ای بر کنترل فرسایش بادی (مطالعه موردی منطقه گرمسار)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "مطالعه تفضیلی-اجرایی حوزه آبخیز تویه رودبار شهرستان دامغان",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "تهیه اطلس جامع ملی گردوغبار به صورت دوزبانه و اضافه‌کردن لایه‌های فرسایش‌پذیری و زیست‌محیطی",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "انگلیسی",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "en": {
+          "name": "Ms. Azadeh Soltani",
+          "role": "Ph.D. Student in Desertification",
+          "birth": "1993/02/17",
+          "marital": "Married",
+          "location": "Mashhad",
+          "email": "soltaniazade2228@gmail.com",
+          "phone": "+98 914 083 5486",
+          "summary": "Ph.D. candidate in Natural Resources Engineering with a focus on Desert Management and Control at Semnan University, with special interest in applied research on sustainable management of natural resources and innovative methods for desert control. Known for strong teamwork, effective communication with different groups of society, and interest in social and interdisciplinary activities. Experienced in research and educational projects related to arid and desert land management, with skills in data analysis and applying scientific methods to deliver practical solutions. Eager to expand knowledge and take part in programs with a positive impact on communities and the environment.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "R-STUDIO",
+            "GPS Fieldwork",
+            "Microsoft Office",
+            "QGIS",
+            "Adobe Photoshop",
+            "TAL",
+            "DIPS",
+            "AutoCAD",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Surveying Specialist",
+              "company": "Agriculture & Natural Resources Service Center",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Natural Resources Specialist",
+              "company": "Semnan Natural Resources and Watershed Administration",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Natural Resources Specialist",
+              "company": "Semnan Agricultural & Natural Resources Engineering Organization",
+              "city": "Semnan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Provincial Disaster Risk Reduction Document",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Provincial Preparedness and Response Document",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Decision Support System for Site Selection & Prioritization of Flood Spreading Zones",
+              "company": "",
+              "city": "Semnan Province",
+              "period": ""
+            },
+            {
+              "title": "Executive Desert Management Plan of Yazdanabad Region",
+              "company": "",
+              "city": "10,000 hectares",
+              "period": ""
+            },
+            {
+              "title": "Groundwater Level & Quality Trend Study for Kaniar Gach Novin Co.",
+              "company": "Kaniar Gach Novin Co.",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Effectiveness of Gravel Mulch on Wind Erosion Control (Garmsar)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Detailed-Executive Study of Toyeh Rudbar Basin, Damghan",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "National Dust Atlas (bilingual) with Erodibility & Environmental Layers",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "zh": {
+          "name": "阿扎德·索尔塔尼女士",
+          "role": "荒漠化防治博士生",
+          "birth": "1993/02/17",
+          "marital": "已婚",
+          "location": "马什哈德",
+          "email": "soltaniazade2228@gmail.com",
+          "phone": "+98 914 083 5486",
+          "summary": "塞姆南大学自然资源工程专业荒漠化管理与控制方向博士生，专注于自然资源可持续管理与荒漠控制的应用研究，具备出色的团队合作精神及跨学科实践经验。",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "R-STUDIO",
+            "GPS Fieldwork",
+            "Microsoft Office",
+            "QGIS",
+            "Adobe Photoshop",
+            "TAL",
+            "DIPS",
+            "AutoCAD",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Surveying Specialist",
+              "company": "Agriculture & Natural Resources Service Center",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Natural Resources Specialist",
+              "company": "Semnan Natural Resources and Watershed Administration",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Natural Resources Specialist",
+              "company": "Semnan Agricultural & Natural Resources Engineering Organization",
+              "city": "Semnan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Provincial Disaster Risk Reduction Document",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Provincial Preparedness and Response Document",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Decision Support System for Site Selection & Prioritization of Flood Spreading Zones",
+              "company": "",
+              "city": "Semnan Province",
+              "period": ""
+            },
+            {
+              "title": "Executive Desert Management Plan of Yazdanabad Region",
+              "company": "",
+              "city": "10,000 hectares",
+              "period": ""
+            },
+            {
+              "title": "Groundwater Level & Quality Trend Study for Kaniar Gach Novin Co.",
+              "company": "Kaniar Gach Novin Co.",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Effectiveness of Gravel Mulch on Wind Erosion Control (Garmsar)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Detailed-Executive Study of Toyeh Rudbar Basin, Damghan",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "National Dust Atlas (bilingual) with Erodibility & Environmental Layers",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "英语",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "ar": {
+          "name": "الأنسة آزاد سلطاني",
+          "role": "طالبة دكتوراه مكافحة التصحر",
+          "birth": "1993/02/17",
+          "marital": "متزوجة",
+          "location": "مشهد",
+          "email": "soltaniazade2228@gmail.com",
+          "phone": "+98 914 083 5486",
+          "summary": "طالبة دكتوراه في هندسة الموارد الطبيعية بتخصص إدارة المناطق الصحراوية والتحكم بها بجامعة سمنان، مهتمة بالبحوث التطبيقية في الإدارة المستدامة للموارد الطبيعية وتطوير طرق مبتكرة لمكافحة التصحر.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "R-STUDIO",
+            "GPS Fieldwork",
+            "Microsoft Office",
+            "QGIS",
+            "Adobe Photoshop",
+            "TAL",
+            "DIPS",
+            "AutoCAD",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Surveying Specialist",
+              "company": "Agriculture & Natural Resources Service Center",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Natural Resources Specialist",
+              "company": "Semnan Natural Resources and Watershed Administration",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Natural Resources Specialist",
+              "company": "Semnan Agricultural & Natural Resources Engineering Organization",
+              "city": "Semnan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Provincial Disaster Risk Reduction Document",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Provincial Preparedness and Response Document",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Decision Support System for Site Selection & Prioritization of Flood Spreading Zones",
+              "company": "",
+              "city": "Semnan Province",
+              "period": ""
+            },
+            {
+              "title": "Executive Desert Management Plan of Yazdanabad Region",
+              "company": "",
+              "city": "10,000 hectares",
+              "period": ""
+            },
+            {
+              "title": "Groundwater Level & Quality Trend Study for Kaniar Gach Novin Co.",
+              "company": "Kaniar Gach Novin Co.",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Effectiveness of Gravel Mulch on Wind Erosion Control (Garmsar)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Detailed-Executive Study of Toyeh Rudbar Basin, Damghan",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "National Dust Atlas (bilingual) with Erodibility & Environmental Layers",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "الإنجليزية",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "member2",
+      "photo": "assets/images/3.webp",
+      "links": {
+        "linkedin": ""
+      },
+      "display": {
+        "meta": true,
+        "summary": true,
+        "skills": true,
+        "education": true,
+        "experience": true,
+        "projects": true,
+        "contact": true,
+        "languages": true,
+        "links": true,
+        "stats": true
+      },
+      "content": {
+        "fa": {
+          "name": "خانم فاطمه زهرا حیدریه",
+          "role": "کارشناس منابع طبیعی",
+          "birth": "۱۳۷۵/۰۷/۲۱",
+          "marital": "مجرد",
+          "location": "سمنان",
+          "email": "fheydariyeh@gmail.com",
+          "phone": "(+۹۸)۹۱۲۰۹۵۹۶۱۷",
+          "summary": "توانمندی در انجام مطالعات و نمونه‌برداری‌های میدانی خاک و پوشش گیاهی، شناسایی و ثبت اطلاعات پوشش گیاهی، بررسی و ارزیابی فرسایش.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "کارشناسی مهندسی منابع طبیعی",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "کارشناسی ارشد مهندسی منابع طبیعی",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "دکتری مهندسی منابع طبیعی",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [],
+          "projects": [
+            {
+              "title": "برنامه کاهش خطر حوادث و سوانح استان سمنان - بند پ ماده ۴ قانون مدیریت بحران کشور",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "پروژه بررسی کارایی مالچ سنگریزه‌ای بر کنترل فرسایش بادی (مطالعه موردی منطقه گرمسار)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "گزارش پشتیبان برنامه آمادگی و پاسخ استان سمنان - بند ث ماده ۴ قانون مدیریت بحران کشور",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "روش‌های نوین در مطالعات آبخیزداری (حوضه آبخیز فولادمحله، شهرستان مهدیشهر)",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "انگلیسی",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "en": {
+          "name": "Ms. Fatemeh Zahra Heydarieh",
+          "role": "Natural Resources Specialist",
+          "birth": "1996/10/12",
+          "marital": "Single",
+          "location": "Semnan",
+          "email": "fheydariyeh@gmail.com",
+          "phone": "+98 912 095 9617",
+          "summary": "Skilled in field studies and sampling of soil and vegetation, identifying and recording vegetation data, and assessing erosion.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [],
+          "projects": [
+            {
+              "title": "Semnan Province Disaster Risk Reduction Program — Art. 4(C) of the National Crisis Management Law",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Effectiveness of Gravel Mulch on Wind Erosion Control (Garmsar)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Semnan Province Preparedness & Response Program Support Report — Art. 4(B) of the National Crisis Management Law",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "zh": {
+          "name": "法蒂玛·扎赫拉·海达里耶女士",
+          "role": "自然资源专员",
+          "birth": "1996/10/12",
+          "marital": "未婚",
+          "location": "塞姆南",
+          "email": "fheydariyeh@gmail.com",
+          "phone": "+98 912 095 9617",
+          "summary": "擅长土壤与植被的实地调查与采样、植被信息识别与记录，以及侵蚀评估。",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [],
+          "projects": [
+            {
+              "title": "Semnan Province Disaster Risk Reduction Program — Art. 4(C) of the National Crisis Management Law",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Effectiveness of Gravel Mulch on Wind Erosion Control (Garmsar)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Semnan Province Preparedness & Response Program Support Report — Art. 4(B) of the National Crisis Management Law",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "英语",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "ar": {
+          "name": "الأنسة فاطمة زهرا حيدرية",
+          "role": "أخصائية الموارد الطبيعية",
+          "birth": "1996/10/12",
+          "marital": "عزباء",
+          "location": "سمنان",
+          "email": "fheydariyeh@gmail.com",
+          "phone": "+98 912 095 9617",
+          "summary": "قادرة على إجراء الدراسات والعينات الميدانية للتربة والغطاء النباتي، وتحديد وتسجيل بيانات الغطاء النباتي، وتقييم الانجراف.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [],
+          "projects": [
+            {
+              "title": "Semnan Province Disaster Risk Reduction Program — Art. 4(C) of the National Crisis Management Law",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Effectiveness of Gravel Mulch on Wind Erosion Control (Garmsar)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Semnan Province Preparedness & Response Program Support Report — Art. 4(B) of the National Crisis Management Law",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "الإنجليزية",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "member3",
+      "photo": "assets/images/4.webp",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/samaneh-asgarian-7984b2132"
+      },
+      "display": {
+        "meta": true,
+        "summary": true,
+        "skills": true,
+        "education": true,
+        "experience": true,
+        "projects": true,
+        "contact": true,
+        "languages": true,
+        "links": true,
+        "stats": true
+      },
+      "content": {
+        "fa": {
+          "name": "خانم سمانه عسگریان",
+          "role": "دکتری بیابان زدایی",
+          "birth": "۱۳۶۹/۰۴/۲۳",
+          "marital": "مجرد",
+          "location": "سمنان",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "phone": "(+۹۸)۹۱۰۴۸۹۰۸۸۲",
+          "summary": "متخصص تحلیل‌های مکانی و مدیریت جامع حوزه‌های آبخیز با تکیه بر هم‌افزایی سامانه‌های اطلاعات جغرافیایی (GIS) و سنجش از دور (RS). دارای تجربه عملیاتی در بهره‌گیری از ابزارهای پیشرفته‌ای همچون ArcGIS Pro، QGIS، Google Earth Engine و ENVI جهت پیاده‌سازی مدل‌های پیچیده هیدرولوژیکی، اقلیمی و تحلیل‌های ژئومورفولوژیک. متخصص در سنتز و تلفیق داده‌های چندلایه در پروژه‌های کلان ملی، با رویکرد تبدیل داده‌های خام ژئوسپشال به خروجی‌های استراتژیک و تصمیم‌ساز برای برنامه‌ریزی پایدار و مدیریت هوشمند منابع طبیعی.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "ArcGIS Pro",
+            "Google Earth",
+            "office",
+            "QGIS",
+            "ENVI",
+            "Geomatica",
+            "AutoCAD"
+          ],
+          "education": [
+            {
+              "degree": "کارشناسی مهندسی منابع طبیعی",
+              "university": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
+              "city": "گرگان",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "کارشناسی ارشد مهندسی منابع طبیعی",
+              "university": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
+              "city": "گرگان",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "دکتری مهندسی منابع طبیعی",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "کارشناس",
+              "company": "شرکت‌های مهندسین مشاور در حوزه منابع طبیعی، کشاورزی و حفاظت خاک",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "کارشناس",
+              "company": "اداره کل منابع طبیعی و آبخیزداری استان سمنان",
+              "city": "سمنان",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "مطالعات تلفیق و سنتز حوزه آبخیز خیج",
+              "company": "شرکت مهندسین مشاور شیام",
+              "city": "استان سمنان",
+              "period": "۱۴۰۴"
+            },
+            {
+              "title": "مطالعات پخش سیلاب و تلفیق و سنتز حوزه آبخیز سد نهب",
+              "company": "مهندسین مشاور بوم پایش",
+              "city": "استان قزوین",
+              "period": "۱۴۰۳"
+            },
+            {
+              "title": "مطالعات تلفیق و سنتز حوزه آبخیز زیدآباد",
+              "company": "مهندسین مشاور بوم پایش",
+              "city": "استان کرمان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات تلفیق و سنتز حوزه آبخیز دشت زر",
+              "company": "مهندسین مشاور آبادگران پیشگام هامون",
+              "city": "استان کرمان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات تلفیق و سنتز حوزه‌های آبخیز کاجو در شهر و کاجو حمیری (قصرقند)",
+              "company": "مهندسین مشاور بوم پایش",
+              "city": "استان سیستان و بلوچستان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات تلفیق و سنتز حوزه آبخیز سرکویر",
+              "company": "شرکت مهندسین مشاور شیام",
+              "city": "استان سمنان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات تلفیق و سنتز حوزه آبخیز شمال دانشگاه سمنان",
+              "company": "شرکت نواندیشان فرداد آب",
+              "city": "استان سمنان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات پوشش گیاهی و اقتصادی–اجتماعی حوزه آبخیز حبش",
+              "company": "مهندسین مشاور بوم پایش",
+              "city": "استان زنجان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات پوشش گیاهی و اقتصادی–اجتماعی حوزه آبخیز ماهنشان",
+              "company": "مهندسین مشاور آبادگران پیشگام هامون",
+              "city": "استان زنجان",
+              "period": "۱۴۰۲"
+            },
+            {
+              "title": "مطالعات بیولوژیک حوزه آبخیز رودخانه شور",
+              "company": "مهندسین مشاور آبادگران پیشگام هامون",
+              "city": "استان تهران",
+              "period": "۱۴۰۱"
+            },
+            {
+              "title": "مطالعات پوشش گیاهی حوزه آبخیز گرمدره",
+              "company": "شرکت مهندسین مشاور شیام",
+              "city": "استان آذربایجان غربی",
+              "period": "۱۴۰۱"
+            },
+            {
+              "title": "مطالعات پوشش گیاهی حوزه آبخیز تهرود",
+              "company": "مهندسین مشاور آبادگران پیشگام هامون",
+              "city": "استان کرمان",
+              "period": "۱۴۰۱"
+            },
+            {
+              "title": "مطالعات پوشش گیاهی حوزه آبخیز آمادگاه باغین",
+              "company": "مهندسین مشاور آبادگران پیشگام هامون",
+              "city": "استان کرمان",
+              "period": "۱۴۰۱"
+            },
+            {
+              "title": "مطالعات پوشش گیاهی حوزه آبخیز کوه شاه",
+              "company": "مهندسین مشاور طراحان سبز البرز",
+              "city": "استان کرمان",
+              "period": "۱۴۰۱"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز نکارمن",
+              "company": "مهاب تدبیر دلتا",
+              "city": "استان سمنان",
+              "period": "۱۴۰۰"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز خطیرکوه",
+              "company": "شرکت سامانه آب کومش",
+              "city": "استان سمنان",
+              "period": "۱۳۹۹"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز دهملا",
+              "company": "دانشگاه تهران",
+              "city": "استان سمنان",
+              "period": "۱۳۹۷"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز میامی",
+              "company": "دانشگاه تهران",
+              "city": "استان سمنان",
+              "period": "۱۳۹۶"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز زیدر",
+              "company": "دانشگاه تهران",
+              "city": "استان سمنان",
+              "period": "۱۳۹۶"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز قدس",
+              "company": "دانشگاه تهران",
+              "city": "استان سمنان",
+              "period": "۱۳۹۶"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز ارمیان",
+              "company": "شرکت سامانه آب کومش",
+              "city": "استان سمنان",
+              "period": "۱۳۹۶"
+            },
+            {
+              "title": "مطالعات بیولوژیک و پوشش گیاهی حوزه آبخیز ابرسج–میغان",
+              "company": "شرکت سبز آرین",
+              "city": "استان سمنان",
+              "period": "۱۳۹۵"
+            },
+            {
+              "title": "مطالعات بیولوژیک، پوشش گیاهی و اقتصادی–اجتماعی حوزه آبخیز میان‌سامان",
+              "company": "شرکت نیک‌اندیشان قومس",
+              "city": "استان سمنان",
+              "period": "۱۳۹۵"
+            },
+            {
+              "title": "تهیه و تدوین بیش از ۳۰ فقره طرح مرتعداری مصوب",
+              "company": "",
+              "city": "حوزه‌های مختلف استان سمنان",
+              "period": "۱۴۰۰ الی ۱۴۰۴"
+            },
+            {
+              "title": "مطالعات پایش و اثربخشی اقدامات آبخیزداری (پوشش گیاهی و اقتصادی-اجتماعی) حوزه آبخیز کلاته",
+              "company": "شرکت طبیعت‌گستران",
+              "city": "استان سمنان",
+              "period": "۱۳۹۸"
+            },
+            {
+              "title": "مطالعات پایش و اثربخشی اقدامات آبخیزداری (پوشش گیاهی و اقتصادی-اجتماعی) حوزه آبخیز دستی توآز",
+              "company": "شرکت طبیعت‌گستران",
+              "city": "استان سمنان",
+              "period": "۱۳۹۸"
+            },
+            {
+              "title": "طرح شناسایی و پایش رویشگاه‌های گیاهان دارویی استان سمنان",
+              "company": "مرکز تحقیقات کشاورزی و منابع طبیعی",
+              "city": "",
+              "period": "۱۳۹۵"
+            },
+            {
+              "title": "طرح توجیهی و اجرایی بیابان‌زدایی با استفاده از گونه‌های مثمر (پسته) و غیرمثمر منطقه زیدر",
+              "company": "کشت و صنعت گلمهر",
+              "city": "",
+              "period": "۱۳۹۵"
+            },
+            {
+              "title": "طرح توجیهی بیابان‌زدایی، احداث باغ پسته و کشت قلمه منطقه صوفی‌آباد",
+              "company": "شرکت کشت و صنعت کومش",
+              "city": "",
+              "period": "۱۳۹۵"
+            }
+          ],
+          "languages": [
+            {
+              "name": "انگلیسی",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "en": {
+          "name": "Ms. Samaneh Asgarian",
+          "role": "Ph.D. Student in Desertification",
+          "birth": "1990/07/14",
+          "marital": "Single",
+          "location": "Semnan",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "phone": "+98 910 489 0882",
+          "summary": "Specialist in spatial analysis and integrated watershed management, leveraging GIS and Remote Sensing synergy. Hands-on experience with advanced tools such as ArcGIS Pro, QGIS, Google Earth Engine and ENVI for developing complex hydrological and climatic models and geomorphological analyses. Expert in synthesizing multi-layer national-scale datasets, turning raw geospatial data into strategic, decision-ready outputs for sustainable planning and intelligent natural resource management.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "ArcGIS Pro",
+            "Google Earth",
+            "Microsoft Office",
+            "QGIS",
+            "ENVI",
+            "Geomatica",
+            "AutoCAD"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Specialist",
+              "company": "Engineering Consulting Firms (Natural Resources, Agriculture & Soil Conservation)",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Specialist",
+              "company": "Semnan Natural Resources and Watershed Administration",
+              "city": "Semnan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Integration & Synthesis Studies of Kheyj Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "Semnan Province",
+              "period": "1404"
+            },
+            {
+              "title": "Flood Spreading & Integration-Synthesis Studies of Sad-e Nahab Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Qazvin Province",
+              "period": "1403"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Zeydabad Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Kerman Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Dasht-e Zar Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Kaju Watersheds (Kaju Shahr & Kaju Hamiri, Qasr-e Qand)",
+              "company": "Boom Payaesh Consultants",
+              "city": "Sistan & Baluchestan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Sarkavir Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "Semnan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of North Semnan University Watershed",
+              "company": "Novaandishan Fardad Ab Co.",
+              "city": "Semnan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Vegetation & Socio-Economic Studies of Habash Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Zanjan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Vegetation & Socio-Economic Studies of Mahneshan Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Zanjan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Biological Studies of Shur River Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Tehran Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Garamdarreh Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "West Azerbaijan Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Tehrud Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Amadgah Baghin Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Kuh-e Shah Watershed",
+              "company": "Tarrahan-e Sabz Alborz",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Nekarman Watershed",
+              "company": "Mahab Tadbir Delta",
+              "city": "Semnan Province",
+              "period": "1400"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Khatirkuh Watershed",
+              "company": "Samaneh Ab Kumash Co.",
+              "city": "Semnan Province",
+              "period": "1399"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Dehmolla Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1397"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Mayami Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Zeydar Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Qods Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Armian Watershed",
+              "company": "Samaneh Ab Kumash Co.",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Abrasaj–Mighan Watershed",
+              "company": "Sabz Arin Co.",
+              "city": "Semnan Province",
+              "period": "1395"
+            },
+            {
+              "title": "Biological, Vegetation & Socio-Economic Studies of Mian-Saman Watershed",
+              "company": "Nikandishan Qumis Co.",
+              "city": "Semnan Province",
+              "period": "1395"
+            },
+            {
+              "title": "Preparation & Compilation of More than 30 Approved Rangeland Projects",
+              "company": "",
+              "city": "Various Areas of Semnan Province",
+              "period": "1400 - 1404"
+            },
+            {
+              "title": "Monitoring & Effectiveness of Watershed Measures (Vegetation & Socio-Economic), Kalateh Watershed",
+              "company": "Tabiat Gostaran Co.",
+              "city": "Semnan Province",
+              "period": "1398"
+            },
+            {
+              "title": "Monitoring & Effectiveness of Watershed Measures (Vegetation & Socio-Economic), Dasti Tuaz Watershed",
+              "company": "Tabiat Gostaran Co.",
+              "city": "Semnan Province",
+              "period": "1398"
+            },
+            {
+              "title": "Identification & Monitoring of Medicinal Plant Habitats in Semnan Province",
+              "company": "Agricultural & Natural Resources Research Center",
+              "city": "",
+              "period": "1395"
+            },
+            {
+              "title": "Feasibility & Executive Desertification Plan Using Fruiting (Pistachio) & Non-Fruiting Species, Zeydar",
+              "company": "Golmehr Agro-Industry",
+              "city": "",
+              "period": "1395"
+            },
+            {
+              "title": "Desertification Feasibility Plan, Pistachio Orchard & Cutage Planting, Sufiabad",
+              "company": "Kumash Agro-Industry Co.",
+              "city": "",
+              "period": "1395"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "zh": {
+          "name": "萨曼娜·阿斯加里安女士",
+          "role": "荒漠化防治博士生",
+          "birth": "1990/07/14",
+          "marital": "未婚",
+          "location": "塞姆南",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "phone": "+98 910 489 0882",
+          "summary": "空间分析与流域综合治理专家，擅长GIS与遥感的协同应用，熟练使用ArcGIS Pro、QGIS、Google Earth Engine和ENVI等工具构建复杂水文、气候模型及地貌分析，致力于将多源地理空间数据转化为战略决策成果。",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "ArcGIS Pro",
+            "Google Earth",
+            "Microsoft Office",
+            "QGIS",
+            "ENVI",
+            "Geomatica",
+            "AutoCAD"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Specialist",
+              "company": "Engineering Consulting Firms (Natural Resources, Agriculture & Soil Conservation)",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Specialist",
+              "company": "Semnan Natural Resources and Watershed Administration",
+              "city": "Semnan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Integration & Synthesis Studies of Kheyj Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "Semnan Province",
+              "period": "1404"
+            },
+            {
+              "title": "Flood Spreading & Integration-Synthesis Studies of Sad-e Nahab Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Qazvin Province",
+              "period": "1403"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Zeydabad Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Kerman Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Dasht-e Zar Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Kaju Watersheds (Kaju Shahr & Kaju Hamiri, Qasr-e Qand)",
+              "company": "Boom Payaesh Consultants",
+              "city": "Sistan & Baluchestan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Sarkavir Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "Semnan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of North Semnan University Watershed",
+              "company": "Novaandishan Fardad Ab Co.",
+              "city": "Semnan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Vegetation & Socio-Economic Studies of Habash Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Zanjan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Vegetation & Socio-Economic Studies of Mahneshan Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Zanjan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Biological Studies of Shur River Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Tehran Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Garamdarreh Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "West Azerbaijan Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Tehrud Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Amadgah Baghin Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Kuh-e Shah Watershed",
+              "company": "Tarrahan-e Sabz Alborz",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Nekarman Watershed",
+              "company": "Mahab Tadbir Delta",
+              "city": "Semnan Province",
+              "period": "1400"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Khatirkuh Watershed",
+              "company": "Samaneh Ab Kumash Co.",
+              "city": "Semnan Province",
+              "period": "1399"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Dehmolla Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1397"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Mayami Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Zeydar Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Qods Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Armian Watershed",
+              "company": "Samaneh Ab Kumash Co.",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Abrasaj–Mighan Watershed",
+              "company": "Sabz Arin Co.",
+              "city": "Semnan Province",
+              "period": "1395"
+            },
+            {
+              "title": "Biological, Vegetation & Socio-Economic Studies of Mian-Saman Watershed",
+              "company": "Nikandishan Qumis Co.",
+              "city": "Semnan Province",
+              "period": "1395"
+            },
+            {
+              "title": "Preparation & Compilation of More than 30 Approved Rangeland Projects",
+              "company": "",
+              "city": "Various Areas of Semnan Province",
+              "period": "1400 - 1404"
+            },
+            {
+              "title": "Monitoring & Effectiveness of Watershed Measures (Vegetation & Socio-Economic), Kalateh Watershed",
+              "company": "Tabiat Gostaran Co.",
+              "city": "Semnan Province",
+              "period": "1398"
+            },
+            {
+              "title": "Monitoring & Effectiveness of Watershed Measures (Vegetation & Socio-Economic), Dasti Tuaz Watershed",
+              "company": "Tabiat Gostaran Co.",
+              "city": "Semnan Province",
+              "period": "1398"
+            },
+            {
+              "title": "Identification & Monitoring of Medicinal Plant Habitats in Semnan Province",
+              "company": "Agricultural & Natural Resources Research Center",
+              "city": "",
+              "period": "1395"
+            },
+            {
+              "title": "Feasibility & Executive Desertification Plan Using Fruiting (Pistachio) & Non-Fruiting Species, Zeydar",
+              "company": "Golmehr Agro-Industry",
+              "city": "",
+              "period": "1395"
+            },
+            {
+              "title": "Desertification Feasibility Plan, Pistachio Orchard & Cutage Planting, Sufiabad",
+              "company": "Kumash Agro-Industry Co.",
+              "city": "",
+              "period": "1395"
+            }
+          ],
+          "languages": [
+            {
+              "name": "英语",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "ar": {
+          "name": "الأنسة سمانه عسكريان",
+          "role": "طالبة دكتوراه مكافحة التصحر",
+          "birth": "1990/07/14",
+          "marital": "عزباء",
+          "location": "سمنان",
+          "email": "samaneh.asgarian@semnan.ac.ir",
+          "phone": "+98 910 489 0882",
+          "summary": "متخصصة في التحليلات المكانية والإدارة المتكاملة للأحواض المائية، بالاعتماد على تآزر نظم المعلومات الجغرافية والاستشعار عن بعد، مع خبرة في النمذجة الهيدرولوجية والمناخية باستخدام ArcGIS Pro وQGIS وGoogle Earth Engine وENVI.",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Google Earth Engine",
+            "ArcGIS Pro",
+            "Google Earth",
+            "Microsoft Office",
+            "QGIS",
+            "ENVI",
+            "Geomatica",
+            "AutoCAD"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "Gorgan University of Agric. Sci. & Natural Resources",
+              "city": "Gorgan",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Specialist",
+              "company": "Engineering Consulting Firms (Natural Resources, Agriculture & Soil Conservation)",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Specialist",
+              "company": "Semnan Natural Resources and Watershed Administration",
+              "city": "Semnan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Integration & Synthesis Studies of Kheyj Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "Semnan Province",
+              "period": "1404"
+            },
+            {
+              "title": "Flood Spreading & Integration-Synthesis Studies of Sad-e Nahab Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Qazvin Province",
+              "period": "1403"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Zeydabad Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Kerman Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Dasht-e Zar Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Kaju Watersheds (Kaju Shahr & Kaju Hamiri, Qasr-e Qand)",
+              "company": "Boom Payaesh Consultants",
+              "city": "Sistan & Baluchestan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of Sarkavir Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "Semnan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Integration & Synthesis Studies of North Semnan University Watershed",
+              "company": "Novaandishan Fardad Ab Co.",
+              "city": "Semnan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Vegetation & Socio-Economic Studies of Habash Watershed",
+              "company": "Boom Payaesh Consultants",
+              "city": "Zanjan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Vegetation & Socio-Economic Studies of Mahneshan Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Zanjan Province",
+              "period": "1402"
+            },
+            {
+              "title": "Biological Studies of Shur River Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Tehran Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Garamdarreh Watershed",
+              "company": "Shiyam Consulting Engineers",
+              "city": "West Azerbaijan Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Tehrud Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Amadgah Baghin Watershed",
+              "company": "Abadgaran Pishgam Hamun Consultants",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Vegetation Studies of Kuh-e Shah Watershed",
+              "company": "Tarrahan-e Sabz Alborz",
+              "city": "Kerman Province",
+              "period": "1401"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Nekarman Watershed",
+              "company": "Mahab Tadbir Delta",
+              "city": "Semnan Province",
+              "period": "1400"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Khatirkuh Watershed",
+              "company": "Samaneh Ab Kumash Co.",
+              "city": "Semnan Province",
+              "period": "1399"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Dehmolla Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1397"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Mayami Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Zeydar Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Qods Watershed",
+              "company": "University of Tehran",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Armian Watershed",
+              "company": "Samaneh Ab Kumash Co.",
+              "city": "Semnan Province",
+              "period": "1396"
+            },
+            {
+              "title": "Biological & Vegetation Studies of Abrasaj–Mighan Watershed",
+              "company": "Sabz Arin Co.",
+              "city": "Semnan Province",
+              "period": "1395"
+            },
+            {
+              "title": "Biological, Vegetation & Socio-Economic Studies of Mian-Saman Watershed",
+              "company": "Nikandishan Qumis Co.",
+              "city": "Semnan Province",
+              "period": "1395"
+            },
+            {
+              "title": "Preparation & Compilation of More than 30 Approved Rangeland Projects",
+              "company": "",
+              "city": "Various Areas of Semnan Province",
+              "period": "1400 - 1404"
+            },
+            {
+              "title": "Monitoring & Effectiveness of Watershed Measures (Vegetation & Socio-Economic), Kalateh Watershed",
+              "company": "Tabiat Gostaran Co.",
+              "city": "Semnan Province",
+              "period": "1398"
+            },
+            {
+              "title": "Monitoring & Effectiveness of Watershed Measures (Vegetation & Socio-Economic), Dasti Tuaz Watershed",
+              "company": "Tabiat Gostaran Co.",
+              "city": "Semnan Province",
+              "period": "1398"
+            },
+            {
+              "title": "Identification & Monitoring of Medicinal Plant Habitats in Semnan Province",
+              "company": "Agricultural & Natural Resources Research Center",
+              "city": "",
+              "period": "1395"
+            },
+            {
+              "title": "Feasibility & Executive Desertification Plan Using Fruiting (Pistachio) & Non-Fruiting Species, Zeydar",
+              "company": "Golmehr Agro-Industry",
+              "city": "",
+              "period": "1395"
+            },
+            {
+              "title": "Desertification Feasibility Plan, Pistachio Orchard & Cutage Planting, Sufiabad",
+              "company": "Kumash Agro-Industry Co.",
+              "city": "",
+              "period": "1395"
+            }
+          ],
+          "languages": [
+            {
+              "name": "الإنجليزية",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "member4",
+      "photo": "assets/images/5.webp",
+      "links": {
+        "linkedin": ""
+      },
+      "display": {
+        "meta": true,
+        "summary": true,
+        "skills": true,
+        "education": true,
+        "experience": true,
+        "projects": true,
+        "contact": true,
+        "languages": true,
+        "links": true,
+        "stats": true
+      },
+      "content": {
+        "fa": {
+          "name": "امیرمحمد ثابتیان",
+          "role": "کارشناس GIS و منابع طبیعی",
+          "birth": "۱۳۸۱/۶/۲۵",
+          "marital": "مجرد",
+          "location": "اصفهان",
+          "email": "sabetian2002@gmail.com",
+          "phone": "(+۹۸)۹۲۱۲۶۴۳۸۴۲",
+          "summary": "کارشناس GIS و مهندسی طبیعت با رویکردی بین‌رشته‌ای در پیوند علوم محیط‌زیست و فناوری داده‌های مکانی. با درکی عمیق از بوم‌سازگان‌های طبیعی و تسلط بر ابزارهای پیشرفتهٔ سنجش از دور و پردازش ابری (مانند Google Earth Engine)، بر آن هستم تا راهکارهای مقیاس‌پذیر و مبتنی بر داده برای مدیریت پایدار منابع طبیعی، پایش تغییرات کاربری اراضی، و بهینه‌سازی تصمیم‌گیری‌های محیط‌زیستی ارائه دهم. ترکیب دانش کدنویسی (Python، C++) با تجربهٔ پیاده‌سازی سامانه‌های اطلاعاتی، امکان خودکارسازی فرایندها و ایجاد داشبوردهای تحلیلی را برای من فراهم کرده است. همواره در جستجوی فرصتی برای پیاده‌سازی نوآوری‌های تکنولوژیک در حوزهٔ جنگلداری، مرتعداری و مخاطرات طبیعی هستم.",
+          "website": "",
+          "skills": [
+            "ICDL",
+            "MCSA",
+            "PostgreSQL",
+            "C++ Programming",
+            "Python Programming",
+            "ArcMap",
+            "GIS Pro",
+            "Global Mapper",
+            "Google Earth Engine",
+            "Network+",
+            "Solidworks",
+            "QGIS",
+            "UI / UX",
+            "HTML / CSS",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe Premiere",
+            "General Electronics"
+          ],
+          "education": [
+            {
+              "degree": "کارشناسی مهندسی طبیعت",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "کارشناس IT",
+              "company": "شرکت تیراژه ماشین",
+              "city": "سمنان",
+              "period": ""
+            },
+            {
+              "title": "کارشناس IT",
+              "company": "شرکت فرایند کنترل نقش جهان",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "روش‌های نوین در مطالعات آبخیزداری (حوضه آبخیز فولادمحله، شهرستان مهدیشهر)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "فرآوری بذر به روش پوشش‌دهی بذر",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "انگلیسی",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "en": {
+          "name": "Amirmohammad Sabetian",
+          "role": "GIS & Natural Resources Specialist",
+          "birth": "2002/09/16",
+          "marital": "Single",
+          "location": "Isfahan",
+          "email": "sabetian2002@gmail.com",
+          "phone": "(+98) 921 264 3842",
+          "summary": "GIS Specialist and Nature Engineering graduate with an interdisciplinary approach linking environmental science with geospatial data technology. With a deep understanding of natural ecosystems and mastery of advanced remote sensing tools and cloud processing (such as Google Earth Engine), I aim to deliver scalable, data-driven solutions for the sustainable management of natural resources, land-use change monitoring, and optimizing environmental decision-making. Combining programming knowledge (Python, C++) with hands-on experience in implementing information systems enables me to automate processes and build analytical dashboards. I am always seeking opportunities to implement technological innovations in forestry, rangeland management, and natural hazards.",
+          "website": "",
+          "skills": [
+            "ICDL",
+            "MCSA",
+            "PostgreSQL",
+            "C++ Programming",
+            "Python Programming",
+            "ArcMap",
+            "GIS Pro",
+            "Global Mapper",
+            "Google Earth Engine",
+            "Network+",
+            "Solidworks",
+            "QGIS",
+            "UI / UX",
+            "HTML / CSS",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe Premiere",
+            "General Electronics"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Nature Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "IT Specialist",
+              "company": "Tirajeh Machine Co.",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "IT Specialist",
+              "company": "Farayand Control Naghsh-e Jahan Co.",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Seed Processing by Seed Coating Method",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "zh": {
+          "name": "阿米尔穆罕默德·萨贝提安",
+          "role": "GIS与自然资源专家",
+          "birth": "2002/09/16",
+          "marital": "未婚",
+          "location": "伊斯法罕",
+          "email": "sabetian2002@gmail.com",
+          "phone": "(+98) 921 264 3842",
+          "summary": "GIS与自然工程专家，以跨学科视角贯通环境科学和地理空间数据技术。凭借对自然生态系统的深刻理解以及对先进遥感工具和云计算处理（如Google Earth Engine）的娴熟掌握，我致力于为自然资源可持续管理、土地利用变化监测和环境决策优化提供可扩展的数据驱动解决方案。将编程知识（Python、C++）与信息系统实施经验相结合，让我能够实现流程自动化并构建分析型仪表盘。我始终寻求机会在林业、牧场管理和自然灾害领域应用技术创新。",
+          "website": "",
+          "skills": [
+            "ICDL",
+            "MCSA",
+            "PostgreSQL",
+            "C++ Programming",
+            "Python Programming",
+            "ArcMap",
+            "GIS Pro",
+            "Global Mapper",
+            "Google Earth Engine",
+            "Network+",
+            "Solidworks",
+            "QGIS",
+            "UI / UX",
+            "HTML / CSS",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe Premiere",
+            "General Electronics"
+          ],
+          "education": [
+            {
+              "degree": "学士 自然工程",
+              "university": "塞姆南大学",
+              "city": "塞姆南",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "信息技术专家",
+              "company": "Tirajeh Machine公司",
+              "city": "塞姆南",
+              "period": ""
+            },
+            {
+              "title": "信息技术专家",
+              "company": "Farayand Control Naghsh-e Jahan公司",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "现代方法在流域研究中的应用（福拉德马赫雷流域，马赫迪沙赫尔）",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "种子包衣加工技术",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "英语",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        },
+        "ar": {
+          "name": "أمير محمد ثابتيان",
+          "role": "أخصائي GIS والموارد الطبيعية",
+          "birth": "2002/09/16",
+          "marital": "أعزب",
+          "location": "أصفهان",
+          "email": "sabetian2002@gmail.com",
+          "phone": "(+98) 921 264 3842",
+          "summary": "أخصائي GIS وهندسة الطبيعة بنهج متعدد التخصصات يربط علوم البيئة بتقنيات البيانات المكانية. بفضل فهم عميق للأنظمة البيئية الطبيعية وإتقان أدوات الاستشعار عن بعد والمعالجة السحابية المتقدمة (مثل Google Earth Engine)، أسعى إلى تقديم حلول قابلة للتطوير ومدفوعة بالبيانات للإدارة المستدامة للموارد الطبيعية، ورصد تغيرات استخدام الأراضي، وتحسين القرارات البيئية. يتيح لي الجمع بين معرفة البرمجة (Python، C++) وخبرة تنفيذ الأنظمة المعلوماتية أتمتة العمليات وبناء لوحات معلومات تحليلية. وأظل أبحث دائماً عن فرص لتطبيق الابتكارات التقنية في مجالات الغابات وإدارة المراعي والمخاطر الطبيعية.",
+          "website": "",
+          "skills": [
+            "ICDL",
+            "MCSA",
+            "PostgreSQL",
+            "C++ Programming",
+            "Python Programming",
+            "ArcMap",
+            "GIS Pro",
+            "Global Mapper",
+            "Google Earth Engine",
+            "Network+",
+            "Solidworks",
+            "QGIS",
+            "UI / UX",
+            "HTML / CSS",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe Premiere",
+            "General Electronics"
+          ],
+          "education": [
+            {
+              "degree": "بكالوريوس هندسة الطبيعة",
+              "university": "جامعة سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "أخصائي معلوماتية",
+              "company": "شركة تيراجه ماشين",
+              "city": "سمنان",
+              "period": ""
+            },
+            {
+              "title": "أخصائي معلوماتية",
+              "company": "شركة فرایند کنترل نقش جهان",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "الأساليب الحديثة في دراسات الأحواض المائية (حوض فولاد محله، مهديشهر)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "معالجة البذور بطريقة التغطية",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": [
+            {
+              "name": "الإنجليزية",
+              "reading": 4,
+              "writing": 4,
+              "speaking": 3,
+              "listening": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "member5",
+      "photo": "assets/images/6.webp",
+      "links": {
+        "linkedin": ""
+      },
+      "display": {
+        "meta": true,
+        "summary": true,
+        "skills": true,
+        "education": true,
+        "experience": true,
+        "projects": true,
+        "contact": true,
+        "languages": true,
+        "links": true,
+        "stats": true
+      },
+      "content": {
+        "fa": {
+          "name": "خانم مهین خسروی",
+          "role": "دکتری منابع طبیعی مدیریت وکنترل بیابان",
+          "birth": "؟",
+          "marital": "؟",
+          "location": "؟",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "phone": "(+۹۸)۹۳۷۰۶۰۸۹۳۳",
+          "summary": "؟",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "نرم‌افزارهای مدل‌سازی هیدرولوژیکی",
+            "R programming",
+            "Matlab",
+            "office",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "کارشناسی مهندسی منابع طبیعی، مرتع و آبخیزداری",
+              "university": "دانشگاه کردستان",
+              "city": "سنندج",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "کارشناسی ارشد مهندسی منابع طبیعی",
+              "university": "دانشگاه زابل",
+              "city": "زابل",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "دکتری مهندسی منابع طبیعی",
+              "university": "دانشگاه سمنان",
+              "city": "سمنان",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "دستیار پژوهشی",
+              "company": "دانشگاه سمنان",
+              "city": "سمنان",
+              "period": ""
+            },
+            {
+              "title": "تدریس به عنوان استاد مدعو",
+              "company": "دانشگاه کردستان",
+              "city": "سنندج",
+              "period": ""
+            },
+            {
+              "title": "مشاور در طرح الگوی کشت",
+              "company": "سازمان جهاد کشاورزی کل استان کردستان",
+              "city": "کردستان",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "فعال‌سازی تعاونی‌های راکد مرتعداری",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "روش‌های نوین در مطالعات آبخیزداری (حوضه آبخیز فولادمحله، شهرستان مهدیشهر)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "همکاری در پروژه بررسی روند تغییرات سطح ایستابی و کیفیت آب چاه",
+              "company": "شرکت کانیار گچ نوین",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "همکاری در بخش هیدرولوژی پروژه تهیه طرح اجرایی مدیریت مناطق بیابانی منطقه یزدان‌آباد",
+              "company": "",
+              "city": "به مساحت ۱۰۰۰۰ هکتار",
+              "period": ""
+            },
+            {
+              "title": "همکاری در بخش‌های هیدرولوژی و هواشناسی پروژه تهیه طرح توجیهی-اجرایی حوضه آبخیز تویه رودبار",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": []
+        },
+        "en": {
+          "name": "Ms. Mahin Khosravi",
+          "role": "Ph.D. Natural Resources, Desert Management & Control",
+          "birth": "؟",
+          "marital": "?",
+          "location": "?",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "phone": "+98 937 060 8933",
+          "summary": "?",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Hydrological Modeling Software",
+            "R Programming",
+            "Matlab",
+            "Microsoft Office",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
+              "university": "University of Kurdistan",
+              "city": "Sanandaj",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "University of Zabol",
+              "city": "Zabol",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Research Assistant",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Adjunct Lecturer",
+              "company": "University of Kurdistan",
+              "city": "Sanandaj",
+              "period": ""
+            },
+            {
+              "title": "Cropping Pattern Consultant",
+              "company": "Kurdistan Agricultural Jihad Organization",
+              "city": "Kurdistan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Activating Dormant Rangeland Cooperatives",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Groundwater Level & Quality Trend Study for Kaniar Gach Novin Co.",
+              "company": "Kaniar Gach Novin Co.",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Hydrology Section of Executive Desert Management Plan for Yazdanabad",
+              "company": "",
+              "city": "10,000 hectares",
+              "period": ""
+            },
+            {
+              "title": "Hydrology & Meteorology Sections of Toyeh Rudbar Basin Feasibility-Executive Plan",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": []
+        },
+        "zh": {
+          "name": "马欣·霍斯拉维女士",
+          "role": "自然资源荒漠化管理与控制博士",
+          "birth": "？",
+          "marital": "？",
+          "location": "？",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "phone": "+98 937 060 8933",
+          "summary": "？",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Hydrological Modeling Software",
+            "R Programming",
+            "Matlab",
+            "Microsoft Office",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
+              "university": "University of Kurdistan",
+              "city": "Sanandaj",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "University of Zabol",
+              "city": "Zabol",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Research Assistant",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Adjunct Lecturer",
+              "company": "University of Kurdistan",
+              "city": "Sanandaj",
+              "period": ""
+            },
+            {
+              "title": "Cropping Pattern Consultant",
+              "company": "Kurdistan Agricultural Jihad Organization",
+              "city": "Kurdistan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Activating Dormant Rangeland Cooperatives",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Groundwater Level & Quality Trend Study for Kaniar Gach Novin Co.",
+              "company": "Kaniar Gach Novin Co.",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Hydrology Section of Executive Desert Management Plan for Yazdanabad",
+              "company": "",
+              "city": "10,000 hectares",
+              "period": ""
+            },
+            {
+              "title": "Hydrology & Meteorology Sections of Toyeh Rudbar Basin Feasibility-Executive Plan",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": []
+        },
+        "ar": {
+          "name": "الأنسة ماهين خسروي",
+          "role": "دكتوراه الموارد الطبيعية، إدارة التصحر",
+          "birth": "؟",
+          "marital": "؟",
+          "location": "؟",
+          "email": "ma.khosravi@semnan.ac.ir",
+          "phone": "+98 937 060 8933",
+          "summary": "؟",
+          "website": "",
+          "skills": [
+            "ArcGIS",
+            "Hydrological Modeling Software",
+            "R Programming",
+            "Matlab",
+            "Microsoft Office",
+            "QGIS",
+            "Google Earth"
+          ],
+          "education": [
+            {
+              "degree": "B.Sc. Natural Resources (Rangeland & Watershed)",
+              "university": "University of Kurdistan",
+              "city": "Sanandaj",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "M.Sc. Natural Resources Engineering",
+              "university": "University of Zabol",
+              "city": "Zabol",
+              "gpa": "",
+              "period": ""
+            },
+            {
+              "degree": "Ph.D. Natural Resources Engineering",
+              "university": "Semnan University",
+              "city": "Semnan",
+              "gpa": "",
+              "period": ""
+            }
+          ],
+          "experience": [
+            {
+              "title": "Research Assistant",
+              "company": "Semnan University",
+              "city": "Semnan",
+              "period": ""
+            },
+            {
+              "title": "Adjunct Lecturer",
+              "company": "University of Kurdistan",
+              "city": "Sanandaj",
+              "period": ""
+            },
+            {
+              "title": "Cropping Pattern Consultant",
+              "company": "Kurdistan Agricultural Jihad Organization",
+              "city": "Kurdistan",
+              "period": ""
+            }
+          ],
+          "projects": [
+            {
+              "title": "Activating Dormant Rangeland Cooperatives",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Modern Methods in Watershed Studies (Foolad Mohalleh Basin, Mahdishahr)",
+              "company": "",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Groundwater Level & Quality Trend Study for Kaniar Gach Novin Co.",
+              "company": "Kaniar Gach Novin Co.",
+              "city": "",
+              "period": ""
+            },
+            {
+              "title": "Hydrology Section of Executive Desert Management Plan for Yazdanabad",
+              "company": "",
+              "city": "10,000 hectares",
+              "period": ""
+            },
+            {
+              "title": "Hydrology & Meteorology Sections of Toyeh Rudbar Basin Feasibility-Executive Plan",
+              "company": "",
+              "city": "",
+              "period": ""
+            }
+          ],
+          "languages": []
+        }
+      }
+    }
+  ]
+}

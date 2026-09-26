@@ -4,6 +4,20 @@
   var I18N = (window.POUYAB_I18N || {});
   var observers = [];
   var state = { id: "leader" };
+  var RESUME_URL = (window.POUYAB_RESUME_URL || "assets/data/resume.json");
+
+  function buildData(raw) {
+    if (raw && raw.members) {
+      var map = {};
+      for (var i = 0; i < raw.members.length; i++) map[raw.members[i].id] = raw.members[i];
+      return map;
+    }
+    return raw || {};
+  }
+  function show(field) {
+    var m = DATA[state.id];
+    return !(m && m.display && m.display[field] === false);
+  }
 
   function lang() { return document.documentElement.getAttribute("lang") || "fa"; }
   function t(key) {
@@ -80,14 +94,14 @@
 
     /* ---------- meta chips ---------- */
     var meta = "";
-    if (c.birth && c.birth !== "-")
+    if (show("meta") && c.birth && c.birth !== "-")
       meta += '<span class="rf-meta-chip" data-rf-reveal>' + IC("cake") + "<span><em>" + esc(text("resume.birth")) + "</em> <b>" + esc(c.birth) + "</b></span></span>";
-    if (c.marital && c.marital !== "-")
+    if (show("meta") && c.marital && c.marital !== "-")
       meta += '<span class="rf-meta-chip" data-rf-reveal>' + IC("ring") + "<span><em>" + esc(text("resume.marital")) + "</em> <b>" + esc(c.marital) + "</b></span></span>";
 
     /* ---------- summary ---------- */
     var summary = "";
-    if (c.summary) {
+    if (show("summary") && c.summary) {
       summary = '<section class="rf-sec" data-rf-reveal>' +
         '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("user") + "</span>" + esc(text("resume.summary")) + '<i class="rf-sec-line"></i></h2>' +
         '<div class="rf-summary">' + String(c.summary).split("\n\n").map(function (p) {
@@ -97,7 +111,7 @@
 
     /* ---------- skills ---------- */
     var skills = "";
-    if (c.skills && c.skills.length) {
+    if (show("skills") && c.skills && c.skills.length) {
       skills = '<section class="rf-sec" data-rf-reveal>' +
         '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("spark") + "</span>" + esc(text("resume.skills")) + '<i class="rf-sec-line"></i></h2>' +
         '<div class="rf-chips">' + c.skills.map(function (s) { return '<span class="rf-chip">' + esc(s) + "</span>"; }).join("") + "</div></section>";
@@ -129,19 +143,19 @@
 
     /* ---------- education / experience / certificates ---------- */
     var edu = "";
-    if (c.education && c.education.length) {
+    if (show("education") && c.education && c.education.length) {
       edu = '<section class="rf-sec" data-rf-reveal>' +
         '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("cap") + "</span>" + esc(text("resume.education")) + '<i class="rf-sec-line"></i></h2>' +
         tl(c.education, tlSub) + "</section>";
     }
     var exp = "";
-    if (c.experience && c.experience.length) {
+    if (show("experience") && c.experience && c.experience.length) {
       exp = '<section class="rf-sec" data-rf-reveal>' +
         '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("brief") + "</span>" + esc(text("resume.experience")) + '<i class="rf-sec-line"></i></h2>' +
         tl(c.experience, tlSub) + "</section>";
     }
     var prj = "";
-    if (c.projects && c.projects.length) {
+    if (show("projects") && c.projects && c.projects.length) {
       prj = '<section class="rf-sec" data-rf-reveal>' +
         '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("medal") + "</span>" + esc(text("resume.projects")) + '<i class="rf-sec-line"></i></h2>' +
         tl(c.projects, tlSub) + "</section>";
@@ -149,7 +163,7 @@
 
     /* ---------- side: contact ---------- */
     var contact = "";
-    if (c.phone || c.email || c.location) {
+    if (show("contact") && (c.phone || c.email || c.location)) {
       var rows = "";
       if (c.phone) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("phone") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.phone")) + "</em>" + '<span class="ltr">' + esc(c.phone) + "</span></span></div>";
       if (c.email) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("mail") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.email")) + "</em>" + '<span class="ltr">' + esc(c.email) + "</span></span></div>";
@@ -161,7 +175,7 @@
 
     /* ---------- side: languages ---------- */
     var langs = "";
-    if (c.languages && c.languages.length) {
+    if (show("languages") && c.languages && c.languages.length) {
       var blocks = c.languages.map(function (lg) {
         var lv = [lg.reading, lg.writing, lg.speaking, lg.listening]
           .filter(function (n) { return typeof n === "number"; });
@@ -186,7 +200,7 @@
 
     /* ---------- side: links ---------- */
     var linkHtml = "";
-    if (c.website || links.linkedin) {
+    if (show("links") && (c.website || links.linkedin)) {
       var btns = "";
       if (c.website)
         btns += '<a class="rf-link-btn site" href="' + esc(url(c.website)) + '" target="_blank" rel="noopener">' + IC("glob") +
@@ -208,20 +222,22 @@
         '<span class="rf-stat-cap">' + esc(cap) + "</span></span></div>";
     }
     var stats = "";
-    if (c.education && c.education.length)
-      stats += statCard(IC("cap"), c.education.length, text("resume.education"));
-    if (c.experience && c.experience.length)
-      stats += statCard(IC("brief"), c.experience.length, text("resume.experience"));
-    if (c.projects && c.projects.length)
-      stats += statCard(IC("medal"), c.projects.length, text("resume.projects"));
-    if (c.skills && c.skills.length)
-      stats += statCard(IC("spark"), c.skills.length, text("resume.skills"));
-    if (c.languages && c.languages.length) {
-      var lg0 = c.languages[0];
-      var lv0 = [lg0.reading, lg0.writing, lg0.speaking, lg0.listening]
-        .filter(function (n) { return typeof n === "number"; });
-      var avg0 = lv0.length ? (lv0.reduce(function (a, b) { return a + b; }, 0) / lv0.length) : 0;
-      stats += statCard(IC("glob"), avg0.toFixed(1), lg0.name, "/ 5");
+    if (show("stats")) {
+      if (c.education && c.education.length)
+        stats += statCard(IC("cap"), c.education.length, text("resume.education"));
+      if (c.experience && c.experience.length)
+        stats += statCard(IC("brief"), c.experience.length, text("resume.experience"));
+      if (c.projects && c.projects.length)
+        stats += statCard(IC("medal"), c.projects.length, text("resume.projects"));
+      if (c.skills && c.skills.length)
+        stats += statCard(IC("spark"), c.skills.length, text("resume.skills"));
+      if (c.languages && c.languages.length) {
+        var lg0 = c.languages[0];
+        var lv0 = [lg0.reading, lg0.writing, lg0.speaking, lg0.listening]
+          .filter(function (n) { return typeof n === "number"; });
+        var avg0 = lv0.length ? (lv0.reduce(function (a, b) { return a + b; }, 0) / lv0.length) : 0;
+        stats += statCard(IC("glob"), avg0.toFixed(1), lg0.name, "/ 5");
+      }
     }
 
     /* ---------- assemble ---------- */
@@ -326,6 +342,7 @@
   }
 
   function renderAll() {
+    I18N = (window.POUYAB_I18N || I18N);
     state = initState();
     if (!DATA[state.id]) return;
     renderCV();
@@ -337,7 +354,21 @@
 
   function boot() {
     bindChrome();
-    renderAll();
+    try {
+      fetch(RESUME_URL).then(function (r) {
+        if (!r.ok) throw new Error("http");
+        return r.json();
+      }).then(function (j) {
+        DATA = buildData(j);
+        renderAll();
+      }).catch(function () {
+        DATA = buildData(window.POUYAB_RESUMES);
+        renderAll();
+      });
+    } catch (e) {
+      DATA = buildData(window.POUYAB_RESUMES);
+      renderAll();
+    }
   }
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);

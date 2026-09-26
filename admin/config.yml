@@ -1,0 +1,173 @@
+backend:
+  name: github
+  repo: pouyabteam/pouyab
+  branch: main
+  site_domain: www.pouyabteam.com
+  base_url: https://api.github.com
+
+# برای ورود، یک OAuth App در گیت‌هاب بسازید (Developer settings → OAuth Apps)
+# Authorization callback URL = https://www.pouyabteam.com/admin/index.html
+# سپس Client ID آن را اینجا بگذارید:
+# client_id: "بدون_پرانتز_اینجا"
+
+media_folder: assets/images/uploads
+public_folder: /assets/images/uploads
+
+# وقتی مرورگر روی همین سیستم به decap-server (localhost:8081) دسترس دارد،
+# ورود از طریق پروکسی محلی (با اعتبار git خود سیستم) انجام می‌شود:
+#   set DECAP_SERVER_REPO=pouyabteam/pouyab
+#   set DECAP_SERVER_BRANCH=main
+#   set DECAP_SERVER_USE_GIT=true
+#   npx decap-server
+# در غیر این صورت backend گیتهاب (با OAuth App) استفاده می‌شود.
+local_backend: true
+
+editor:
+  preview: false
+
+# ---------------------------------------------------------------
+# فیلدهای مشترک محتوای هر عضو (برای ۴ زبان) — با anchor فقط یک‌بار
+# تعریف می‌شوند تا دقیقاً یکسان بمانند.
+# ---------------------------------------------------------------
+x-langfields: &langfields
+  - { label: "نام", name: name, widget: string }
+  - { label: "سمت / عنوان", name: role, widget: string }
+  - { label: "تاریخ تولد", name: birth, widget: string, required: false }
+  - { label: "تأهل", name: marital, widget: string, required: false }
+  - { label: "محل سکونت", name: location, widget: string, required: false }
+  - { label: "ایمیل", name: email, widget: string, required: false }
+  - { label: "تلفن", name: phone, widget: string, required: false }
+  - { label: "خلاصه / درباره", name: summary, widget: text, required: false }
+  - { label: "وبسایت", name: website, widget: string, required: false }
+  - label: "مهارت‌ها (هر کدام Enter)"
+    name: skills
+    widget: list
+    value_type: string
+    required: false
+  - label: "تحصیلات"
+    name: education
+    widget: list
+    required: false
+    label_singular: "مدرک"
+    summary: "{{degree}} — {{university}}"
+    fields:
+      - { label: "مدرک", name: degree, widget: string, required: false }
+      - { label: "دانشگاه", name: university, widget: string, required: false }
+      - { label: "شهر", name: city, widget: string, required: false }
+      - { label: "معدل", name: gpa, widget: string, required: false }
+      - { label: "بازه زمانی", name: period, widget: string, required: false }
+  - label: "سوابق / تجربه"
+    name: experience
+    widget: list
+    required: false
+    label_singular: "سابقه"
+    summary: "{{title}} — {{company}}"
+    fields:
+      - { label: "سمت", name: title, widget: string, required: false }
+      - { label: "سازمان", name: company, widget: string, required: false }
+      - { label: "شهر", name: city, widget: string, required: false }
+      - { label: "بازه زمانی", name: period, widget: string, required: false }
+  - label: "پروژه‌ها"
+    name: projects
+    widget: list
+    required: false
+    label_singular: "پروژه"
+    summary: "{{title}} — {{company}}"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: false }
+      - { label: "سازمان", name: company, widget: string, required: false }
+      - { label: "شهر", name: city, widget: string, required: false }
+      - { label: "بازه زمانی", name: period, widget: string, required: false }
+  - label: "زبان‌ها"
+    name: languages
+    widget: list
+    required: false
+    label_singular: "زبان"
+    summary: "{{name}}"
+    fields:
+      - { label: "زبان", name: name, widget: string }
+      - { label: "خواندن (0 تا 5)", name: reading, widget: number, required: false, min: 0, max: 5, step: 0.5 }
+      - { label: "نوشتن (0 تا 5)", name: writing, widget: number, required: false, min: 0, max: 5, step: 0.5 }
+      - { label: "صحبت (0 تا 5)", name: speaking, widget: number, required: false, min: 0, max: 5, step: 0.5 }
+      - { label: "شنیدن (0 تا 5)", name: listening, widget: number, required: false, min: 0, max: 5, step: 0.5 }
+
+# ---------------------------------------------------------------
+# فیلدهای هر عضو (anchor مشترک)
+# ---------------------------------------------------------------
+x-member: &member
+  - { label: "شناسه", name: id, widget: string, hint: "ثابت بماند: leader / member1 / member2 …" }
+  - { label: "عکس", name: photo, widget: image }
+  - label: "لینک‌ها"
+    name: links
+    widget: object
+    fields:
+      - { label: "لینک‌دین", name: linkedin, widget: string, required: false }
+  - label: "نمایش — چک‌باکس نهایی هر بخش: بخشی که تیک ندارد در رزومه دیده نمی‌شود"
+    name: display
+    widget: object
+    fields:
+      - { label: "مشخصات (تولد / تأهل)", name: meta, widget: boolean, default: true }
+      - { label: "خلاصه", name: summary, widget: boolean, default: true }
+      - { label: "مهارت‌ها", name: skills, widget: boolean, default: true }
+      - { label: "تحصیلات", name: education, widget: boolean, default: true }
+      - { label: "تجربه‌ها", name: experience, widget: boolean, default: true }
+      - { label: "پروژه‌ها", name: projects, widget: boolean, default: true }
+      - { label: "تماس", name: contact, widget: boolean, default: true }
+      - { label: "زبان‌ها", name: languages, widget: boolean, default: true }
+      - { label: "لینک‌ها", name: links, widget: boolean, default: true }
+      - { label: "نوار آمار", name: stats, widget: boolean, default: true }
+  - label: "محتوا (۴ زبان — همه را کامل کنید)"
+    name: content
+    widget: object
+    fields:
+      - { label: "فارسی", name: fa, widget: object, fields: *langfields }
+      - { label: "English", name: en, widget: object, fields: *langfields }
+      - { label: "中文", name: zh, widget: object, fields: *langfields }
+      - { label: "العربية", name: ar, widget: object, fields: *langfields }
+
+# ---------------------------------------------------------------
+collections:
+  - name: resume
+    label: "رزومه اعضای هسته"
+    label_singular: "عضو هسته"
+    editor:
+      preview: false
+    files:
+      - name: members
+        label: "اعضای هسته (پروژه‌ها + چک‌باکس نمایش)"
+        file: assets/data/resume.json
+        format: json
+        fields:
+          - label: "اعضا — با ▲▼ ترتیب را عوض کنید، با علامت جمع عضو اضافه کنید"
+            name: members
+            widget: list
+            label_singular: "عضو"
+            summary: "{{id}}"
+            collapsed: true
+            collapsible: true
+            fields: *member
+
+  - name: i18n
+    label: "متن‌های سایت (همه بخش‌ها)"
+    label_singular: "متن"
+    editor:
+      preview: false
+    files:
+      - name: texts
+        label: "همهٔ متن‌های سایت در ۴ زبان"
+        file: assets/data/i18n.json
+        format: json
+        fields:
+          - label: "متن‌ها — یک ردیف برای هر برچسب. مقدار «کلید» را دست نزنید."
+            name: items
+            widget: list
+            label_singular: "متن"
+            summary: "{{key}}"
+            collapsed: true
+            collapsible: true
+            fields:
+              - { label: "کلید", name: key, widget: string }
+              - { label: "فارسی", name: fa, widget: text }
+              - { label: "English", name: en, widget: text }
+              - { label: "中文", name: zh, widget: text }
+              - { label: "العربية", name: ar, widget: text }
