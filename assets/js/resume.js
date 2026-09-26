@@ -33,7 +33,8 @@
   function text(l) {
     if (l === "resume.birth" || l === "resume.marital" || l === "resume.military" ||
         l === "resume.summary" || l === "resume.skills" || l === "resume.education" ||
-        l === "resume.experience" || l === "resume.certificates" || l === "resume.languages") return t(l);
+        l === "resume.experience" || l === "resume.certificates" || l === "resume.languages" ||
+        l === "resume.projects") return t(l);
     if (l !== undefined) return t(l);
     return "";
   }
@@ -139,6 +140,12 @@
         '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("brief") + "</span>" + esc(text("resume.experience")) + '<i class="rf-sec-line"></i></h2>' +
         tl(c.experience, tlSub) + "</section>";
     }
+    var prj = "";
+    if (c.projects && c.projects.length) {
+      prj = '<section class="rf-sec" data-rf-reveal>' +
+        '<h2 class="rf-sec-head"><span class="rf-sec-ico">' + IC("medal") + "</span>" + esc(text("resume.projects")) + '<i class="rf-sec-line"></i></h2>' +
+        tl(c.projects, tlSub) + "</section>";
+    }
 
     /* ---------- side: contact ---------- */
     var contact = "";
@@ -205,6 +212,8 @@
       stats += statCard(IC("cap"), c.education.length, text("resume.education"));
     if (c.experience && c.experience.length)
       stats += statCard(IC("brief"), c.experience.length, text("resume.experience"));
+    if (c.projects && c.projects.length)
+      stats += statCard(IC("medal"), c.projects.length, text("resume.projects"));
     if (c.skills && c.skills.length)
       stats += statCard(IC("spark"), c.skills.length, text("resume.skills"));
     if (c.languages && c.languages.length) {
@@ -229,7 +238,7 @@
       "</div>" +
       (stats ? '<div class="rf-stats">' + stats + "</div>" : "") +
       '<div class="rf-body">' +
-        '<main class="rf-main">' + summary + skills + edu + exp + "</main>" +
+        '<main class="rf-main">' + summary + skills + edu + exp + prj + "</main>" +
         '<aside class="rf-side">' + contact + langs + linkHtml + "</aside>" +
       "</div>";
 
