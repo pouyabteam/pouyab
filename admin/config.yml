@@ -2,13 +2,9 @@ backend:
   name: github
   repo: pouyabteam/pouyab
   branch: main
-  base_url: https://auth.semnanplatform.ir
-  auth_endpoint: auth
-  client_id: Ov23lieTbxroaVOg1N4l
+  client_id: Ov23liaCT47of5OKtIsm
 
-# ورود با گیت‌هاب: همان سرور OAuth شخصی سایت semnanplatform (که کالبک آن از قبل با
-# گیت‌هاب تأیید شده). در حین log-in، GitHub یک redirect برای «Allow» نشان می‌دهد و
-# بعد داشبورد باز می‌شود.
+# نحوهٔ ورود به داشبورد هنوز نهایی نشده؛ این فایل به هیچ سرویس خارجی وابسته نیست.
 
 media_folder: assets/images/uploads
 public_folder: /assets/images/uploads
