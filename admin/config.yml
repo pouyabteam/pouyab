@@ -2,25 +2,13 @@ backend:
   name: github
   repo: pouyabteam/pouyab
   branch: main
-  site_domain: www.pouyabteam.com
   base_url: https://api.github.com
+  client_id: Ov23liaCT47of5OKtIsm
 
-# برای ورود، یک OAuth App در گیت‌هاب بسازید (Developer settings → OAuth Apps)
-# Authorization callback URL = https://www.pouyabteam.com/admin/index.html
-# سپس Client ID آن را اینجا بگذارید:
-# client_id: "بدون_پرانتز_اینجا"
+# ورود با گیت‌هاب (بدون پروکسی محلی) از آدرس www.pouyabteam.com/admin انجام می‌شود.
 
 media_folder: assets/images/uploads
 public_folder: /assets/images/uploads
-
-# وقتی مرورگر روی همین سیستم به decap-server (localhost:8081) دسترس دارد،
-# ورود از طریق پروکسی محلی (با اعتبار git خود سیستم) انجام می‌شود:
-#   set DECAP_SERVER_REPO=pouyabteam/pouyab
-#   set DECAP_SERVER_BRANCH=main
-#   set DECAP_SERVER_USE_GIT=true
-#   npx decap-server
-# در غیر این صورت backend گیتهاب (با OAuth App) استفاده می‌شود.
-local_backend: true
 
 editor:
   preview: false
