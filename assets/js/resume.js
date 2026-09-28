@@ -237,7 +237,7 @@
         addStat(IC("medal"), c.projects.length, text("resume.projects"));
       if (c.skills && c.skills.length)
         addStat(IC("spark"), c.skills.length, text("resume.skills"));
-      if (nStats === 3 && c.languages && c.languages.length) {
+      if (nStats < 4 && c.languages && c.languages.length) {
         var lg0 = c.languages[0];
         var lv0 = [lg0.reading, lg0.writing, lg0.speaking, lg0.listening]
           .filter(function (n) { return typeof n === "number"; });
