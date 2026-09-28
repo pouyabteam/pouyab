@@ -223,20 +223,26 @@
     }
     var stats = "";
     if (show("stats")) {
+      var nStats = 0;
+      function addStat(icon, num, cap, small) {
+        if (nStats >= 4) return;
+        stats += statCard(icon, num, cap, small);
+        nStats++;
+      }
       if (c.education && c.education.length)
-        stats += statCard(IC("cap"), c.education.length, text("resume.education"));
+        addStat(IC("cap"), c.education.length, text("resume.education"));
       if (c.experience && c.experience.length)
-        stats += statCard(IC("brief"), c.experience.length, text("resume.experience"));
+        addStat(IC("brief"), c.experience.length, text("resume.experience"));
       if (c.projects && c.projects.length)
-        stats += statCard(IC("medal"), c.projects.length, text("resume.projects"));
+        addStat(IC("medal"), c.projects.length, text("resume.projects"));
       if (c.skills && c.skills.length)
-        stats += statCard(IC("spark"), c.skills.length, text("resume.skills"));
-      if (c.languages && c.languages.length) {
+        addStat(IC("spark"), c.skills.length, text("resume.skills"));
+      if (nStats === 3 && c.languages && c.languages.length) {
         var lg0 = c.languages[0];
         var lv0 = [lg0.reading, lg0.writing, lg0.speaking, lg0.listening]
           .filter(function (n) { return typeof n === "number"; });
         var avg0 = lv0.length ? (lv0.reduce(function (a, b) { return a + b; }, 0) / lv0.length) : 0;
-        stats += statCard(IC("glob"), avg0.toFixed(1), lg0.name, "/ 5");
+        addStat(IC("glob"), avg0.toFixed(1), lg0.name, "/ 5");
       }
     }
 
