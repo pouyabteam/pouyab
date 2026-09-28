@@ -996,22 +996,23 @@ var POUYAB_RESUMES = {
           "QGIS",
           "ENVI",
           "Geomatica",
-          "AutoCAD"
+          "AutoCAD",
+          "R-STUDIO"
         ],
         "education": [
           {
             "degree": "کارشناسی مهندسی منابع طبیعی",
             "major": "",
-            "university": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
-            "city": "گرگان",
+            "university": "دانشگاه سمنان",
+            "city": "سمنان",
             "gpa": "",
             "period": ""
           },
           {
             "degree": "کارشناسی ارشد مهندسی منابع طبیعی",
             "major": "مدیریت و کنترل مناطق بیابانی",
-            "university": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
-            "city": "گرگان",
+            "university": "دانشگاه سمنان",
+            "city": "سمنان",
             "gpa": "",
             "period": ""
           },
@@ -1243,22 +1244,23 @@ var POUYAB_RESUMES = {
           "QGIS",
           "ENVI",
           "Geomatica",
-          "AutoCAD"
+          "AutoCAD",
+          "R-STUDIO"
         ],
         "education": [
           {
             "degree": "B.Sc. Natural Resources Engineering",
             "major": "",
-            "university": "Gorgan University of Agric. Sci. & Natural Resources",
-            "city": "Gorgan",
+            "university": "Semnan University",
+            "city": "Semnan",
             "gpa": "",
             "period": ""
           },
           {
             "degree": "M.Sc. Natural Resources Engineering",
             "major": "Desert Management and Control",
-            "university": "Gorgan University of Agric. Sci. & Natural Resources",
-            "city": "Gorgan",
+            "university": "Semnan University",
+            "city": "Semnan",
             "gpa": "",
             "period": ""
           },
@@ -1490,22 +1492,23 @@ var POUYAB_RESUMES = {
           "QGIS",
           "ENVI",
           "Geomatica",
-          "AutoCAD"
+          "AutoCAD",
+          "R-STUDIO"
         ],
         "education": [
           {
             "degree": "B.Sc. Natural Resources Engineering",
             "major": "",
-            "university": "Gorgan University of Agric. Sci. & Natural Resources",
-            "city": "Gorgan",
+            "university": "Semnan University",
+            "city": "Semnan",
             "gpa": "",
             "period": ""
           },
           {
             "degree": "M.Sc. Natural Resources Engineering",
             "major": "Desert Management and Control",
-            "university": "Gorgan University of Agric. Sci. & Natural Resources",
-            "city": "Gorgan",
+            "university": "Semnan University",
+            "city": "Semnan",
             "gpa": "",
             "period": ""
           },
@@ -1737,22 +1740,23 @@ var POUYAB_RESUMES = {
           "QGIS",
           "ENVI",
           "Geomatica",
-          "AutoCAD"
+          "AutoCAD",
+          "R-STUDIO"
         ],
         "education": [
           {
             "degree": "B.Sc. Natural Resources Engineering",
             "major": "",
-            "university": "Gorgan University of Agric. Sci. & Natural Resources",
-            "city": "Gorgan",
+            "university": "Semnan University",
+            "city": "Semnan",
             "gpa": "",
             "period": ""
           },
           {
             "degree": "M.Sc. Natural Resources Engineering",
             "major": "Desert Management and Control",
-            "university": "Gorgan University of Agric. Sci. & Natural Resources",
-            "city": "Gorgan",
+            "university": "Semnan University",
+            "city": "Semnan",
             "gpa": "",
             "period": ""
           },
@@ -1982,7 +1986,7 @@ var POUYAB_RESUMES = {
         email: "sabetian2002@gmail.com",
         phone: "(+۹۸)۹۲۱۲۶۴۳۸۴۲",
         summary: "کارشناس GIS و مهندسی طبیعت با رویکردی بین‌رشته‌ای در پیوند علوم محیط‌زیست و فناوری داده‌های مکانی. با درکی عمیق از بوم‌سازگان‌های طبیعی و تسلط بر ابزارهای پیشرفتهٔ سنجش از دور و پردازش ابری (مانند Google Earth Engine)، بر آن هستم تا راهکارهای مقیاس‌پذیر و مبتنی بر داده برای مدیریت پایدار منابع طبیعی، پایش تغییرات کاربری اراضی، و بهینه‌سازی تصمیم‌گیری‌های محیط‌زیستی ارائه دهم. ترکیب دانش کدنویسی (Python، C++) با تجربهٔ پیاده‌سازی سامانه‌های اطلاعاتی، امکان خودکارسازی فرایندها و ایجاد داشبوردهای تحلیلی را برای من فراهم کرده است. همواره در جستجوی فرصتی برای پیاده‌سازی نوآوری‌های تکنولوژیک در حوزهٔ جنگلداری، مرتعداری و مخاطرات طبیعی هستم.",
-        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics", "Google Earth"],
         education: [{ degree: "کارشناسی مهندسی طبیعت", university: "دانشگاه سمنان", city: "سمنان" }],
         experience: [
           { title: "کارشناس IT", company: "شرکت تیراژه ماشین", city: "سمنان" },
@@ -2005,7 +2009,7 @@ var POUYAB_RESUMES = {
         email: "sabetian2002@gmail.com",
         phone: "(+98) 921 264 3842",
         summary: "GIS Specialist and Nature Engineering graduate with an interdisciplinary approach linking environmental science with geospatial data technology. With a deep understanding of natural ecosystems and mastery of advanced remote sensing tools and cloud processing (such as Google Earth Engine), I aim to deliver scalable, data-driven solutions for the sustainable management of natural resources, land-use change monitoring, and optimizing environmental decision-making. Combining programming knowledge (Python, C++) with hands-on experience in implementing information systems enables me to automate processes and build analytical dashboards. I am always seeking opportunities to implement technological innovations in forestry, rangeland management, and natural hazards.",
-        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics", "Google Earth"],
         education: [{ degree: "B.Sc. Nature Engineering", university: "Semnan University", city: "Semnan" }],
         experience: [
           { title: "IT Specialist", company: "Tirajeh Machine Co.", city: "Semnan" },
@@ -2028,7 +2032,7 @@ var POUYAB_RESUMES = {
         email: "sabetian2002@gmail.com",
         phone: "(+98) 921 264 3842",
         summary: "GIS与自然工程专家，以跨学科视角贯通环境科学和地理空间数据技术。凭借对自然生态系统的深刻理解以及对先进遥感工具和云计算处理（如Google Earth Engine）的娴熟掌握，我致力于为自然资源可持续管理、土地利用变化监测和环境决策优化提供可扩展的数据驱动解决方案。将编程知识（Python、C++）与信息系统实施经验相结合，让我能够实现流程自动化并构建分析型仪表盘。我始终寻求机会在林业、牧场管理和自然灾害领域应用技术创新。",
-        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics", "Google Earth"],
         education: [{ degree: "学士 自然工程", university: "塞姆南大学", city: "塞姆南" }],
         experience: [
           { title: "信息技术专家", company: "Tirajeh Machine公司", city: "塞姆南" },
@@ -2051,7 +2055,7 @@ var POUYAB_RESUMES = {
         email: "sabetian2002@gmail.com",
         phone: "(+98) 921 264 3842",
         summary: "أخصائي GIS وهندسة الطبيعة بنهج متعدد التخصصات يربط علوم البيئة بتقنيات البيانات المكانية. بفضل فهم عميق للأنظمة البيئية الطبيعية وإتقان أدوات الاستشعار عن بعد والمعالجة السحابية المتقدمة (مثل Google Earth Engine)، أسعى إلى تقديم حلول قابلة للتطوير ومدفوعة بالبيانات للإدارة المستدامة للموارد الطبيعية، ورصد تغيرات استخدام الأراضي، وتحسين القرارات البيئية. يتيح لي الجمع بين معرفة البرمجة (Python، C++) وخبرة تنفيذ الأنظمة المعلوماتية أتمتة العمليات وبناء لوحات معلومات تحليلية. وأظل أبحث دائماً عن فرص لتطبيق الابتكارات التقنية في مجالات الغابات وإدارة المراعي والمخاطر الطبيعية.",
-        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics"],
+        skills: ["ICDL", "MCSA", "PostgreSQL", "C++ Programming", "Python Programming", "ArcMap", "GIS Pro", "Global Mapper", "Google Earth Engine", "Network+", "Solidworks", "QGIS", "UI / UX", "HTML / CSS", "Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "General Electronics", "Google Earth"],
         education: [{ degree: "بكالوريوس هندسة الطبيعة", university: "جامعة سمنان", city: "سمنان" }],
         experience: [
           { title: "أخصائي معلوماتية", company: "شركة تيراجه ماشين", city: "سمنان" },
@@ -2078,13 +2082,13 @@ var POUYAB_RESUMES = {
       "fa": {
         "name": "خانم مهین خسروی",
         "role": "دکتری منابع طبیعی مدیریت وکنترل بیابان",
-        "birth": "؟",
-        "marital": "؟",
+        "birth": "۱۳۶۰/۰۸/۰۱",
+        "marital": "مجرد",
         "military": "—",
-        "location": "؟",
+        "location": "سنندج",
         "email": "ma.khosravi@semnan.ac.ir",
         "phone": "(+۹۸)۹۳۷۰۶۰۸۹۳۳",
-        "summary": "؟",
+        "summary": "مهین خسروی، دانش‌آموخته دکتری مهندسی منابع طبیعی (مدیریت و کنترل مناطق بیابانی) از دانشگاه سمنان و محقق پسادکتری هیدرولوژی (آب زیرزمینی)، پژوهشگری است با علاقه‌مندی ویژه به پژوهش‌های کاربردی در حوزه مدیریت پایدار منابع طبیعی و توسعه روش‌های نوآورانه برای کنترل مناطق بیابانی.\n\nتمرکز اصلی ایشان بر خشکسالی، تغییر اقلیم، مدیریت منابع آب سطحی و زیرزمینی، و نقشه‌برداری رقومی خاک است. ایشان با انتشار مقالات متعدد در مجلات معتبر داخلی و بین‌المللی، داوری مجلات علمی، و اجرای پروژه‌های پژوهشی و اجرایی، سهم قابل‌ملاحظه‌ای در تولید دانش و حل چالش‌های آبی ایران داشته است.\n\nاز ویژگی‌های برجسته ایشان می‌توان به روحیه قوی کار تیمی، توانایی برقراری ارتباط مؤثر با اقشار مختلف جامعه، و علاقه‌مندی به فعالیت‌های اجتماعی و بین‌رشته‌ای اشاره کرد. ایشان آماده همکاری در پروژه‌های پژوهشی، مشاوره‌ای و آموزشی در حوزه‌های فوق است.",
         "skills": [
           "ArcGIS",
           "نرم‌افزارهای مدل‌سازی هیدرولوژیکی",
@@ -2176,13 +2180,13 @@ var POUYAB_RESUMES = {
       "en": {
         "name": "Ms. Mahin Khosravi",
         "role": "Ph.D. Natural Resources, Desert Management & Control",
-        "birth": "؟",
-        "marital": "?",
+        "birth": "1981/10/23",
+        "marital": "Single",
         "military": "-",
-        "location": "?",
+        "location": "Sanandaj",
         "email": "ma.khosravi@semnan.ac.ir",
         "phone": "+98 937 060 8933",
-        "summary": "?",
+        "summary": "Mehin Khosravi is a Ph.D. graduate of Natural Resources Engineering (Desert Management and Control) from Semnan University and a postdoctoral researcher in hydrology (groundwater), with a special interest in applied research on the sustainable management of natural resources and the development of innovative approaches to controlling desert areas.\n\nHer primary focus is on drought, climate change, surface and groundwater management, and digital soil mapping. Through numerous publications in reputable national and international journals, scientific peer reviewing, and undertaking research and executive projects, she has made a significant contribution to knowledge production and to addressing Iran’s water challenges.\n\nAmong her outstanding qualities are a strong team spirit, the ability to communicate effectively with different segments of society, and an interest in social and interdisciplinary activities. She is ready to collaborate on research, consultancy, and educational projects in the aforementioned fields.",
         "skills": [
           "ArcGIS",
           "Hydrological Modeling Software",
@@ -2274,13 +2278,13 @@ var POUYAB_RESUMES = {
       "zh": {
         "name": "马欣·霍斯拉维女士",
         "role": "自然资源荒漠化管理与控制博士",
-        "birth": "？",
-        "marital": "？",
+        "birth": "1981/10/23",
+        "marital": "未婚",
         "military": "-",
-        "location": "？",
+        "location": "萨南达季",
         "email": "ma.khosravi@semnan.ac.ir",
         "phone": "+98 937 060 8933",
-        "summary": "？",
+        "summary": "梅欣·霍斯拉维，塞姆南大学自然资源工程（荒漠管理与控制）博士毕业生，地下水水文学博士后研究员。她对可持续自然资源管理领域的应用研究以及荒漠地区治理创新方法的开发怀有浓厚兴趣。\n\n她的主要研究方向是干旱、气候变化、地表水与地下水管理以及数字土壤制图。通过在国内外权威期刊发表多篇论文、担任学术期刊审稿人，以及开展研究和实施类项目，她为知识生产和解决伊朗水资源挑战作出了显著贡献。\n\n她的突出优点包括强烈的团队精神、与不同社会群体有效沟通的能力，以及对跨学科社会活动的浓厚兴趣。她愿意在上述领域的研究、咨询和教学项目中展开合作。",
         "skills": [
           "ArcGIS",
           "Hydrological Modeling Software",
@@ -2372,13 +2376,13 @@ var POUYAB_RESUMES = {
       "ar": {
         "name": "الأنسة ماهين خسروي",
         "role": "دكتوراه الموارد الطبيعية، إدارة التصحر",
-        "birth": "؟",
-        "marital": "؟",
+        "birth": "1981/10/23",
+        "marital": "عزباء",
         "military": "-",
-        "location": "؟",
+        "location": "سنندج",
         "email": "ma.khosravi@semnan.ac.ir",
         "phone": "+98 937 060 8933",
-        "summary": "؟",
+        "summary": "مهین خسروی، خريجة دكتوراه في هندسة الموارد الطبيعية (إدارة المناطق الصحراوية ومكافحتها) من جامعة سمنان، وباحثة ما بعد الدكتوراه في علم الهيدرولوجيا (المياه الجوفية)، ولديها اهتمام خاص بالبحوث التطبيقية في مجال الإدارة المستدامة للموارد الطبيعية وتطوير الأساليب المبتكرة للسيطرة على المناطق الصحراوية.\n\nينصب تركيزها الرئيسي على الجفاف وتغير المناخ وإدارة الموارد المائية السطحية والجوفية والمسح الرقمي للتربة. وقد أسهمت بشكل ملحوظ في إنتاج المعرفة ومعالجة التحديات المائية في إيران من خلال نشر أوراق علمية في مجلات محلية ودولية مرموقة، والتحكيم العلمي، وتنفيذ مشاريع بحثية وتنفيذية.\n\nمن أبرز صفاتها روح الفريق القوية، والقدرة على التواصل بفعالية مع مختلف فئات المجتمع، والاهتمام بالأنشطة الاجتماعية ومتعددة التخصصات. وهي مستعدة للتعاون في المشاريع البحثية والاستشارية والتعليمية في المجالات المذكورة أعلاه.",
         "skills": [
           "ArcGIS",
           "Hydrological Modeling Software",
