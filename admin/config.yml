@@ -100,23 +100,25 @@ x-member: &member
         name: meta
         widget: boolean
         default: true
-      - { label: "تاریخ تولد", name: metaBirth, widget: boolean, default: true }
-      - { label: "تأهل", name: metaMarital, widget: boolean, default: true }
-      - { label: "خلاصه", name: summary, widget: boolean, default: true }
-      - { label: "مهارت‌ها", name: skills, widget: boolean, default: true }
-      - { label: "تحصیلات", name: education, widget: boolean, default: true }
-      - { label: "تجربه‌ها", name: experience, widget: boolean, default: true }
-      - { label: "پروژه‌ها", name: projects, widget: boolean, default: true }
+        required: false
+      - { label: "تاریخ تولد", name: metaBirth, widget: boolean, default: true, required: false }
+      - { label: "تأهل", name: metaMarital, widget: boolean, default: true, required: false }
+      - { label: "خلاصه", name: summary, widget: boolean, default: true, required: false }
+      - { label: "مهارت‌ها", name: skills, widget: boolean, default: true, required: false }
+      - { label: "تحصیلات", name: education, widget: boolean, default: true, required: false }
+      - { label: "تجربه‌ها", name: experience, widget: boolean, default: true, required: false }
+      - { label: "پروژه‌ها", name: projects, widget: boolean, default: true, required: false }
       - label: "بخش تماس (تلفن / ایمیل / محل)"
         name: contact
         widget: boolean
         default: true
-      - { label: "تلفن", name: contactPhone, widget: boolean, default: true }
-      - { label: "ایمیل", name: contactEmail, widget: boolean, default: true }
-      - { label: "محل سکونت", name: contactLocation, widget: boolean, default: true }
-      - { label: "زبان‌ها", name: languages, widget: boolean, default: true }
-      - { label: "لینک‌ها", name: links, widget: boolean, default: true }
-      - { label: "نوار آمار", name: stats, widget: boolean, default: true }
+        required: false
+      - { label: "تلفن", name: contactPhone, widget: boolean, default: true, required: false }
+      - { label: "ایمیل", name: contactEmail, widget: boolean, default: true, required: false }
+      - { label: "محل سکونت", name: contactLocation, widget: boolean, default: true, required: false }
+      - { label: "زبان‌ها", name: languages, widget: boolean, default: true, required: false }
+      - { label: "لینک‌ها", name: links, widget: boolean, default: true, required: false }
+      - { label: "نوار آمار", name: stats, widget: boolean, default: true, required: false }
   - label: "محتوا (۴ زبان — همه را کامل کنید)"
     name: content
     widget: object
