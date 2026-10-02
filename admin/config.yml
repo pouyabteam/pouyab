@@ -101,8 +101,8 @@ x-member: &member
         widget: boolean
         default: true
         required: false
-      - { label: "تاریخ تولد", name: metaBirth, widget: boolean, default: true, required: false }
-      - { label: "تأهل", name: metaMarital, widget: boolean, default: true, required: false }
+      - { label: "تاریخ تولد", name: metaBirth, widget: select, default: "show", required: false, options: [{ label: "نمایش", value: "show" }, { label: "مخفی", value: "hide" }] }
+      - { label: "تأهل", name: metaMarital, widget: select, default: "show", required: false, options: [{ label: "نمایش", value: "show" }, { label: "مخفی", value: "hide" }] }
       - { label: "خلاصه", name: summary, widget: boolean, default: true, required: false }
       - { label: "مهارت‌ها", name: skills, widget: boolean, default: true, required: false }
       - { label: "تحصیلات", name: education, widget: boolean, default: true, required: false }
@@ -113,9 +113,9 @@ x-member: &member
         widget: boolean
         default: true
         required: false
-      - { label: "تلفن", name: contactPhone, widget: boolean, default: true, required: false }
-      - { label: "ایمیل", name: contactEmail, widget: boolean, default: true, required: false }
-      - { label: "محل سکونت", name: contactLocation, widget: boolean, default: true, required: false }
+      - { label: "تلفن", name: contactPhone, widget: select, default: "show", required: false, options: [{ label: "نمایش", value: "show" }, { label: "مخفی", value: "hide" }] }
+      - { label: "ایمیل", name: contactEmail, widget: select, default: "show", required: false, options: [{ label: "نمایش", value: "show" }, { label: "مخفی", value: "hide" }] }
+      - { label: "محل سکونت", name: contactLocation, widget: select, default: "show", required: false, options: [{ label: "نمایش", value: "show" }, { label: "مخفی", value: "hide" }] }
       - { label: "زبان‌ها", name: languages, widget: boolean, default: true, required: false }
       - { label: "لینک‌ها", name: links, widget: boolean, default: true, required: false }
       - { label: "نوار آمار", name: stats, widget: boolean, default: true, required: false }

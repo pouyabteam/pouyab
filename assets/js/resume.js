@@ -16,7 +16,9 @@
   }
   function show(field) {
     var m = DATA[state.id];
-    return !(m && m.display && m.display[field] === false);
+    if (!m || !m.display) return true;
+    var v = m.display[field];
+    return !(v === false || v === "hide");
   }
 
   function lang() { return document.documentElement.getAttribute("lang") || "fa"; }
