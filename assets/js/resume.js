@@ -94,9 +94,9 @@
 
     /* ---------- meta chips ---------- */
     var meta = "";
-    if (show("meta") && c.birth && c.birth !== "-")
+    if (show("meta") && show("metaBirth") && c.birth && c.birth !== "-")
       meta += '<span class="rf-meta-chip" data-rf-reveal>' + IC("cake") + "<span><em>" + esc(text("resume.birth")) + "</em> <b>" + esc(c.birth) + "</b></span></span>";
-    if (show("meta") && c.marital && c.marital !== "-")
+    if (show("meta") && show("metaMarital") && c.marital && c.marital !== "-")
       meta += '<span class="rf-meta-chip" data-rf-reveal>' + IC("ring") + "<span><em>" + esc(text("resume.marital")) + "</em> <b>" + esc(c.marital) + "</b></span></span>";
 
     /* ---------- summary ---------- */
@@ -165,9 +165,9 @@
     var contact = "";
     if (show("contact") && (c.phone || c.email || c.location)) {
       var rows = "";
-      if (c.phone) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("phone") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.phone")) + "</em>" + '<span class="ltr">' + esc(c.phone) + "</span></span></div>";
-      if (c.email) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("mail") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.email")) + "</em>" + '<span class="ltr">' + esc(c.email) + "</span></span></div>";
-      if (c.location) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("pin") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.city")) + "</em>" + esc(c.location) + "</span></div>";
+      if (show("contactPhone") && c.phone) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("phone") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.phone")) + "</em>" + '<span class="ltr">' + esc(c.phone) + "</span></span></div>";
+      if (show("contactEmail") && c.email) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("mail") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.email")) + "</em>" + '<span class="ltr">' + esc(c.email) + "</span></span></div>";
+      if (show("contactLocation") && c.location) rows += '<div class="rf-contact-row"><span class="rf-contact-ico">' + IC("pin") + '</span><span class="rf-contact-val"><em class="rf-contact-lbl">' + esc(text("resume.city")) + "</em>" + esc(c.location) + "</span></div>";
       contact = '<div class="rf-card" data-rf-reveal>' +
         '<h3 class="rf-card-head"><span class="rf-card-ico">' + IC("phone") + "</span>" + esc(text("resume.contact")) + "</h3>" +
         '<div class="rf-contact-list">' + rows + "</div></div>";
