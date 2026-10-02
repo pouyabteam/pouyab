@@ -1125,11 +1125,12 @@
         "summary": true,
         "education": true,
         "experience": true,
-        "contactLocation": true,
+        "contactPhone": "hide",
+        "contactLocation": "show",
         "links": true,
         "projects": true,
         "languages": true,
-        "contactEmail": true,
+        "contactEmail": "show",
         "stats": true
       },
       "content": {
