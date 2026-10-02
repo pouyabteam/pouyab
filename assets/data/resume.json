@@ -1119,15 +1119,17 @@
         "linkedin": "https://www.linkedin.com/in/samaneh-asgarian-7984b2132"
       },
       "display": {
-        "contact": false,
+        "contact": true,
         "skills": true,
         "meta": false,
         "summary": true,
         "education": true,
         "experience": true,
+        "contactLocation": true,
         "links": true,
         "projects": true,
         "languages": true,
+        "contactEmail": true,
         "stats": true
       },
       "content": {
