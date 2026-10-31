@@ -800,12 +800,15 @@
       "display": {
         "contact": true,
         "skills": true,
-        "meta": true,
+        "meta": false,
         "summary": true,
         "education": true,
         "experience": true,
+        "contactPhone": "hide",
+        "metaMarital": "hide",
         "links": true,
         "projects": true,
+        "metaBirth": "hide",
         "languages": true,
         "stats": true
       },
